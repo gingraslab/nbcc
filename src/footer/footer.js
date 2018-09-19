@@ -6,10 +6,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__funding">
       <div>
-        GC
-      </div>
-      <div>
-        OGC
+        Funding logos
       </div>
     </div>
     <div className="footer__copyright">

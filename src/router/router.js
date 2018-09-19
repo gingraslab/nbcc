@@ -5,9 +5,8 @@ import App from '../App';
 import CaptureRouteNotFound from './capture-not-found';
 import Missing from '../404/404';
 
-
 const Routes = () => (
-  <Router>
+  <Router basename={process.env.REACT_APP_BASENAME}>
     <CaptureRouteNotFound>
       <Switch>
         <Route
