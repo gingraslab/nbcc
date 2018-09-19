@@ -9,7 +9,7 @@ const Services = () => (
         Services
       </h2>
       <main className="home__section-details home__services-details">
-        <div>
+        <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
         habitant morbi tristique senectus et netus et. Amet mauris commodo quis
@@ -22,7 +22,7 @@ const Services = () => (
         vulputate sapien nec sagittis. Porttitor rhoncus dolor purus non enim
         praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
         pretium vulputate. In massa tempor nec feugiat nisl pretium.
-        </div>
+        </p>
         <div className="home__services-buttons">
           <div>
             Proteomics

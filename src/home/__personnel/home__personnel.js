@@ -22,7 +22,7 @@ const Personnel = () => (
         </div>
         <div className="home__personnel-details">
           <div />
-          <div>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
             habitant morbi tristique senectus et netus et. Amet mauris commodo quis
@@ -35,7 +35,7 @@ const Personnel = () => (
             vulputate sapien nec sagittis. Porttitor rhoncus dolor purus non enim
             praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
             pretium vulputate. In massa tempor nec feugiat nisl pretium.
-          </div>
+          </p>
         </div>
       </main>
     </div>

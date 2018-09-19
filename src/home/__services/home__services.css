@@ -8,7 +8,7 @@
 .home__services-buttons > * {
   background-color: lightskyblue;
   border-radius: 4px;
-  box-shadow: 0 2px 1px #777;
+  box-shadow: 0 2px 1px rgba(160, 160, 160, 0.8);
   padding: 8px 10px;
   text-align: center;
 }
