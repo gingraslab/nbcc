@@ -1,0 +1,18 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 20px;
+}
+.footer__copyright {
+  margin-top: 10px;
+  text-align: center;
+}
+.footer__funding {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__funding > * {
+  margin: 5px 5px;
+}

@@ -1,0 +1,42 @@
+.home__personnel {
+  background-color: white;
+}
+.home__personnel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.home__personnel-buttons > * {
+  background-color: lightskyblue;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px #777;
+  margin: 0 10px;
+  padding: 8px 10px;
+  text-align: center;
+}
+.home__personnel-details {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.home__personnel-details > div {
+  margin: 0 20px;
+}
+.home__personnel-details > :first-child {
+  background-color: lightgrey;
+  height: 400px;
+  max-width: 400px;
+  min-width: 280px;
+  width: 20%;
+}
+.home__personnel-details > :last-child {
+  text-align: justify;
+}
+@media (max-width: 749px) {
+  .home__personnel-details {
+    flex-direction: column;
+  }
+  .home__personnel-details > :first-child {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,63 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  height: 50px;
+  left: 0;
+  padding: 0px 10px;
+  position: fixed;
+  top: 0;
+  width: calc(100vw - 20px);
+  z-index: 10;
+}
+.navbar_absolute {
+  position: absolute;
+}
+.navbar_background {
+  background-color: #337bae;
+}
+.navbar_shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+.navbar__link {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.navbar__link:link,
+.navbar__link:visited {
+  color: #1a405f;
+}
+.navbar__link:focus,
+.navbar__link:hover,
+.navbar__link:active {
+  color: #33cc72;
+}
+.navbar_background .navbar__link:link,
+.navbar_background .navbar__link:visited {
+  color: #faf4eb;
+}
+.navbar_background .navbar__link:focus,
+.navbar_background .navbar__link:hover,
+.navbar_background .navbar__link:active {
+  color: #33cc72;
+}
+.navbar__links {
+  position: absolute;
+  right: 10px;
+}
+.navbar__links > :not(:last-child) {
+  margin-right: 20px;
+}
+.navbar__logo:before {
+  content: url('./assets/logo.svg');
+  position: relative;
+  top: 3px; /* Add 3px for svg inline space. */
+}
+.navbar_background .navbar__logo:before {
+  content: url('./assets/logo.svg');
+}
+.navbar__logo-link {
+  float: left;
+}

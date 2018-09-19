@@ -1,0 +1,17 @@
+.home__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+}
+.home__section h2 {
+  align-self: flex-start;
+  margin-left: 5%;
+}
+.home__section-details {
+  font-weight: 500;
+  margin-top: 30px;
+}
+.home__section-inner {
+  max-width: 950px;
+}
