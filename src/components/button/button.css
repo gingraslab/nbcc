@@ -57,9 +57,10 @@ button {
   width: auto;
 }
 .button_default {
-  background-color: var(--color-primary-1-2);
+  background: var(--color-primary-1-2);
+  background: linear-gradient(to right, var(--color-primary-2), var(--color-primary-1) 30%);
   border: none;
-  color: var(--text-dark);
+  color: var(--color-secondary-1-4);
 }
 .button_accent {
   background-color: #fff;

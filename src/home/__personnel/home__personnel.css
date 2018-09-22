@@ -18,12 +18,11 @@
   display: flex;
   justify-content: center;
 }
-.home__personnel-details > div {
-  margin: 0 20px;
-}
 .home__personnel-details > :first-child {
-  background-color: lightgrey;
+  background-color: var(--color-complement-1);
+  border: 5px solid var(--color-complement-2);
   height: 400px;
+  margin-right: 60px;
   max-width: 400px;
   min-width: 240px;
   width: 20%;
@@ -37,5 +36,6 @@
   }
   .home__personnel-details > :first-child {
     margin-bottom: 30px;
+    margin-right: 0px;
   }
 }

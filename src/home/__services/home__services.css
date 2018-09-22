@@ -1,5 +1,6 @@
 .home__services {
-  background-color: var(--color-secondary-1-3);
+  background: var(--color-secondary-1-3);
+  background: linear-gradient(to right, var(--color-secondary-1-3), var(--color-secondary-1-2));
   color: var(--text-light);
 }
 .home__services h2 {
@@ -26,8 +27,8 @@
   display: flex;
   justify-content: center;
 }
-.home__services-details > div {
-  margin: 0 40px;
+.home__services-details > :first-child {
+  margin-right: 60px;
 }
 .home__services-details > :first-child {
   max-width: 600px;
@@ -39,5 +40,6 @@
   }
   .home__services-details > :first-child {
     margin-bottom: 30px;
+    margin-right: 0;
   }
 }
