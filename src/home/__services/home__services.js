@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Button from '../../components/button/button';
+import Link from '../../components/router-link/router-link';
+
 import './home__services.css';
 
 const Services = () => (
@@ -24,21 +27,23 @@ const Services = () => (
         pretium vulputate. In massa tempor nec feugiat nisl pretium.
         </p>
         <div className="home__services-buttons">
-          <div>
-            Proteomics
-          </div>
-          <div>
+          <Link to="/services/proteomics">
+            <Button>
+              Proteomics
+            </Button>
+          </Link>
+          <Button>
             High-throughput screening
-          </div>
-          <div>
+          </Button>
+          <Button>
             High-content screening
-          </div>
-          <div>
+          </Button>
+          <Button>
             High-spatio-temporal resolution imaging
-          </div>
-          <div>
+          </Button>
+          <Button>
             Integrative analysis
-          </div>
+          </Button>
         </div>
       </main>
     </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../../components/button/button';
+
 import './home__personnel.css';
 
 const Personnel = () => (
@@ -10,15 +12,15 @@ const Personnel = () => (
       </h2>
       <main className="home__section-details">
         <div className="home__personnel-buttons">
-          <div>
+          <Button>
             Anne-Claude Gingras
-          </div>
-          <div>
+          </Button>
+          <Button>
             Jeff Wrana
-          </div>
-          <div>
+          </Button>
+          <Button>
             Karen Colwill
-          </div>
+          </Button>
         </div>
         <div className="home__personnel-details">
           <div />

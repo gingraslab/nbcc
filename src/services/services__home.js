@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Button from '../components/button/button';
+import Link from '../components/router-link/router-link';
+
 import './services.css';
 
 const Home = () => (
@@ -7,11 +10,25 @@ const Home = () => (
     <h1>
       Services
     </h1>
-    <strong>
-      The Network Biology Collaborative Centre at the Lunenfeld-Tanenbaum
-      Research Institute is a national platform providing integrated solutions
-      for functional genomics and proteomics.
-    </strong>
+    <div className="services__buttons">
+      <Link to="/services/proteomics">
+        <Button>
+          Proteomics
+        </Button>
+      </Link>
+      <Button>
+        High-throughput screening
+      </Button>
+      <Button>
+        High-content screening
+      </Button>
+      <Button>
+        High-spatio-temporal resolution imaging
+      </Button>
+      <Button>
+        Integrative analysis
+      </Button>
+    </div>
   </section>
 );
 

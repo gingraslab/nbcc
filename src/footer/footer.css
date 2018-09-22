@@ -1,5 +1,7 @@
 .footer {
   align-items: center;
+  background-color: #043e62;
+  color: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,10 +11,19 @@
   margin-top: 10px;
   text-align: center;
 }
-.footer__funding {
+.footer__site-map {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.footer__funding > * {
-  margin: 5px 5px;
+.footer__site-map > * {
+  margin: 10px 15px;
+}
+.footer__site-map > ul {
+  font-size: 0.85rem;
+  list-style: none;
+  padding-left: 0px;
+}
+.footer__site-map > ul > li {
+  margin: 4px 0;
 }

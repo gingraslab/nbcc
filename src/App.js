@@ -22,10 +22,6 @@ const App = () => (
           text: 'Resources',
         },
         {
-          route: '/personnel',
-          text: 'Personnel',
-        },
-        {
           route: '/about',
           text: 'About',
         },

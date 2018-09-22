@@ -5,7 +5,7 @@ import './home__landing.css';
 const Landing = () => (
   <section className="home__landing">
     <h1>
-      Network biology collaborative center
+      Network biology collaborative centre
     </h1>
     <strong>
       The Network Biology Collaborative Centre at the Lunenfeld-Tanenbaum

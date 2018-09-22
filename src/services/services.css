@@ -11,11 +11,18 @@
   text-align: center;
   text-transform: capitalize;
 }
-.services strong {
-  max-width: 700px;
-  min-width: 280px;
-  text-align: justify;
-  width: 70%;
+.services__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.services__buttons > a {
+  text-decoration: none;
+}
+.services__buttons Button {
+  width: 100%;
+}
+.services__buttons > :not(:last-child) {
+  margin-bottom: 20px;
 }
 @media (max-width: 449px) {
   .services strong {

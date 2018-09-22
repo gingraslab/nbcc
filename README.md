@@ -1,4 +1,4 @@
-# Network biology collaborative center website prototype
+# Network biology collaborative centre website prototype
 
 ## Development server
 
