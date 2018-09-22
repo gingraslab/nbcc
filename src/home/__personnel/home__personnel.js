@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button from '../../components/button/button';
+import Users from '../../assets/icons/users';
 
 import './home__personnel.css';
 
@@ -8,17 +9,18 @@ const Personnel = () => (
   <section className="home__section home__personnel">
     <div className="home__section-inner">
       <h2>
+        <Users />
         Personnel
       </h2>
       <main className="home__section-details">
         <div className="home__personnel-buttons">
-          <Button>
+          <Button type="accent">
             Anne-Claude Gingras
           </Button>
-          <Button>
+          <Button type="accent">
             Jeff Wrana
           </Button>
-          <Button>
+          <Button type="accent">
             Karen Colwill
           </Button>
         </div>

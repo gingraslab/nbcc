@@ -2,6 +2,7 @@ import React from 'react';
 
 import Button from '../../components/button/button';
 import Link from '../../components/router-link/router-link';
+import Wrench from '../../assets/icons/wrench';
 
 import './home__services.css';
 
@@ -9,6 +10,7 @@ const Services = () => (
   <section className="home__section home__services">
     <div className="home__section-inner">
       <h2>
+        <Wrench />
         Services
       </h2>
       <main className="home__section-details home__services-details">

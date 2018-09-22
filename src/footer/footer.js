@@ -6,6 +6,9 @@ const Footer = () => (
   <footer className="footer">
     <section className="footer__site-map">
       <ul>
+        <li>Home</li>
+      </ul>
+      <ul>
         <li>Services</li>
         <li>Proteomics</li>
         <li>High-throughput screening</li>

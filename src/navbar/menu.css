@@ -14,11 +14,8 @@
 .navbar__menu-button:focus {
   outline: 0;
 }
-.navbar_background .navbar__menu-button .navbar__menu-bars path {
-  fill: #ffffff;
-}
 .navbar__menu-button:hover .navbar__menu-bars path {
-  fill: #33cc72;
+  fill: var(--color-primary-3);
 }
 .navbar__menu-inner {
   background-color: #ffffff;
@@ -43,12 +40,12 @@
   text-decoration: none;
 }
 .navbar__menu-inner li {
-  color: #1a405f;
+  color: var(--color-secondary-1-4);
   padding: 5px 10px;
   transition: color 0.3s ease;
 }
 .navbar__menu-inner li:hover {
-  color: #33cc72;
+  color: var(--color-primary-3);
 }
 .navbar__menu_hide {
   opacity: 0;

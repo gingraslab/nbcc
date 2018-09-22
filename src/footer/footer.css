@@ -1,7 +1,7 @@
 .footer {
   align-items: center;
-  background-color: #043e62;
-  color: #fafafa;
+  background-color: var(--color-secondary-1-4);
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,6 @@
 .footer__site-map {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .footer__site-map > * {
   margin: 10px 15px;

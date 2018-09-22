@@ -1,5 +1,8 @@
-.home__personnel {
-  background-color: white;
+.home__personnel h2 {
+  color: var(--color-complement-3);
+}
+.home__personnel svg {
+  fill: var(--color-complement-3);
 }
 .home__personnel-buttons {
   display: flex;

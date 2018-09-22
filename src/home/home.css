@@ -5,8 +5,16 @@
   padding: 60px 20px;
 }
 .home__section h2 {
+  align-items: center;
   align-self: flex-start;
+  display: flex;
   margin-left: 5%;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.home__section h2 svg {
+  height: 25px;
+  margin-right: 10px;
 }
 .home__section-details {
   margin-top: 30px;
