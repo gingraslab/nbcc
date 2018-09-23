@@ -61,9 +61,11 @@ button {
   background: linear-gradient(to right, var(--color-primary-2), var(--color-primary-1) 30%);
   border: none;
   color: var(--color-secondary-1-4);
+  font-weight: 500;
 }
 .button_accent {
   background-color: #fff;
   border: 1px solid var(--color-complement-3);
   color: var(--color-complement-4);
+  font-weight: 500;
 }
