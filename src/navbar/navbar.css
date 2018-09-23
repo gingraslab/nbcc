@@ -14,7 +14,7 @@
   position: absolute;
 }
 .navbar__link {
-  font-size: 1em;
+  font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -30,7 +30,7 @@
 }
 .navbar__links {
   position: absolute;
-  right: 15px;
+  right: 20px;
 }
 .navbar__links > :not(:last-child) {
   margin-right: 20px;

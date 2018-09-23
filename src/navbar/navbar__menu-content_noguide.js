@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import Bars from './navbar__menu-bars_noguide';
+import Button from '../components/button/button';
 import MenuLinks from './navbar__menu-links_noguide';
 
 import './menu.css';
@@ -13,13 +14,13 @@ const MenuContent = ({
   viewMenu,
 }) => (
   <div className="navbar__menu">
-    <button
+    <Button
       className="navbar__menu-button"
       onClick={showMenu}
-      type="button"
+      type="default"
     >
       { Bars() }
-    </button>
+    </Button>
     <MenuLinks
       close={closeMenu}
       links={links}

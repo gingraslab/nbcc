@@ -1,44 +1,44 @@
-.home__services {
+.home__facilities {
   background: var(--color-secondary-1-3);
   background: linear-gradient(to right, var(--color-secondary-1-3), var(--color-secondary-1-2));
   color: var(--text-light);
 }
-.home__services h2 {
+.home__facilities h2 {
   color: var(--color-primary-1-2);
 }
-.home__services svg {
+.home__facilities svg {
   fill: var(--color-primary-1-2);
 }
-.home__services-buttons {
+.home__facilities-buttons {
   display: flex;
   flex-direction: column;
 }
-.home__services-buttons > a {
+.home__facilities-buttons > a {
   text-decoration: none;
 }
-.home__services-buttons Button {
+.home__facilities-buttons Button {
   width: 100%;
 }
-.home__services-buttons > :not(:last-child) {
+.home__facilities-buttons > :not(:last-child) {
   margin-bottom: 20px;
 }
-.home__services-details {
+.home__facilities-details {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.home__services-details > :first-child {
+.home__facilities-details > :first-child {
   margin-right: 60px;
 }
-.home__services-details > :first-child {
+.home__facilities-details > :first-child {
   max-width: 600px;
   text-align: justify;
 }
 @media (max-width: 749px) {
-  .home__services-details {
+  .home__facilities-details {
     flex-direction: column;
   }
-  .home__services-details > :first-child {
+  .home__facilities-details > :first-child {
     margin-bottom: 30px;
     margin-right: 0;
   }

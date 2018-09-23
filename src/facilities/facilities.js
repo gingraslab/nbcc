@@ -1,24 +1,24 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from './services__home';
+import Home from './facilities__home';
 import RouteNotFound from '../router/route-not-found';
-import Proteomics from './__proteomics/services__proteomics';
+import Proteomics from './__proteomics/facilities__proteomics';
 
-const Services = () => (
+const Facilities = () => (
   <Switch>
     <Route
       exact
-      path="/services"
+      path="/facilities"
       component={Home}
     />
     <Route
       exact
-      path="/services/proteomics"
+      path="/facilities/proteomics"
       component={Proteomics}
     />
     <RouteNotFound />
   </Switch>
 );
 
-export default Services;
+export default Facilities;

@@ -5,7 +5,7 @@ import Footer from './footer/footer';
 import Home from './home/home';
 import Navbar from './navbar/navbar';
 import RouteNotFound from './router/route-not-found';
-import Services from './services/services';
+import Facilities from './facilities/facilities';
 
 const App = () => (
   <div>
@@ -14,8 +14,8 @@ const App = () => (
       fixed={false}
       links={[
         {
-          route: '/services',
-          text: 'Services',
+          route: '/facilities',
+          text: 'Facilities',
         },
         {
           route: '/resources',
@@ -35,8 +35,8 @@ const App = () => (
         component={Home}
       />
       <Route
-        path="/services"
-        component={Services}
+        path="/facilities"
+        component={Facilities}
       />
       <RouteNotFound />
     </Switch>

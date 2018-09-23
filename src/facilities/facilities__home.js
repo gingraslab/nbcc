@@ -3,15 +3,15 @@ import React from 'react';
 import Button from '../components/button/button';
 import Link from '../components/router-link/router-link';
 
-import './services.css';
+import './facilities.css';
 
 const Home = () => (
-  <section className="services">
+  <section className="facilities">
     <h1>
-      Services
+      Facilities
     </h1>
-    <div className="services__buttons">
-      <Link to="/services/proteomics">
+    <div className="facilities__buttons">
+      <Link to="/facilities/proteomics">
         <Button>
           Proteomics
         </Button>

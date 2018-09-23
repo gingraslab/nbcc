@@ -2,14 +2,14 @@ import React from 'react';
 
 import Landing from './__landing/home__landing';
 import Personnel from './__personnel/home__personnel';
-import Services from './__services/home__services';
+import Facilities from './__facilities/home__facilities';
 
 import './home.css';
 
 const Home = () => (
   <main>
     <Landing />
-    <Services />
+    <Facilities />
     <Personnel />
   </main>
 );

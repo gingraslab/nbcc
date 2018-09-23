@@ -1,0 +1,42 @@
+.facilities__proteomics {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+.facilities__proteomics-about {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.facilities__proteomics-about > h1 {
+  text-transform: capitalize;
+}
+.facilities__proteomics-about > div {
+  font-size: 1.2rem;
+  margin-left: 40px;
+  max-width: 600px;
+  text-align: justify;
+}
+.facilities__proteomics-buttons {
+  display: flex;
+}
+.facilities__proteomics-buttons > a {
+  margin: 10px;
+  text-decoration: none;
+}
+@media (max-width: 849px) {
+  .facilities__proteomics-about > div {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 499px) {
+  .facilities__proteomics-about > div {
+    font-size: 1rem;
+  }
+}

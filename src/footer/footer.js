@@ -9,7 +9,7 @@ const Footer = () => (
         <li>Home</li>
       </ul>
       <ul>
-        <li>Services</li>
+        <li>Facilities</li>
         <li>Proteomics</li>
         <li>High-throughput screening</li>
       </ul>

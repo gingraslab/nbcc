@@ -1,3 +1,7 @@
+.home__personnel {
+  background-color: #ffffff;
+  background-image: url('../../assets/textures/connected.png');
+}
 .home__personnel h2 {
   color: var(--color-complement-3);
 }

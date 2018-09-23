@@ -6,8 +6,8 @@ import Users from '../../assets/icons/users';
 import './home__personnel.css';
 
 const Personnel = () => (
-  <section className="home__section home__personnel">
-    <div className="home__section-inner">
+  <div className="home__section home__personnel">
+    <section className="home__section-inner">
       <h2>
         <Users />
         Personnel
@@ -42,8 +42,8 @@ const Personnel = () => (
           </p>
         </div>
       </main>
-    </div>
-  </section>
+    </section>
+  </div>
 );
 
 export default Personnel;
