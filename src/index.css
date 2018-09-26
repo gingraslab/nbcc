@@ -25,7 +25,7 @@ body {
   --color-complement-2: #FF9E6F;
   --color-complement-3: #F3641F;
   --color-complement-4: #B6430C;
-  --text-dark: #131516;
+  --text-dark: #373d3f;
   --text-light: #f2f3f4;
   background-color: #fff;
   color: var(--text-dark);
