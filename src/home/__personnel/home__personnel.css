@@ -3,6 +3,7 @@
   background-image: url('../../assets/textures/connected.png');
 }
 .home__personnel h2 {
+  border-bottom: 2px solid var(--color-complement-3);
   color: var(--color-complement-3);
 }
 .home__personnel svg {

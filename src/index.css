@@ -6,13 +6,14 @@ html {
 body {
   --color-primary-0: #34B386;	/* Main Primary color */
   --color-primary-1: #8DE4C6;
-  --color-primary-1-2: #9de1c9;
+  --color-primary-1-5: #9de1c9;
   --color-primary-2: #58CCA3;
   --color-primary-3: #15A371;
   --color-primary-4: #087A52;
   --color-secondary-1-0: #3C76AE;	/* Main Secondary color (1) */
   --color-secondary-1-1: #92BBE3;
   --color-secondary-1-2: #5F95C8;
+  --color-secondary-1-2-5: #3b75ab;
   --color-secondary-1-3: #1E5F9D;
   --color-secondary-1-4: #104476;
   --color-secondary-2-0: #FFB54A;	/* Main Secondary color (2) */
@@ -37,6 +38,9 @@ body {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
 }
 
 hr {

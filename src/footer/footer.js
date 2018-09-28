@@ -10,18 +10,33 @@ const Footer = () => (
       </ul>
       <ul>
         <li>Facilities</li>
-        <li>Proteomics</li>
+        <li>High-content screening</li>
+        <li>High-resolution imaging</li>
         <li>High-throughput screening</li>
+        <li>Next-generation sequencing</li>
+        <li>Intregated data analysis</li>
+        <li>Proteomics</li>
       </ul>
       <ul>
         <li>Resources</li>
         <li>Protocols</li>
+        <li>Reagents</li>
+        <li>Tech notes</li>
+        <li>Workshops</li>
       </ul>
       <ul>
         <li>About</li>
-        <li>Personnel</li>
+        <li>Management</li>
+        <li>Staff</li>
         <li>Funding</li>
         <li>Contact us</li>
+      </ul>
+      <ul>
+        <li>Publications</li>
+        <li>How to cite</li>
+      </ul>
+      <ul>
+        <li>News</li>
       </ul>
     </section>
     <small className="footer__copyright">

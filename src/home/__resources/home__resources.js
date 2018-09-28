@@ -1,19 +1,32 @@
 import React from 'react';
 
 import Button from '../../components/button/button';
-import Hospital from '../../assets/icons/hospital';
-import Link from '../../components/router-link/router-link';
+import File from '../../assets/icons/file';
 
-import './home__facilities.css';
+import './home__resources.css';
 
-const Facilities = () => (
-  <div className="home__section home__facilities">
+const Resources = () => (
+  <div className="home__section home__resources">
     <section className="home__section-inner">
       <h2>
-        <Hospital />
-        Facilities
+        <File />
+        Resources
       </h2>
-      <main className="home__section-details home__facilities-details">
+      <main className="home__section-details home__resources-details">
+        <div className="home__resources-buttons">
+          <Button type="secondary">
+            Protocols
+          </Button>
+          <Button type="secondary">
+            Reagents
+          </Button>
+          <Button type="secondary">
+            Tech notes
+          </Button>
+          <Button type="secondary">
+            Workshops
+          </Button>
+        </div>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
@@ -28,31 +41,9 @@ const Facilities = () => (
         praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
         pretium vulputate. In massa tempor nec feugiat nisl pretium.
         </p>
-        <div className="home__facilities-buttons">
-          <Button>
-            High-content screening
-          </Button>
-          <Button>
-            High-resolution imaging
-          </Button>
-          <Button>
-            High-throughput screening
-          </Button>
-          <Button>
-            Next-generation sequencing
-          </Button>
-          <Button>
-            Integrated data analysis
-          </Button>
-          <Link to="/facilities/proteomics">
-            <Button>
-              Proteomics
-            </Button>
-          </Link>
-        </div>
       </main>
     </section>
   </div>
 );
 
-export default Facilities;
+export default Resources;

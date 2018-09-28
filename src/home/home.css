@@ -9,16 +9,17 @@
   align-self: flex-start;
   display: flex;
   margin-left: 5%;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
   text-transform: uppercase;
   vertical-align: middle;
+  width: 50%;
 }
 .home__section h2 svg {
   height: 25px;
   margin-right: 10px;
 }
-.home__section-details {
-  margin-top: 30px;
-}
 .home__section-inner {
   max-width: 950px;
+  width: 100%;
 }

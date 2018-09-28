@@ -29,6 +29,10 @@ const App = () => (
           route: '/about',
           text: 'About',
         },
+        {
+          route: '/news',
+          text: 'News',
+        },
       ]}
       shadow={false}
     />

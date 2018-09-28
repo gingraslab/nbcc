@@ -4,10 +4,11 @@
   color: var(--text-light);
 }
 .home__facilities h2 {
-  color: var(--color-primary-1-2);
+  border-bottom: 2px solid var(--color-primary-1-5);
+  color: var(--color-primary-1-5);
 }
 .home__facilities svg {
-  fill: var(--color-primary-1-2);
+  fill: var(--color-primary-1-5);
 }
 .home__facilities-buttons {
   display: flex;
@@ -27,10 +28,10 @@
   display: flex;
   justify-content: center;
 }
-.home__facilities-details > :first-child {
+.home__facilities-details > p {
   margin-right: 60px;
 }
-.home__facilities-details > :first-child {
+.home__facilities-details > p {
   max-width: 600px;
   text-align: justify;
 }
@@ -38,7 +39,7 @@
   .home__facilities-details {
     flex-direction: column;
   }
-  .home__facilities-details > :first-child {
+  .home__facilities-details > p {
     margin-bottom: 30px;
     margin-right: 0;
   }
