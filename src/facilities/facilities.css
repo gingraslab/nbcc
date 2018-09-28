@@ -9,7 +9,7 @@
 .facilities > h1 {
   min-height: 20%;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .facilities__buttons {
   display: flex;

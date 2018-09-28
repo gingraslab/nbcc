@@ -3,17 +3,17 @@ import React from 'react';
 import Button from '../../components/button/button';
 import Users from '../../assets/icons/users';
 
-import './home__personnel.css';
+import './home__management.css';
 
-const Personnel = () => (
-  <div className="home__section home__personnel">
+const Management = () => (
+  <div className="home__section home__management">
     <section className="home__section-inner">
       <h2>
         <Users />
-        Personnel
+        Management
       </h2>
       <main className="home__section-details">
-        <div className="home__personnel-buttons">
+        <div className="home__management-buttons">
           <Button type="accent">
             Anne-Claude Gingras
           </Button>
@@ -24,7 +24,7 @@ const Personnel = () => (
             Karen Colwill
           </Button>
         </div>
-        <div className="home__personnel-details">
+        <div className="home__management-details">
           <div />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -46,4 +46,4 @@ const Personnel = () => (
   </div>
 );
 
-export default Personnel;
+export default Management;

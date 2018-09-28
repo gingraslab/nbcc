@@ -1,29 +1,29 @@
-.home__personnel {
+.home__management {
   background-color: #ffffff;
   background-image: url('../../assets/textures/connected.png');
 }
-.home__personnel h2 {
+.home__management h2 {
   border-bottom: 2px solid var(--color-complement-3);
   color: var(--color-complement-3);
 }
-.home__personnel svg {
+.home__management svg {
   fill: var(--color-complement-3);
 }
-.home__personnel-buttons {
+.home__management-buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-.home__personnel-buttons > * {
+.home__management-buttons > * {
   margin: 5px 10px;
 }
-.home__personnel-details {
+.home__management-details {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.home__personnel-details > :first-child {
+.home__management-details > :first-child {
   background-color: var(--color-complement-1);
   border: 5px solid var(--color-complement-2);
   height: 400px;
@@ -32,14 +32,14 @@
   min-width: 240px;
   width: 20%;
 }
-.home__personnel-details > :last-child {
+.home__management-details > :last-child {
   text-align: justify;
 }
 @media (max-width: 749px) {
-  .home__personnel-details {
+  .home__management-details {
     flex-direction: column;
   }
-  .home__personnel-details > :first-child {
+  .home__management-details > :first-child {
     margin-bottom: 30px;
     margin-right: 0px;
   }
