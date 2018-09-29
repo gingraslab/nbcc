@@ -16,6 +16,24 @@
 .facilities p {
   text-align: justify;
 }
+.facilities__about {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.facilities__about > * {
+  margin: 20px;
+}
+.facilities__about > h1 {
+  text-transform: uppercase;
+}
+.facilities__about > p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  text-align: justify;
+}
 .facilities__buttons {
   display: flex;
   flex-direction: column;
@@ -28,6 +46,97 @@
 }
 .facilities__buttons > :not(:last-child) {
   margin-bottom: 20px;
+}
+.facilities__equipment {
+  background-color: #ffffff;
+  background-image: url('../assets/textures/connected.png');
+  height: 500px;
+}
+.facilities__equipment h2 {
+  border-bottom: 2px solid var(--color-complement-3);
+  color: var(--color-complement-3);
+}
+.facilities__equipment svg {
+  fill: var(--color-complement-3);
+}
+.facilities__landing {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+.facilities__links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.facilities__links > a {
+  margin: 10px;
+  text-decoration: none;
+}
+.facilities__links button {
+  text-transform: capitalize;
+}
+.facilities__pricing {
+  background: var(--color-primary-2);
+  background: linear-gradient(to right, var(--color-primary-1-5), var(--color-primary-2));
+  color: var(--text-dark);
+  height: 500px;
+}
+.facilities__pricing h2 {
+  border-bottom: 2px solid var(--color-secondary-1-4);
+  color: var(--color-secondary-1-4);
+}
+.facilities__pricing svg {
+  fill: var(--color-secondary-1-4);
+}
+.facilities__protocols {
+  height: 500px;
+}
+.facilities__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+}
+.facilities__section h2 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 50%;
+}
+.facilities__section h2 svg {
+  height: 25px;
+  margin-right: 10px;
+}
+.facilities__section-inner {
+  max-width: 950px;
+  width: 100%;
+}
+.facilities__services {
+  background: var(--color-secondary-1-3);
+  background: linear-gradient(to right, var(--color-secondary-1-3), var(--color-secondary-1-2));
+  color: var(--text-light);
+  height: 500px;
+}
+.facilities__services h2 {
+  border-bottom: 2px solid var(--color-primary-1-5);
+  color: var(--color-primary-1-5);
+}
+.facilities__services svg {
+  fill: var(--color-primary-1-5);
+}
+.facilities__tools {
+  height: 500px;
 }
 @media (max-width: 749px) {
   .facilities {
@@ -44,5 +153,8 @@
 @media (max-width: 449px) {
   .facilities strong {
     font-size: 0.9em;
+  }
+  .facilities__about > p {
+    font-size: 1rem;
   }
 }

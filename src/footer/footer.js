@@ -25,15 +25,15 @@ const Footer = () => (
         <li>Workshops</li>
       </ul>
       <ul>
+        <li>Publications</li>
+        <li>How to cite</li>
+      </ul>
+      <ul>
         <li>About</li>
         <li>Management</li>
         <li>Staff</li>
         <li>Funding</li>
         <li>Contact us</li>
-      </ul>
-      <ul>
-        <li>Publications</li>
-        <li>How to cite</li>
       </ul>
       <ul>
         <li>News</li>

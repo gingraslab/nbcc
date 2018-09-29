@@ -11,8 +11,8 @@ const Home = () => (
   <main>
     <Landing />
     <Facilities />
-    <Resources />
     <Management />
+    <Resources />
   </main>
 );
 

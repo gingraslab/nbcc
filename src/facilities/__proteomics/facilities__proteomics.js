@@ -1,46 +1,41 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
-import Button from '../../components/button/button';
-import Equipment from '../__equipment/facilities__equipment';
-import Pricing from '../__pricing/facilities__pricing';
-import Services from '../__services/facilities__services';
-import './facilities__proteomics.css';
+import Equipment from './facilities__proteomics-equipment';
+import Links from '../__links/facilities__links';
+import Pricing from './facilities__proteomics-pricing';
+import Protocols from './facilities__proteomics-protocols';
+import Services from './facilities__proteomics-services';
+import Tools from './facilities__proteomics-tools';
 
 const Proteomics = () => (
-  <Fragment>
-    <main className="facilities__proteomics">
-      <div className="facilities__proteomics-about">
+  <main>
+    <section className="facilities__landing">
+      <div className="facilities__about">
         <h1>
           Proteomics
         </h1>
-        <div>
+        <p>
           The proteomics facility uses cutting-edge mass spectrometry to identify
           proteins in complex mixtures, specializing in techniques for affinity-based
           identification of protein complexes.
-        </div>
+        </p>
       </div>
-      <div className="facilities__proteomics-buttons">
-        <a href="#services">
-          <Button type="accent">
-            Services
-          </Button>
-        </a>
-        <a href="#equipment">
-          <Button type="accent">
-            Equipment
-          </Button>
-        </a>
-        <a href="#pricing">
-          <Button type="accent">
-            Pricing
-          </Button>
-        </a>
-      </div>
-    </main>
+      <Links
+        links={[
+          'services',
+          'equipment',
+          'pricing',
+          'protocols',
+          'tools',
+        ]}
+      />
+    </section>
     <Services />
     <Equipment />
     <Pricing />
-  </Fragment>
+    <Protocols />
+    <Tools />
+  </main>
 );
 
 export default Proteomics;
