@@ -1,15 +1,20 @@
 .facilities {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 100vh;
-  padding: 0 20px;
+  padding: 50px 20px;
 }
-.facilities > h1 {
-  min-height: 20%;
-  text-align: center;
+.facilities > :first-child {
+  margin-right: 40px;
+  max-width: 50%;
+}
+.facilities h1 {
   text-transform: uppercase;
+}
+.facilities p {
+  text-align: justify;
 }
 .facilities__buttons {
   display: flex;
@@ -23,6 +28,18 @@
 }
 .facilities__buttons > :not(:last-child) {
   margin-bottom: 20px;
+}
+@media (max-width: 749px) {
+  .facilities {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .facilities > :first-child {
+    margin-bottom: 20px;
+    margin-right: 0;
+    max-width: 95%;
+  }
 }
 @media (max-width: 449px) {
   .facilities strong {

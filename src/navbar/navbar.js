@@ -57,6 +57,7 @@ class Navbar extends Component {
 
 Navbar.defaultProps = {
   background: true,
+  contact: '',
   fixed: true,
   links: [],
   logoLink: {
@@ -69,6 +70,8 @@ Navbar.defaultProps = {
 Navbar.propTypes = {
   /** Show the background. If false, a transparent background will be used */
   background: PropTypes.bool,
+  /** Show contact icon. */
+  contact: PropTypes.string,
   /** Fix the navbar to the top of the viewport */
   fixed: PropTypes.bool,
   /** Navigation links */

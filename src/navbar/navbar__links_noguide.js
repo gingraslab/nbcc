@@ -1,8 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
-const Links = links => (
-  links.map((link) => {
+import Envelope from '../assets/icons/envelope';
+import Link from '../components/router-link/router-link';
+
+const Links = (links, contact) => {
+  const linkArr = links.map((link) => {
     if (link.href) {
       return (
         <a
@@ -16,15 +19,27 @@ const Links = links => (
       );
     }
     return (
-      <NavLink
+      <Link
         className="navbar__link"
         key={link.text}
         to={link.route}
       >
         { link.text }
-      </NavLink>
+      </Link>
     );
-  })
-);
+  });
+  if (contact) {
+    linkArr.push(
+      <HashLink
+        className="navbar__link-contact"
+        key="contact"
+        to={contact}
+      >
+        <Envelope />
+      </HashLink>,
+    );
+  }
+  return linkArr;
+};
 
 export default Links;

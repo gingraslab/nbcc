@@ -11,6 +11,7 @@ const App = () => (
   <div>
     <Navbar
       background={false}
+      contact="/about#contact"
       fixed={false}
       links={[
         {

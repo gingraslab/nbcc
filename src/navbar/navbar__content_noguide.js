@@ -9,6 +9,7 @@ import './navbar.css';
 
 const NavbarContent = ({
   background,
+  contact,
   fixed,
   links,
   logoLink,
@@ -27,14 +28,19 @@ const NavbarContent = ({
     >
       { Icon(logoLink) }
       <div className="navbar__links">
-        { smallScreen ? <Menu links={links} /> : Links(links) }
+        { smallScreen ? <Menu links={links} /> : Links(links, contact) }
       </div>
     </nav>
   );
 };
 
+NavbarContent.defaultProps = {
+  contact: '',
+};
+
 NavbarContent.propTypes = {
   background: PropTypes.bool.isRequired,
+  contact: PropTypes.string,
   fixed: PropTypes.bool.isRequired,
   links: PropTypes.arrayOf(PropTypes.shape({
     href: PropTypes.bool,

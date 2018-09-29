@@ -8,12 +8,12 @@
   padding: 15px 20px;
 }
 .footer__copyright {
-  margin-top: 20px;
   text-align: center;
 }
 .footer__site-map {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .footer__site-map > * {
   margin: 10px 15px;
@@ -25,4 +25,9 @@
 }
 .footer__site-map > ul > li {
   margin: 4px 0;
+}
+@media (max-width: 749px) {
+  .footer__site-map {
+    display: none;
+  }
 }

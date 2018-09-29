@@ -28,6 +28,12 @@
 .navbar__link:active {
   color: var(--color-primary-3);
 }
+.navbar__link-contact svg {
+  fill: var(--color-secondary-1-4);
+  height: 15px;
+  position: relative;
+  top: 1px;
+}
 .navbar__links {
   position: absolute;
   right: 20px;

@@ -6,9 +6,11 @@ import scrollTop from '../../helpers/scroll-top';
 
 const routerLink = ({
   children,
+  className,
   to,
 }) => (
   <Link
+    className={className}
     onClick={scrollTop}
     to={to}
   >
@@ -18,11 +20,16 @@ const routerLink = ({
 
 routerLink.defaultProps = {
   children: 'link',
+  className: '',
 };
 
 routerLink.propTypes = {
   children: PropTypes.node,
-  to: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  to: PropTypes.oneOfType([
+    PropTypes.shape({}),
+    PropTypes.string,
+  ]).isRequired,
 };
 
 export default routerLink;

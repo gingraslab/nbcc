@@ -13,8 +13,8 @@ const Footer = () => (
         <li>High-content screening</li>
         <li>High-resolution imaging</li>
         <li>High-throughput screening</li>
-        <li>Next-generation sequencing</li>
         <li>Intregated data analysis</li>
+        <li>Next-generation sequencing</li>
         <li>Proteomics</li>
       </ul>
       <ul>
