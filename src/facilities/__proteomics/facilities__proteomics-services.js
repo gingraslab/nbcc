@@ -12,7 +12,9 @@ const Services = () => (
         <Wrench />
         Services
       </h2>
-      <h3>I. Sample preparation</h3>
+      <h3>
+        <span>I. Sample preparation</span>
+      </h3>
       <h4>Affinity purification (FLAG epitope)</h4>
       <p>
         This assay will identify interacting protein partners (prey) for a
@@ -49,7 +51,9 @@ const Services = () => (
         case, the cost will be determined on a per sample basis calculated after
         discussion of project design and will include assay setup charges.
       </p>
-      <h3>II. Mass spectrometry analysis</h3>
+      <h3>
+        <span>II. Mass spectrometry analysis</span>
+      </h3>
       <p>
         We offer a range of mass spectrometry analyses on high-resolution,
         high-sensitivity mass spectrometers. The first step in mass
