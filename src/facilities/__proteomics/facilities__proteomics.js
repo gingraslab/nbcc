@@ -22,11 +22,11 @@ const Proteomics = () => (
       </div>
       <Links
         links={[
-          'services',
-          'equipment',
-          'pricing',
-          'protocols',
-          'tools',
+          { id: 'services', text: 'Services' },
+          { id: 'equipment', text: 'Equipment' },
+          { id: 'pricing', text: 'Pricing' },
+          { id: 'protocols', text: 'Protocols' },
+          { id: 'tools', text: 'Analysis tools' },
         ]}
       />
     </section>

@@ -29,14 +29,14 @@ const Footer = () => (
         <li>How to cite</li>
       </ul>
       <ul>
+        <li>News</li>
+      </ul>
+      <ul>
         <li>About</li>
         <li>Management</li>
         <li>Staff</li>
         <li>Funding</li>
         <li>Contact us</li>
-      </ul>
-      <ul>
-        <li>News</li>
       </ul>
     </section>
     <small className="footer__copyright">

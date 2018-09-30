@@ -10,11 +10,11 @@ const Links = ({
     {
       links.map(link => (
         <a
-          href={`#${link}`}
-          key={link}
+          href={`#${link.id}`}
+          key={link.id}
         >
           <Button type="accent">
-            {link}
+            {link.text}
           </Button>
         </a>
       ))
@@ -24,7 +24,10 @@ const Links = ({
 
 Links.propTypes = {
   links: PropTypes.arrayOf(
-    PropTypes.string,
+    PropTypes.shape({
+      id: PropTypes.string,
+      text: PropTypes.string,
+    }),
   ).isRequired,
 };
 

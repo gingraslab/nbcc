@@ -27,12 +27,12 @@ const App = () => (
           text: 'Publications',
         },
         {
-          route: '/about',
-          text: 'About',
-        },
-        {
           route: '/news',
           text: 'News',
+        },
+        {
+          route: '/about',
+          text: 'About',
         },
       ]}
       shadow={false}

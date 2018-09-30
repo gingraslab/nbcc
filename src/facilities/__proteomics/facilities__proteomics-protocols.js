@@ -1,13 +1,18 @@
 import React from 'react';
 
+import Books from '../../assets/icons/books';
+
 const Protocols = () => (
   <section
     className="facilities__section facilities__protocols"
     id="protocols"
   >
-    <h2>
-      Protocols
-    </h2>
+    <div className="facilities__section-inner">
+      <h2>
+        <Books />
+        Protocols
+      </h2>
+    </div>
   </section>
 );
 

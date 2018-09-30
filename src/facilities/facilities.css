@@ -50,11 +50,16 @@
 .facilities__equipment {
   background-color: #ffffff;
   background-image: url('../assets/textures/connected.png');
-  height: 500px;
 }
 .facilities__equipment h2 {
   border-bottom: 2px solid var(--color-complement-3);
   color: var(--color-complement-3);
+}
+.facilities__equipment img {
+  height: 40px;
+}
+.facilities__equipment img:not(:first-of-type) {
+  margin-top: 30px;
 }
 .facilities__equipment svg {
   fill: var(--color-complement-3);
@@ -78,14 +83,10 @@
   margin: 10px;
   text-decoration: none;
 }
-.facilities__links button {
-  text-transform: capitalize;
-}
 .facilities__pricing {
   background: var(--color-primary-2);
   background: linear-gradient(to right, var(--color-primary-1-5), var(--color-primary-2));
   color: var(--text-dark);
-  height: 500px;
 }
 .facilities__pricing h2 {
   border-bottom: 2px solid var(--color-secondary-1-4);
@@ -95,7 +96,15 @@
   fill: var(--color-secondary-1-4);
 }
 .facilities__protocols {
-  height: 500px;
+  background-color: #ffffff;
+  background-image: url('../assets/textures/light-wool.png');
+}
+.facilities__protocols h2 {
+  border-bottom: 2px solid var(--color-secondary-1-4);
+  color: var(--color-secondary-1-4);
+}
+.facilities__protocols svg {
+  fill: var(--color-secondary-1-4);
 }
 .facilities__section {
   align-items: center;
@@ -118,6 +127,9 @@
   height: 25px;
   margin-right: 10px;
 }
+.facilities__section p {
+  text-align: justify;
+}
 .facilities__section-inner {
   max-width: 950px;
   width: 100%;
@@ -126,7 +138,6 @@
   background: var(--color-secondary-1-3);
   background: linear-gradient(to right, var(--color-secondary-1-3), var(--color-secondary-1-2));
   color: var(--text-light);
-  height: 500px;
 }
 .facilities__services h2 {
   border-bottom: 2px solid var(--color-primary-1-5);
@@ -136,7 +147,16 @@
   fill: var(--color-primary-1-5);
 }
 .facilities__tools {
-  height: 500px;
+  background: var(--color-secondary-1-2);
+  background: linear-gradient(to right, var(--color-secondary-1-2), var(--color-secondary-1-1));
+  color: var(--text-light);
+}
+.facilities__tools h2 {
+  border-bottom: 2px solid var(--text-dark);
+  color: var(--text-dark);
+}
+.facilities__tools svg {
+  fill: var(--text-dark);
 }
 @media (max-width: 749px) {
   .facilities {

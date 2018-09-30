@@ -12,6 +12,94 @@ const Services = () => (
         <Wrench />
         Services
       </h2>
+      <h3>I. Sample preparation</h3>
+      <h4>Affinity purification (FLAG epitope)</h4>
+      <p>
+        This assay will identify interacting protein partners (prey) for a
+        protein of interest (bait). These assays can be performed reiteratively
+        with baits from the same pathway or protein family to create intricate
+        and detailed maps of signalling networks. We will provide the appropriate
+        vector containing a Triple-FLAG epitope for the generation of stable cell
+        lines. Once stable cell lines are generated expressing the baits of interest,
+        we will perform affinity purification from cell pellets by lysing the cells,
+        purifying the bait(s) and interacting proteins using anti-FLAG magnetic
+        beads, and digesting the protein into peptides in preparation for mass
+        spectrometry analysis.
+      </p>
+      <h4>Affinity purification (BioID)</h4>
+      <p>
+        This assay will identify proteins in close proximity to a protein of
+        interest (bait) within the cell. The bait is tagged with a promiscuous
+        birA that adds a biotin moiety to proteins in close proximity. The
+        biotinylated proteins are then captured with streptavidin beads and
+        identified by mass spectrometry. We will provide the appropriate birA
+        epitope-tagged vector for the generation of cell lines. Once stable cell
+        lines are generated expressing the baits of interest, we will perform
+        affinity purification from cell pellets by lysing the cells, purifying
+        the biotinylated proteins using streptavidin-coated magnetic beads, and
+        digesting the protein into peptides in preparation for mass spectrometry
+        analysis.
+      </p>
+      <h4>Customized affinity purification for mass spectrometry</h4>
+      <p>
+        In addition to our two standardized services, we also offer custom
+        affinity purifications. These services include affinity purification
+        of an endogenous protein by its cognate antibody or purification of
+        proteins by immobilized DNA, peptide, protein or small molecule. In each
+        case, the cost will be determined on a per sample basis calculated after
+        discussion of project design and will include assay setup charges.
+      </p>
+      <h3>II. Mass spectrometry analysis</h3>
+      <p>
+        We offer a range of mass spectrometry analyses on high-resolution,
+        high-sensitivity mass spectrometers. The first step in mass
+        spectrometry-based proteomics analysis is the identification of
+        proteins within the sample through discovery analysis using an
+        approach termed &quot;data-dependent acquisition&quot;. If desired, we also
+        offer additional services to quantify the relevant amount of proteins
+        within samples using either comprehensive or targeted approaches.
+      </p>
+      <h4>Discovery analysis - Data-Dependent Acquisition (DDA)</h4>
+      <p>
+        Digested protein samples will be analyzed with a high-resolution,
+        high-sensitivity mass spectrometer in a nano-LCMS/MS workflow. Data
+        will be stored in a secure manner within the ProHits mass spectrometry
+        LIMS system, and analyzed with leading search engines and algorithms.
+        In the case of samples for identification, a confident list of protein
+        identifications with peptide details will be reported. In the case of
+        protein-protein interaction studies, the report will include a list of
+        significant interacting proteins (with assigned pValues from the SAINT
+        algorithm) in formats compatible for visualization (e.g. through cytoscape).
+      </p>
+      <h4>Comprehensive quantitative analysis - Data-Independent Acquisition (DIA-SWATH)</h4>
+      <p>
+        For projects where discovery proteomics has been successful and there
+        is a desire to quantify changes in protein composition under different
+        conditions, we will perform relative quantitative analysis. Unlabeled
+        digested protein samples will be analyzed using a comprehensive
+        quantification method (DIA-SWATH) that determines the relative intensity
+        for all peptides above a signal-to-noise threshold within the mixture.
+      </p>
+      <h4>Targeted quantitative analysis</h4>
+      <p>
+        For quantification of specific set of proteins, peptides or
+        post-translational modifications, we offer targeted quantification analysis
+        (MRM-HR or Targeted SWATH on a Triple TOF mass spectrometer). The costing
+        will be determined after the project is defined and will include all assay
+        setup costs.
+      </p>
+      <h4>Labelled quantitative analysis</h4>
+      <p>
+        We also offer the ability to multiplex samples for quantification using
+        SILAC, iTRAQ, and di-methyl labelling. Please contact us to discuss your
+        project and the most appropriate methodology.
+      </p>
+      <h4>Data analysis</h4>
+      <p>
+        For customers who wish more detailed data analysis or our assistance in
+        integrating proteomics data with other data, we offer extended data analysis
+        from our mass spectrometry specialists or our in house statistician.
+      </p>
     </div>
   </section>
 );
