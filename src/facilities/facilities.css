@@ -212,8 +212,8 @@
   fill: var(--color-primary-1-5);
 }
 .facilities__tools {
-  background: var(--color-secondary-1-2);
-  background: linear-gradient(to right, var(--color-secondary-1-2), var(--color-secondary-1-1));
+  background: var(--color-secondary-1-1);
+  background: linear-gradient(to right, var(--color-secondary-1-1), var(--color-secondary-1-0-5));
   color: var(--text-dark);
 }
 .facilities__tools h2 {
