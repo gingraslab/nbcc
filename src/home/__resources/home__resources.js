@@ -14,16 +14,16 @@ const Resources = () => (
       </h2>
       <main className="home__section-details home__resources-details">
         <div className="home__resources-buttons">
-          <Button type="secondary">
+          <Button type="secondary-solid">
             Protocols
           </Button>
-          <Button type="secondary">
+          <Button type="secondary-solid">
             Reagents
           </Button>
-          <Button type="secondary">
+          <Button type="secondary-solid">
             Tech notes
           </Button>
-          <Button type="secondary">
+          <Button type="secondary-solid">
             Workshops
           </Button>
         </div>

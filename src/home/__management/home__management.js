@@ -28,7 +28,7 @@ const Management = ({
                   <Button
                     key={manager.name}
                     onClick={() => { handleClick(index); }}
-                    type={managementIndex === index ? 'accent-solid' : 'accent'}
+                    type={managementIndex === index ? 'complement-solid' : 'complement'}
                   >
                     { manager.name }
                   </Button>

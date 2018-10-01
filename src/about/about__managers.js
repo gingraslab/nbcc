@@ -9,7 +9,9 @@ const Managers = [
       vascular diseases. Dr. Gingras is Director of Proteomics and has focused
       on applying mass spectrometry-based proteomics to understanding the assembly
       of proteins into complex signaling networks.`,
+    email: 'gingras@lunenfeld.ca',
     name: 'Anne-Claude Gingras',
+    phone: '416-586-5027',
     title: 'Co-Director of the Network Biology Collaborative Centre',
     website: 'https://gingraslab.lunenfeld.ca/',
   },
@@ -24,7 +26,9 @@ const Managers = [
     founded the LTRI high-throughput biology and high-content imaging centres and
     has been instrumental in promoting the widespread application of systematic
     screens using robotics to address biological problems.`,
+    email: 'wrana@lunenfeld.ca',
     name: 'Jeff Wrana',
+    phone: '416-586-2791',
     title: 'Co-Director of the Network Biology Collaborative Centre',
     website: 'http://attisanowranalabs.science/',
   },
@@ -35,7 +39,9 @@ const Managers = [
     projects and facilities. As the Centre's Manager, Karen is responsible for
     daily oversight of the centre, coordinating external customer requests between
     the divisions, and liaising with the individual division managers and directors.`,
+    email: 'colwill@lunenfeld.ca',
     name: 'Karen Colwill',
+    phone: '416-586-4800 x 3018',
     title: 'Network Biology Collaborative Centre Manager',
   },
 ];

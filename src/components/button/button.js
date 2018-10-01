@@ -26,7 +26,7 @@ const Button = ({
 
 Button.defaultProps = {
   className: null,
-  type: 'default',
+  type: 'primary',
 };
 
 Button.propTypes = {

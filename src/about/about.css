@@ -4,7 +4,7 @@
   color: var(--text-dark); 
   display: flex;
   justify-content: center;
-  padding: 50px 20px;
+  padding: 60px 20px 50px 20px;
 }
 .about h2 span {
   border-bottom: 2px dotted var(--text-dark);
@@ -13,6 +13,28 @@
 .about p {
   text-align: justify;
 }
+.about__contact h3 {
+  margin-top: 30px;
+}
+.about__contact-list li {
+  margin: 10px 0;
+}
+.about__contact-list span {
+  display: block;
+}
+.about__contact-mailing {
+  margin-left: 40px;
+}
 .about__inner {
   max-width: 950px;
+}
+.about__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.about__links a {
+  margin: 0 10px;
+  text-decoration: none;
 }

@@ -13,7 +13,7 @@ const Links = ({
           href={`#${link.id}`}
           key={link.id}
         >
-          <Button type="accent">
+          <Button type="complement">
             {link.text}
           </Button>
         </a>
