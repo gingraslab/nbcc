@@ -1,0 +1,18 @@
+.about {
+  background: var(--color-secondary-1-1);
+  background: linear-gradient(to right, var(--color-secondary-1-1), var(--color-secondary-1-0-5));
+  color: var(--text-dark); 
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+.about h2 span {
+  border-bottom: 2px dotted var(--text-dark);
+  box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
+}
+.about p {
+  text-align: justify;
+}
+.about__inner {
+  max-width: 950px;
+}

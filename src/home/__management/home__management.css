@@ -23,6 +23,9 @@
   display: flex;
   justify-content: center;
 }
+.home__management-details > div {
+  margin: 20px;
+}
 .home__management-details > :first-child {
   background-color: var(--color-complement-1);
   border: 5px solid var(--color-complement-2);
@@ -35,12 +38,37 @@
 .home__management-details > :last-child {
   text-align: justify;
 }
+.home__management-details a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.home__management-details a svg {
+  transition: fill 0.3s ease;
+}
+.home__management-details a:link,
+.home__management-details a:visited {
+  color: var(--color-complement-4);
+}
+.home__management-details a:link svg,
+.home__management-details a:visited svg {
+  fill: var(--color-complement-4);
+}
+.home__management-details a:focus,
+.home__management-details a:hover,
+.home__management-details a:active {
+  color: var(--color-secondary-1-2);
+}
+.home__management-details a:focus svg,
+.home__management-details a:hover svg,
+.home__management-details a:active svg {
+  fill: var(--color-secondary-1-2);
+}
+.home__management-details svg {
+  height: 16px;
+  margin-right: 5px;
+}
 @media (max-width: 749px) {
   .home__management-details {
     flex-direction: column;
-  }
-  .home__management-details > :first-child {
-    margin-bottom: 30px;
-    margin-right: 0px;
   }
 }

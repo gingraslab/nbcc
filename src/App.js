@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+import About from './about/about';
 import Footer from './footer/footer';
 import Home from './home/home';
 import Navbar from './navbar/navbar';
@@ -42,6 +43,11 @@ const App = () => (
         exact
         path="/"
         component={Home}
+      />
+      <Route
+        exact
+        path="/about"
+        component={About}
       />
       <Route
         path="/facilities"

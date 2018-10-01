@@ -71,6 +71,17 @@ button:focus {
   background: var(--color-complement-3);
   color: var(--text-light);
 }
+.button_accent-solid {
+  background-color: var(--color-complement-3);
+  color: var(--text-light);
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+.button_accent-solid:focus,
+.button_accent-solid:hover {
+  background: var(--color-complement-3);
+  color: var(--text-light);
+}
 .button_default {
   background: var(--color-primary-1);
   border: none;
