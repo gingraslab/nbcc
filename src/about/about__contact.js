@@ -4,7 +4,7 @@ import DivisionManagers from './about__division-managers';
 import Managers from './about__managers';
 
 export const contactInfo = person => (
-  <li>
+  <li key={person.name}>
     <span>{person.name}</span>
     <span>{person.title}</span>
     <span>{person.phone}</span>

@@ -30,6 +30,7 @@ const MenuLinks = ({
             return (
               <NavLink
                 key={link.text}
+                onClick={close}
                 to={link.route}
               >
                 <li>

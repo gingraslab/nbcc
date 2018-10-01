@@ -30,7 +30,7 @@
   background-color: var(--color-complement-1);
   border: 5px solid var(--color-complement-2);
   height: 400px;
-  margin-right: 60px;
+  margin: 0 30px;
   max-width: 400px;
   min-width: 240px;
   width: 20%;
