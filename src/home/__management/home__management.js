@@ -4,7 +4,7 @@ import React from 'react';
 import Button from '../../components/button/button';
 import LinkIcon from '../../assets/icons/link';
 import Managers from '../../about/about__managers';
-import Users from '../../assets/icons/users';
+import User from '../../assets/icons/user';
 
 import './home__management.css';
 
@@ -15,7 +15,7 @@ const Management = ({
   <section className="home__section home__management">
     <div className="home__section-inner">
       <h2>
-        <Users />
+        <User />
         Management
       </h2>
       <div className="home__section-details">

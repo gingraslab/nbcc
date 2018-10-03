@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Hospital from '../assets/icons/hospital';
+
 const Organization = () => (
   <section>
     <h2>
+      <Hospital />
       <span>Organization and objectives</span>
     </h2>
     <p>

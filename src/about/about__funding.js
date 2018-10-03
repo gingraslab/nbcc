@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Hands from '../assets/icons/hands-usd';
+
 const Funding = () => (
   <section id="funding">
     <h2>
+      <Hands />
       <span>Funding</span>
     </h2>
     <p>

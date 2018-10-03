@@ -1,6 +1,7 @@
 import React from 'react';
 
 import DivisionManagers from './about__division-managers';
+import Envelope from '../assets/icons/envelope';
 import Managers from './about__managers';
 
 export const contactInfo = person => (
@@ -18,6 +19,7 @@ const Contact = () => (
     id="contact"
   >
     <h2>
+      <Envelope />
       <span>Contact</span>
     </h2>
     <h3>Centre manager & directors:</h3>

@@ -6,15 +6,27 @@
   justify-content: center;
   padding: 60px 20px 50px 20px;
 }
+.about h2 {
+  align-items: center;
+  display: flex;
+}
 .about h2 span {
   border-bottom: 2px dotted var(--text-dark);
   box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
+}
+.about h2 svg {
+  fill: var(--text-dark);
+  height: 20px;
+  margin-right: 5px;
 }
 .about p {
   text-align: justify;
 }
 .about__contact h3 {
   margin-top: 30px;
+}
+.about__contact h2 svg {
+  height: 16px;
 }
 .about__contact-list li {
   margin: 10px 0;
