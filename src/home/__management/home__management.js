@@ -3,7 +3,7 @@ import React from 'react';
 
 import Button from '../../components/button/button';
 import LinkIcon from '../../assets/icons/link';
-import Managers from '../../about/about__managers';
+import managers from '../../about/about__managers';
 import User from '../../assets/icons/user';
 
 import './home__management.css';
@@ -24,7 +24,7 @@ const Management = ({
           <div>
             <div className="home__management-buttons">
               {
-                Managers.map((manager, index) => (
+                managers.map((manager, index) => (
                   <Button
                     key={manager.name}
                     onClick={() => { handleClick(index); }}
@@ -35,13 +35,13 @@ const Management = ({
                 ))
               }
             </div>
-            <h4>{ Managers[managementIndex].title }</h4>
-            <p>{ Managers[managementIndex].description }</p>
+            <h4>{ managers[managementIndex].title }</h4>
+            <p>{ managers[managementIndex].description }</p>
             {
-              Managers[managementIndex].website
+              managers[managementIndex].website
               && (
                 <a
-                  href={Managers[managementIndex].website}
+                  href={managers[managementIndex].website}
                 >
                   <LinkIcon />
                   website

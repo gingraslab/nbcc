@@ -1,4 +1,4 @@
-const Managers = [
+const managers = [
   {
     description: `Dr. Anne-Claude Gingras is a Senior Investigator at the
       Lunenfeld-Tanenbaum and Associate Professor in the Department of Molecular
@@ -46,4 +46,4 @@ const Managers = [
   },
 ];
 
-export default Managers;
+export default managers;

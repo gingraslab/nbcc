@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://knightjdr.github.io/nbcc",
+  "inlineLimit": 1000,
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.5.2",

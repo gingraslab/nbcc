@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  padding: 50px 20px;
+  padding: 50px 40px;
 }
 .facilities > :first-child {
   margin-right: 40px;
@@ -72,7 +72,7 @@
   height: auto;
   justify-content: center;
   min-height: 100vh;
-  padding: 50px 20px;
+  padding: 50px 40px;
 }
 .facilities__links {
   display: inline-flex;
@@ -171,7 +171,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 60px 20px;
+  padding: 60px 40px;
 }
 .facilities__section h2 {
   align-items: center;

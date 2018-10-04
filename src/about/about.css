@@ -4,11 +4,14 @@
   color: var(--text-dark); 
   display: flex;
   justify-content: center;
-  padding: 60px 20px 50px 20px;
+  padding: 60px 40px 50px 40px;
 }
 .about h2 {
   align-items: center;
   display: flex;
+}
+.about section:not(:first-of-type) {
+  margin-top: 80px;
 }
 .about h2 span {
   border-bottom: 2px dotted var(--text-dark);
@@ -44,6 +47,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 40px 0;
   padding: 10px;
 }
 .about__funding-images > img {
@@ -61,4 +65,62 @@
 .about__links a {
   margin: 5px 10px;
   text-decoration: none;
+}
+.about__personnel {
+  border-bottom: 1px solid var(--text-dark);
+  padding: 20px 0;
+}
+.about__personnel a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.about__personnel a svg {
+  transition: fill 0.3s ease;
+}
+.about__personnel a:link,
+.about__personnel a:visited {
+  color: var(--text-dark);
+}
+.about__personnel a:link svg,
+.about__personnel a:visited svg {
+  fill: var(--text-dark);
+}
+.about__personnel a:focus,
+.about__personnel a:hover,
+.about__personnel a:active {
+  color: var(--color-primary-4);
+}
+.about__personnel a:focus svg,
+.about__personnel a:hover svg,
+.about__personnel a:active svg {
+  fill: var(--color-primary-4);
+}
+.about__personnel h3 {
+  margin-left: 5%;
+}
+.about__personnel svg {
+  height: 16px;
+  margin-right: 5px;
+}
+.about__personnel-inner {
+  align-items: center;
+  display: flex;
+}
+.about__personnel-inner > div {
+  margin: 10px 20px;
+}
+.about__personnel-image {
+  background-color: var(--color-primary-3);
+  border: 5px solid var(--text-light);
+  min-height: 200px;
+  min-width: 150px;
+}
+@media (max-width: 649px) {
+  .about__personnel h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .about__personnel-inner {
+    flex-direction: column;
+  }
 }
