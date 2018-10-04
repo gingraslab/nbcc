@@ -10,7 +10,7 @@ const Links = () => (
       type="secondary"
     />
     <LinkButton
-      href="#managment"
+      href="#management"
       text="Management"
       type="secondary"
     />

@@ -42,9 +42,9 @@ const Personnel = ({
 Personnel.propTypes = {
   people: PropTypes.arrayOf(
     PropTypes.shape({
-      description: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
+      description: PropTypes.string,
+      name: PropTypes.string,
+      title: PropTypes.string,
       website: PropTypes.string,
     }),
   ).isRequired,
