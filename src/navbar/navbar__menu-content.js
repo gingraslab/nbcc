@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Bars from './navbar__menu-bars_noguide';
+import Bars from './navbar__menu-bars';
 import Button from '../components/button/button';
-import MenuLinks from './navbar__menu-links_noguide';
+import MenuLinks from './navbar__menu-links';
 
 import './menu.css';
 

@@ -4,32 +4,51 @@ import { Link } from 'react-router-dom';
 
 import scrollTop from '../../helpers/scroll-top';
 
-const routerLink = ({
+import '../link-button/link-button.css';
+
+const RouterLink = ({
   children,
   className,
   to,
-}) => (
-  <Link
-    className={className}
-    onClick={scrollTop}
-    to={to}
-  >
-    {children}
-  </Link>
-);
-
-routerLink.defaultProps = {
-  children: 'link',
-  className: '',
+  type,
+  ...otherProps
+}) => {
+  const classes = [];
+  if (type !== 'link') {
+    classes.push(...['link-button', `link-button_${type}`]);
+  }
+  if (className) {
+    classes.push(className);
+  }
+  if (className) {
+    classes.push(className);
+  }
+  return (
+    <Link
+      className={classes.join(' ')}
+      onClick={scrollTop}
+      to={to}
+      {...otherProps}
+    >
+      { children }
+    </Link>
+  );
 };
 
-routerLink.propTypes = {
-  children: PropTypes.node,
+RouterLink.defaultProps = {
+  children: 'link',
+  className: null,
+  type: 'primary',
+};
+
+RouterLink.propTypes = {
+  children: PropTypes.string,
   className: PropTypes.string,
   to: PropTypes.oneOfType([
     PropTypes.shape({}),
     PropTypes.string,
   ]).isRequired,
+  type: PropTypes.string,
 };
 
-export default routerLink;
+export default RouterLink;

@@ -23,6 +23,7 @@ const Links = (links, contact) => {
         className="navbar__link"
         key={link.text}
         to={link.route}
+        type="link"
       >
         { link.text }
       </Link>

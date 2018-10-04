@@ -18,10 +18,14 @@
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .navbar__link:link,
 .navbar__link:visited {
   color: var(--color-secondary-1-4);
+}
+.navbar__link:focus {
+  outline: none;
 }
 .navbar__link:focus,
 .navbar__link:hover,
@@ -41,14 +45,6 @@
 .navbar__links > :not(:last-child) {
   margin-right: 20px;
 }
-.navbar__logo:before {
-  content: url('./assets/logo.svg');
-  position: relative;
-  top: 3px; /* Add 3px for svg inline space. */
-}
-.navbar_background .navbar__logo:before {
-  content: url('./assets/logo.svg');
-}
-.navbar__logo-link {
-  float: left;
+.navbar__logo {
+  display: block;
 }

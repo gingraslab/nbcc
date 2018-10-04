@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-import MenuContent from './navbar__menu-content_noguide';
+import MenuContent from './navbar__menu-content';
 
 class Menu extends Component {
   constructor(props) {

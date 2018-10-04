@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-import NavbarContent from './navbar__content_noguide';
+import NavbarContent from './navbar__content';
 
 class Navbar extends Component {
   constructor(props) {

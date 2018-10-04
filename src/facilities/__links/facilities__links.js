@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Button from '../../components/button/button';
+import LinkButton from '../../components/link-button/link-button';
 
 const Links = ({
   links,
@@ -9,14 +9,12 @@ const Links = ({
   <div className="facilities__links">
     {
       links.map(link => (
-        <a
+        <LinkButton
           href={`#${link.id}`}
           key={link.id}
-        >
-          <Button type="complement">
-            {link.text}
-          </Button>
-        </a>
+          text={link.text}
+          type="complement"
+        />
       ))
     }
   </div>

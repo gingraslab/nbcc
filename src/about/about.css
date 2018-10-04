@@ -37,6 +37,18 @@
 .about__contact-mailing {
   margin-left: 40px;
 }
+.about__funding-images {
+  align-items: center;
+  background-color: var(--text-light);
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+.about__funding-images > img {
+  margin: 10px;
+}
 .about__inner {
   max-width: 950px;
 }

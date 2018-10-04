@@ -1,19 +1,18 @@
 import React from 'react';
 
-import Button from '../../components/button/button';
 import Hospital from '../../assets/icons/hospital';
 import Link from '../../components/router-link/router-link';
 
 import './home__facilities.css';
 
 const Facilities = () => (
-  <div className="home__section home__facilities">
-    <section className="home__section-inner">
+  <section className="home__section home__facilities">
+    <div className="home__section-inner">
       <h2>
         <Hospital />
         Facilities
       </h2>
-      <main className="home__section-details home__facilities-details">
+      <div className="home__section-details home__facilities-details">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
@@ -29,30 +28,28 @@ const Facilities = () => (
           pretium vulputate. In massa tempor nec feugiat nisl pretium.
         </p>
         <div className="home__facilities-buttons">
-          <Button>
-            High-content screening
-          </Button>
-          <Button>
-            High-resolution imaging
-          </Button>
-          <Button>
-            High-throughput screening
-          </Button>
-          <Button>
-            Integrated data analysis
-          </Button>
-          <Button>
-            Next-generation sequencing
-          </Button>
           <Link to="/facilities/proteomics">
-            <Button>
-              Proteomics
-            </Button>
+            High-content screening
+          </Link>
+          <Link to="/facilities/proteomics">
+            High-resolution imaging
+          </Link>
+          <Link to="/facilities/proteomics">
+            High-throughput screening
+          </Link>
+          <Link to="/facilities/proteomics">
+            Integrated data analysis
+          </Link>
+          <Link to="/facilities/proteomics">
+            Next-generation sequencing
+          </Link>
+          <Link to="/facilities/proteomics">
+            Proteomics
           </Link>
         </div>
-      </main>
-    </section>
-  </div>
+      </div>
+    </div>
+  </section>
 );
 
 export default Facilities;

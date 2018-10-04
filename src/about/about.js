@@ -10,16 +10,16 @@ import Staff from './about__staff';
 import './about.css';
 
 const About = () => (
-  <div className="about">
-    <main className="about__inner">
+  <main className="about">
+    <div className="about__inner">
       <Links />
       <Organization />
       <Funding />
       <Management />
       <Staff />
       <Contact />
-    </main>
-  </div>
+    </div>
+  </main>
 );
 
 export default About;

@@ -1,13 +1,12 @@
 import React from 'react';
 
-import Button from '../components/button/button';
 import Link from '../components/router-link/router-link';
 
 import './facilities.css';
 
 const Home = () => (
-  <section className="facilities">
-    <span>
+  <main className="facilities">
+    <section>
       <h1>
         Facilities
       </h1>
@@ -19,40 +18,28 @@ const Home = () => (
         tellus integer feugiat scelerisque varius. Habitant morbi tristique senectus
         et netus et. Elementum eu facilisis sed odio.
       </p>
-    </span>
+    </section>
     <div className="facilities__buttons">
       <Link to="/facilities/proteomics">
-        <Button>
-          High-content screening
-        </Button>
+        High-content screening
       </Link>
       <Link to="/facilities/proteomics">
-        <Button>
-          High-resolution imaging
-        </Button>
+        High-resolution imaging
       </Link>
       <Link to="/facilities/proteomics">
-        <Button>
-          High-throughput screening
-        </Button>
+        High-throughput screening
       </Link>
       <Link to="/facilities/proteomics">
-        <Button>
-          Integrated data analysis
-        </Button>
+        Integrated data analysis
       </Link>
       <Link to="/facilities/proteomics">
-        <Button>
-          Next-generation sequencing
-        </Button>
+        Next-generation sequencing
       </Link>
       <Link to="/facilities/proteomics">
-        <Button>
-          Proteomics
-        </Button>
+        Proteomics
       </Link>
     </div>
-  </section>
+  </main>
 );
 
 export default Home;

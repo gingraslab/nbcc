@@ -16,27 +16,25 @@ const MenuLinks = ({
           links.map((link) => {
             if (link.href) {
               return (
-                <a
-                  href={link.route}
-                  key={link.text}
-                  {...links.props}
-                >
-                  <li>
+                <li key={link.text}>
+                  <a
+                    href={link.route}
+                    {...links.props}
+                  >
                     { link.text }
-                  </li>
-                </a>
+                  </a>
+                </li>
               );
             }
             return (
-              <NavLink
-                key={link.text}
-                onClick={close}
-                to={link.route}
-              >
-                <li>
+              <li key={link.text}>
+                <NavLink
+                  onClick={close}
+                  to={link.route}
+                >
                   { link.text }
-                </li>
-              </NavLink>
+                </NavLink>
+              </li>
             );
           })
         }

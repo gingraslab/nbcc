@@ -1,31 +1,43 @@
 import React from 'react';
 
-import Button from '../../components/button/button';
 import File from '../../assets/icons/file';
+import Link from '../../components/router-link/router-link';
 
 import './home__resources.css';
 
 const Resources = () => (
-  <div className="home__section home__resources">
-    <section className="home__section-inner">
+  <section className="home__section home__resources">
+    <div className="home__section-inner">
       <h2>
         <File />
         Resources
       </h2>
-      <main className="home__section-details home__resources-details">
+      <div className="home__section-details home__resources-details">
         <div className="home__resources-buttons">
-          <Button type="secondary-solid">
+          <Link
+            to="/resources#protocols"
+            type="secondary-solid"
+          >
             Protocols
-          </Button>
-          <Button type="secondary-solid">
+          </Link>
+          <Link
+            to="/resources#reagents"
+            type="secondary-solid"
+          >
             Reagents
-          </Button>
-          <Button type="secondary-solid">
+          </Link>
+          <Link
+            to="/resources#tech-notes"
+            type="secondary-solid"
+          >
             Tech notes
-          </Button>
-          <Button type="secondary-solid">
+          </Link>
+          <Link
+            to="/resources#workshops"
+            type="secondary-solid"
+          >
             Workshops
-          </Button>
+          </Link>
         </div>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -41,9 +53,9 @@ const Resources = () => (
         praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
         pretium vulputate. In massa tempor nec feugiat nisl pretium.
         </p>
-      </main>
-    </section>
-  </div>
+      </div>
+    </div>
+  </section>
 );
 
 export default Resources;

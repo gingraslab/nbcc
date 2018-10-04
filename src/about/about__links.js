@@ -1,29 +1,29 @@
 import React from 'react';
 
-import Button from '../components/button/button';
+import LinkButton from '../components/link-button/link-button';
 
 const Links = () => (
   <div className="about__links">
-    <a href="#funding">
-      <Button type="secondary">
-        Funding
-      </Button>
-    </a>
-    <a href="#managment">
-      <Button type="secondary">
-        Management
-      </Button>
-    </a>
-    <a href="#staff">
-      <Button type="secondary">
-        Staff
-      </Button>
-    </a>
-    <a href="#contact">
-      <Button type="secondary">
-        Contact
-      </Button>
-    </a>
+    <LinkButton
+      href="#funding"
+      text="Funding"
+      type="secondary"
+    />
+    <LinkButton
+      href="#managment"
+      text="Management"
+      type="secondary"
+    />
+    <LinkButton
+      href="#staff"
+      text="Staff"
+      type="secondary"
+    />
+    <LinkButton
+      href="#contact"
+      text="Contact"
+      type="secondary"
+    />
   </div>
 );
 

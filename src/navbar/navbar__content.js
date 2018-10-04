@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Icon from './navbar__icon_noguide';
-import Links from './navbar__links_noguide';
-import Menu from './navbar__menu-container_noguide';
+import Icon from './navbar__icon';
+import Links from './navbar__links';
+import Menu from './navbar__menu-container';
 
 import './navbar.css';
 

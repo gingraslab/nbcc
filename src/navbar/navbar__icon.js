@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Logo from './assets/logo.svg';
+
 const IconLink = link => (
   link.href
     ? (
@@ -9,7 +11,13 @@ const IconLink = link => (
         href={link.route}
         {...link.props}
       >
-        <div className="navbar__logo" />
+        <img
+          alt="NBCC logo"
+          className="navbar__logo"
+          height="40"
+          src={Logo}
+          width="40"
+        />
       </a>
     )
     : (
@@ -17,7 +25,13 @@ const IconLink = link => (
         className="navbar__logo-link"
         to={link.route}
       >
-        <div className="navbar__logo" />
+        <img
+          alt="NBCC logo"
+          className="navbar__logo"
+          height="40"
+          src={Logo}
+          width="40"
+        />
       </NavLink>
     )
 );

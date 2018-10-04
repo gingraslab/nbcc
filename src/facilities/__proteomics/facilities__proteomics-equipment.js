@@ -18,12 +18,14 @@ const Equipment = () => (
       </h2>
       <img
         alt="Sciex"
+        height={40}
         src={Sciex}
         srcSet={`
           ${Sciex} 1x,
           ${Sciex2x} 2x,
           ${Sciex3x} 3x
         `}
+        width={119}
       />
       <h4>6600</h4>
       <p>
@@ -36,7 +38,9 @@ const Equipment = () => (
       </p>
       <img
         alt="Thermo Fisher Scientific"
+        height={40}
         src={Thermo}
+        width={187}
       />
       <h4>Lumos</h4>
       <p>
