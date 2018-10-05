@@ -1,0 +1,12 @@
+.publications {
+  background-color: white;
+  color: var(--text-dark); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 40px 50px 40px;
+}
+.publications section:not(:first-of-type) {
+  margin-top: 80px;
+  max-width: 950px;
+}

@@ -58,6 +58,7 @@ button {
   display: flex;
   justify-content: center;
   padding: 8px 14px;
+  text-align: center;
   width: auto;
 }
 button:focus {

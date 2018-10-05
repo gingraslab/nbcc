@@ -7,7 +7,7 @@ import './home__facilities.css';
 
 const Facilities = () => (
   <section className="home__section home__facilities">
-    <div className="home__section-inner">
+    <div className="home__section-inner home__facilities-inner">
       <h2>
         <Hospital />
         Facilities

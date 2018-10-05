@@ -29,7 +29,7 @@ const Personnel = ({
                 href={person.website}
               >
                 <LinkIcon />
-                {person.website}
+                website
               </a>
             )
           }

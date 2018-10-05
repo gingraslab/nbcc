@@ -84,8 +84,7 @@
   text-decoration: none;
 }
 .facilities__pricing {
-  background: var(--color-primary-2);
-  background: linear-gradient(to right, var(--color-primary-1-5), var(--color-primary-2));
+  background-color: var(--text-light);
   color: var(--text-dark);
 }
 .facilities__pricing h2 {

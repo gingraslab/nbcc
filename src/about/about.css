@@ -1,6 +1,6 @@
 .about {
   background: var(--color-secondary-1-1);
-  background: linear-gradient(to right, var(--color-secondary-1-1), var(--color-secondary-1-0-5));
+  background: linear-gradient(to right, var(--color-secondary-1-0-5), var(--color-secondary-1-0-5) 70%, white 150%);
   color: var(--text-dark); 
   display: flex;
   justify-content: center;

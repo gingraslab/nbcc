@@ -13,7 +13,7 @@ const Management = ({
   managementIndex,
 }) => (
   <section className="home__section home__management">
-    <div className="home__section-inner">
+    <div className="home__section-inner home__management-inner">
       <h2>
         <User />
         Management

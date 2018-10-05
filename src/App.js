@@ -2,11 +2,12 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import About from './about/about';
+import Facilities from './facilities/facilities';
 import Footer from './footer/footer';
 import Home from './home/home';
 import Navbar from './navbar/navbar';
+import Publications from './publications/publications';
 import RouteNotFound from './router/route-not-found';
-import Facilities from './facilities/facilities';
 
 const App = () => (
   <div>
@@ -52,6 +53,11 @@ const App = () => (
       <Route
         path="/facilities"
         component={Facilities}
+      />
+      <Route
+        exact
+        path="/publications"
+        component={Publications}
       />
       <RouteNotFound />
     </Switch>
