@@ -7,8 +7,10 @@ import './publications.css';
 
 const Publications = () => (
   <main className="publications">
-    <Performance />
-    <Citation />
+    <div className="publications__inner">
+      <Performance />
+      <Citation />
+    </div>
   </main>
 );
 

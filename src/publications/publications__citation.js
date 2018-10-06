@@ -1,8 +1,13 @@
 import React from 'react';
 
+import Quote from '../assets/icons/quote';
+
 const Citation = () => (
   <section>
-    <h2>How to cite</h2>
+    <h2>
+      <Quote />
+      <span>How to cite</span>
+    </h2>
     <p>
       The NBCC relies on external funding to keep prices as low as possible. To fulfill
       reporting requirements of the granting agencies, we request that you acknowledge

@@ -24,3 +24,11 @@
   padding: 60px 0;
   width: 100%;
 }
+@media (max-width: 749px) {
+  .home__section h2 {
+    border: none;
+    justify-content: center;
+    margin-left: 0;
+    width: 100%;
+  }
+}

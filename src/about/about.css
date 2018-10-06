@@ -115,7 +115,10 @@
   min-height: 200px;
   min-width: 150px;
 }
-@media (max-width: 649px) {
+@media (max-width: 749px) {
+  .about__links {
+    display: none;
+  }
   .about__personnel h3 {
     margin-left: 0;
     text-align: center;

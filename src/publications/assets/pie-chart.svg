@@ -1,0 +1,40 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="295.104" height="283.073" viewBox="0 0 295.104 283.073">
+  <style>
+    .st1{font-family:&apos;Helvetica-Bold&apos;}.st6{fill:#373d3f}.st7{font-size:16}
+  </style>
+  <path d="M163.011 18.95c51.703 0 98.649 30.171 120.126 77.201l-120.126 54.86V18.95z" fill="#4472c4"/>
+  <path d="M283.139 96.151c30.299 66.344 1.077 144.688-65.268 174.986a132.06 132.06 0 0 1-116.685-3.43l61.825-116.697 120.128-54.859z" fill="#ed7d31"/>
+  <path d="M101.187 267.708C58.326 245 31.362 200.624 30.955 152.121l132.057-1.109-61.825 116.696z" fill="#a5a5a5"/>
+  <path d="M30.955 152.121c-.025-2.958.05-5.916.224-8.87l131.833 7.76-132.057 1.11z" fill="#ffc000"/>
+  <path d="M31.178 143.251a132.171 132.171 0 0 1 3.153-21.935l128.68 29.695-131.833-7.76z" fill="#5b9bd5"/>
+  <path d="M34.332 121.316a132.037 132.037 0 0 1 14.683-36.975l113.997 66.67-128.68-29.695z" fill="#70ad47"/>
+  <path d="M49.014 84.341a132.057 132.057 0 0 1 62.181-54.801l51.816 121.471-113.997-66.67z" fill="#264478"/>
+  <path d="M111.195 29.54a132.071 132.071 0 0 1 51.816-10.59v132.061L111.195 29.54z" fill="#9e480e"/>
+  <text transform="translate(240.033 32.78)">
+    <tspan x="0" y="0" class="st6 st1 st7">1</tspan><tspan x="8.994" y="0" class="st6 st1 st7">8%</tspan>
+  </text>
+  <text transform="translate(258.317 32.78)" class="st6 st1 st7">
+    
+  </text>
+  <text transform="translate(260.207 260.94)">
+    <tspan x="0" y="0" class="st6 st1 st7">4</tspan><tspan x="8.994" y="0" class="st6 st1 st7">0%</tspan>
+  </text>
+  <text transform="translate(13.253 232.839)">
+    <tspan x="0" y="0" class="st6 st1 st7">1</tspan><tspan x="8.995" y="0" class="st6 st1 st7">7%</tspan>
+  </text>
+  <text transform="translate(0 153.044)" class="st6 st1 st7">
+    1%
+  </text>
+  <text transform="translate(2 132.207)" class="st6 st1 st7">
+    3%
+  </text>
+  <text transform="translate(11.752 101.457)" class="st6 st1 st7">
+    5%
+  </text>
+  <text transform="translate(51.094 45.281)">
+    <tspan x="0" y="0" class="st6 st1 st7">1</tspan><tspan x="8.995" y="0" class="st6 st1 st7">0%</tspan>
+  </text>
+  <text transform="translate(123.223 13.758)" class="st6 st1 st7">
+    6%
+  </text>
+</svg>
