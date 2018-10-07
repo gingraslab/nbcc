@@ -1,4 +1,6 @@
 .home__resources {
+  background-color: #ffffff;
+  background-image: url('../../assets/textures/connected.png');
   color: var(--text-dark);
 }
 .home__resources h2 {

@@ -1,6 +1,4 @@
 .about {
-  background: var(--color-secondary-1-1);
-  background: linear-gradient(to right, var(--color-secondary-1-0-5), var(--color-secondary-1-0-5) 70%, white 150%);
   color: var(--text-dark); 
   display: flex;
   justify-content: center;
@@ -31,6 +29,9 @@
 .about__contact h2 svg {
   height: 16px;
 }
+.about__contact aside {
+  margin-top: 20px
+}
 .about__contact-list li {
   margin: 10px 0;
 }
@@ -42,15 +43,15 @@
 }
 .about__funding-images {
   align-items: center;
-  background-color: var(--text-light);
-  border-radius: 4px;
+  border-bottom: 1px solid var(--text-dark);
+  border-top: 1px solid var(--text-dark);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px 0;
   padding: 10px;
 }
-.about__funding-images > img {
+.about__funding-images > a {
   margin: 10px;
 }
 .about__inner {
@@ -88,12 +89,12 @@
 .about__personnel a:focus,
 .about__personnel a:hover,
 .about__personnel a:active {
-  color: var(--color-primary-4);
+  color: var(--color-complement-3);
 }
 .about__personnel a:focus svg,
 .about__personnel a:hover svg,
 .about__personnel a:active svg {
-  fill: var(--color-primary-4);
+  fill: var(--color-complement-3);
 }
 .about__personnel h3 {
   margin-left: 5%;
@@ -110,8 +111,8 @@
   margin: 10px 20px;
 }
 .about__personnel-image {
-  background-color: var(--color-primary-3);
-  border: 5px solid var(--text-light);
+  background-color: var(--text-light);
+  border: 5px solid var(--color-secondary-1-2);
   min-height: 200px;
   min-width: 150px;
 }

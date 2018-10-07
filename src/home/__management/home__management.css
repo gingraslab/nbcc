@@ -1,6 +1,6 @@
 .home__management {
-  background-color: #ffffff;
-  background-image: url('../../assets/textures/connected.png');
+  background: #fff1eb;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 .home__management h2 {
   border-bottom: 2px solid var(--color-complement-3);
@@ -64,9 +64,6 @@
 .home__management-details svg {
   height: 16px;
   margin-right: 5px;
-}
-.home__management-inner {
-  border-bottom: 1px solid var(--color-complement-3);
 }
 @media (max-width: 749px) {
   .home__management-details {

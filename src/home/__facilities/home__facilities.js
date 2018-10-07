@@ -28,19 +28,19 @@ const Facilities = () => (
           pretium vulputate. In massa tempor nec feugiat nisl pretium.
         </p>
         <div className="home__facilities-buttons">
-          <Link to="/facilities/proteomics">
+          <Link to="/facilities/hi-content-screening">
             High-content screening
           </Link>
-          <Link to="/facilities/proteomics">
+          <Link to="/facilities/hi-res-imaging">
             High-resolution imaging
           </Link>
-          <Link to="/facilities/proteomics">
+          <Link to="/facilities/hi-throughput-screening">
             High-throughput screening
           </Link>
-          <Link to="/facilities/proteomics">
+          <Link to="/facilities/data-analysis">
             Integrated data analysis
           </Link>
-          <Link to="/facilities/proteomics">
+          <Link to="/facilities/next-gen-sequencing">
             Next-generation sequencing
           </Link>
           <Link to="/facilities/proteomics">

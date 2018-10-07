@@ -7,6 +7,7 @@ import Footer from './footer/footer';
 import Home from './home/home';
 import Navbar from './navbar/navbar';
 import Publications from './publications/publications';
+import Resources from './resources/resources';
 import RouteNotFound from './router/route-not-found';
 
 const App = () => (
@@ -58,6 +59,11 @@ const App = () => (
         exact
         path="/publications"
         component={Publications}
+      />
+      <Route
+        exact
+        path="/resources"
+        component={Resources}
       />
       <RouteNotFound />
     </Switch>

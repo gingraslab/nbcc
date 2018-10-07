@@ -7,22 +7,22 @@ const Links = () => (
     <LinkButton
       href="#funding"
       text="Funding"
-      type="secondary"
+      type="secondary-solid"
     />
     <LinkButton
       href="#management"
       text="Management"
-      type="secondary"
+      type="secondary-solid"
     />
     <LinkButton
       href="#staff"
       text="Staff"
-      type="secondary"
+      type="secondary-solid"
     />
     <LinkButton
       href="#contact"
       text="Contact"
-      type="secondary"
+      type="secondary-solid"
     />
   </div>
 );

@@ -3,7 +3,7 @@ import React from 'react';
 import Quote from '../assets/icons/quote';
 
 const Citation = () => (
-  <section>
+  <section id="#cite">
     <h2>
       <Quote />
       <span>How to cite</span>

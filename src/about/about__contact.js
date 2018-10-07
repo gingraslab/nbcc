@@ -31,19 +31,19 @@ const Contact = () => (
       { divisionManagers.map(contactInfo) }
     </ul>
     <h3>Mailing address:</h3>
-    <div className="about__contact-mailing">
+    <address className="about__contact-mailing">
       <div>The Network Biology Collaborative Centre</div>
       <div>Sinai Health System</div>
       <div>600 University Avenue, Room 970</div>
       <div>Toronto, Ontario</div>
       <div>Canada</div>
       <div>M5G 1X5</div>
-    </div>
-    <p>
+    </address>
+    <aside>
       The website is designed and maintained by James Knight (jknight@lunenfeld.ca).
       Photography by X X.
       Logo design by Kaitlin Darbey.
-    </p>
+    </aside>
   </section>
 );
 

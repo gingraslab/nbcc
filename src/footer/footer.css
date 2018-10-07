@@ -7,6 +7,20 @@
   justify-content: center;
   padding: 15px 20px;
 }
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.footer a:link,
+.footer a:visited {
+  color: var(--text-light);
+}
+.footer a:focus,
+.footer a:hover,
+.footer a:active {
+  color: var(--color-complement-2);
+}
 .footer__copyright {
   text-align: center;
 }

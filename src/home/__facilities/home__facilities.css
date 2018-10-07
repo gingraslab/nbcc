@@ -1,4 +1,6 @@
 .home__facilities {
+  background-color: #ffffff;
+  background-image: url('../../assets/textures/connected.png');
   color: var(--text-dark);
 }
 .home__facilities h2 {
@@ -32,9 +34,6 @@
 .home__facilities-details > p {
   max-width: 600px;
   text-align: justify;
-}
-.home__facilities-inner {
-  border-bottom: 1px solid var(--color-primary-3);
 }
 @media (max-width: 749px) {
   .home__facilities-details {
