@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import scrollTop from '../../helpers/scroll-top';
 
+import './router-link.css';
 import '../link-button/link-button.css';
 
 const RouterLink = ({
@@ -13,7 +14,7 @@ const RouterLink = ({
   type,
   ...otherProps
 }) => {
-  const classes = [];
+  const classes = ['router-link'];
   if (type !== 'link') {
     classes.push(...['link-button', `link-button_${type}`]);
   }
