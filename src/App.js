@@ -6,6 +6,7 @@ import Facilities from './facilities/facilities';
 import Footer from './footer/footer';
 import Home from './home/home';
 import Navbar from './navbar/navbar';
+import News from './news/news-container';
 import Publications from './publications/publications';
 import Resources from './resources/resources';
 import RouteNotFound from './router/route-not-found';
@@ -54,6 +55,10 @@ const App = () => (
       <Route
         path="/facilities"
         component={Facilities}
+      />
+      <Route
+        path="/news/:title?"
+        component={News}
       />
       <Route
         exact

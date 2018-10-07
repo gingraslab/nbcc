@@ -27,8 +27,9 @@
   margin: 20px;
 }
 .home__management-details > :first-child {
-  background-color: var(--color-complement-1);
+  background-color: var(--text-light);
   border: 5px solid var(--color-complement-2);
+  border-radius: 2px;
   height: 335px;
   margin: 0 30px;
   min-width: 250px;

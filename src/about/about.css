@@ -1,5 +1,4 @@
-.about {
-  color: var(--text-dark); 
+.about { 
   display: flex;
   justify-content: center;
   padding: 60px 40px 50px 40px;
@@ -113,6 +112,7 @@
 .about__personnel-image {
   background-color: var(--text-light);
   border: 5px solid var(--color-secondary-1-2);
+  border-radius: 2px;
   min-height: 200px;
   min-width: 150px;
 }
