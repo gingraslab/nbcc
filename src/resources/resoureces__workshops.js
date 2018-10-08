@@ -18,7 +18,7 @@ import Workshop2018 from './assets/workshops/NBCC_workshop_AP10_18_schedule.pdf'
 const Workshops = () => (
   <section
     className="resources__section resources__workshop"
-    id="#workshops"
+    id="workshops"
   >
     <h2>
       <Class />

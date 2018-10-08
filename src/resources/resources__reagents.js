@@ -30,7 +30,7 @@ import NpSTV8seq from './assets/reagents/plasmids/pSTVH8 N-BirA pDest.gb';
 const Reagents = () => (
   <section
     className="resources__section"
-    id="#reagents"
+    id="reagents"
   >
     <h2>
       <Flask />

@@ -6,7 +6,7 @@ import Protoemics from '../facilities/__proteomics/proteomics-protocols';
 const Protocols = () => (
   <section
     className="resources__section resources__protocols"
-    id="#protocols"
+    id="protocols"
   >
     <h2>
       <File />
