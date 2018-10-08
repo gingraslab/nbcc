@@ -15,8 +15,8 @@
   color: var(--text-dark);
 }
 .publications h2 svg {
-  height: 25px;
-  margin-right: 10px;
+  height: 20px;
+  margin-right: 5px;
   fill: var(--text-dark);
 }
 .publications p {
@@ -59,7 +59,7 @@
 .publication__grid > div {
   margin: 20px 40px;
 }
-.publication__grid > :first-child {
+.publication__grid > :last-child {
   text-align: center;
 }
 .publication__grid img {
@@ -107,15 +107,16 @@
     justify-content: center;
   }
   .publication__grid {
+    align-items: center;
     flex-direction: column;
   }
   .publication__grid > div {
     margin: 20px 0;
   }
-  .publication__grid > :last-child {
+  .publication__grid > :first-child {
     width: 300px;
   }
-  .publication__grid > :last-child > :first-child {
+  .publication__grid > :first-child > :first-child {
     margin-left: 37px;
   }
 }
@@ -127,10 +128,10 @@
     height: auto;
     width: 100%;
   }
-  .publication__grid > :last-child {
+  .publication__grid > :first-child {
     width: 100%;
   }
-  .publication__grid > :last-child > :first-child {
+  .publication__grid > :first-child > :first-child {
     margin: 0;
   }
   .publication__table {

@@ -18,17 +18,6 @@ const Performance = () => (
       scores:
     </p>
     <div className="publication__grid">
-      <figure>
-        <img
-          alt="Publication pie chart"
-          height={288}
-          src={PieChart}
-          width={300}
-        />
-        <figcaption>
-          Average impact factor score: 12.3
-        </figcaption>
-      </figure>
       <div>
         <table className="publication__table">
           <thead>
@@ -119,6 +108,17 @@ const Performance = () => (
           </li>
         </ul>
       </div>
+      <figure>
+        <img
+          alt="Publication pie chart"
+          height={288}
+          src={PieChart}
+          width={300}
+        />
+        <figcaption>
+          Average impact factor score: 12.3
+        </figcaption>
+      </figure>
     </div>
     <p>
       <a href={publications}>

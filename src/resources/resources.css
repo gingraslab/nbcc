@@ -1,0 +1,154 @@
+.resources {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px;
+}
+.resources h2 {
+  align-items: center;
+  display: flex;
+}
+.resources section:not(:first-of-type) {
+  margin-top: 80px;
+}
+.resources h2 span {
+  border-bottom: 2px dotted var(--text-dark);
+  box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
+}
+.resources h2 svg {
+  fill: var(--text-dark);
+  height: 20px;
+  margin-right: 5px;
+}
+.resources p {
+  text-align: justify;
+}
+.resources__inner {
+  max-width: 950px;
+}
+.resources__protocols ul {
+  list-style: none;
+  padding-left: 0;
+}
+.resources__section a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.resources__section a svg {
+  transition: fill 0.3s ease;
+}
+.resources__section a:link,
+.resources__section a:visited {
+  color: var(--text-dark);
+}
+.resources__section a:link svg,
+.resources a:visited svg {
+  fill: var(--text-dark);
+}
+.resources__section a:focus,
+.resources__section a:hover,
+.resources__section a:active {
+  color: var(--color-primary-3);
+}
+.resources__section a:focus svg,
+.resources__section a:hover svg,
+.resources__section a:active svg {
+  fill: var(--color-primary-3);
+}
+.resources__section li {
+  margin: 5px 0;
+}
+.resources__section svg {
+  height: 16px;
+  margin-right: 5px;
+}
+.resources__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.resources__links a {
+  margin: 5px 10px;
+  text-decoration: none;
+}
+.resources__table td {
+  text-align: center;
+}
+.resources__table thead {
+  background-color: var(--color-secondary-1-2-5);
+  color: var(--text-light);
+}
+.resources__table th {
+  padding: 4px 6px;
+}
+.resources__table td {
+  padding: 4px 15px;
+}
+.resources__table tbody tr:nth-child(2n+1) {
+  background-color: #EEEEEE;
+}
+.resources__table tbody tr:nth-child(2n+2) {
+  background-color: #E0E0E0;
+}
+.resources__table tbody td:nth-child(4n+1) {
+  white-space: nowrap;
+}
+.resources__table tbody td:nth-child(4n+1),
+.resources__table tbody td:nth-child(4n+2) {
+  text-align: left;
+}
+.resources__table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.resources__workshop i {
+  margin-left: 5px
+}
+.resources__workshop img {
+  margin-right: 40px;
+}
+.resources__workshop li {
+  align-items: center;
+  display: flex;
+  justify-items: center;
+}
+.resources__workshop li:not(:last-child) {
+  margin-bottom: 30px;
+}
+.resources__workshop ul p:before {
+  content: '•';
+  margin-right: 5px;
+}
+.resources__workshop ul {
+  list-style: none;
+  padding-left: 0;
+}
+.resources__workshops-event {
+  display: flex;
+  flex-direction: column;
+}
+.resources__workshops-training {
+  margin-top: 60px;
+}
+@media (max-width: 749px) {
+  .resources__links {
+    display: none;
+  }
+}
+@media (max-width: 749px) {
+  .resources__workshop img {
+    height: auto;
+    margin-right: 0;
+    max-width: 80%;
+  }
+  .resources__workshop li {
+    flex-direction: column;
+  }
+}
+@media (max-width: 424px) {
+  .resources__table thead th:nth-child(4n+2),
+  .resources__table tbody td:nth-child(4n+2) {
+    display: none
+  }
+}
