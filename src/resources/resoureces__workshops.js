@@ -54,9 +54,9 @@ const Workshops = () => (
       <li>
         <img
           alt="Genome Canada"
-          height="100"
+          height={100}
           src={GC}
-          width="167"
+          width={167}
         />
         <div className="resources__workshops-event">
           <p>
@@ -69,9 +69,9 @@ const Workshops = () => (
       <li>
         <img
           alt="CNPN 2017"
-          height="50"
+          height={50}
           src={CNPN2017}
-          width="331"
+          width={331}
         />
         <div className="resources__workshops-event">
           <p>

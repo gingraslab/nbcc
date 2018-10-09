@@ -107,11 +107,15 @@
 }
 .resources__workshop img {
   margin-right: 40px;
+  width: auto;
 }
 .resources__workshop li {
   align-items: center;
+  background-color: var(--text-light);
+  border-radius: 4px;
   display: flex;
   justify-items: center;
+  padding: 10px;
 }
 .resources__workshop li:not(:last-child) {
   margin-bottom: 30px;
