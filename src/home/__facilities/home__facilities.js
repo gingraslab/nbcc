@@ -29,19 +29,19 @@ const Facilities = () => (
         </p>
         <div className="home__facilities-buttons">
           <Link to="/facilities/hi-content-screening">
-            High-content screening
+            High-Content Screening
           </Link>
           <Link to="/facilities/hi-res-imaging">
-            High-resolution imaging
+            High-Resolution Imaging
           </Link>
           <Link to="/facilities/hi-throughput-screening">
-            High-throughput screening
+            High-Throughput Screening
           </Link>
           <Link to="/facilities/data-analysis">
-            Integrated data analysis
+            Integrated Data Analysis
           </Link>
           <Link to="/facilities/next-gen-sequencing">
-            Next-generation sequencing
+            Next-Generation Sequencing
           </Link>
           <Link to="/facilities/proteomics">
             Proteomics

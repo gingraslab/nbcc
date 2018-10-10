@@ -27,6 +27,7 @@
   margin: 20px;
 }
 .facilities__about > h1 {
+  text-align: center;
   text-transform: uppercase;
 }
 .facilities__about > p {

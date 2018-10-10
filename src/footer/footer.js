@@ -14,19 +14,19 @@ const Footer = () => (
       <ul>
         <li><RouterLink to="/facilities" type="link">Facilities</RouterLink></li>
         <li>
-          <RouterLink to="/facilities/hi-content-screening" type="link">High-content screening</RouterLink>
+          <RouterLink to="/facilities/hi-content-screening" type="link">High-Content Screening</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/hi-res-imaging" type="link">High-resolution imaging</RouterLink>
+          <RouterLink to="/facilities/hi-res-imaging" type="link">High-Resolution Imaging</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/hi-throughput-screening" type="link">High-throughput screening</RouterLink>
+          <RouterLink to="/facilities/hi-throughput-screening" type="link">High-Throughput Screening</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/data-analysis" type="link">Intregated data analysis</RouterLink>
+          <RouterLink to="/facilities/data-analysis" type="link">Intregated Data Analysis</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/next-gen-sequencing" type="link">Next-generation sequencing</RouterLink>
+          <RouterLink to="/facilities/next-gen-sequencing" type="link">Next-Generation Sequencing</RouterLink>
         </li>
         <li>
           <RouterLink to="/facilities/proteomics" type="link">Proteomics</RouterLink>
