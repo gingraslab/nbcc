@@ -48,12 +48,12 @@
 .resources__section a:focus,
 .resources__section a:hover,
 .resources__section a:active {
-  color: var(--color-primary-3);
+  color: var(--color-primary-2);
 }
 .resources__section a:focus svg,
 .resources__section a:hover svg,
 .resources__section a:active svg {
-  fill: var(--color-primary-3);
+  fill: var(--color-primary-2);
 }
 .resources__section li {
   margin: 5px 0;

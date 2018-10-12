@@ -45,12 +45,12 @@
 .publications a:focus,
 .publications a:hover,
 .publications a:active {
-  color: var(--color-secondary-2-3);
+  color: var(--color-primary-2);
 }
 .publications a:focus svg,
 .publications a:hover svg,
 .publications a:active svg {
-  fill: var(--color-secondary-2-3);
+  fill: var(--color-primary-2);
 }
 .publication__grid {
   display: flex;

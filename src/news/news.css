@@ -28,7 +28,7 @@
 .news ul a:focus,
 .news ul a:hover,
 .news ul a:active {
-  color: var(--color-complement-3);
+  color: var(--color-primary-2);
 }
 .news ul > li:not(:last-child) {
   margin-bottom: 40px;

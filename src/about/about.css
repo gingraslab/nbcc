@@ -88,12 +88,12 @@
 .about__personnel a:focus,
 .about__personnel a:hover,
 .about__personnel a:active {
-  color: var(--color-complement-3);
+  color: var(--color-primary-2);
 }
 .about__personnel a:focus svg,
 .about__personnel a:hover svg,
 .about__personnel a:active svg {
-  fill: var(--color-complement-3);
+  fill: var(--color-primary-2);
 }
 .about__personnel h3 {
   margin-left: 5%;

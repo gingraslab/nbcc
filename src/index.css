@@ -4,12 +4,11 @@ html {
 }
 
 body {
-  --color-primary-0: #34B386;	/* Main Primary color */
-  --color-primary-1: #8DE4C6;
-  --color-primary-1-5: #9de1c9;
-  --color-primary-2: #58CCA3;
-  --color-primary-3: #15A371;
-  --color-primary-4: #087A52;
+  --color-primary-0: #5ba488;	/* Main Primary color */
+  --color-primary-1: #9cc9b8;
+  --color-primary-2: #7bb7a0;
+  --color-primary-3: #48846d;
+  --color-primary-4: #366352;
   --color-secondary-1-0: #3C76AE;	/* Main Secondary color (1) */
   --color-secondary-1-0-5: #aeccea;
   --color-secondary-1-1: #92BBE3;
@@ -27,6 +26,7 @@ body {
   --color-complement-2: #FF9E6F;
   --color-complement-3: #F3641F;
   --color-complement-4: #B6430C;
+  --light-background: #f2f3f4;
   --text-dark: #373d3f;
   --text-light: #f2f3f4;
   background-color: #fff;

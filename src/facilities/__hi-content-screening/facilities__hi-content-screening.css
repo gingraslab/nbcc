@@ -1,0 +1,39 @@
+.facilities__hcs-assisted {
+  margin-top: 30px;
+}
+.facilities__hcs-usage {
+  display: flex;
+}
+.facilities__hcs-usage div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.facilities__hcs-usage > :first-child {
+  width: 35%;
+}
+.facilities__hcs-usage > :last-child {
+  width: 65%;
+}
+.facilities__hcs-usage div strong {
+  margin-bottom: 15px;
+}
+.facilities__hcs-usage ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+.facilities__hcs-usage ul li {
+  padding: 2px 0;
+}
+@media (max-width: 744px) {
+  .facilities__hcs-usage {
+    flex-direction: column;
+  }
+  .facilities__hcs-usage > :first-child {
+    width: 100%;
+  }
+  .facilities__hcs-usage > :last-child {
+    width: 100%;
+  }
+}

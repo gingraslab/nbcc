@@ -3,20 +3,15 @@ import React from 'react';
 import PieChart from './assets/pie-chart.svg';
 import Pdf from '../assets/icons/pdf';
 import TableSvg from './publication__table-svg';
-import Tachometer from '../assets/icons/tachometer';
 
 import publications from './assets/NBCC Publication List_JN2018.pdf';
 
 const Performance = () => (
   <section>
-    <h2>
-      <Tachometer />
-      <span>Performance</span>
-    </h2>
-    <p>
+    <h3>
       Network Biology Collaborative Centre publication impact factor
       scores:
-    </p>
+    </h3>
     <div className="publication__grid">
       <div>
         <table className="publication__table">

@@ -85,7 +85,7 @@
   text-decoration: none;
 }
 .facilities__pricing {
-  background-color: var(--text-light);
+  background-color: var(--light-background);
   color: var(--text-dark);
 }
 .facilities__pricing h2 {
@@ -111,7 +111,8 @@
 .facilities__pricing thead td {
   text-align: center;
 }
-.facilities__pricing td {
+.facilities__pricing td,
+.facilities__pricing th {
   padding: 4px 15px;
 }
 .facilities__pricing tbody tr:nth-child(2n+1) {
@@ -119,6 +120,12 @@
 }
 .facilities__pricing tbody tr:nth-child(2n+2) {
   background-color: #E0E0E0;
+}
+.facilities__pricing tfoot {
+  border-top: 1px solid var(--text-dark);
+}
+.facilities__pricing .td-center {
+  text-align: center;
 }
 .facilities__protocols {
   background-color: #ffffff;
@@ -149,12 +156,12 @@
 .facilities__protocols a:focus,
 .facilities__protocols a:hover,
 .facilities__protocols a:active {
-  color: var(--color-primary-3);
+  color: var(--color-primary-2);
 }
 .facilities__protocols a:focus svg,
 .facilities__protocols a:hover svg,
 .facilities__protocols a:active svg {
-  fill: var(--color-primary-3);
+  fill: var(--color-primary-2);
 }
 .facilities__protocols li {
   margin: 5px 0;
@@ -197,7 +204,7 @@
 }
 .facilities__services {
   background: var(--color-secondary-1-1);
-  background: linear-gradient(to right, var(--color-secondary-1-1), var(--color-secondary-1-0-5));
+  background: linear-gradient(to right, #aeccea, #c2d9ef);
   color: var(--text-dark);
 }
 .facilities__services h2 {
@@ -213,7 +220,7 @@
 }
 .facilities__tools {
   background: var(--color-secondary-1-1);
-  background: linear-gradient(to right, var(--color-secondary-1-1), var(--color-secondary-1-0-5));
+  background: linear-gradient(to right, #aeccea, #c2d9ef);
   color: var(--text-dark);
 }
 .facilities__tools h2 {
@@ -248,12 +255,12 @@
 .facilities__tools a:focus,
 .facilities__tools a:hover,
 .facilities__tools a:active {
-  color: var(--color-secondary-2-2);
+  color: var(--color-complement-3);
 }
 .facilities__tools a:focus svg,
 .facilities__tools a:hover svg,
 .facilities__tools a:active svg {
-  fill: var(--color-secondary-2-2);
+  fill: var(--color-complement-3);
 }
 .facilities__tools svg {
   height: 16px;

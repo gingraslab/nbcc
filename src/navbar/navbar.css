@@ -30,7 +30,7 @@
 .navbar__link:focus,
 .navbar__link:hover,
 .navbar__link:active {
-  color: var(--color-primary-3);
+  color: var(--color-primary-2);
 }
 .navbar__link-contact svg {
   fill: var(--color-secondary-1-4);
