@@ -3,7 +3,7 @@ import React from 'react';
 import Hospital from '../assets/icons/hospital';
 
 const Organization = () => (
-  <section>
+  <section id="organization">
     <h2>
       <Hospital />
       <span>Organization and objectives</span>

@@ -1,0 +1,6 @@
+.button_round {
+  border-radius: 50%;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}
