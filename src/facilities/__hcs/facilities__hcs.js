@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Equipment from './facilities__hi-content-screening-equipment';
+import Equipment from './facilities__hcs-equipment';
 import Links from '../__links/facilities__links';
-import Pricing from './facilities__hi-content-screening-pricing';
-import Services from './facilities__hi-content-screening-services';
+import Pricing from './facilities__hcs-pricing';
+import Protocols from './facilities__hcs-protocols';
+import Services from './facilities__hcs-services';
 
 const HiContentScreening = () => (
   <main>
@@ -34,6 +35,7 @@ const HiContentScreening = () => (
     <Services />
     <Equipment />
     <Pricing />
+    <Protocols />
   </main>
 );
 

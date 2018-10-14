@@ -15,24 +15,28 @@ const Resources = () => (
       <div className="home__section-details home__resources-details">
         <div className="home__resources-buttons">
           <Link
+            hash
             to="/resources#protocols"
             type="secondary-solid"
           >
             Protocols
           </Link>
           <Link
+            hash
             to="/resources#reagents"
             type="secondary-solid"
           >
             Reagents
           </Link>
           <Link
+            hash
             to="/resources#tech-notes"
             type="secondary-solid"
           >
             Tech notes
           </Link>
           <Link
+            hash
             to="/resources#workshops"
             type="secondary-solid"
           >

@@ -8,7 +8,7 @@ import Flag from '../../assets/protocols/proteomics/293 Flp-In FLAG magnetic AP 
 import FlagChromatin from '../../assets/protocols/proteomics/293 Flp-In FLAG magnetic chromatin optimized AP - July 2013.pdf';
 
 const Protocols = () => (
-  <ul>
+  <ul className="facilities__protocols_plain-list">
     <li>
       <cite>
         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28188527">

@@ -27,19 +27,24 @@ const Navigation = ({
         </RoundButton>
       )
     }
-    <ul style={{ visibility: showLinks ? 'visible' : 'hidden' }}>
-      {
-        links.map(link => (
-          <li key={link.id}>
-            <LinkButton
-              href={`#${link.id}`}
-              text={link.text}
-              type={linkType}
-            />
-          </li>
-        ))
-      }
-    </ul>
+    {
+      showLinks
+      && (
+        <ul>
+          {
+            links.map(link => (
+              <li key={link.id}>
+                <LinkButton
+                  href={`#${link.id}`}
+                  text={link.text}
+                  type={linkType}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      )
+    }
   </div>
 );
 

@@ -170,7 +170,7 @@
   height: 16px;
   margin-right: 5px;
 }
-.facilities__protocols ul {
+.facilities__protocols_plain-list {
   list-style: none;
   padding-left: 0;
 }

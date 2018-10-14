@@ -1,0 +1,52 @@
+.facilities_hcs_full-header  {
+  background-color: var(--color-primary-3);
+  color: var(--text-light);
+  margin: 10px 0;
+  padding: 5px 0;
+  text-align: center;
+}
+.facilities__hcs-assay-note {
+  display: flex;
+  justify-content: center;
+}
+.facilities__hcs-assay-note ul {
+  margin-top: 0;
+}
+.facilities__hcs-assay-note ul li {
+  padding: 2px 0;
+}
+.facilities__hcs-rates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.facilities__hcs-rates div {
+  align-items: rates;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 30px;
+  min-width: 300px
+}
+.facilities__hcs-rates div strong {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.facilities__hcs-rates tbody td:nth-child(2n+1),
+.facilities__hcs-rates tbody td:nth-child(n+1) {
+  text-align: center;
+}
+.facilities__hcs-rates tbody tr:last-child {
+  font-weight: bold;
+}
+.facilities__hcs-rates ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+.facilities__hcs-rates ul li {
+  padding: 2px 0;
+}
+@media (max-width: 449px) {
+  .facilities__hcs-rates div {
+    max-width: 80%;
+  }
+}

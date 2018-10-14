@@ -1,6 +1,6 @@
 import React from 'react';
 
-import File from '../assets/icons/file';
+import Books from '../assets/icons/books';
 import Protoemics from '../facilities/__proteomics/proteomics-protocols';
 
 const Protocols = () => (
@@ -9,7 +9,7 @@ const Protocols = () => (
     id="protocols"
   >
     <h2>
-      <File />
+      <Books />
       <span>Protocols</span>
     </h2>
     <h3>Proteomics</h3>
