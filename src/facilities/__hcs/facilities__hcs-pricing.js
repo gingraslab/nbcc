@@ -23,7 +23,7 @@ const Pricing = () => (
       <div className="facilities__hcs-rates">
         <div>
           <strong>Rates</strong>
-          <table>
+          <table className="facilities__table">
             <thead>
               <tr>
                 <th>Time</th>
@@ -90,7 +90,7 @@ const Pricing = () => (
       <div className="facilities__hcs-rates">
         <div>
           <strong>Rates</strong>
-          <table>
+          <table className="facilities__table">
             <thead>
               <tr>
                 <th>Time</th>
@@ -160,7 +160,7 @@ const Pricing = () => (
       <div className="facilities__hcs-rates">
         <div>
           <strong>Rates</strong>
-          <table>
+          <table className="facilities__table">
             <thead>
               <tr>
                 <th>Time</th>

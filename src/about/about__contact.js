@@ -41,7 +41,7 @@ const Contact = () => (
     </address>
     <aside>
       The website is designed and maintained by James Knight (jknight@lunenfeld.ca).
-      Photography by X X.
+      Photography by Claire Laitinen.
       Logo design by Kaitlin Darbey.
     </aside>
   </section>

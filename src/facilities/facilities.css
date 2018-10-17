@@ -96,35 +96,35 @@
   border-bottom: 2px dotted var(--text-dark);
   box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
 }
-.facilities__pricing svg {
+.facilities__table svg {
   fill: var(--color-secondary-1-4);
 }
-.facilities__pricing table {
+.facilities__table {
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0 auto;
 }
-.facilities__pricing thead {
+.facilities__table thead {
   background-color: var(--color-secondary-1-2-5);
   color: var(--text-light);
 }
-.facilities__pricing thead td {
+.facilities__table thead td {
   text-align: center;
 }
-.facilities__pricing td,
-.facilities__pricing th {
+.facilities__table td,
+.facilities__table th {
   padding: 4px 15px;
 }
-.facilities__pricing tbody tr:nth-child(2n+1) {
+.facilities__table tbody tr:nth-child(2n+1) {
   background-color: #EEEEEE;
 }
-.facilities__pricing tbody tr:nth-child(2n+2) {
+.facilities__table tbody tr:nth-child(2n+2) {
   background-color: #E0E0E0;
 }
-.facilities__pricing tfoot {
+.facilities__table tfoot {
   border-top: 1px solid var(--text-dark);
 }
-.facilities__pricing .td-center {
+.facilities__table .td-center {
   text-align: center;
 }
 .facilities__protocols {

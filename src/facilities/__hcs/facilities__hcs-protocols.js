@@ -47,6 +47,210 @@ const Protocols = () => (
         Below are the most popular fluorescent dyes and their compatibility with the
         facility&apos;s microscopes.
       </p>
+      <table className="facilities__table">
+        <thead>
+          <tr>
+            <th className="facilities__protocols-table-first-col" />
+            <th />
+            <th colSpan="2">Compatibility</th>
+          </tr>
+          <tr>
+            <th className="facilities__protocols-table-first-col" />
+            <th>Fluorophore</th>
+            <th>Celígo</th>
+            <th>IN Cell 6000</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="facilities__hcs-table_blue" rowSpan="2" />
+            <td>DAPI</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>Hoechst</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_green" rowSpan="4" />
+            <td>AlexaFluor® 488</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>GFP</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>Calcein</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>
+              FITC
+              <sup>1</sup>
+            </td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_yellow" rowSpan="2" />
+            <td>AlexaFluor® 514</td>
+            <td>
+              Good
+              <sup>2</sup>
+            </td>
+            <td>
+              Good
+              <sup>2</sup>
+            </td>
+          </tr>
+          <tr>
+            <td>YFP</td>
+            <td>
+              Good
+              <sup>2</sup>
+            </td>
+            <td>
+              Good
+              <sup>2</sup>
+            </td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_red" rowSpan="9" />
+            <td>AlexaFluor® 532</td>
+            <td>
+              Fair
+              <sup>2</sup>
+            </td>
+            <td>
+              Fair
+              <sup>2</sup>
+            </td>
+          </tr>
+          <tr>
+            <td>Propidium Iodide (PI)</td>
+            <td>Perfect</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>AlexaFluor® 546</td>
+            <td>Good</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>AlexaFluor® 555</td>
+            <td>Good</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>AlexaFluor® 568</td>
+            <td>Good</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>AlexaFluor® 594</td>
+            <td>Fair</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>Texas Red</td>
+            <td>Fair</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>DRAQ5</td>
+            <td>N/A</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>Cy5</td>
+            <td>N/A</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_far-red" rowSpan="2" />
+            <td>AlexaFluor® 633</td>
+            <td>N/A</td>
+            <td>Perfect</td>
+          </tr>
+          <tr>
+            <td>AlexaFluor® 647</td>
+            <td>N/A</td>
+            <td>Perfect</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colSpan="4">
+              <sup>1</sup>
+              If possible replace with AlexaFluor® 488.
+            </td>
+          </tr>
+          <tr>
+            <td colSpan="4">
+              <sup>2</sup>
+              Not in combination with red dye.
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <p>
+        If fluorophore of interest is missing, please contact the facility or use
+        Fluorescence SpectraViewer, using the following excitation/emission information:
+      </p>
+      <table className="facilities__table">
+        <thead>
+          <tr>
+            <th className="facilities__protocols-table-first-col" rowSpan="2">Channel</th>
+            <th colSpan="3">Celígo</th>
+            <th colSpan="2">IN Cell 6000</th>
+          </tr>
+          <tr>
+            <th><b>Excitation</b></th>
+            <th><b>Dichroic</b></th>
+            <th><b>Emission</b></th>
+            <th><b>Laser</b></th>
+            <th><b>Emission</b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="facilities__hcs-table_blue">Blue</td>
+            <td>377 / 50</td>
+            <td>409</td>
+            <td>470 / 22</td>
+            <td>405</td>
+            <td>455 / 50</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_green">Green</td>
+            <td>483 / 32</td>
+            <td>506</td>
+            <td>536 / 40</td>
+            <td>488</td>
+            <td>525 / 20</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_red">Red</td>
+            <td>531 / 40</td>
+            <td>593</td>
+            <td>629 / 53</td>
+            <td>561</td>
+            <td>605 / 52</td>
+          </tr>
+          <tr>
+            <td className="facilities__hcs-table_far-red">Far-red</td>
+            <td colSpan="3">N/A</td>
+            <td>640</td>
+            <td>706.5 / 72</td>
+          </tr>
+        </tbody>
+      </table>
       <h3>Sample preparation</h3>
       <ul>
         <li>

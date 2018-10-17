@@ -2,9 +2,37 @@ import React from 'react';
 
 import Equipment from './facilities__hcs-equipment';
 import Links from '../__links/facilities__links';
+import Navigation from '../../components/navigation/navigation-container';
 import Pricing from './facilities__hcs-pricing';
 import Protocols from './facilities__hcs-protocols';
 import Services from './facilities__hcs-services';
+
+const links = [
+  {
+    id: 'services',
+    text: 'Services',
+  },
+  {
+    id: 'equipment',
+    text: 'Equipment',
+  },
+  {
+    id: 'pricing',
+    text: 'Pricing',
+  },
+  {
+    id: 'protocols',
+    text: 'Protocols',
+  },
+  {
+    id: 'tools',
+    text: 'Tools',
+  },
+  {
+    id: 'links',
+    text: 'Links',
+  },
+];
 
 const HiContentScreening = () => (
   <main>
@@ -29,9 +57,16 @@ const HiContentScreening = () => (
           { id: 'pricing', text: 'Pricing' },
           { id: 'protocols', text: 'Protocols' },
           { id: 'tools', text: 'Analysis tools' },
+          { id: 'links', text: 'Links' },
         ]}
       />
     </section>
+    <Navigation
+      alwaysShowLinks={false}
+      links={links}
+      linksScrolled={window.innerHeight}
+      scrolled={window.innerHeight}
+    />
     <Services />
     <Equipment />
     <Pricing />
