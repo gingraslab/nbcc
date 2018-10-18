@@ -13,7 +13,7 @@ const Links = ({
           href={`#${link.id}`}
           key={link.id}
           text={link.text}
-          type="complement"
+          type="secondary-solid"
         />
       ))
     }

@@ -8,6 +8,8 @@ import Protocols from './facilities__proteomics-protocols';
 import Services from './facilities__proteomics-services';
 import Tools from './facilities__proteomics-tools';
 
+import './facilities__proteomics.css';
+
 const links = [
   {
     id: 'services',
@@ -33,8 +35,8 @@ const links = [
 
 const Proteomics = () => (
   <main>
-    <section className="facilities__landing">
-      <div className="facilities__about">
+    <section className="facilities__landing facilities__proteomics-landing">
+      <div className="facilities__about facilities__proteomics-about">
         <h1>
           Proteomics
         </h1>
