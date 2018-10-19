@@ -22,7 +22,7 @@ const Pricing = () => (
           I. Affinity purification costs per sample (minimum of four samples)
         </span>
       </h3>
-      <table>
+      <table className="facilities__table">
         <thead>
           <tr>
             <td>Service</td>
@@ -46,7 +46,7 @@ const Pricing = () => (
       <h3>
         <span>II. Mass spectrometry costs per sample</span>
       </h3>
-      <table>
+      <table className="facilities__table">
         <thead>
           <tr>
             <td>Service</td>
