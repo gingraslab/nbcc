@@ -6,6 +6,7 @@ import Navigation from '../../components/navigation/navigation-container';
 import Pricing from './facilities__hcs-pricing';
 import Protocols from './facilities__hcs-protocols';
 import Services from './facilities__hcs-services';
+import Tools from './facilities__hcs-tools';
 
 const links = [
   {
@@ -71,6 +72,7 @@ const HiContentScreening = () => (
     <Equipment />
     <Pricing />
     <Protocols />
+    <Tools />
   </main>
 );
 

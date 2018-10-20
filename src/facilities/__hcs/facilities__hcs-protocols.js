@@ -203,54 +203,56 @@ const Protocols = () => (
         If fluorophore of interest is missing, please contact the facility or use
         Fluorescence SpectraViewer, using the following excitation/emission information:
       </p>
-      <table className="facilities__table">
-        <thead>
-          <tr>
-            <th className="facilities__protocols-table-first-col" rowSpan="2">Channel</th>
-            <th colSpan="3">Celígo</th>
-            <th colSpan="2">IN Cell 6000</th>
-          </tr>
-          <tr>
-            <th><b>Excitation</b></th>
-            <th><b>Dichroic</b></th>
-            <th><b>Emission</b></th>
-            <th><b>Laser</b></th>
-            <th><b>Emission</b></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="facilities__hcs-table_blue">Blue</td>
-            <td>377 / 50</td>
-            <td>409</td>
-            <td>470 / 22</td>
-            <td>405</td>
-            <td>455 / 50</td>
-          </tr>
-          <tr>
-            <td className="facilities__hcs-table_green">Green</td>
-            <td>483 / 32</td>
-            <td>506</td>
-            <td>536 / 40</td>
-            <td>488</td>
-            <td>525 / 20</td>
-          </tr>
-          <tr>
-            <td className="facilities__hcs-table_red">Red</td>
-            <td>531 / 40</td>
-            <td>593</td>
-            <td>629 / 53</td>
-            <td>561</td>
-            <td>605 / 52</td>
-          </tr>
-          <tr>
-            <td className="facilities__hcs-table_far-red">Far-red</td>
-            <td colSpan="3">N/A</td>
-            <td>640</td>
-            <td>706.5 / 72</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="facilities__table_wide">
+        <table className="facilities__table">
+          <thead>
+            <tr>
+              <th className="facilities__protocols-table-first-col" rowSpan="2">Channel</th>
+              <th colSpan="3">Celígo</th>
+              <th colSpan="2">IN Cell 6000</th>
+            </tr>
+            <tr>
+              <th><b>Excitation</b></th>
+              <th><b>Dichroic</b></th>
+              <th><b>Emission</b></th>
+              <th><b>Laser</b></th>
+              <th><b>Emission</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="facilities__hcs-table_blue">Blue</td>
+              <td>377 / 50</td>
+              <td>409</td>
+              <td>470 / 22</td>
+              <td>405</td>
+              <td>455 / 50</td>
+            </tr>
+            <tr>
+              <td className="facilities__hcs-table_green">Green</td>
+              <td>483 / 32</td>
+              <td>506</td>
+              <td>536 / 40</td>
+              <td>488</td>
+              <td>525 / 20</td>
+            </tr>
+            <tr>
+              <td className="facilities__hcs-table_red">Red</td>
+              <td>531 / 40</td>
+              <td>593</td>
+              <td>629 / 53</td>
+              <td>561</td>
+              <td>605 / 52</td>
+            </tr>
+            <tr>
+              <td className="facilities__hcs-table_far-red">Far-red</td>
+              <td colSpan="3">N/A</td>
+              <td>640</td>
+              <td>706.5 / 72</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <h3>Sample preparation</h3>
       <ul>
         <li>

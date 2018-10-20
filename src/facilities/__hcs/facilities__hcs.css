@@ -79,6 +79,9 @@
   color: var(--text-light);
   padding: 5px;
 }
+.facilities__tools p a {
+  margin: 0 5px;
+}
 @media (max-width: 449px) {
   .facilities__hcs-rates div {
     max-width: 80%;
@@ -88,6 +91,11 @@
   }
   .facilities__protocols .facilities__protocols-table-first-col {
     min-width: 15px;
+  }
+}
+@media (max-width: 749px) {
+  .facilities__table_wide table {
+    min-width: 500px;
   }
 }
 @media (max-width: 374px) {
