@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import HiContentScreening from './__hcs/facilities__hcs';
+import HiThroughputScreening from './__hts/facilities__hts';
 import Home from './facilities__home';
 import IntegratedDataAnalysis from './__ida/facilities__ida';
 import NextGenSequencing from './__ngs/facilities__ngs';
@@ -17,13 +18,13 @@ const Facilities = () => (
     />
     <Route
       exact
-      path="/facilities/proteomics"
-      component={Proteomics}
+      path="/facilities/hi-content-screening"
+      component={HiContentScreening}
     />
     <Route
       exact
-      path="/facilities/hi-content-screening"
-      component={HiContentScreening}
+      path="/facilities/hi-throughput-screening"
+      component={HiThroughputScreening}
     />
     <Route
       exact
@@ -34,6 +35,11 @@ const Facilities = () => (
       exact
       path="/facilities/data-analysis"
       component={IntegratedDataAnalysis}
+    />
+    <Route
+      exact
+      path="/facilities/proteomics"
+      component={Proteomics}
     />
     <RouteNotFound />
   </Switch>

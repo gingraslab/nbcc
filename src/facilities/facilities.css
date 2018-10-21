@@ -103,6 +103,9 @@
   border-bottom: 2px dotted var(--text-dark);
   box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
 }
+.facilities__pricing svg {
+  fill: var(--text-dark);
+}
 .facilities__table svg {
   fill: var(--color-secondary-1-4);
 }
@@ -147,6 +150,9 @@
 }
 .facilities__other-links svg {
   fill: var(--text-dark);
+}
+.facilities__other-links ul {
+  list-style: none;
 }
 .facilities__protocols {
   background-color: #ffffff;
@@ -207,10 +213,6 @@
 .facilities__other-links svg {
   height: 16px;
   margin-right: 5px;
-}
-.facilities__protocols ul,
-.facilities__other-links ul {
-  list-style: none;
 }
 .facilities__protocols_plain-list {
   list-style: none;
@@ -344,5 +346,19 @@
   }
   .facilities__landing {
     padding: 50px 20px 20px 20px;
+  }
+  .facilities__pricing table {
+    font-size: 0.8em;
+  }
+  .facilities__protocols table {
+    font-size: 0.8em;
+  }
+  .facilities__section {
+    padding: 60px 20px;
+  }
+}
+@media (max-width: 374px) {
+  .facilities__protocols table {
+    font-size: 0.7em;
   }
 }

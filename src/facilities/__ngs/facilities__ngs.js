@@ -1,7 +1,10 @@
 import React from 'react';
 
+import Equipment from './facilities__ngs-equipment';
 import Links from '../__links/facilities__links';
 import Navigation from '../../components/navigation/navigation-container';
+import Pricing from './facilities__ngs-pricing';
+import Services from './facilities__ngs-services';
 
 import './facilities__ngs.css';
 
@@ -20,7 +23,7 @@ const links = [
   },
 ];
 
-const HiContentScreening = () => (
+const NextGenSequencing = () => (
   <main>
     <section className="facilities__landing facilities__ngs-landing">
       <div className="facilities__about facilities__ngs-about">
@@ -28,12 +31,9 @@ const HiContentScreening = () => (
           Next-Generation Sequencing
         </h1>
         <p>
-          The High-Content Screening facility at the Network Biology Collaborative Centre
-          provides access to cutting-edge equipment to perform high-speed imaging
-          of multi-well plates at low or high resolution. Working in tandem with
-          the High-Throughput Screening and High Spatio-Temporal Resolution Imaging
-          facilities provides seamless integration from initial screens to detailed
-          secondary assays.
+          Next-generation sequencing offers a variety of sequencing services,
+          including transcriptomics, barcode reads for CRISPR-pooled screens
+          and single-cell RNA-seq.
         </p>
       </div>
       <Links
@@ -46,7 +46,10 @@ const HiContentScreening = () => (
       linksScrolled={window.innerHeight}
       scrolled={window.innerHeight}
     />
+    <Services />
+    <Equipment />
+    <Pricing />
   </main>
 );
 
-export default HiContentScreening;
+export default NextGenSequencing;
