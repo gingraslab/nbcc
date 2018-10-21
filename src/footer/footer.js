@@ -14,13 +14,13 @@ const Footer = () => (
       <ul>
         <li><RouterLink to="/facilities" type="link">Facilities</RouterLink></li>
         <li>
-          <RouterLink to="/facilities/hi-content-screening" type="link">High-Content Screening</RouterLink>
+          <RouterLink to="/facilities/high-content-screening" type="link">High-Content Screening</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/hi-res-imaging" type="link">High-Resolution Imaging</RouterLink>
+          <RouterLink to="/facilities/high-res-imaging" type="link">High-Resolution Imaging</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/hi-throughput-screening" type="link">High-Throughput Screening</RouterLink>
+          <RouterLink to="/facilities/high-throughput-screening" type="link">High-Throughput Screening</RouterLink>
         </li>
         <li>
           <RouterLink to="/facilities/data-analysis" type="link">Intregated Data Analysis</RouterLink>

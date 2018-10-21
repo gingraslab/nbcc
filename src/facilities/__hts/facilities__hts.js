@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Equipment from './facilities__hts-equipment';
 import Links from '../__links/facilities__links';
 import Navigation from '../../components/navigation/navigation-container';
+import Services from './facilities__hts-services';
 
 import './facilities__hts.css';
 
@@ -41,6 +43,8 @@ const HiThroughputScreening = () => (
       linksScrolled={window.innerHeight}
       scrolled={window.innerHeight}
     />
+    <Services />
+    <Equipment />
   </main>
 );
 

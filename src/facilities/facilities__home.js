@@ -20,13 +20,13 @@ const Home = () => (
       </p>
     </section>
     <div className="facilities__buttons">
-      <Link to="/facilities/hi-content-screening">
+      <Link to="/facilities/high-content-screening">
         High-Content Screening
       </Link>
-      <Link to="/facilities/hi-res-imaging">
+      <Link to="/facilities/high-res-imaging">
         High-Resolution Imaging
       </Link>
-      <Link to="/facilities/hi-throughput-screening">
+      <Link to="/facilities/high-throughput-screening">
         High-Throughput Screening
       </Link>
       <Link to="/facilities/data-analysis">

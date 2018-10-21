@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import HiContentScreening from './__hcs/facilities__hcs';
+import HiResolutionImaging from './__hri/facilities__hri';
 import HiThroughputScreening from './__hts/facilities__hts';
 import Home from './facilities__home';
 import IntegratedDataAnalysis from './__ida/facilities__ida';
@@ -18,12 +19,17 @@ const Facilities = () => (
     />
     <Route
       exact
-      path="/facilities/hi-content-screening"
+      path="/facilities/high-content-screening"
       component={HiContentScreening}
     />
     <Route
       exact
-      path="/facilities/hi-throughput-screening"
+      path="/facilities/high-res-imaging"
+      component={HiResolutionImaging}
+    />
+    <Route
+      exact
+      path="/facilities/high-throughput-screening"
       component={HiThroughputScreening}
     />
     <Route
