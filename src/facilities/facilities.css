@@ -134,6 +134,20 @@
 .facilities__table .td-center {
   text-align: center;
 }
+.facilities__other-links {
+  background-color: #ffffff;
+  background-image: url('../assets/textures/light-wool.png');
+}
+.facilities__other-links h2 {
+  border-bottom: 2px solid var(--text-dark);
+  color: var(--text-dark);
+}
+.facilities__other-links h3 {
+  color: var(--text-dark);
+}
+.facilities__other-links svg {
+  fill: var(--text-dark);
+}
 .facilities__protocols {
   background-color: #ffffff;
   background-image: url('../assets/textures/light-wool.png');
@@ -148,37 +162,55 @@
 .facilities__protocols svg {
   fill: var(--color-secondary-1-4);
 }
-.facilities__protocols a {
+.facilities__protocols a,
+.facilities__other-links a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.facilities__protocols a svg {
+.facilities__protocols a svg,
+.facilities__other-links a svg {
   transition: fill 0.3s ease;
 }
 .facilities__protocols a:link,
-.facilities__protocols a:visited {
+.facilities__protocols a:visited,
+.facilities__other-links a:link,
+.facilities__other-links a:visited {
   color: var(--text-dark);
 }
 .facilities__protocols a:link svg,
-.facilities__protocols a:visited svg {
+.facilities__protocols a:visited svg,
+.facilities__other-links a:link svg,
+.facilities__other-links a:visited svg {
   fill: var(--text-dark);
 }
 .facilities__protocols a:focus,
 .facilities__protocols a:hover,
-.facilities__protocols a:active {
+.facilities__protocols a:active,
+.facilities__other-links a:focus,
+.facilities__other-links a:hover,
+.facilities__other-links a:active {
   color: var(--color-primary-2);
 }
 .facilities__protocols a:focus svg,
 .facilities__protocols a:hover svg,
-.facilities__protocols a:active svg {
+.facilities__protocols a:active svg,
+.facilities__other-links a:focus svg,
+.facilities__other-links a:hover svg,
+.facilities__other-links a:active svg,  {
   fill: var(--color-primary-2);
 }
-.facilities__protocols li {
+.facilities__protocols li,
+.facilities__other-links li {
   margin: 5px 0;
 }
-.facilities__protocols svg {
+.facilities__protocols svg,
+.facilities__other-links svg {
   height: 16px;
   margin-right: 5px;
+}
+.facilities__protocols ul,
+.facilities__other-links ul {
+  list-style: none;
 }
 .facilities__protocols_plain-list {
   list-style: none;
@@ -309,5 +341,8 @@
   }
   .facilities__about > p {
     font-size: 1rem;
+  }
+  .facilities__landing {
+    padding: 50px 20px 20px 20px;
   }
 }

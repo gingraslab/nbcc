@@ -10,29 +10,6 @@ import Tools from './facilities__proteomics-tools';
 
 import './facilities__proteomics.css';
 
-const links = [
-  {
-    id: 'services',
-    text: 'Services',
-  },
-  {
-    id: 'equipment',
-    text: 'Equipment',
-  },
-  {
-    id: 'pricing',
-    text: 'Pricing',
-  },
-  {
-    id: 'protocols',
-    text: 'Protocols',
-  },
-  {
-    id: 'tools',
-    text: 'Tools',
-  },
-];
-
 const Proteomics = () => (
   <main>
     <section className="facilities__landing facilities__proteomics-landing">
@@ -58,7 +35,13 @@ const Proteomics = () => (
     </section>
     <Navigation
       alwaysShowLinks={false}
-      links={links}
+      links={[
+        { id: 'services', text: 'Services' },
+        { id: 'equipment', text: 'Equipment' },
+        { id: 'pricing', text: 'Pricing' },
+        { id: 'protocols', text: 'Protocols' },
+        { id: 'tools', text: 'Tools' },
+      ]}
       linksScrolled={window.innerHeight}
       scrolled={window.innerHeight}
     />

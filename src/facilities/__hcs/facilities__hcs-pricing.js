@@ -2,8 +2,6 @@ import React from 'react';
 
 import Dollar from '../../assets/icons/dollar';
 
-import './facilities__hcs.css';
-
 const Pricing = () => (
   <section
     className="facilities__section facilities__pricing facilities_hcs"
