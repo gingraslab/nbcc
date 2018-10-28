@@ -20,7 +20,7 @@ const links = [
   },
   {
     id: 'team',
-    text: 'team',
+    text: 'Team',
   },
   {
     id: 'staff',
