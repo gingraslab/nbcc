@@ -19,8 +19,8 @@ const links = [
     text: 'Funding',
   },
   {
-    id: 'management',
-    text: 'Management',
+    id: 'team',
+    text: 'team',
   },
   {
     id: 'staff',

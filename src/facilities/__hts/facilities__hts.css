@@ -1,0 +1,16 @@
+.facilities__equipment table {
+  width: 100%;
+}
+.facilities__equipment table ul {
+  margin: 0;
+}
+@media (max-width: 749px) {
+  .facilities__hcs-kegg {
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .facilities__hcs-kegg img {
+    display: none;
+  }
+}

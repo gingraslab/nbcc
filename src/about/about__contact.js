@@ -1,8 +1,9 @@
 import React from 'react';
 
+import directors from './about__directors';
 import divisionManagers from './about__division-managers';
 import Envelope from '../assets/icons/envelope';
-import managers from './about__managers';
+import managers from './about__centre-managers';
 
 export const contactInfo = person => (
   <li key={person.name}>
@@ -22,7 +23,11 @@ const Contact = () => (
       <Envelope />
       <span>Contact</span>
     </h2>
-    <h3>Centre manager & directors:</h3>
+    <h3>Directors:</h3>
+    <ul className="about__contact-list">
+      { directors.map(contactInfo) }
+    </ul>
+    <h3>Centre manager:</h3>
     <ul className="about__contact-list">
       { managers.map(contactInfo) }
     </ul>

@@ -12,9 +12,6 @@ const Services = () => (
         <Wrench />
         Services
       </h2>
-      <h3>
-        <span>I. Sample preparation</span>
-      </h3>
       <p>
         We provide a wide variety of services associated with lab automation and
         high-throughput technologies aimed at screening purposes or, more generally,
@@ -25,7 +22,7 @@ const Services = () => (
         and availability of funds and, finally, distribution of roles and responsibilities.
         Services can be listed and briefly described as follows:
       </p>
-      <h4>I. Assay design</h4>
+      <h3>I. Assay design</h3>
       <p>
         We provide consultation on the assay design that is the most suitable to
         address the biological question asked by the user. To this end, the first
@@ -49,7 +46,7 @@ const Services = () => (
         assay procedures (either direct or indirect) may be proposed and carefully appraised for
         benefits, drawbacks and overall risks.
       </p>
-      <h4>II. Access to screening reagents</h4>
+      <h3>II. Access to screening reagents</h3>
       <p>
        Compound collections have been acquired from commercial sources and through collaborative
        programs with other Institutes to tackle specific screening rationales, namely i) the
@@ -124,7 +121,7 @@ const Services = () => (
         In addition, customized collections of any kind and format can be realiquotted for use in
         specific project upon a user&apos;s request or HTS personnel recommendation.
       </p>
-      <h4>III. Lab automation setups</h4>
+      <h3>III. Lab automation setups</h3>
       <p>
         We can develop, validate and execute robotic methods that accommodate and fine-tune
         technical requirements and mechanical aspects necessary to precisely reproduce an
@@ -135,7 +132,7 @@ const Services = () => (
         in a pilot experiment prior to final acceptance of technical and mechanical conditions
         (e.g. harshness of washing conditions, flow rates of dispensed liquid, mixing steps etc.).
       </p>
-      <h4>IV. Data management</h4>
+      <h3>IV. Data management</h3>
       <p>
         We can assist users with data management, that is, the capture, storage and analysis of
         results. For screens performed in a sequential manner, screening parameters (variability
@@ -147,13 +144,13 @@ const Services = () => (
         or B-score) is assessed each time to find the most reliable and informative approach for
         subsequent data interpretation and hit finalization.
       </p>
-      <h4>V. Cherry-picks, confirmatory tests, and dose-response curves</h4>
+      <h3>V. Cherry-picks, confirmatory tests, and dose-response curves</h3>
       <p>
         These are typical follow-up tests after a primary screen that we offer to users as a
         routine procedure aimed at the definition of a short-list of candidates for subsequent,
         more stringent validation strategies.
       </p>
-      <h4>VI. Sample combination arrays</h4>
+      <h3>VI. Sample combination arrays</h3>
       <p>
         This is a procedure that may offer valuable information to better understand the
         molecular mechanisms that underlie a given phenotype (using combinations of bioactive
@@ -162,7 +159,7 @@ const Services = () => (
         arise when different concentrations and different dispensing times are tested. Through
         advanced robotic capabilities, we can however provide users with this experimental option.
       </p>
-      <h4>VII. Sample combination arrays</h4>
+      <h3>VII. Sample combination arrays</h3>
       <p>
         LUMIER (LUminescence-based Mamalian IntERactome) is a high-throughput automated platform
         developed in the Wrana lab for identification of novel protein-protein interactions in

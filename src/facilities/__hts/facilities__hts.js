@@ -3,7 +3,9 @@ import React from 'react';
 import Equipment from './facilities__hts-equipment';
 import Links from '../__links/facilities__links';
 import Navigation from '../../components/navigation/navigation-container';
+import Pricing from './facilities__hts-pricing';
 import Services from './facilities__hts-services';
+import Tools from './facilities__hts-tools';
 
 import './facilities__hts.css';
 
@@ -45,6 +47,8 @@ const HiThroughputScreening = () => (
     />
     <Services />
     <Equipment />
+    <Pricing />
+    <Tools />
   </main>
 );
 

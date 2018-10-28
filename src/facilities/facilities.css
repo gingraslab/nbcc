@@ -57,6 +57,7 @@
   border-bottom: 2px solid var(--color-complement-3);
   color: var(--color-complement-3);
 }
+.facilities__equipment h3,
 .facilities__equipment h4 {
   color: var(--color-complement-3);
 }
@@ -136,6 +137,16 @@
 }
 .facilities__table .td-center {
   text-align: center;
+}
+.facilities__table_extra-wide,
+.facilities__table_wide {
+  overflow-x: auto;
+}
+.facilities__table_extra-wide table {
+  min-width: 600px;
+}
+.facilities__table_wide table {
+  min-width: 500px;
 }
 .facilities__other-links {
   background-color: #ffffff;

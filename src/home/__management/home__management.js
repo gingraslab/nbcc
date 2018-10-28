@@ -3,10 +3,13 @@ import React from 'react';
 
 import Button from '../../components/button/button';
 import LinkIcon from '../../assets/icons/link';
-import managers from '../../about/about__managers';
+import directors from '../../about/about__directors';
+import managers from '../../about/about__centre-managers';
 import Users from '../../assets/icons/users';
 
 import './home__management.css';
+
+const team = [...directors, ...managers];
 
 const Management = ({
   handleClick,
@@ -24,24 +27,24 @@ const Management = ({
           <div>
             <div className="home__management-buttons">
               {
-                managers.map((manager, index) => (
+                team.map((person, index) => (
                   <Button
-                    key={manager.name}
+                    key={person.name}
                     onClick={() => { handleClick(index); }}
                     type={managementIndex === index ? 'complement-solid' : 'complement'}
                   >
-                    { manager.name }
+                    { person.name }
                   </Button>
                 ))
               }
             </div>
-            <h4>{ managers[managementIndex].title }</h4>
-            <p>{ managers[managementIndex].description }</p>
+            <h4>{ team[managementIndex].title }</h4>
+            <p>{ team[managementIndex].description }</p>
             {
-              managers[managementIndex].website
+              team[managementIndex].website
               && (
                 <a
-                  href={managers[managementIndex].website}
+                  href={team[managementIndex].website}
                 >
                   <LinkIcon />
                   website
