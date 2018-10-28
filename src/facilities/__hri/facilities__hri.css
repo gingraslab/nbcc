@@ -1,0 +1,6 @@
+.facilities__hri-pricing table td {
+  text-align: center;
+}
+.facilities__hri-pricing-table_bottom-border {
+  border-bottom: 1px solid var(--text-dark);
+}

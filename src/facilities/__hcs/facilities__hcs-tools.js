@@ -20,25 +20,23 @@ const Tools = () => (
         Analysis tools
       </h2>
       <h3>Columbus / Acapella (Perkin-Elmer)</h3>
-      <div>
-        <p>
-          <a href="http://www.perkinelmer.ca/en-ca/pages/020/cellularimaging/products/columbus.xhtml">
-            Columbus™
-          </a>
-          {' '}
-          is a universal image data storage and analysis system that enables access to stored images
-          via a regular internet browser. The Columbus system lets scientists remotely access, view,
-          annotate and analyze images. Columbus is based on
-          {' '}
-          <a href="http://www.openmicroscopy.org/site/products/omero">
-            OMERO server
-          </a>
-          {' '}
-          and therefore supports a variety of existing microscope file formats. Integrated image
-          analysis tools are intuitive and efficient. PhenoLOGIC™ machine learning technology
-          provides an easy way to classify cells or subcellular regions within a given data-set.
-        </p>
-      </div>
+      <p>
+        <a href="http://www.perkinelmer.ca/en-ca/pages/020/cellularimaging/products/columbus.xhtml">
+          Columbus™
+        </a>
+        {' '}
+        is a universal image data storage and analysis system that enables access to stored images
+        via a regular internet browser. The Columbus system lets scientists remotely access, view,
+        annotate and analyze images. Columbus is based on
+        {' '}
+        <a href="http://www.openmicroscopy.org/site/products/omero">
+          OMERO server
+        </a>
+        {' '}
+        and therefore supports a variety of existing microscope file formats. Integrated image
+        analysis tools are intuitive and efficient. PhenoLOGIC™ machine learning technology
+        provides an easy way to classify cells or subcellular regions within a given data-set.
+      </p>
       <h3>Matlab (Mathworks)</h3>
       <div>
         <img

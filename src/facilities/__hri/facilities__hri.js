@@ -1,7 +1,11 @@
 import React from 'react';
 
+import Equipment from './facilities__hri-equipment';
+import Gallery from './facilities__hri-gallery';
 import Links from '../__links/facilities__links';
 import Navigation from '../../components/navigation/navigation-container';
+import Pricing from './facilities__hri-pricing';
+import Services from './facilities__hri-services';
 
 import './facilities__hri.css';
 
@@ -37,6 +41,10 @@ const HiResolutionImaging = () => (
       linksScrolled={window.innerHeight}
       scrolled={window.innerHeight}
     />
+    <Services />
+    <Equipment />
+    <Pricing />
+    <Gallery />
   </main>
 );
 

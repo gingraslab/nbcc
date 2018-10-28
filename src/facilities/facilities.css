@@ -48,7 +48,7 @@
 .facilities__buttons > :not(:last-child) {
   margin-bottom: 20px;
 }
-.facilities__equipment {
+.facilities__equipment, {
   background-color: #ffffff;
   background-image: url('../assets/textures/connected.png');
   color: var(--text-dark);
@@ -165,18 +165,21 @@
 .facilities__other-links ul {
   list-style: none;
 }
-.facilities__protocols {
+.facilities__protocols,
+.facilities__gallery {
   background-color: #ffffff;
   background-image: url('../assets/textures/light-wool.png');
 }
-.facilities__protocols h2 {
+.facilities__protocols h2,
+.facilities__gallery h2 {
   border-bottom: 2px solid var(--color-secondary-1-4);
   color: var(--color-secondary-1-4);
 }
 .facilities__protocols h3 {
   color: var(--color-secondary-1-4);
 }
-.facilities__protocols svg {
+.facilities__protocols svg,
+.facilities__gallery svg {
   fill: var(--color-secondary-1-4);
 }
 .facilities__protocols a,
