@@ -106,8 +106,13 @@
   align-items: center;
   display: flex;
 }
-.about__personnel-inner > div {
+.about__personnel-inner > * {
   margin: 10px 20px;
+}
+.about__personnel-inner > img {
+  border: 5px solid var(--color-secondary-1-2);
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 .about__personnel-image {
   background-color: var(--text-light);

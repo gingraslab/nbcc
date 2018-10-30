@@ -2,6 +2,7 @@ import React from 'react';
 
 import Chart from '../../assets/icons/chart';
 import R from './assets/R.svg';
+import CoreFlow from './assets/coreflow.svg';
 import SMARTKEGG from './assets/SMART_to_KEGG_mapper.png';
 import SMARTKEGG2x from './assets/SMART_to_KEGG_mapper2x.png';
 import SMARTKEGG3x from './assets/SMART_to_KEGG_mapper3x.png';
@@ -36,6 +37,12 @@ const Tools = () => (
       </div>
       <h3>CoreFlow</h3>
       <div>
+        <img
+          alt="Coreflow"
+          height={50}
+          src={CoreFlow}
+          width={107}
+        />
         <p>
           To organize and analyze data generated from high-throughput screening,
           we use the in-house developed CoreFlow pipepline.

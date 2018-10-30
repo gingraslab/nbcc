@@ -13,7 +13,23 @@ const Personnel = ({
     >
       <h3>{person.name}</h3>
       <div className="about__personnel-inner">
-        <div className="about__personnel-image" />
+        {
+          person.images
+            ? (
+              <img
+                alt={person.name}
+                height={200}
+                src={person.images[0]}
+                srcSet={`
+                  ${person.images[0]} 1x,
+                  ${person.images[1]} 2x,
+                  ${person.images[2]} 3x
+                `}
+                width={150}
+              />
+            )
+            : <div className="about__personnel-image" />
+        }
         <div>
           <h4>{person.title}</h4>
           <p>

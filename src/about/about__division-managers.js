@@ -1,3 +1,7 @@
+import BrettLarsen from './assets/people/BrettLarsen.png';
+import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
+import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
+
 const divisionManagers = [
   {
     description: `Brett Larsen has over 15 years experience in mass
@@ -7,6 +11,11 @@ const divisionManagers = [
     development, and user training. As the manager, Brett works with users
     from project inception to project completion.`,
     email: 'larsen@lunenfeld.ca',
+    images: [
+      BrettLarsen,
+      BrettLarsen2x,
+      BrettLarsen3x,
+    ],
     name: 'Brett Larsen',
     phone: '416-586-4800 x 2702',
     title: 'Proteomics Manager',

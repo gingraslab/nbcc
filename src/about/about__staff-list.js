@@ -1,3 +1,10 @@
+import CassandraWong from './assets/people/CassandraWong.png';
+import CassandraWong2x from './assets/people/CassandraWong2x.png';
+import CassandraWong3x from './assets/people/CassandraWong3x.png';
+import JamesKnight from './assets/people/JamesKnight.png';
+import JamesKnight2x from './assets/people/JamesKnight2x.png';
+import JamesKnight3x from './assets/people/JamesKnight3x.png';
+
 const staff = [
   {
     email: 'miriam@lunenfeld.ca',
@@ -14,6 +21,11 @@ const staff = [
   {
     email: 'jknight@lunenfeld.ca',
     expertise: 'data visualization, data processing, proteomics sample preparation',
+    images: [
+      JamesKnight,
+      JamesKnight2x,
+      JamesKnight3x,
+    ],
     name: 'James Knight',
     title: 'Research Associate in Proteomics Data Analysis and Visualization',
   },
@@ -48,16 +60,21 @@ const staff = [
     title: 'Research Associate',
   },
   {
-    email: 'cwong@lunenfeld.ca',
-    expertise: 'mass spectrometry maintenance and operation, technology development, sample preparation',
-    name: 'Cassandra Wong',
-    title: 'Mass Spectrometry Research Technician',
-  },
-  {
     email: 'jwang@lunenfeld.ca',
     expertise: 'development, optimization and execution of robotic methods in high-throughput formats, routine maintenance of robotic equipment',
     name: 'Jenny Wang',
     title: 'Lab Automation Specialist',
+  },
+  {
+    email: 'cwong@lunenfeld.ca',
+    expertise: 'mass spectrometry maintenance and operation, technology development, sample preparation',
+    images: [
+      CassandraWong,
+      CassandraWong2x,
+      CassandraWong3x,
+    ],
+    name: 'Cassandra Wong',
+    title: 'Mass Spectrometry Research Technician',
   },
   {
     email: 'jpzhang@lunenfeld.ca',
