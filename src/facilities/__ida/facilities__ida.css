@@ -1,7 +1,21 @@
+.facilities__ida-about h1,
+.facilities__ida-about div {
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 4px;
+}
+.facilities__ida-about h1 {
+  padding: 10px;
+}
+.facilities__ida-about div {
+  padding: 0 20px;
+}
 .facilities__ida-about p {
   font-size: 1.2rem;
   max-width: 600px;
   text-align: justify;
+}
+.facilities__ida-landing {
+  background-image: url('./assets/whiteboard.png');
 }
 @media (max-width: 449px) {
   .facilities__about p {
