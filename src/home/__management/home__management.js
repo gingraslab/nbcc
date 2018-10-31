@@ -23,7 +23,23 @@ const Management = ({
       </h2>
       <div className="home__section-details">
         <div className="home__management-details">
-          <div />
+          {
+            team[managementIndex].homeImages
+              ? (
+                <img
+                  alt={team[managementIndex].name}
+                  height={200}
+                  src={team[managementIndex].homeImages[0]}
+                  srcSet={`
+                    ${team[managementIndex].homeImages[0]} 1x,
+                    ${team[managementIndex].homeImages[1]} 2x,
+                    ${team[managementIndex].homeImages[2]} 3x
+                  `}
+                  width={150}
+                />
+              )
+              : <div />
+          }
           <div>
             <div className="home__management-buttons">
               {

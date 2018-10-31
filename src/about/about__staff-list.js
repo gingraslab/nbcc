@@ -4,17 +4,39 @@ import CassandraWong3x from './assets/people/CassandraWong3x.png';
 import JamesKnight from './assets/people/JamesKnight.png';
 import JamesKnight2x from './assets/people/JamesKnight2x.png';
 import JamesKnight3x from './assets/people/JamesKnight3x.png';
+import JessShen from './assets/people/JessShen.png';
+import JessShen2x from './assets/people/JessShen2x.png';
+import JessShen3x from './assets/people/JessShen3x.png';
+import JennyWang from './assets/people/JennyWang.png';
+import JennyWang2x from './assets/people/JennyWang2x.png';
+import JennyWang3x from './assets/people/JennyWang3x.png';
+import MarkJen from './assets/people/MarkJen.png';
+import MarkJen2x from './assets/people/MarkJen2x.png';
+import MarkJen3x from './assets/people/MarkJen3x.png';
+import MiriamBarriosRodilles from './assets/people/MiriamBarrios-Rodiles.png';
+import MiriamBarriosRodilles2x from './assets/people/MiriamBarrios-Rodiles2x.png';
+import MiriamBarriosRodilles3x from './assets/people/MiriamBarrios-Rodiles3x.png';
 
 const staff = [
   {
     email: 'miriam@lunenfeld.ca',
     expertise: 'mammalian network proteomics by LUMIER, functional high-throughput (HT) screens, cell-based HT-assay development',
+    images: [
+      MiriamBarriosRodilles,
+      MiriamBarriosRodilles2x,
+      MiriamBarriosRodilles3x,
+    ],
     name: 'Miriam Barrios-Rodilles',
     title: 'Scientific Associate, LUMIER Specialist',
   },
   {
     email: 'mjen@lunenfeld.ca',
     expertise: 'routine maintenance and QC of instrumentation, development and implementation of robot-assisted technologies',
+    images: [
+      MarkJen,
+      MarkJen2x,
+      MarkJen3x,
+    ],
     name: 'Mark Jen',
     title: 'Laboratory Automation Technician',
   },
@@ -50,6 +72,11 @@ const staff = [
   {
     email: 'shen@lunenfeld.ca',
     expertise: 'next-generation sequencing and protein-protein interaction network analysis',
+    images: [
+      JessShen,
+      JessShen2x,
+      JessShen3x,
+    ],
     name: 'Jess Shen',
     title: 'Bioinformatician',
   },
@@ -62,6 +89,11 @@ const staff = [
   {
     email: 'jwang@lunenfeld.ca',
     expertise: 'development, optimization and execution of robotic methods in high-throughput formats, routine maintenance of robotic equipment',
+    images: [
+      JennyWang,
+      JennyWang2x,
+      JennyWang3x,
+    ],
     name: 'Jenny Wang',
     title: 'Lab Automation Specialist',
   },

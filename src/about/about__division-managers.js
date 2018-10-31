@@ -1,6 +1,12 @@
 import BrettLarsen from './assets/people/BrettLarsen.png';
 import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
 import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
+import KinChan from './assets/people/KinChan.png';
+import KinChan2x from './assets/people/KinChan2x.png';
+import KinChan3x from './assets/people/KinChan3x.png';
+import MonicaHasegan from './assets/people/MonicaHasegan.png';
+import MonicaHasegan2x from './assets/people/MonicaHasegan2x.png';
+import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
 
 const divisionManagers = [
   {
@@ -56,9 +62,14 @@ const divisionManagers = [
     users with microscopy training, as well as standard and custom-made
     image analyses.`,
     email: 'hasegan@lunenfeld.ca',
+    images: [
+      MonicaHasegan,
+      MonicaHasegan2x,
+      MonicaHasegan3x,
+    ],
     name: 'Monica Hasegan',
     phone: '416-586-4800 x 2258',
-    title: 'High Spatio-temporal Resolution Imaging Manager',
+    title: 'High-Resolution Imaging Manager',
   },
   {
     description: `Kin Chan (MSc) has worked on high-throughput data screening
@@ -69,9 +80,14 @@ const divisionManagers = [
     investigators, physicians and clinical labs. Kin was instrumental in our
     sequencing division being successfully accredited by ISO 15189.`,
     email: 'kin@lunenfeld.ca',
+    images: [
+      KinChan,
+      KinChan2x,
+      KinChan3x,
+    ],
     name: 'Kin Chan',
     phone: '416-586-4800 x 6720',
-    title: 'Sequencing Manager',
+    title: 'Next-Generation Sequencing Manager',
   },
 ];
 
