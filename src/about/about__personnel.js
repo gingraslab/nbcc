@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import LinkIcon from '../assets/icons/link';
+import User from '../assets/icons/user.svg';
 
 const Personnel = ({
   people,
@@ -28,7 +29,14 @@ const Personnel = ({
                 width={150}
               />
             )
-            : <div className="about__personnel-image" />
+            : (
+              <img
+                alt={person.name}
+                height={200}
+                src={User}
+                width={150}
+              />
+            )
         }
         <div>
           <h4>{person.title}</h4>

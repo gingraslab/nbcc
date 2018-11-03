@@ -5,6 +5,7 @@ import Button from '../../components/button/button';
 import LinkIcon from '../../assets/icons/link';
 import directors from '../../about/about__directors';
 import managers from '../../about/about__centre-managers';
+import User from '../../assets/icons/user.svg';
 import Users from '../../assets/icons/users';
 
 import './home__management.css';
@@ -28,17 +29,24 @@ const Management = ({
               ? (
                 <img
                   alt={team[managementIndex].name}
-                  height={200}
+                  height={335}
                   src={team[managementIndex].homeImages[0]}
                   srcSet={`
                     ${team[managementIndex].homeImages[0]} 1x,
                     ${team[managementIndex].homeImages[1]} 2x,
                     ${team[managementIndex].homeImages[2]} 3x
                   `}
-                  width={150}
+                  width={250}
                 />
               )
-              : <div />
+              : (
+                <img
+                  alt={team[managementIndex].name}
+                  height={335}
+                  src={User}
+                  width={250}
+                />
+              )
           }
           <div>
             <div className="home__management-buttons">

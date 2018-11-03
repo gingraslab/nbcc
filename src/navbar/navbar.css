@@ -48,3 +48,8 @@
 .navbar__logo {
   display: block;
 }
+@media print {
+  .navbar {
+    display: none;
+  }
+}

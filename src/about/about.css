@@ -114,13 +114,6 @@
   border-radius: 2px;
   flex-shrink: 0;
 }
-.about__personnel-image {
-  background-color: var(--text-light);
-  border: 5px solid var(--color-secondary-1-2);
-  border-radius: 2px;
-  min-height: 200px;
-  min-width: 150px;
-}
 @media (max-width: 749px) {
   .about__links {
     display: none;

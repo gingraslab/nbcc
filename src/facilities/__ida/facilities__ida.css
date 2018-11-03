@@ -15,7 +15,7 @@
   text-align: justify;
 }
 .facilities__ida-landing {
-  background-image: url('./assets/whiteboard.png');
+  background-image: url('./assets/whiteboard.jpg');
 }
 @media (max-width: 449px) {
   .facilities__about p {
