@@ -37,12 +37,14 @@ const Contact = () => (
     </ul>
     <h3>Mailing address:</h3>
     <address className="about__contact-mailing">
-      <div>The Network Biology Collaborative Centre</div>
-      <div>Sinai Health System</div>
-      <div>600 University Avenue, Room 970</div>
-      <div>Toronto, Ontario</div>
-      <div>Canada</div>
-      <div>M5G 1X5</div>
+      <ul>
+        <li>The Network Biology Collaborative Centre</li>
+        <li>Sinai Health System</li>
+        <li>600 University Avenue, Room 970</li>
+        <li>Toronto, Ontario</li>
+        <li>Canada</li>
+        <li>M5G 1X5</li>
+      </ul>
     </address>
     <aside>
       The website is designed and maintained by James Knight (jknight@lunenfeld.ca).

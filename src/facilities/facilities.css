@@ -376,3 +376,11 @@
     font-size: 0.7em;
   }
 }
+@media print {
+  .facilities {
+    padding: 0;
+  }
+  .facilities__buttons {
+    display: none;
+  }
+}

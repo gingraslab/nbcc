@@ -138,3 +138,16 @@
     width: 100%;
   }
 }
+@media print {
+  .publications {
+    background-color: none;
+    color: var(--text-dark); 
+    padding: 0;
+  }
+  .publications a {
+    display: none;
+  }
+  .publication__table th {
+    border-bottom: 1px solid black;
+  }
+}

@@ -44,3 +44,15 @@
     margin-right: 0;
   }
 }
+@media print {
+  .home__facilities {
+    background-color: none;
+    background-image: none;
+  }
+  .home__facilities-buttons {
+    display: none;
+  }
+  .home__facilities-details > p {
+    max-width: 100%;
+  }
+}

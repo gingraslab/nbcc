@@ -32,3 +32,11 @@
     width: 100%;
   }
 }
+@media print {
+  .home__section h2 {
+    margin-bottom: 20px;
+  }
+  .home__section-inner {
+    padding: 0;
+  }
+}

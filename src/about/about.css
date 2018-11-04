@@ -37,8 +37,8 @@
 .about__contact-list span {
   display: block;
 }
-.about__contact-mailing {
-  margin-left: 40px;
+.about__contact-mailing ul {
+  list-style-type: none;
 }
 .about__funding-images {
   align-items: center;
@@ -124,5 +124,42 @@
   }
   .about__personnel-inner {
     flex-direction: column;
+  }
+}
+@media print {
+  .about {
+    padding: 0;
+  }
+  .about h2,
+  .about h3,
+  .about h4 {
+    margin: 10px 0;
+  }
+  .about section:not(:first-of-type) {
+    margin-top: 20px;
+  }
+  .about__contact-mailing {
+    font-family: sans-serif;
+  }
+  .about__funding-images {
+    display: none;
+  }
+  .about__personnel {
+    padding: 0;
+  }
+  .about__personnel a {
+    display: none;
+  }
+  .about__personnel h3 {
+    text-align: left
+  }
+  .about__personnel-inner {
+    align-items: start;
+  }
+  .about__personnel-inner > img {
+    display: none;
+  }
+  .about__personnel-inner > * {
+    margin: 0;
   }
 }

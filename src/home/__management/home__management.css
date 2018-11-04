@@ -71,3 +71,17 @@
     flex-direction: column;
   }
 }
+@media print {
+  .home__management-buttons {
+    display: none;
+  }
+  .home__management-details a {
+    display: none;
+  }
+  .home__management-details img {
+    height: 250px;
+  }
+  .home__management-details > div {
+    margin: 0;
+  }
+}

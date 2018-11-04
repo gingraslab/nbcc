@@ -156,3 +156,37 @@
     display: none
   }
 }
+@media print {
+  .resources {
+    padding: 0;
+  }
+  .resources section:not(:first-of-type) {
+    margin-top: 20px;
+  }
+  .resources__table thead {
+    background-color: none;
+    color: black;
+  }
+  .resources__table th {
+    border-bottom: 1px solid black;
+  }
+  .resources__table th:nth-child(n+3),
+  .resources__table td:nth-child(n+3) {
+    display: none;
+  }
+  .resources__workshop img {
+    display: none;
+  }
+  .resources__workshop li {
+    padding: 0;
+  }
+  .resources__workshop li:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .resources__workshops-training {
+    margin-top: 20px;
+  }
+  .resources__workshops-event a {
+    display: none;
+  }
+}

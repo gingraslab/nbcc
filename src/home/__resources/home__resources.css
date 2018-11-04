@@ -45,3 +45,15 @@
     margin-top: 30px;
   }
 }
+@media print {
+  .home__resources {
+    background-color: none;
+    background-image: none;
+  }
+  .home__resources-buttons {
+    display: none;
+  }
+  .home__resources-details > p {
+    max-width: 100%;
+  }
+}

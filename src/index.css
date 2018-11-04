@@ -91,3 +91,7 @@ details {
 summary {
   display: list-item;
 }
+
+@page {
+  margin: 2cm;
+}
