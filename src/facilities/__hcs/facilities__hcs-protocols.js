@@ -47,7 +47,7 @@ const Protocols = () => (
         Below are the most popular fluorescent dyes and their compatibility with the
         facility&apos;s microscopes.
       </p>
-      <table className="facilities__table">
+      <table className="facilities__table facilities__hcs-fluorophore-table">
         <thead>
           <tr>
             <th className="facilities__protocols-table-first-col" />

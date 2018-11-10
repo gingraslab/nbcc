@@ -25,8 +25,8 @@ const Pricing = () => (
       <table className="facilities__table">
         <thead>
           <tr>
-            <td>Service</td>
-            <td>Cost</td>
+            <th>Service</th>
+            <th>Cost</th>
           </tr>
         </thead>
         <tbody>
@@ -49,8 +49,8 @@ const Pricing = () => (
       <table className="facilities__table">
         <thead>
           <tr>
-            <td>Service</td>
-            <td>Cost</td>
+            <th>Service</th>
+            <th>Cost</th>
           </tr>
         </thead>
         <tbody>

@@ -383,6 +383,77 @@
   .facilities__buttons {
     display: none;
   }
+  .facilities__links {
+    display: none;
+  }
+  .facilities__section {
+    padding: 0;
+  }
+  .facilities__section h2 {
+    margin-bottom: 10px;
+  }
+  .facilities__gallery {
+    display: none;
+  }
+  .facilities__equipment,
+  .facilities__gallery,
+  .facilities__links,
+  .facilities__pricing,
+  .facilities__protocols,
+  .facilities__services,
+  .facilities__tools {
+    background-color: none;
+  }
+  .facilities__equipment h2,
+  .facilities__links h2,
+  .facilities__pricing h2,
+  .facilities__protocols h2,
+  .facilities__services h2,
+  .facilities__tools h2 {
+    color: black;
+  }
+  .facilities__equipment h3,
+  .facilities__links h3,
+  .facilities__pricing h3,
+  .facilities__protocols h3,
+  .facilities__services h3,
+  .facilities__tools h3,
+  .facilities__equipment h4,
+  .facilities__gallery h4,
+  .facilities__links h4,
+  .facilities__pricing h4,
+  .facilities__protocols h5,
+  .facilities__services h4,
+  .facilities__tools h4 {
+    color: black;
+  }
+  .facilities__equipment h3 span,
+  .facilities__links h3 span,
+  .facilities__pricing h3 span,
+  .facilities__protocols h3 span,
+  .facilities__services h3 span,
+  .facilities__tools h3 span {
+    border-bottom: 2px dotted black;
+    box-shadow: none, inset 0 1px 0 0 var(--text-dark), none, none;
+  }
+  .facilities__equipment svg,
+  .facilities__links svg,
+  .facilities__pricing svg,
+  .facilities__protocols svg,
+  .facilities__services svg,
+  .facilities__tools svg {
+    fill: black;
+  }
+  .facilities__protocols_plain-list {
+    font-family: sans-serif;
+  }
+  .facilities__table thead {
+    background-color: none;
+    color: black;
+  }
+  .facilities__table th {
+    border-bottom: 1px solid black;
+  }
   .facilities__table_extra-wide,
   .facilities__table_wide {
     font-size: 12px;
