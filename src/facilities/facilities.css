@@ -383,4 +383,8 @@
   .facilities__buttons {
     display: none;
   }
+  .facilities__table_extra-wide,
+  .facilities__table_wide {
+    font-size: 12px;
+  }
 }
