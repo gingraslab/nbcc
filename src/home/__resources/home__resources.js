@@ -44,18 +44,14 @@ const Resources = () => (
           </Link>
         </div>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
-        habitant morbi tristique senectus et netus et. Amet mauris commodo quis
-        imperdiet massa tincidunt nunc. Enim sed faucibus turpis in eu mi. In
-        tellus integer feugiat scelerisque varius. Habitant morbi tristique senectus
-        et netus et. Elementum eu facilisis sed odio. Maecenas pharetra convallis
-        posuere morbi. Sed nisi lacus sed viverra tellus. Molestie a iaculis at erat
-        pellentesque adipiscing commodo elit. Pretium quam vulputate dignissim
-        suspendisse in est. Phasellus faucibus scelerisque eleifend donec pretium
-        vulputate sapien nec sagittis. Porttitor rhoncus dolor purus non enim
-        praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
-        pretium vulputate. In massa tempor nec feugiat nisl pretium.
+          The best quality results derive from the best experimental setup. To ensure that
+          the samples we receive are of the highest quality, we provide our users and
+          the scientific community with protocols, reagents, and technical notes that will
+          assist them with performing the optimal sample preparation prior to analysis.
+          We also host local workshops to train users and to inform them of how they may apply
+          our services to their biological question. Our resources will continually be expanded
+          with new information. If you have questions related to our services that are not
+          answered in this resource, please contact one of our managers.
         </p>
       </div>
     </div>

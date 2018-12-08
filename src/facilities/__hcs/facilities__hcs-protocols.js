@@ -279,7 +279,10 @@ const Protocols = () => (
       <ul>
         <li>
           IN Cell 6000 allows for long-term live cell imaging. Heated stage and heated lid
-          with CO2 supply keep cells in incubator-like conditions. Heated lid fits any
+          with CO
+          <sub>2</sub>
+          {' '}
+          supply keep cells in incubator-like conditions. Heated lid fits any
           SBS format plate.
         </li>
         <li>

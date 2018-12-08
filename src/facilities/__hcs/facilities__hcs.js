@@ -23,7 +23,7 @@ const HiContentScreening = () => (
           provides access to cutting-edge equipment to perform high-speed imaging
           of multi-well plates at low or high resolution. Working in tandem with
           the High-Throughput Screening and High Spatio-Temporal Resolution Imaging
-          facilities provides seamless integration from initial screens to detailed
+          facilities provides users with seamless integration from initial screens to detailed
           secondary assays.
         </p>
       </div>

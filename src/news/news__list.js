@@ -18,13 +18,18 @@ const List = ({
           <li key={title}>
             <h2>{title}</h2>
             <time>{article.date}</time>
-            <p>{article.summary}</p>
-            <RouterLink
-              to={`/news/${encodeURI(title)}`}
-              type="link"
-            >
-              more...
-            </RouterLink>
+            {article.summary}
+            {
+              article.text
+              && (
+                <RouterLink
+                  to={`/news/${encodeURI(title)}`}
+                  type="link"
+                >
+                  more...
+                </RouterLink>
+              )
+            }
           </li>
         ))
       }

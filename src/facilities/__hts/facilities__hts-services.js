@@ -159,7 +159,7 @@ const Services = () => (
         arise when different concentrations and different dispensing times are tested. Through
         advanced robotic capabilities, we can however provide users with this experimental option.
       </p>
-      <h3>VII. Sample combination arrays</h3>
+      <h3>VII. LUMIER</h3>
       <p>
         LUMIER (LUminescence-based Mamalian IntERactome) is a high-throughput automated platform
         developed in the Wrana lab for identification of novel protein-protein interactions in

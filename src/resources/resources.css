@@ -121,7 +121,6 @@
   margin-bottom: 30px;
 }
 .resources__workshop ul p:before {
-  content: '•';
   margin-right: 5px;
 }
 .resources__workshop ul {

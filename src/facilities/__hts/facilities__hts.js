@@ -17,12 +17,13 @@ const HiThroughputScreening = () => (
           High-Throughput Screening
         </h1>
         <p>
-          Formerly known as the SMART Laboratory, the High-Throughput Screening facility,
-          assists in the development of assays for large-scale applications, and offers
-          access to robot-assisted technologies for the design, validation, and execution
-          of experimental procedures under high-throughput conditions. An integrated framework
-          for data management is available to facilitate and accelerate data analysis and
-          secure contextual information for the reliable interpretation of results.
+          The High-Throughput Screening facility assists in the development of assays for
+          large-scale applications, and offers access to robot-assisted technologies for
+          the design, validation, and execution of experimental procedures under
+          high-throughput conditions. An integrated framework for data management is
+          available to facilitate and accelerate data analysis and secure contextual
+          information for the reliable interpretation of results. The High-Throughput
+          Screening Facility is also referred to as the SMART Laboratory.
         </p>
       </div>
       <Links

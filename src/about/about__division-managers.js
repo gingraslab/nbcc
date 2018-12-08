@@ -77,8 +77,7 @@ const divisionManagers = [
     sequencing facilities. He has in-depth technical and scientific knowledge
     of genomics with a focus on transcriptomics profiling. His current focus
     is to translate scientific finding to clinical use by working with research
-    investigators, physicians and clinical labs. Kin was instrumental in our
-    sequencing division being successfully accredited by ISO 15189.`,
+    investigators, physicians and clinical labs.`,
     email: 'kin@lunenfeld.ca',
     images: [
       KinChan,

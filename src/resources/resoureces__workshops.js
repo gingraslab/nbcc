@@ -95,8 +95,8 @@ const Workshops = () => (
         />
         <div className="resources__workshops-event">
           <p>
-            On November 22nd, we presented two workshops describing the technologies employed at
-            the Network Biology Collaborative Centre to over 50 attendees from the Toronto area
+            On November 22nd, 2016, we presented two workshops describing the technologies employed
+            at the Network Biology Collaborative Centre to over 50 attendees from the Toronto area
             and further described how our services can be employed in their own research projects.
           </p>
           <a href={Workshop2016}>

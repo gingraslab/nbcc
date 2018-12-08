@@ -14,7 +14,7 @@ const Management = () => (
   >
     <h2>
       <User />
-      <span>Team</span>
+      <span>Management</span>
     </h2>
     <Personnel people={directors} />
     <Personnel people={advisors} />

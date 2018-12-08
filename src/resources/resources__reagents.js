@@ -36,7 +36,7 @@ const Reagents = () => (
       <Flask />
       <span>Reagents</span>
     </h2>
-    <h3>Plasmic vectors</h3>
+    <h3>Plasmid vectors</h3>
     <p>
       The NBCC is pleased to provide the following lentiviral vectors for use:
     </p>
@@ -191,7 +191,7 @@ const Reagents = () => (
         <LinkIcon />
         Samavarchi-Tehrani, P., H. Abdouni, R. Samson, and A.C. Gingras, A versatile
         lentiviral delivery toolkit for proximity-dependent biotinylation in diverse
-        cell types. Mol Cell Proteomics, 2018. epub ahead of publication.
+        cell types. Mol Cell Proteomics, 2018. 17(11):2256-2269.
       </a>
     </cite>
     <p>

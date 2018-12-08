@@ -224,7 +224,7 @@ const Pricing = () => (
       <h4>Data storage and management</h4>
       <p>
         Data may be temporarily stored on facility&apos;s computers and servers. All
-        iles have to be moved to personal or lab storage after 2 months.
+        files have to be moved to personal or lab storage after 2 months.
       </p>
       <h4>Bio-Safety</h4>
       <p>

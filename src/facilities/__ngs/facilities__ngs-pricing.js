@@ -90,15 +90,6 @@ const Pricing = () => (
           </tr>
         </tbody>
       </table>
-      <h3>
-        <span>
-          III. Policies
-        </span>
-      </h3>
-      <p>
-        For ongoing projects, users should contact the sequencing manager Kin Chan
-        (kin@lunenfeld.ca).
-      </p>
     </div>
   </section>
 );

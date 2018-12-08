@@ -101,11 +101,11 @@ const Pricing = () => (
       <p>
         Customized mass spectrometry analyses are also available.
       </p>
-      <h4>Data analysis - $90 per hour</h4>
       <p>
         All services include initial consultation and project planning with a
         proteomics manager, database searching including SAINT for protein
-        interactions, full report and data consultation.
+        interactions, full report and data consultation. For additional data
+        analysis, the fee is $90/hour.
       </p>
       <h3>
         <span>III. Policies</span>

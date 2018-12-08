@@ -31,7 +31,7 @@ const Services = () => (
       <h4>Affinity purification (BioID)</h4>
       <p>
         This assay will identify proteins in close proximity to a protein of
-        interest (bait) within the cell. The bait is tagged with a promiscuous
+        interest (bait) within the cell. The bait is tagged with an abortive
         birA that adds a biotin moiety to proteins in close proximity. The
         biotinylated proteins are then captured with streptavidin beads and
         identified by mass spectrometry. We will provide the appropriate birA

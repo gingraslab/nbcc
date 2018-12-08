@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Server from '../../assets/icons/server';
-import Illumina from './assets/Illumina.svg';
 
 const Equipment = () => (
   <section
@@ -13,12 +12,6 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
-      <img
-        alt="Illumina"
-        height={40}
-        src={Illumina}
-        width={172}
-      />
       <h4>NextSeq</h4>
       <ul>
         <li>mid-throughput sequencer</li>

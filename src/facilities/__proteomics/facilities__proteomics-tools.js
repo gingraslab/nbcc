@@ -91,7 +91,7 @@ const Tools = () => (
       <h3>
         <span>II. ProHits-compatible repositories and tools</span>
       </h3>
-      <h4>Massspectrometry raw file storage</h4>
+      <h4>Mass spectrometry raw file storage</h4>
       <ul>
         <li>
           <a href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp">

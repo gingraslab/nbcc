@@ -1,9 +1,5 @@
 import React from 'react';
 
-import GEHealthcare from './assets/ge-healthcare.svg';
-import Nexcelom from './assets/Nexcelom.png';
-import Nexcelom2x from './assets/Nexcelom2x.png';
-import Nexcelom3x from './assets/Nexcelom3x.png';
 import Server from '../../assets/icons/server';
 
 const Equipment = () => (
@@ -16,12 +12,6 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
-      <img
-        alt="GE Healthcare"
-        height={40}
-        src={GEHealthcare}
-        width={166}
-      />
       <h4>IN Cell 6000</h4>
       <p>
         The IN Cell Analyzer 6000 is a high-end, laser-based, line-scanning confocal
@@ -30,7 +20,7 @@ const Equipment = () => (
         Iris-like variable aperture and next-generation scientific CMOS camera enable
         high quality imaging at high speeds without compromising data quality. This
         instrument is designed for high-throughput imaging and assay development. It
-        can be used for live cell and endpoint assays as well 3-D imaging, co-localization
+        can be used for live cell and endpoint assays as well as 3-D imaging, co-localization
         studies and low signal assays.
       </p>
       <p>
@@ -38,17 +28,6 @@ const Equipment = () => (
         60x objectives. Both microscopes are also equipped with temperature and environmental
         controls, enabling live-cell screens.
       </p>
-      <img
-        alt="Nexcelom Bioscience"
-        height={40}
-        src={Nexcelom}
-        srcSet={`
-          ${Nexcelom} 1x,
-          ${Nexcelom2x} 2x,
-          ${Nexcelom3x} 3x
-        `}
-        width={111}
-      />
       <h4>Celígo</h4>
       <p>
         Celígo is a low-resolution high-throughput microscope, equipped with

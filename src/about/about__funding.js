@@ -6,9 +6,6 @@ import CIHR from './assets/funding/cihr.svg';
 import Innovation from './assets/funding/innovation.svg';
 import GC from './assets/funding/gc.svg';
 import LTRI from './assets/funding/ltri.svg';
-import NIH from './assets/funding/nih.png';
-import NIH2x from './assets/funding/nih2x.png';
-import NIH3x from './assets/funding/nih3x.png';
 import OG from './assets/funding/og.svg';
 import ORF from './assets/funding/orf.png';
 import ORF2x from './assets/funding/orf2x.png';
@@ -16,9 +13,6 @@ import ORF3x from './assets/funding/orf3x.png';
 import TFRI from './assets/funding/tfri.png';
 import TFRI2x from './assets/funding/tfri2x.png';
 import TFRI3x from './assets/funding/tfri3x.png';
-import UofT from './assets/funding/uoft.png';
-import UofT2x from './assets/funding/uoft2x.png';
-import UofT3x from './assets/funding/uoft3x.png';
 
 
 const Funding = () => (
@@ -34,40 +28,6 @@ const Funding = () => (
       Institute and the Lunenfeld-Tanenbaum Research Institute.
     </p>
     <div className="about__funding-images">
-      <a href="https://www.nih.gov/">
-        <img
-          alt="National Institutes of Health"
-          height={50}
-          src={NIH}
-          srcSet={`
-            ${NIH} 1x,
-            ${NIH2x} 2x,
-            ${NIH3x} 3x
-          `}
-          width={50}
-        />
-      </a>
-      <a href="http://www.tfri.ca/">
-        <img
-          alt="Terry Fox Research Institute"
-          height={50}
-          src={TFRI}
-          srcSet={`
-            ${TFRI} 1x,
-            ${TFRI2x} 2x,
-            ${TFRI3x} 3x
-          `}
-          width={61}
-        />
-      </a>
-      <a href="http://www.cihr-irsc.gc.ca">
-        <img
-          alt="Canadian Institutes of Health Research"
-          height={50}
-          src={CIHR}
-          width={80}
-        />
-      </a>
       <a href="https://www.innovation.ca/">
         <img
           alt="Canada Foundation for Innovation"
@@ -105,17 +65,25 @@ const Funding = () => (
           width={116}
         />
       </a>
-      <a href="https://www.utoronto.ca/">
+      <a href="http://www.cihr-irsc.gc.ca">
         <img
-          alt="University of Toronto"
+          alt="Canadian Institutes of Health Research"
           height={50}
-          src={UofT}
+          src={CIHR}
+          width={80}
+        />
+      </a>
+      <a href="http://www.tfri.ca/">
+        <img
+          alt="Terry Fox Research Institute"
+          height={50}
+          src={TFRI}
           srcSet={`
-            ${UofT} 1x,
-            ${UofT2x} 2x,
-            ${UofT3x} 3x
+            ${TFRI} 1x,
+            ${TFRI2x} 2x,
+            ${TFRI3x} 3x
           `}
-          width={141}
+          width={61}
         />
       </a>
       <a href="http://www.lunenfeld.ca/">

@@ -23,13 +23,13 @@ const Contact = () => (
       <Envelope />
       <span>Contact</span>
     </h2>
-    <h3>Directors:</h3>
-    <ul className="about__contact-list">
-      { directors.map(contactInfo) }
-    </ul>
     <h3>Centre manager:</h3>
     <ul className="about__contact-list">
       { managers.map(contactInfo) }
+    </ul>
+    <h3>Directors:</h3>
+    <ul className="about__contact-list">
+      { directors.map(contactInfo) }
     </ul>
     <h3>Division managers:</h3>
     <ul className="about__contact-list">

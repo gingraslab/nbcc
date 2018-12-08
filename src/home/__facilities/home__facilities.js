@@ -14,18 +14,17 @@ const Facilities = () => (
       </h2>
       <div className="home__section-details home__facilities-details">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Pulvinar pellentesque
-          habitant morbi tristique senectus et netus et. Amet mauris commodo quis
-          imperdiet massa tincidunt nunc. Enim sed faucibus turpis in eu mi. In
-          tellus integer feugiat scelerisque varius. Habitant morbi tristique senectus
-          et netus et. Elementum eu facilisis sed odio. Maecenas pharetra convallis
-          posuere morbi. Sed nisi lacus sed viverra tellus. Molestie a iaculis at erat
-          pellentesque adipiscing commodo elit. Pretium quam vulputate dignissim
-          suspendisse in est. Phasellus faucibus scelerisque eleifend donec pretium
-          vulputate sapien nec sagittis. Porttitor rhoncus dolor purus non enim
-          praesent elementum. Fringilla phasellus faucibus scelerisque eleifend donec
-          pretium vulputate. In massa tempor nec feugiat nisl pretium.
+          From start to finish, we work with our users to rapidly advance their
+          research within and across our six complementary divisions. Our experienced
+          managers are always ready to meet with potential users to discuss how our
+          services could help their research. Together, experiments are planned and
+          executed, results are reviewed, and next steps are discussed. We assist with
+          grant writing, collaboration letters, and preparing publication-ready results.
+          Users often enter the Centre through one division, e.g. high-throughput screening
+          to identify genes with interesting phenotypes and then continue to imaging for
+          detailed phenotypic readouts and to proteomics to identify interaction partners.
+          This integration of our core services enables users to rapidly transition between
+          biophysical characterizations and functional insights, a unique strength of the NBCC.
         </p>
         <div className="home__facilities-buttons">
           <Link to="/facilities/high-content-screening">

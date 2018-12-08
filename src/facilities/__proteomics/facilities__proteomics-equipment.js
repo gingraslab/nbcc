@@ -1,10 +1,6 @@
 import React from 'react';
 
-import Sciex from './assets/sciex.png';
-import Sciex2x from './assets/sciex2x.png';
-import Sciex3x from './assets/sciex3x.png';
 import Server from '../../assets/icons/server';
-import Thermo from './assets/thermo-fisher.svg';
 
 const Equipment = () => (
   <section
@@ -16,18 +12,7 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
-      <img
-        alt="Sciex"
-        height={40}
-        src={Sciex}
-        srcSet={`
-          ${Sciex} 1x,
-          ${Sciex2x} 2x,
-          ${Sciex3x} 3x
-        `}
-        width={119}
-      />
-      <h4>6600</h4>
+      <h4>TripleTOF</h4>
       <p>
         We have four TripleTOF instruments all running nano-LC-MS proteomic
         applications. Three are 6600 TripleTOFs with Eksigent 425 nano-HPLCs,
@@ -36,12 +21,6 @@ const Equipment = () => (
         workflows including targeted (MRM-HR) and non-targeted (DDA and SWATH or
         DIA).
       </p>
-      <img
-        alt="Thermo Fisher Scientific"
-        height={40}
-        src={Thermo}
-        width={187}
-      />
       <h4>Lumos</h4>
       <p>
         We have one Fusion Lumos with an Eksigent 425 nano-HPLC for

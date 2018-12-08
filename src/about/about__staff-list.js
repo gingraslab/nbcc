@@ -4,9 +4,6 @@ import CassandraWong3x from './assets/people/CassandraWong3x.png';
 import JamesKnight from './assets/people/JamesKnight.png';
 import JamesKnight2x from './assets/people/JamesKnight2x.png';
 import JamesKnight3x from './assets/people/JamesKnight3x.png';
-import JessShen from './assets/people/JessShen.png';
-import JessShen2x from './assets/people/JessShen2x.png';
-import JessShen3x from './assets/people/JessShen3x.png';
 import JennyWang from './assets/people/JennyWang.png';
 import JennyWang2x from './assets/people/JennyWang2x.png';
 import JennyWang3x from './assets/people/JennyWang3x.png';
@@ -28,6 +25,12 @@ const staff = [
     ],
     name: 'Miriam Barrios-Rodilles',
     title: 'Scientific Associate, LUMIER Specialist',
+  },
+  {
+    email: 'ghoshal@lunenfeld.ca',
+    expertise: 'bioinformatics analysis of genomics, transcriptomics, & microbiome data; single cell genomics data analysis; bioinformatics pipeline development',
+    name: 'Bibaswan Ghoshal ',
+    title: 'Senior Bioinformatician ',
   },
   {
     email: 'mjen@lunenfeld.ca',
@@ -68,17 +71,6 @@ const staff = [
     expertise: 'data analysis and integration',
     name: 'Adrian Pasculescu',
     title: 'Software Engineer',
-  },
-  {
-    email: 'shen@lunenfeld.ca',
-    expertise: 'next-generation sequencing and protein-protein interaction network analysis',
-    images: [
-      JessShen,
-      JessShen2x,
-      JessShen3x,
-    ],
-    name: 'Jess Shen',
-    title: 'Bioinformatician',
   },
   {
     email: 'tkach@lunenfeld.ca',

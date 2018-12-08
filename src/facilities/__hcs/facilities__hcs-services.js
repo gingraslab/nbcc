@@ -13,7 +13,7 @@ const Services = () => (
         Services
       </h2>
       <p>
-        The high-Content screening unit provides access to cutting edge
+        The High-Content screening unit provides access to cutting edge
         high-throughput imaging equipment, as well as powerful automated image
         and data analysis tools. This unit is a natural end point for automated
         assays including large-scale RNAi/chemical screens. Our expertise in
@@ -38,7 +38,7 @@ const Services = () => (
       <h4>Celígo Cytometer (Nexcelom Bioscience)</h4>
       <p>
         This instrument is ideal for up to 4-channel imaging of multi-well plates
-        at low-resolution. Proprietary F-theta lens, installed on the cytometer
+        at low-resolution. Proprietary F-theta lens installed on the cytometer
         provides great image flatness and contrast. Bright LED light-sources enable
         label-free brightfield imaging as well as acquisition of blue, green and
         red fluorophores.
@@ -48,7 +48,7 @@ const Services = () => (
         The IN Cell is a high-end, laser-based, line-scanning confocal imaging platform.
         It utilizes a novel and proprietary optical engine to achieve both wide field and
         confocal imaging capabilities in one system. The Iris-like variable aperture and
-        next-generation scientific CMOS camera (2048x2048) enable high quality imaging at
+        next-generation scientific CMOS camera (2048x2048) enable high quality imaging
         at a high speed. This instrument is designed for high-throughput imaging (up to 5
         channels and multiple z-sections) and assay development. It can be used for live
         cell and endpoint assays as well as 3D imaging, co-localization studies and low
