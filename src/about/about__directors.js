@@ -1,6 +1,12 @@
+import AnneClaudeGingras from './assets/people/AnneClaudeGingras.png';
+import AnneClaudeGingras2x from './assets/people/AnneClaudeGingras2x.png';
+import AnneClaudeGingras3x from './assets/people/AnneClaudeGingras3x.png';
 import AnneClaudeGingrasHome from './assets/people/AnneClaudeGingras-home.png';
 import AnneClaudeGingrasHome2x from './assets/people/AnneClaudeGingras2x-home.png';
 import AnneClaudeGingrasHome3x from './assets/people/AnneClaudeGingras3x-home.png';
+import JeffWrana from './assets/people/JeffWrana.png';
+import JeffWrana2x from './assets/people/JeffWrana2x.png';
+import JeffWrana3x from './assets/people/JeffWrana3x.png';
 import JeffWranaHome from './assets/people/JeffWrana-home.png';
 import JeffWranaHome2x from './assets/people/JeffWrana2x-home.png';
 import JeffWranaHome3x from './assets/people/JeffWrana3x-home.png';
@@ -21,6 +27,11 @@ const directors = [
       AnneClaudeGingrasHome,
       AnneClaudeGingrasHome2x,
       AnneClaudeGingrasHome3x,
+    ],
+    images: [
+      AnneClaudeGingras,
+      AnneClaudeGingras2x,
+      AnneClaudeGingras3x,
     ],
     name: 'Anne-Claude Gingras',
     phone: '416-586-5027',
@@ -43,6 +54,11 @@ const directors = [
       JeffWranaHome,
       JeffWranaHome2x,
       JeffWranaHome3x,
+    ],
+    images: [
+      JeffWrana,
+      JeffWrana2x,
+      JeffWrana3x,
     ],
     name: 'Jeff Wrana',
     phone: '416-586-2791',

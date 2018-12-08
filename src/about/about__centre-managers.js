@@ -14,15 +14,15 @@ const centreManagers = [
     daily oversight of the centre, coordinating external customer requests between
     the divisions, and liaising with the individual division managers and directors.`,
     email: 'colwill@lunenfeld.ca',
-    images: [
-      KarenColwill,
-      KarenColwill2x,
-      KarenColwill3x,
-    ],
     homeImages: [
       KarenColwillHome,
       KarenColwillHome2x,
       KarenColwillHome3x,
+    ],
+    images: [
+      KarenColwill,
+      KarenColwill2x,
+      KarenColwill3x,
     ],
     name: 'Karen Colwill',
     phone: '416-586-4800 x 3018',

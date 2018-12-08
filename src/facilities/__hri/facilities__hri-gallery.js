@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ImageGallery from './facilities__hri-images-container';
 import Images from '../../assets/icons/images';
 import Video from '../../components/video/video';
 
@@ -18,6 +19,9 @@ const Gallery = () => (
         <Images />
         Gallery
       </h2>
+      <h3>Images</h3>
+      <ImageGallery />
+      <h3>Movies</h3>
       <div className="facilities__hri-movies">
         <Video src={Movie1} />
         <Video src={Movie2} />
