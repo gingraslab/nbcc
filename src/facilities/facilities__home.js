@@ -5,8 +5,8 @@ import Link from '../components/router-link/router-link';
 import './facilities.css';
 
 const Home = () => (
-  <main className="facilities">
-    <section>
+  <main className="facilities facilities__main-landing">
+    <section className="facilities__main-about">
       <h1>
         Facilities
       </h1>

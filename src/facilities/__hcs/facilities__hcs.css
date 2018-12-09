@@ -1,3 +1,21 @@
+.facilities__hcs-about h1,
+.facilities__hcs-about p {
+  border-radius: 4px;
+}
+.facilities__hcs-about h1 {
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 10px;
+}
+.facilities__hcs-about p {
+  background-color: rgba(245, 245, 245, 0.8);
+  font-size: 1.2rem;
+  max-width: 600px;
+  padding: 20px;
+  text-align: justify;
+}
+.facilities__hcs-landing {
+  background-image: url('./assets/plates.jpg');
+}
 .facilities_hcs_full-header  {
   background-color: var(--color-secondary-1-2-5);
   color: var(--text-light);

@@ -92,6 +92,23 @@
   margin: 10px;
   text-decoration: none;
 }
+.facilities__main-about h1,
+.facilities__main-about p {
+  border-radius: 4px;
+}
+.facilities__main-about h1 {
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 10px;
+}
+.facilities__main-about p {
+  background-color: rgba(245, 245, 245, 0.8);
+  font-size: 1.2rem;
+  max-width: 600px;
+  padding: 20px;
+  text-align: justify;
+}
+.facilities__main-landing {
+}
 .facilities__pricing {
   background: var(--color-secondary-1-1);
   background: linear-gradient(to right, #aeccea, #c2d9ef);

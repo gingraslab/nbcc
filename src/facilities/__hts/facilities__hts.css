@@ -1,3 +1,21 @@
+.facilities__hts-about h1,
+.facilities__hts-about p {
+  border-radius: 4px;
+}
+.facilities__hts-about h1 {
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 10px;
+}
+.facilities__hts-about p {
+  background-color: rgba(245, 245, 245, 0.8);
+  font-size: 1.2rem;
+  max-width: 600px;
+  padding: 20px;
+  text-align: justify;
+}
+.facilities__hts-landing {
+  background-image: url('./assets/robot.jpg');
+}
 .facilities__equipment table {
   width: 100%;
 }
