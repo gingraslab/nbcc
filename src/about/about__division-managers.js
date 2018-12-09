@@ -1,9 +1,15 @@
+import AlessandroDatti from './assets/people/AlessandroDatti.png';
+import AlessandroDatti2x from './assets/people/AlessandroDatti2x.png';
+import AlessandroDatti3x from './assets/people/AlessandroDatti3x.png';
 import BrettLarsen from './assets/people/BrettLarsen.png';
 import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
 import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
 import KinChan from './assets/people/KinChan.png';
 import KinChan2x from './assets/people/KinChan2x.png';
 import KinChan3x from './assets/people/KinChan3x.png';
+import MikhailBashkurov from './assets/people/MikhailBashkurov.png';
+import MikhailBashkurov2x from './assets/people/MikhailBashkurov2x.png';
+import MikhailBashkurov3x from './assets/people/MikhailBashkurov3x.png';
 import MonicaHasegan from './assets/people/MonicaHasegan.png';
 import MonicaHasegan2x from './assets/people/MonicaHasegan2x.png';
 import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
@@ -36,6 +42,11 @@ const divisionManagers = [
     robot-assisted formats aimed at identifying molecular entities with
     biological or pharmacological properties.`,
     email: 'datti@lunenfeld.ca',
+    images: [
+      AlessandroDatti,
+      AlessandroDatti2x,
+      AlessandroDatti3x,
+    ],
     name: 'Alessandro Datti',
     phone: '416-586-4800 X 4732',
     title: 'High-Throughput Screening Manager',
@@ -48,6 +59,11 @@ const divisionManagers = [
     screen design to data analysis and statistics. He is also involved in
     instrument maintenance and training of new users.`,
     email: 'bashkurov@lunenfeld.ca',
+    images: [
+      MikhailBashkurov,
+      MikhailBashkurov2x,
+      MikhailBashkurov3x,
+    ],
     name: 'Mikhail (Misha) Bashkurov',
     phone: '416-586-4800 x 2862',
     title: 'High-Content Screening Manager',

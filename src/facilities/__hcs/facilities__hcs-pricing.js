@@ -54,7 +54,6 @@ const Pricing = () => (
                 <td colSpan="3">
                   <sup>1</sup>
                   Peak hours are workdays, 9am - 5pm.
-                  4 hr daily max during peak hours.
                 </td>
               </tr>
             </tfoot>
@@ -73,6 +72,7 @@ const Pricing = () => (
           <ul>
             <li>Monthly: $900 (can include assay development)</li>
             <li>Plate surcharge: $300/month</li>
+            <li>4 hr daily max during peak hours for monthly flate rate</li>
           </ul>
         </div>
       </div>
@@ -121,7 +121,6 @@ const Pricing = () => (
                 <td colSpan="3">
                   <sup>1</sup>
                   Peak hours are workdays, 9am - 5pm.
-                  4 hr daily max during peak hours.
                 </td>
               </tr>
             </tfoot>
@@ -140,6 +139,7 @@ const Pricing = () => (
           <ul>
             <li>Monthly: $300 (can include assay development)</li>
             <li>Plate surcharge: $100/month</li>
+            <li>4 hr daily max during peak hours for monthly flate rate</li>
           </ul>
         </div>
       </div>
