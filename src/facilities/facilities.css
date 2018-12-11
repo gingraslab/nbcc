@@ -11,6 +11,7 @@
   max-width: 50%;
 }
 .facilities h1 {
+  text-align: center;
   text-transform: uppercase;
 }
 .facilities p {
@@ -97,17 +98,21 @@
   border-radius: 4px;
 }
 .facilities__main-about h1 {
-  background-color: rgba(245, 245, 245, 0.7);
+  background-color: rgba(245, 245, 245, 0.85);
   padding: 10px;
 }
 .facilities__main-about p {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(245, 245, 245, 0.85);
   font-size: 1.2rem;
   max-width: 600px;
   padding: 20px;
   text-align: justify;
 }
 .facilities__main-landing {
+  background-image: url('./assets/facilities.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .facilities__pricing {
   background: var(--color-secondary-1-1);
