@@ -1,5 +1,7 @@
 import React from 'react';
 
+import LTRI from '../../about/assets/funding/ltri.svg';
+
 import './home__landing.css';
 
 const Landing = () => (
@@ -12,6 +14,10 @@ const Landing = () => (
       Research Institute is a national platform providing integrated solutions
       for functional genomics and proteomics.
     </strong>
+    <img
+      alt="Lunenfeld-Tanenbaum Research Institute"
+      src={LTRI}
+    />
   </section>
 );
 

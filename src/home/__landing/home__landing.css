@@ -10,6 +10,7 @@
   justify-content: center;
   height: 100vh;
   padding: 0 20px;
+  position: relative;
 }
 .home__landing h1,
 .home__landing strong {
@@ -17,13 +18,23 @@
 }
 .home__landing h1 {
   background-color: rgba(245, 245, 245, 0.85);
+  border-radius: 2px;
   padding: 10px;
   margin-right: 20%;
   text-align: center;
   text-transform: capitalize;
 }
+.home__landing img {
+  background-color: rgba(245, 245, 245, 0.85);
+  border-radius: 2px;
+  bottom: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+}
 .home__landing strong {
   background-color: rgba(245, 245, 245, 0.85);
+  border-radius: 2px;
   font-size: 1.2rem;
   line-height: 1.4rem;
   margin-top: 40px;

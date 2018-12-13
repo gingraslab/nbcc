@@ -1,7 +1,5 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import Button from '../../components/button/button';
 import LinkIcon from '../../assets/icons/link';
 import directors from '../../about/about__directors';
 import managers from '../../about/about__centre-managers';
@@ -11,68 +9,56 @@ import './home__management.css';
 
 const team = [...directors, ...managers];
 
-const Management = ({
-  handleClick,
-  managementIndex,
-}) => (
+const Management = () => (
   <section className="home__section home__management">
     <div className="home__section-inner home__management-inner">
       <h2>
         <Users />
         Team
       </h2>
-      <div className="home__section-details">
-        <div className="home__management-details">
-          {
-            <img
-              alt={team[managementIndex].name}
-              height={335}
-              src={team[managementIndex].homeImages[0]}
-              srcSet={`
-                ${team[managementIndex].homeImages[0]} 1x,
-                ${team[managementIndex].homeImages[1]} 2x,
-                ${team[managementIndex].homeImages[2]} 3x
-              `}
-              width={250}
-            />
-          }
-          <div>
-            <div className="home__management-buttons">
+      <div className="home__section-details home__management-details">
+        {
+          team.map((person, index) => (
+            <Fragment key={person.name}>
+              <div>
+                <img
+                  alt={person.name}
+                  height={335}
+                  src={person.homeImages[0]}
+                  srcSet={`
+                    ${person.homeImages[0]} 1x,
+                    ${person.homeImages[1]} 2x,
+                    ${person.homeImages[2]} 3x
+                  `}
+                  width={250}
+                />
+                <div>
+                  <h3>{ person.name }</h3>
+                  <h4>{ person.title }</h4>
+                  <p>{ person.description }</p>
+                  {
+                    person.website
+                    && (
+                      <a
+                        href={person.website}
+                      >
+                        <LinkIcon />
+                        website
+                      </a>
+                    )
+                  }
+                </div>
+              </div>
               {
-                team.map((person, index) => (
-                  <Button
-                    key={person.name}
-                    onClick={() => { handleClick(index); }}
-                    type={managementIndex === index ? 'complement-solid' : 'complement'}
-                  >
-                    { person.name }
-                  </Button>
-                ))
+                index !== team.length - 1
+                && <hr />
               }
-            </div>
-            <h4>{ team[managementIndex].title }</h4>
-            <p>{ team[managementIndex].description }</p>
-            {
-              team[managementIndex].website
-              && (
-                <a
-                  href={team[managementIndex].website}
-                >
-                  <LinkIcon />
-                  website
-                </a>
-              )
-            }
-          </div>
-        </div>
+            </Fragment>
+          ))
+        }
       </div>
     </div>
   </section>
 );
-
-Management.propTypes = {
-  handleClick: PropTypes.func.isRequired,
-  managementIndex: PropTypes.number.isRequired,
-};
 
 export default Management;
