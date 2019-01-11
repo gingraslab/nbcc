@@ -7,6 +7,8 @@
   color: var(--color-complement-3);
   display: inline-block;
 }
-.facilities__proteomics-landing {
-  background-image: url('./assets/mass-spec.jpg');
+@media (min-width: 1000px) {
+  .facilities__proteomics-landing {
+    background-image: url('./assets/mass-spec.jpg');
+  }
 }
