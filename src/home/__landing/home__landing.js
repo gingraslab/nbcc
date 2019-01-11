@@ -9,11 +9,11 @@ const Landing = () => (
     <h1>
       Network biology collaborative centre
     </h1>
-    <strong>
+    <p>
       The Network Biology Collaborative Centre at the Lunenfeld-Tanenbaum
       Research Institute is a national platform providing integrated solutions
       for functional genomics and proteomics.
-    </strong>
+    </p>
     <img
       alt="Lunenfeld-Tanenbaum Research Institute"
       src={LTRI}

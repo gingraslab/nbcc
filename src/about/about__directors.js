@@ -13,32 +13,6 @@ import JeffWranaHome3x from './assets/people/JeffWrana3x-home.png';
 
 const directors = [
   {
-    description: `Dr. Anne-Claude Gingras is a Senior Investigator at the
-      Lunenfeld-Tanenbaum and Professor in the Department of Molecular
-      Genetics, University of Toronto. She holds the Canada Research Chair in
-      Functional Proteomics and the Lea Reichmann Chair in Cancer Proteomics.
-      In 2011, she was recognized as one of Canada's top 100 most powerful women.
-      Her core biological interests centre on signal transduction in cancer and
-      vascular diseases. Dr. Gingras is Director of Proteomics and has focused
-      on applying mass spectrometry-based proteomics to understanding the assembly
-      of proteins into complex signaling networks.`,
-    email: 'gingras@lunenfeld.ca',
-    homeImages: [
-      AnneClaudeGingrasHome,
-      AnneClaudeGingrasHome2x,
-      AnneClaudeGingrasHome3x,
-    ],
-    images: [
-      AnneClaudeGingras,
-      AnneClaudeGingras2x,
-      AnneClaudeGingras3x,
-    ],
-    name: 'Anne-Claude Gingras',
-    phone: '416-586-5027',
-    title: 'Co-Director of the Network Biology Collaborative Centre',
-    website: 'https://gingraslab.lunenfeld.ca/',
-  },
-  {
     description: `Dr. Jeff Wrana is a Senior Investigator at the Lunenfeld-Tanenbaum
     Research Institute and Professor in the Department of Molecular Genetics,
     University of Toronto. He is internationally recognized for his work on TGFβ
@@ -64,6 +38,32 @@ const directors = [
     phone: '416-586-2791',
     title: 'Co-Director of the Network Biology Collaborative Centre',
     website: 'http://attisanowranalabs.science/',
+  },
+  {
+    description: `Dr. Anne-Claude Gingras is a Senior Investigator at the
+      Lunenfeld-Tanenbaum and Professor in the Department of Molecular
+      Genetics, University of Toronto. She holds the Canada Research Chair in
+      Functional Proteomics and the Lea Reichmann Chair in Cancer Proteomics.
+      In 2011, she was recognized as one of Canada's top 100 most powerful women.
+      Her core biological interests centre on signal transduction in cancer and
+      vascular diseases. Dr. Gingras is Director of Proteomics and has focused
+      on applying mass spectrometry-based proteomics to understanding the assembly
+      of proteins into complex signaling networks.`,
+    email: 'gingras@lunenfeld.ca',
+    homeImages: [
+      AnneClaudeGingrasHome,
+      AnneClaudeGingrasHome2x,
+      AnneClaudeGingrasHome3x,
+    ],
+    images: [
+      AnneClaudeGingras,
+      AnneClaudeGingras2x,
+      AnneClaudeGingras3x,
+    ],
+    name: 'Anne-Claude Gingras',
+    phone: '416-586-5027',
+    title: 'Co-Director of the Network Biology Collaborative Centre',
+    website: 'https://gingraslab.lunenfeld.ca/',
   },
 ];
 

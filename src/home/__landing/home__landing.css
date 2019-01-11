@@ -13,12 +13,13 @@
   position: relative;
 }
 .home__landing h1,
-.home__landing strong {
+.home__landing p {
   border-radius: 4px;
 }
 .home__landing h1 {
   background-color: rgba(245, 245, 245, 0.85);
   border-radius: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   padding: 10px;
   margin-right: 20%;
   text-align: center;
@@ -32,16 +33,17 @@
   position: absolute;
   right: 10px;
 }
-.home__landing strong {
+.home__landing p {
   background-color: rgba(245, 245, 245, 0.85);
   border-radius: 2px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   line-height: 1.4rem;
   margin-top: 40px;
   margin-left: 20%;
   max-width: 700px;
   min-width: 280px;
-  padding: 20px;
+  padding: 10px;
   text-align: justify;
   width: 70%;
 }
@@ -49,12 +51,12 @@
   .home__landing h1 {
     margin-right: 0%;
   }
-  .home__landing strong {
+  .home__landing p {
     margin-left: 0%;
   }
 }
 @media (max-width: 449px) {
-  .home__landing strong {
+  .home__landing p {
     font-size: 0.9rem;
     line-height: 1.2rem;
   }
