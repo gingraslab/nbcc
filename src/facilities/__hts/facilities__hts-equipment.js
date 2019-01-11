@@ -20,128 +20,105 @@ const Equipment = () => (
               <th>Instrument</th>
               <th>Manufacturer</th>
               <th>Type</th>
-              <th>Options</th>
-              <th>Other info.</th>
+              <th>Features</th>
+              <th>Formats</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Biomek FX</td>
+              <td>Biomek FX (x2)</td>
               <td>Beckman</td>
               <td>disposible tip</td>
               <td>
                 <ul>
-                  <li>any liquid viscosity</li>
+                  <li>versatile handling of a broad range of liquid viscosity</li>
                   <li>custom scripting</li>
-                  <li>96/384 dispense heads available</li>
-                  <li>volumes 3-250ul</li>
+                  <li>96- and 384-channel dispense heads</li>
+                  <li>accurate volumes in the 2-200ml range</li>
+                  <li>routinely used to seed cells and dispense reagents</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                  <li>cherry picking</li>
-                  <li>span 8</li>
-                </ul>
+                96, 384, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>Echo 555*</td>
+              <td>Biomek NX</td>
+              <td>Beckman</td>
+              <td>disposible tip</td>
+              <td>
+                <ul>
+                  <li>same features as the Biomek FX but with a more compact footprint</li>
+                  <li>equipped with 96 and 384 heads</li>
+                </ul>
+              </td>
+              <td>
+                96, 384, 1536-well microplates
+              </td>
+            </tr>
+            <tr>
+              <td>Echo 555</td>
               <td>Labcyte</td>
-              <td>acoustic liquid transfer</td>
+              <td>acoustic liquid transfer, touchless technology (no tips required)</td>
               <td>
                 <ul>
                   <li>DMSO or aqueous solvents</li>
-                  <li>cherry-picking</li>
+                  <li>can handle different liquid viscosity</li>
+                  <li>cherry-pick applications</li>
                   <li>dose response titration</li>
-                  <li>volumes: 2.5-1000nl</li>
+                  <li>accurate volume range: 2.5-1000nl</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                96, 384, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>STARplus*</td>
+              <td>STARplus</td>
               <td>Hamilton</td>
               <td>disposible tip</td>
               <td>
                 <ul>
-                  <li>any liquid viscosity</li>
+                  <li>can handle a broad range of liquid viscosity</li>
                   <li>custom scripting</li>
-                  <li>volumes 2-250ul</li>
+                  <li>cherry picking applications</li>
+                  <li>can accommodate a large variety of source containers</li>
+                  <li>accurate volume range: 2-250ml</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                  <li>cherry picking</li>
-                  <li>8 independent channel pipetting 96</li>
-                </ul>
+                96, 384, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>Scilone inL10</td>
-              <td>Caliper</td>
-              <td>fixed tip</td>
+              <td>Mutidrop Combi (x2)</td>
+              <td>ThermoFisher</td>
+              <td>bulk dispenser, non-contact</td>
               <td>
                 <ul>
-                  <li>DMSO or aqueous solvents</li>
-                  <li>low volume dispensing with 96 fixed tips</li>
+                  <li>broad range of liquid viscosities</li>
+                  <li>reagent dispensing</li>
+                  <li>cell seeding</li>
+                  <li>accurate volume range: 0.5-2500ul</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                96, 384, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>Mutidrop Combi*</td>
-              <td>Thermo</td>
-              <td>vulk dispenser, non-contact</td>
+              <td>Mutidrop NL (x2)</td>
+              <td>ThermoFisher</td>
+              <td>low volume dispenser, non-contact</td>
               <td>
                 <ul>
-                  <li>variable liquid viscosities</li>
-                  <li>bulk non-contact dispenser</li>
-                  <li>volume: 0.5-2500ul</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Mutidrop nl*</td>
-              <td>Thermo</td>
-              <td>Low volume bulk dispener, non-contact</td>
-              <td>
-                <ul>
-                  <li>variable liquid viscosities</li>
+                  <li>broad range of liquid viscosities</li>
                   <li>bulk non-contact dispenser</li>
                   <li>volume: 0.05-50ul</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                96, 384, 1536-well microplates
               </td>
             </tr>
             <tr>
@@ -149,14 +126,10 @@ const Equipment = () => (
               <td>Beckman</td>
               <td>dedicated pin tool</td>
               <td>
-                96/384 - 200nl slotted pins
+                drug delivery by 200nl slotted pins
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                96- and 384-well microplates
               </td>
             </tr>
           </tbody>
@@ -169,8 +142,9 @@ const Equipment = () => (
             <tr>
               <th>Instrument</th>
               <th>Manufacturer</th>
-              <th>Options</th>
-              <th>Other info.</th>
+              <th>Type</th>
+              <th>Features</th>
+              <th>Formats</th>
             </tr>
           </thead>
           <tbody>
@@ -179,107 +153,94 @@ const Equipment = () => (
               <td>Perkin Elmer</td>
               <td>
                 <ul>
-                  <li>fluorescence</li>
-                  <li>luminescence</li>
-                  <li>absorbance</li>
-                  <li>fluorescence polarization</li>
+                  <li>Filter-based Absorbance and Fluorescence</li>
+                  <li>Laser-based Luminescence</li>
+                  <li>AlphaScreen</li>
                 </ul>
               </td>
               <td>
+                multimode options (filter-based):
                 <ul>
-                  <li>24</li>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
+                  <li>Absorbance</li>
+                  <li>Fluorescence Intensity</li>
+                  <li>Time-Resolved Fluorescence</li>
+                  <li>TR-FRET</li>
+                  <li>Luminescence</li>
                 </ul>
+              </td>
+              <td>
+                24-, 96-, 384-, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>PHERAstar</td>
-              <td>BMG</td>
+              <td>PHERAstar 1</td>
+              <td>BMG LABTECH</td>
               <td>
                 <ul>
-                  <li>fluorescence</li>
-                  <li>luminescence</li>
-                  <li>absorbance</li>
-                  <li>fluorescence polarization</li>
-                </ul>
-              </td>
-              <td />
-            </tr>
-            <tr>
-              <td>FLUOstar</td>
-              <td>BMG</td>
-              <td>
-                <ul>
-                  <li>fluorescence</li>
-                  <li>luminescence</li>
-                  <li>absorbance</li>
+                  <li>multi-mode signal detection</li>
+                  <li>simultaneous dual emission signal capture</li>
                 </ul>
               </td>
               <td>
+                multimode options (filter-based):
                 <ul>
-                  <li>24</li>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                  <li>dual injectors</li>
+                  <li>Absorbance (also by monochromator)</li>
+                  <li>Fluorescence Intensity</li>
+                  <li>Time-Resolved Fluorescence</li>
+                  <li>TR-FRET</li>
+                  <li>Luminescence</li>
+                  <li>Alphascreen</li>
                 </ul>
+                injectors available
+              </td>
+              <td>
+                24-, 96-, 384-, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>Cytation 3*</td>
+              <td>PHERAstar 2</td>
+              <td>BMG LABTECH</td>
+              <td>
+                <ul>
+                  <li>multi-mode signal detection</li>
+                  <li>simultaneous dual emission signal capture</li>
+                </ul>
+              </td>
+              <td>
+                multimode options (filter-based):
+                <ul>
+                  <li>Absorbance</li>
+                  <li>Fluorescence Intensity</li>
+                  <li>Time-Resolved Fluorescence</li>
+                  <li>TR-FRET</li>
+                  <li>Luminescence</li>
+                  <li>Alphascreen</li>
+                </ul>
+                injectors available
+              </td>
+              <td>
+                24-, 96-, 384-, 1536-well microplates
+              </td>
+            </tr>
+            <tr>
+              <td>Cytation 3</td>
               <td>Biotek</td>
               <td>
                 <ul>
-                  <li>fluorescence</li>
-                  <li>luminescence</li>
-                  <li>absorbance</li>
-                  <li>fluorescence polarization</li>
-                  <li>cell cytometer</li>
+                  <li>digital microsopy and multimode detection</li>
+                  <li>monochromator</li>
                 </ul>
               </td>
               <td>
+                multimode options:
                 <ul>
-                  <li>24</li>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Spectra Max</td>
-              <td>Molecular Device</td>
-              <td>
-                <ul>
-                  <li>fluorescence</li>
+                  <li>Absorbance (monochromator)</li>
+                  <li>Fluorescence Intensity (monochromator)</li>
+                  <li>Luminescence</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>24</li>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Gemni XS</td>
-              <td>Molecular Device</td>
-              <td>
-                <ul>
-                  <li>absorbance</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>24</li>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                6-384-well microplates, slides, dishes, TC flasks
               </td>
             </tr>
           </tbody>
@@ -292,72 +253,29 @@ const Equipment = () => (
             <tr>
               <th>Instrument</th>
               <th>Manufacturer</th>
-              <th>Options</th>
-              <th>Other info.</th>
+              <th>Features</th>
+              <th>Formats</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Embla</td>
-              <td>Molecular Device</td>
+              <td>405 LS (x2)</td>
+              <td>Biotek</td>
               <td>
-                <ul>
-                  <li>192 pin manifold</li>
-                  <li>wash both 96 and 384 well plates</li>
-                </ul>
+                applicable to magnetic bead assay, large variety of flow rates
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                </ul>
+                96- and 384-well microplates
               </td>
             </tr>
             <tr>
-              <td>ELx405</td>
-              <td>BioTek</td>
+              <td>Bluewasher</td>
+              <td>Blue Cat Bio</td>
               <td>
-                <ul>
-                  <li>96 well manifold</li>
-                  <li>magnets for 96 well bead assays</li>
-                </ul>
+                centrifugation instead of aspiration to remove liquid
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>ELx405U</td>
-              <td>BioTek</td>
-              <td>
-                <ul>
-                  <li>96 well manifold</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>AquaMax DW4</td>
-              <td>Molecular Device</td>
-              <td>
-                <ul>
-                  <li>96, 384 and 1536 dispense and aspiration heads</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                </ul>
+                24-, 96-, 384-, 1536-well microplates
               </td>
             </tr>
           </tbody>
@@ -371,66 +289,86 @@ const Equipment = () => (
               <th>Instrument</th>
               <th>Manufacturer</th>
               <th>Type</th>
-              <th>Options</th>
-              <th>Other info.</th>
+              <th>Features</th>
+              <th>Formats</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>ASM Store</td>
-              <td>Hamilton Robotics</td>
-              <td>compound mangement</td>
+              <td>Robotic sample storage system (x2)</td>
+              <td>Hamilton Company</td>
+              <td>Compound Management</td>
               <td>
                 <ul>
-                  <li>-20C Freezer</li>
-                  <li>400K+ Tube Capacity</li>
+                  <li>robotic freezer</li>
+                  <li>400K+ sample capacity</li>
                   <li>1-D & 2-D Bar code reader</li>
                 </ul>
               </td>
               <td>
-                <ul>
-                  <li>96</li>
-                  <li>384</li>
-                  <li>1536</li>
-                  <li>matrix tubes</li>
-                </ul>
+                96- and 384-well microplates
               </td>
             </tr>
             <tr>
-              <td>Projet 3500HD</td>
-              <td>3DSystems</td>
-              <td>3D printer</td>
+              <td>CyBi®-Print Vario</td>
+              <td>Analytik Jena</td>
+              <td>Barcode printer</td>
               <td>
                 <ul>
-                  <li>high resolution 3D printer</li>
-                  <li>able to print materials that are Class VI certified</li>
+                  <li>1-D label application</li>
+                  <li>equipped with microplate stackers for automation</li>
                 </ul>
               </td>
-              <td />
+              <td>
+                24-, 96-, 384-, 1536-well microplates
+              </td>
             </tr>
             <tr>
-              <td>Dimatix DMP-2831</td>
-              <td>FujiFilm</td>
-              <td />
+              <td>Microplate Centrifuge</td>
+              <td>Agilent</td>
+              <td>Robot-accessible, automated</td>
               <td>
-                <ul>
-                  <li>Ink Jet technology</li>
-                  <li>able to print out various substrates</li>
-                </ul>
+                used to spin microplates for subsequent, robot-assisted manipulation of reagents
               </td>
-              <td />
+              <td>
+                24-, 96-, 384-, 1536-well microplates
+              </td>
             </tr>
             <tr>
-              <td>xCELLigence</td>
-              <td>ACEA Biosciences</td>
+              <td>X-Peel®</td>
+              <td>Brooks Life Sciences</td>
+              <td>Automated plate seal removal</td>
               <td />
               <td>
-                <ul>
-                  <li>96 well plate format</li>
-                  <li>reader is placed inside a CO2 incubator</li>
-                </ul>
+                24-, 96-, 384-, 1536-well microplates
               </td>
-              <td />
+            </tr>
+            <tr>
+              <td>ALPS 3000™</td>
+              <td>ThermoFisher</td>
+              <td>Automated Microplate Heat Sealer</td>
+              <td>can seal 10 microplates/minute</td>
+              <td>
+                24-, 96-, 384-, 1536-well microplates
+              </td>
+            </tr>
+            <tr>
+              <td>Capit-All™</td>
+              <td>ThermoFisher</td>
+              <td>Screw Cap Tube Capper/Decapper</td>
+              <td>capping/decapping of Matrix™ and Nunc™</td>
+              <td>
+                ScrewTop tubes (all at once) in 24-, 48-, and 96-well racks
+              </td>
+            </tr>
+            <tr>
+              <td>DeCapper</td>
+              <td>Hamilton Company</td>
+              <td>Screw Cap Tube Capper/Decapper</td>
+              <td>capping/decapping of Matrix™ and Nunc™ Tubes</td>
+              <td>
+                ScrewTop tubes (12 per round) in 24-, 48-, and 96-well racks
+              </td>
             </tr>
           </tbody>
         </table>

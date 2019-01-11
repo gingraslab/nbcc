@@ -86,11 +86,11 @@ const Services = () => (
       </p>
       <h4>Targeted quantitative analysis</h4>
       <p>
-        For quantification of specific set of proteins, peptides or
-        post-translational modifications, we offer targeted quantification analysis
-        (MRM-HR or Targeted SWATH on a Triple TOF mass spectrometer). The costing
-        will be determined after the project is defined and will include all assay
-        setup costs.
+        For quantification of a specific set of proteins, peptides or
+        post-translational modifications, we offer targeted quantification analysis, such as
+        multiple reaction monitoring-high resolution (MRM-HR), Targeted SWATH on a Triple
+        TOF mass spectrometer and parallel reaction monitoring (PRM) on the Lumos. The costing
+        will be determined after the project is defined and will include all assay setup costs.
       </p>
       <h4>Labelled quantitative analysis</h4>
       <p>

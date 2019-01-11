@@ -17,7 +17,7 @@ import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
 const divisionManagers = [
   {
     description: `Brett Larsen has over 15 years experience in mass
-    spectrometry and he has been managing the Proteomics division since 2004.
+    spectrometry and he has been managing the Proteomics facility since 2004.
     He is an expert in quantitative proteomics, post-translational modifications
     and data analysis. He is responsible for equipment oversight, technology
     development, and user training. As the manager, Brett works with users
@@ -34,7 +34,7 @@ const divisionManagers = [
   },
   {
     description: `Dr. Alessandro Datti supervises and coordinates the
-    scientific operations of the High-Throughput Screening division, and
+    scientific operations of the High-Throughput Screening facility, and
     serves as a senior Lecturer of Biochemistry at the University of
     Perugia (Italy). His main research expertise and competencies are
     dedicated to the strategic design, development and validation of
@@ -53,7 +53,7 @@ const divisionManagers = [
   },
   {
     description: `Dr. Mikhail Bashkurov has been the manager of the
-    high-content screening division since 2012. He has over 10 years
+    High-Content Screening facility since 2012. He has over 10 years
     experience in microscopy as well as image analysis. As the manager,
     Mikhail assists the users at every step of the screening process from
     screen design to data analysis and statistics. He is also involved in

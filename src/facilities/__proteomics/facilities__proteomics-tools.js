@@ -55,6 +55,12 @@ const Tools = () => (
       <h4>Mass spectrometry data analysis</h4>
       <ul>
         <li>
+          <a href="http://www.openswath.org">
+            <LinkIcon />
+            OpenSWATH
+          </a>
+        </li>
+        <li>
           <a href="http://saint-apms.sourceforge.net/Main.html">
             <LinkIcon />
             SAINT

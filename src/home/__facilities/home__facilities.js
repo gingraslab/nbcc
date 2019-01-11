@@ -14,17 +14,8 @@ const Facilities = () => (
       </h2>
       <div className="home__section-details home__facilities-details">
         <p>
-          From start to finish, we work with our users to rapidly advance their
-          research within and across our six complementary divisions. Our experienced
-          managers are always ready to meet with potential users to discuss how our
-          services could help their research. Together, experiments are planned and
-          executed, results are reviewed, and next steps are discussed. We assist with
-          grant writing, collaboration letters, and preparing publication-ready results.
-          Users often enter the Centre through one division, e.g. high-throughput screening
-          to identify genes with interesting phenotypes and then continue to imaging for
-          detailed phenotypic readouts and to proteomics to identify interaction partners.
-          This integration of our core services enables users to rapidly transition between
-          biophysical characterizations and functional insights, a unique strength of the NBCC.
+          From start to finish, we work with our users to rapidly advance their research
+          within and across our six complementary facilities.
         </p>
         <div className="home__facilities-buttons">
           <Link to="/facilities/high-content-screening">

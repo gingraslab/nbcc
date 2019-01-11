@@ -10,9 +10,9 @@ const Landing = () => (
       Network biology collaborative centre
     </h1>
     <p>
-      The Network Biology Collaborative Centre at the Lunenfeld-Tanenbaum
-      Research Institute is a national platform providing integrated solutions
-      for functional genomics and proteomics.
+      Accelerating research by providing integrated services in functional proteomics
+      and genomics, drug discovery and high-throughput screening, next-generation
+      sequencing and super-resolution microscopy.
     </p>
     <img
       alt="Lunenfeld-Tanenbaum Research Institute"

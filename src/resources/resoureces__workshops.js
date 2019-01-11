@@ -43,7 +43,7 @@ const Workshops = () => (
             The NBCC was pleased to present a workshop on April 10th, 2018 from 1 to 4 pm.
             The workshop was titled &quot;Innovative high-throughput technologies for drug screening
             &amp; cell imaging&quot; and highlighted new applications and technologies of our
-            High-Throughput Screening and Imaging divisions.
+            High-Throughput Screening and Imaging facilities.
           </p>
           <a href={Workshop2018}>
             <Pdf />

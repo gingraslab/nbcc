@@ -4,7 +4,7 @@ import Server from '../../assets/icons/server';
 
 const Equipment = () => (
   <section
-    className="facilities__section facilities__equipment"
+    className="facilities__section facilities__equipment facilities__proteomics-equipment"
     id="equipment"
   >
     <div className="facilities__section-inner">
@@ -12,6 +12,7 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
+      <h3>Sciex</h3>
       <h4>TripleTOF</h4>
       <p>
         We have four TripleTOF instruments all running nano-LC-MS proteomic
@@ -21,14 +22,16 @@ const Equipment = () => (
         workflows including targeted (MRM-HR) and non-targeted (DDA and SWATH or
         DIA).
       </p>
+      <h3>Thermo</h3>
       <h4>Lumos</h4>
       <p>
         We have one Fusion Lumos with an Eksigent 425 nano-HPLC for
         nano-LC-MS applications. The Fusion Lumos affords a variety of
         workflows for increasing sample coverage and maximizing recovery of
-        post-translationally modified or low-abundant peptides, including ETD
-        and MS3 fragmentation. It is also compatible with quantitative
-        approaches including DIA and PRM as well as TMT multiplexing.
+        post-translationally modified or low-abundant peptides, including
+        electron transfer dissociation (ETD) and MS3 fragmentation. It is also
+        compatible with quantitative approaches including DIA and PRM as well as tandem
+        mass tag (TMT) multiplexing.
       </p>
       <h4>Elite</h4>
       <p>

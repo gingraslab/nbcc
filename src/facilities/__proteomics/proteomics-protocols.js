@@ -3,10 +3,6 @@ import React from 'react';
 import LinkIcon from '../../assets/icons/link';
 import Pdf from '../../assets/icons/pdf';
 
-import BioID from '../../assets/protocols/proteomics/Flp-In BioID Streptavidin sepharose - July 2013.pdf';
-import Flag from '../../assets/protocols/proteomics/293 Flp-In FLAG magnetic AP - July 2013.pdf';
-import FlagChromatin from '../../assets/protocols/proteomics/293 Flp-In FLAG magnetic chromatin optimized AP - July 2013.pdf';
-
 const Protocols = () => (
   <ul className="facilities__protocols_plain-list">
     <li>
@@ -19,21 +15,48 @@ const Protocols = () => (
       </cite>
     </li>
     <li>
-      <a href={Flag}>
+      <a
+        download
+        href="./pdf/NBCC PR1 Gel staining and in-gel digestion.pdf"
+      >
         <Pdf />
-        293 Flp-In FLAG magnetic AP - July 2013
+        Gel staining and in-gel digestion
       </a>
     </li>
     <li>
-      <a href={FlagChromatin}>
+      <a
+        download
+        href="./pdf/NBCC PR2 FLAG IP.pdf"
+      >
         <Pdf />
-        293 Flp-In FLAG magnetic chromatin optimized AP - July 2013
+        FLAG IP
       </a>
     </li>
     <li>
-      <a href={BioID}>
+      <a
+        download
+        href="./pdf/NBCC PR3 BioID Flp-IN T-REx Cell Prep.pdf"
+      >
         <Pdf />
-        Flp-In BioID Streptavidin sepharose - July 2013
+        BioID Flp-IN T-REx Cell Prep
+      </a>
+    </li>
+    <li>
+      <a
+        download
+        href="./pdf/NBCC PR4 BioID Lentiviral Cell Prep.pdf"
+      >
+        <Pdf />
+        BioID Lentiviral Cell Prep
+      </a>
+    </li>
+    <li>
+      <a
+        download
+        href="./pdf/NBCC PR5 BioID affinity purification and digestion.pdf"
+      >
+        <Pdf />
+        BioID affinity purification and digestion
       </a>
     </li>
   </ul>

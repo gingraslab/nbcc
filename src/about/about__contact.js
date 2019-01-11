@@ -31,7 +31,7 @@ const Contact = () => (
     <ul className="about__contact-list">
       { directors.map(contactInfo) }
     </ul>
-    <h3>Division managers:</h3>
+    <h3>Facility managers:</h3>
     <ul className="about__contact-list">
       { divisionManagers.map(contactInfo) }
     </ul>

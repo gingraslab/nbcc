@@ -12,36 +12,26 @@
 }
 .home__facilities-buttons {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 .home__facilities-buttons > a {
+  margin: 10px;
+  min-width: 200px;
   text-decoration: none;
-}
-.home__facilities-buttons Button {
-  width: 100%;
-}
-.home__facilities-buttons > :not(:last-child) {
-  margin-bottom: 20px;
 }
 .home__facilities-details {
   align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .home__facilities-details > p {
-  margin-right: 60px;
-}
-.home__facilities-details > p {
-  max-width: 600px;
   text-align: justify;
 }
 @media (max-width: 749px) {
-  .home__facilities-details {
+  .home__facilities-buttons {
     flex-direction: column;
-  }
-  .home__facilities-details > p {
-    margin-bottom: 30px;
-    margin-right: 0;
   }
 }
 @media print {

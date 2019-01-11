@@ -26,7 +26,12 @@
 .resources__inner {
   max-width: 950px;
 }
-.resources__protocols ul {
+.resources__inner > header {
+  margin: 30px 0 50px 0;
+  text-align: justify;
+}
+.resources__protocols ul,
+.resources__technotes ul {
   list-style: none;
   padding-left: 0;
 }

@@ -163,8 +163,7 @@ const Pricing = () => (
               <tr>
                 <th>Time</th>
                 <th>
-                  Hourly rate (peak)
-                  <sup>1</sup>
+                  Hourly rate
                 </th>
               </tr>
             </thead>
@@ -178,14 +177,6 @@ const Pricing = () => (
                 <td>$50</td>
               </tr>
             </tbody>
-            <tfoot>
-              <tr>
-                <td colSpan="3">
-                  <sup>1</sup>
-                  Peak hours are workdays, 9am - 5pm.
-                </td>
-              </tr>
-            </tfoot>
           </table>
         </div>
         <div>
@@ -218,8 +209,7 @@ const Pricing = () => (
       <h4>Online booking</h4>
       <p>
         For experienced users, please book the microscopes using Google Calendar.
-        Please contact us regarding login information. Other users, please contact
-        Misha Bashkurov directly.
+        Other users, please contact Misha Bashkurov directly.
       </p>
       <h4>Data storage and management</h4>
       <p>

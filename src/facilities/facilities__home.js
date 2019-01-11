@@ -12,12 +12,12 @@ const Home = () => (
       </h1>
       <p>
         From start to finish, we work with our users to rapidly advance their
-        research within and across our six complementary divisions. Our experienced
+        research within and across our six complementary facilities. Our experienced
         managers are always ready to meet with potential users to discuss how our
         services could help their research. Together, experiments are planned and
         executed, results are reviewed, and next steps are discussed. We assist with
         grant writing, collaboration letters, and preparing publication-ready results.
-        Users often enter the Centre through one division, e.g. high-throughput screening
+        Users often enter the Centre through one facility, e.g. high-throughput screening
         to identify genes with interesting phenotypes and then continue to imaging for
         detailed phenotypic readouts and to proteomics to identify interaction partners.
         This integration of our core services enables users to rapidly transition between

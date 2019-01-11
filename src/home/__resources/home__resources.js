@@ -13,6 +13,10 @@ const Resources = () => (
         Resources
       </h2>
       <div className="home__section-details home__resources-details">
+        <p>
+          From sample preparation to interpretation of results – we provide you with the
+          resources you need.
+        </p>
         <div className="home__resources-buttons">
           <Link
             hash
@@ -43,16 +47,6 @@ const Resources = () => (
             Workshops
           </Link>
         </div>
-        <p>
-          The best quality results derive from the best experimental setup. To ensure that
-          the samples we receive are of the highest quality, we provide our users and
-          the scientific community with protocols, reagents, and technical notes that will
-          assist them with performing the optimal sample preparation prior to analysis.
-          We also host local workshops to train users and to inform them of how they may apply
-          our services to their biological question. Our resources will continually be expanded
-          with new information. If you have questions related to our services that are not
-          answered in this resource, please contact one of our managers.
-        </p>
       </div>
     </div>
   </section>

@@ -2,6 +2,11 @@
   background-color: rgba(255, 255, 255, 0.55);
   border-radius: 4px;
 }
+.facilities__proteomics-equipment h3 {
+  border-bottom: 2px solid var(--color-complement-3);
+  color: var(--color-complement-3);
+  display: inline-block;
+}
 .facilities__proteomics-landing {
   background-image: url('./assets/mass-spec.jpg');
 }

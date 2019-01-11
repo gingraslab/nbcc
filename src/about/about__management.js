@@ -10,7 +10,7 @@ import User from '../assets/icons/user';
 const Management = () => (
   <section
     className="about__management"
-    id="team"
+    id="management"
   >
     <h2>
       <User />
