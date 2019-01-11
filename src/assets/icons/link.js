@@ -2,9 +2,9 @@ import React from 'react';
 
 const Link = () => (
   <svg
-    aria-label="Bars icon"
-    role="img"
     xmlns="http://www.w3.org/2000/svg"
+    aria-label="Chain link icon"
+    role="img"
     viewBox="0 -0.001 500 500.002"
   >
     <title>Chain link</title>
