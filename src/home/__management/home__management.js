@@ -23,14 +23,14 @@ const Management = () => (
               <div>
                 <img
                   alt={person.name}
-                  height={335}
+                  height={268}
                   src={person.homeImages[0]}
                   srcSet={`
                     ${person.homeImages[0]} 1x,
                     ${person.homeImages[1]} 2x,
                     ${person.homeImages[2]} 3x
                   `}
-                  width={250}
+                  width={200}
                 />
                 <div>
                   <h3>{ person.name }</h3>

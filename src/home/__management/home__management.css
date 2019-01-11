@@ -57,6 +57,7 @@
   border-radius: 2px;
   height: 268px;
   margin: 0 30px;
+  min-width: 200px;
   width: 200px;
 }
 .home__management-details p {

@@ -12,10 +12,14 @@
 }
 .home__resources-buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
 }
 .home__resources-buttons > a {
+  flex-basis: 0;
   margin: 10px;
+  min-width: 150px;
   text-decoration: none;
 }
 .home__resources-details {
@@ -29,6 +33,9 @@
 @media (max-width: 749px) {
   .home__resources-buttons {
     flex-direction: column;
+  }
+  .home__resources-buttons > a {
+    flex-basis: auto;
   }
 }
 @media print {

@@ -17,8 +17,9 @@
   margin-top: 20px;
 }
 .home__facilities-buttons > a {
+  flex-basis: 0;
   margin: 10px;
-  min-width: 200px;
+  min-width: 225px;
   text-decoration: none;
 }
 .home__facilities-details {
@@ -32,6 +33,9 @@
 @media (max-width: 749px) {
   .home__facilities-buttons {
     flex-direction: column;
+  }
+  .home__facilities-buttons > a {
+    flex-basis: auto;
   }
 }
 @media print {
