@@ -1,6 +1,5 @@
 .home__landing {
   align-items: center;
-  background-image: url('./assets/mountsinai.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,5 +58,31 @@
   .home__landing p {
     font-size: 0.9rem;
     line-height: 1.2rem;
+  }
+}
+
+@media (min-width: 1801px) {
+  .home__landing {
+    background-image: url('./assets/mountsinai-5000x3333.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .home__landing {
+    background-image: url('./assets/mountsinai-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .home__landing {
+    background-image: url('./assets/mountsinai-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .home__landing {
+    background-image: url('./assets/mountsinai-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .home__landing {
+    background-image: url('./assets/mountsinai-600x1000.jpg');
   }
 }
