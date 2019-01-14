@@ -13,6 +13,28 @@
   padding: 20px;
   text-align: justify;
 }
-.facilities__ngs-landing {
-  background-image: url('./assets/sequencer.jpg');
+@media (min-width: 1801px) {
+  .facilities__ngs-landing {
+    background-image: url('./assets/sequencer-4800x3200.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .facilities__ngs-landing {
+    background-image: url('./assets/sequencer-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__ngs-landing {
+    background-image: url('./assets/sequencer-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__ngs-landing {
+    background-image: url('./assets/sequencer-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__ngs-landing {
+    background-image: url('./assets/sequencer-600x1000.jpg');
+  }
 }
