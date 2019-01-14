@@ -16,7 +16,7 @@ const TechNotes = () => (
       <li>
         <a
           download
-          href="./pdf/BioID_tech_note_v4_options.pdf"
+          href="./pdf/NBCC Tech Note Jan 2019 – Lentiviral BioID.pdf"
         >
           <Pdf />
           January 2019 - Expanding BioID to diverse cell types
