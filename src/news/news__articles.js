@@ -2,7 +2,7 @@ import React from 'react';
 
 const articles = {
   'A new look for our website': {
-    date: 'January 18, 2019',
+    date: 'January 14, 2019',
     summary: (
       <p>
         We have updated our website for a better user experience. We have also

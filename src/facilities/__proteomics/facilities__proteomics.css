@@ -7,8 +7,29 @@
   color: var(--color-complement-3);
   display: inline-block;
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 1801px) {
   .facilities__proteomics-landing {
-    background-image: url('./assets/mass-spec.jpg');
+    background-image: url('./assets/mass-spec-4800x2700.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .facilities__proteomics-landing {
+    background-image: url('./assets/mass-spec-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__proteomics-landing {
+    background-image: url('./assets/mass-spec-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__proteomics-landing {
+    background-image: url('./assets/mass-spec-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__proteomics-landing {
+    background-image: url('./assets/mass-spec-600x1000.jpg');
   }
 }
