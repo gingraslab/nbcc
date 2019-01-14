@@ -13,9 +13,6 @@
   padding: 20px;
   text-align: justify;
 }
-.facilities__hcs-landing {
-  background-image: url('./assets/plates.jpg');
-}
 .facilities_hcs_full-header  {
   background-color: var(--color-secondary-1-2-5);
   color: var(--text-light);
@@ -129,5 +126,31 @@
 @media print {
   .facilities__hcs-fluorophore-table {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 1801px) {
+  .facilities__hcs-landing {
+    background-image: url('./assets/plates-5000x3333.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .facilities__hcs-landing {
+    background-image: url('./assets/plates-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__hcs-landing {
+    background-image: url('./assets/plates-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__hcs-landing {
+    background-image: url('./assets/plates-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__hcs-landing {
+    background-image: url('./assets/plates-600x1000.jpg');
   }
 }

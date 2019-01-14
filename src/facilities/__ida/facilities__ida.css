@@ -14,12 +14,29 @@
   max-width: 600px;
   text-align: justify;
 }
-.facilities__ida-landing {
-  background-image: url('./assets/whiteboard.jpg');
-}
-@media (max-width: 449px) {
-  .facilities__about p {
-    font-size: 1rem;
+
+@media (min-width: 1801px) {
+  .facilities__ida-landing {
+    background-image: url('./assets/whiteboard-5000x3333.jpg');
   }
 }
-
+@media (max-width: 1800px) {
+  .facilities__ida-landing {
+    background-image: url('./assets/whiteboard-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__ida-landing {
+    background-image: url('./assets/whiteboard-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__ida-landing {
+    background-image: url('./assets/whiteboard-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__ida-landing {
+    background-image: url('./assets/whiteboard-600x1000.jpg');
+  }
+}

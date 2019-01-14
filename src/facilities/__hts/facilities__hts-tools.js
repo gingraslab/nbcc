@@ -12,7 +12,7 @@ const Tools = () => (
     className="facilities__section facilities__tools"
     id="tools"
   >
-    <div className="facilities__section-inner facilities__hcs-software">
+    <div className="facilities__section-inner facilities__hts-software">
       <h2>
         <Chart />
         Analysis tools
@@ -58,7 +58,7 @@ const Tools = () => (
         </p>
       </div>
       <h3>SMART to KEGG mapper</h3>
-      <div className="facilities__hcs-kegg">
+      <div className="facilities__hts-kegg">
         <img
           alt="KEGG pathway"
           height={251}

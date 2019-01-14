@@ -18,9 +18,6 @@
 .facilities__hri-gallery-list > img {
   margin: 5px;
 }
-.facilities__hri-landing {
-  background-image: url('./assets/cells.jpg');
-}
 .facilities__hri-movies {
   display: flex;
   flex-wrap: wrap;
@@ -40,4 +37,30 @@
     height: 260px;
     width: 260px;
   }
-} 
+}
+
+@media (min-width: 1801px) {
+  .facilities__hri-landing {
+    background-image: url('./assets/cells-5000x3500.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .facilities__hri-landing {
+    background-image: url('./assets/cells-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__hri-landing {
+    background-image: url('./assets/cells-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__hri-landing {
+    background-image: url('./assets/cells-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__hri-landing {
+    background-image: url('./assets/cells-600x1000.jpg');
+  }
+}

@@ -13,9 +13,6 @@
   padding: 20px;
   text-align: justify;
 }
-.facilities__hts-landing {
-  background-image: url('./assets/robot.jpg');
-}
 .facilities__equipment table {
   width: 100%;
 }
@@ -23,12 +20,38 @@
   margin: 0;
 }
 @media (max-width: 749px) {
-  .facilities__hcs-kegg {
+  .facilities__hts-kegg {
     flex-direction: column;
   }
 }
 @media (max-width: 375px) {
-  .facilities__hcs-kegg img {
+  .facilities__hts-kegg img {
     display: none;
+  }
+}
+
+@media (min-width: 1801px) {
+  .facilities__hts-landing {
+    background-image: url('./assets/robot-5000x3333.jpg');
+  }
+}
+@media (max-width: 1800px) {
+  .facilities__hts-landing {
+    background-image: url('./assets/robot-1800x1440.jpg');
+  }
+}
+@media (max-width: 1200px) {
+  .facilities__hts-landing {
+    background-image: url('./assets/robot-1200x900.jpg');
+  }
+}
+@media (max-width: 900px) {
+  .facilities__hts-landing {
+    background-image: url('./assets/robot-900x1600.jpg');
+  }
+}
+@media (max-width: 600px) {
+  .facilities__hts-landing {
+    background-image: url('./assets/robot-600x1000.jpg');
   }
 }
