@@ -95,7 +95,7 @@ const Services = () => (
           Dharmacon Reversioned siRNA SMARTpool Library, Whole Human siGENOME (~18,150 gene
           targets) available in the following subset collections: GPCR, Druggable targets,
           Ubiquitin Conjugation, Ion Channels, Proteases, Kinases, Phosphatases, and
-          epigenetics custom-mad collection.
+          epigenetics custom-made collection.
         </li>
         <li>
           Dharmacon siRNA SMARTpool Library, Whole Mouse siGENOME (~16,500 gene targets)
