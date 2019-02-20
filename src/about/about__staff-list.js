@@ -41,7 +41,7 @@ const staff = [
       MiriamBarriosRodilles2x,
       MiriamBarriosRodilles3x,
     ],
-    name: 'Miriam Barrios-Rodilles',
+    name: 'Miriam Barrios-Rodiles',
     title: 'Scientific Associate, LUMIER Specialist',
   },
   {

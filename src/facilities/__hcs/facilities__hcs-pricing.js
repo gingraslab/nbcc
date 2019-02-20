@@ -203,13 +203,13 @@ const Pricing = () => (
       <h4>Equipment</h4>
       <p>
         Only trained users may use equipment in the High-Content Screening
-        facility. New users should contact Misha Bashkurov for training or to
+        facility. New users should contact Monica Hasegan for training or to
         process samples. After-hours use is permitted for experienced users.
       </p>
       <h4>Online booking</h4>
       <p>
         For experienced users, please book the microscopes using Google Calendar.
-        Other users, please contact Misha Bashkurov directly.
+        Other users, please contact Monica Hasegan directly.
       </p>
       <h4>Data storage and management</h4>
       <p>

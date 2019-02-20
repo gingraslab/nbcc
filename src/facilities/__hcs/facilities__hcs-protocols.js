@@ -15,7 +15,7 @@ const Protocols = () => (
       <p>
         The following information is a guide on how to set up your experiments for processing on
         our instruments. If you require additional information or explanation, please contact
-        our manager Misha Bashkurov. There are no bad questions and it is always better to ask
+        our manager Monica Hasegan. There are no bad questions and it is always better to ask
         them before you have your sample ready.
       </p>
       <h3>Plate/slide selection</h3>

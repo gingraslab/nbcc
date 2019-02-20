@@ -7,9 +7,6 @@ import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
 import KinChan from './assets/people/KinChan.png';
 import KinChan2x from './assets/people/KinChan2x.png';
 import KinChan3x from './assets/people/KinChan3x.png';
-import MikhailBashkurov from './assets/people/MikhailBashkurov.png';
-import MikhailBashkurov2x from './assets/people/MikhailBashkurov2x.png';
-import MikhailBashkurov3x from './assets/people/MikhailBashkurov3x.png';
 import MonicaHasegan from './assets/people/MonicaHasegan.png';
 import MonicaHasegan2x from './assets/people/MonicaHasegan2x.png';
 import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
@@ -52,25 +49,9 @@ const divisionManagers = [
     title: 'High-Throughput Screening Manager',
   },
   {
-    description: `Dr. Mikhail Bashkurov has been the manager of the
-    High-Content Screening facility since 2012. He has over 10 years
-    experience in microscopy as well as image analysis. As the manager,
-    Mikhail assists the users at every step of the screening process from
-    screen design to data analysis and statistics. He is also involved in
-    instrument maintenance and training of new users.`,
-    email: 'bashkurov@lunenfeld.ca',
-    images: [
-      MikhailBashkurov,
-      MikhailBashkurov2x,
-      MikhailBashkurov3x,
-    ],
-    name: 'Mikhail (Misha) Bashkurov',
-    phone: '416-586-4800 x 2862',
-    title: 'High-Content Screening Manager',
-  },
-  {
     description: `Dr. Monica Hasegan is in charge of the high-resolution
-    and super-resolution optical microscopes within the NBCC. With a PhD
+    and super-resolution optical microscopes within the NBCC and is
+    the manager of the High-Content Screening facility. With a PhD
     in Physics, she has a strong background in instrumentation, advanced
     imaging, data processing and analysis (including denoising algorithms
     and automation of high-throughput applications), high performance
@@ -85,7 +66,7 @@ const divisionManagers = [
     ],
     name: 'Monica Hasegan',
     phone: '416-586-4800 x 2258',
-    title: 'High-Resolution Imaging Manager',
+    title: 'High-Content Screening and High-Resolution Imaging Manager',
   },
   {
     description: `Kin Chan (MSc) has worked on high-throughput data screening
