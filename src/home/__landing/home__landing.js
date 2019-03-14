@@ -12,7 +12,7 @@ const Landing = () => (
     <p>
       Accelerating research by providing integrated services in functional proteomics
       and genomics, drug discovery and high-throughput screening, next-generation
-      sequencing and super-resolution microscopy.
+      sequencing and high-content to super-resolution microscopy.
     </p>
     <img
       alt="Lunenfeld-Tanenbaum Research Institute"
