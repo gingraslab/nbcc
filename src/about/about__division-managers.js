@@ -49,7 +49,7 @@ const divisionManagers = [
     title: 'High-Throughput Screening Manager',
   },
   {
-    description: `Dr. Monica Hasegan is in charge of the high-resolution
+    description: `Dr. Monica is in charge of the high-resolution
     and super-resolution optical microscopes within the NBCC and is
     the manager of the High-Content Screening facility. With a PhD
     in Physics, she has a strong background in instrumentation, advanced
