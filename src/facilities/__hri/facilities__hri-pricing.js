@@ -121,8 +121,7 @@ const Pricing = () => (
       </div>
       <small>
         Peak is 9 am to 6 pm. Off-peak is evening, overnight and weekend. Pricing is for
-        external academic laboratories. Internal or industry users should contact Monica
-        Hasegan for pricing.
+        external academic laboratories. Internal or industry users should contact Johnny Tkach for pricing.
       </small>
       <h3>
         Policies

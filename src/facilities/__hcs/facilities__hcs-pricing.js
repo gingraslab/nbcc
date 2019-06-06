@@ -197,6 +197,8 @@ const Pricing = () => (
       <strong>
         Additional charges may apply for image or data analysis depending on complexity.
       </strong>
+      <br></br>
+      Pricing is for external academic laboratories. Internal or industry users should contact Monica Hasegan for pricing.
       <h3>
         <span>III. Policies</span>
       </h3>

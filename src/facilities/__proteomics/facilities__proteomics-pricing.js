@@ -13,13 +13,13 @@ const Pricing = () => (
         Pricing
       </h2>
       <p>
-        These prices are guidelines only. Interested users should contact Brett Larsen
+        These prices are for external academic laboratories and are guidelines only. Interested users should contact Brett Larsen
         (larsen@lunenfeld.ca) or Karen Colwill (colwill@lunenfeld.ca) to discuss their
         project and receive a quotation (including volume discounts).
       </p>
       <h3>
         <span>
-          I. Affinity purification costs per sample (minimum of four samples)
+          I. Sample Preparation costs (per sample, minimum of four samples)
         </span>
       </h3>
       <table className="facilities__table">
@@ -37,6 +37,10 @@ const Pricing = () => (
           <tr>
             <td>AP-BirA</td>
             <td>$140</td>
+          </tr>
+          <tr>
+            <td>Trypsin digest</td>
+            <td>$50</td>
           </tr>
         </tbody>
       </table>

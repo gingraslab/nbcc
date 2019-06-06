@@ -23,7 +23,7 @@ const Funding = () => (
     </h2>
     <p>
       The Centre is supported by funding from the Canada Foundation for Innovation
-      (CFI), The Ontario Ministry of Research and Innovation, Genome Canada through
+      (CFI), The Ontario Ministry of Economic Development Job Creation and Trade, Genome Canada through
       Ontario Genomics, Canadian Institutes of Health Research (CIHR), Terry Fox Research
       Institute and the Lunenfeld-Tanenbaum Research Institute.
     </p>

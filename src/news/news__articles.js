@@ -1,6 +1,32 @@
 import React from 'react';
 
 const articles = {
+  'Publication Update': {
+    date: 'June 5, 2019',
+    summary: (
+      <p>
+        We have updated our <a
+          href="https://nbcc.lunenfeld.ca/publications"
+        >
+          publication list
+        </a> with 13 new publications linked to the NBCC in the past 6 months.
+      <br></br>
+      <br></br>
+        <b>Highlighted Paper: </b> <i>Single-cell transcriptomes of the regenerating intestine reveal a revival stem cell.</i> Ayyaz et al., Nature, 2019 May;569(7754):121-125, PMID: 31019301
+      <br></br>
+      <br></br>
+        Jeff Wrana and his team identify a new type of stem cell in the intestine that is critical to regeneration of the intestine after damage. Single cell RNA sequencing analysis performed in collaboration with the NBCC was key to finding this revival stem cell that is only active for 24 hours.
+.
+        {' '}
+        <a
+          href="https://www.sinaihealthsystem.ca/news/the-wrana-group-follows-a-gut-feeling-and-discovers-a-new-type-of-stem-cell/"
+        >
+          See details.
+        </a>
+      </p>
+    ),
+    title: 'Publication Update',
+  },
   'A new look for our website': {
     date: 'January 14, 2019',
     summary: (

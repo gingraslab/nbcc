@@ -19,9 +19,9 @@ import JennyWang3x from './assets/people/JennyWang3x.png';
 import JianPingZhang from './assets/people/JianPingZhang.png';
 import JianPingZhang2x from './assets/people/JianPingZhang2x.png';
 import JianPingZhang3x from './assets/people/JianPingZhang3x.png';
-import JohnnyTkach from './assets/people/JohnnyTkach.png';
-import JohnnyTkach2x from './assets/people/JohnnyTkach2x.png';
-import JohnnyTkach3x from './assets/people/JohnnyTkach3x.png';
+import KathyFung from './assets/people/JohnnyTkach.png';
+import KathyFung2x from './assets/people/JohnnyTkach2x.png';
+import KathyFung3x from './assets/people/JohnnyTkach3x.png';
 import MarkJen from './assets/people/MarkJen.png';
 import MarkJen2x from './assets/people/MarkJen2x.png';
 import MarkJen3x from './assets/people/MarkJen3x.png';
@@ -43,6 +43,17 @@ const staff = [
     ],
     name: 'Miriam Barrios-Rodiles',
     title: 'Scientific Associate, LUMIER Specialist',
+  },
+  {
+    email: 'kfung@lunenfeld.ca',
+    expertise: 'next generation sequencing applications, DNA and RNA isolation, molecular biology, maintenance and operation of NGS instruments',
+    images: [
+      KathyFung,
+      KathyFung2x,
+      KathyFung3x,
+    ],
+    name: 'Kathy Fung',
+    title: 'Next-Generation Sequencing Research Technician',
   },
   {
     email: 'ghoshal@lunenfeld.ca',
@@ -109,17 +120,6 @@ const staff = [
     ],
     name: 'Adrian Pasculescu',
     title: 'Software Engineer',
-  },
-  {
-    email: 'tkach@lunenfeld.ca',
-    expertise: 'CRISPR-mediated genome editing, chemical-genetic screening, high-throughput fluorescence microscopy and image analysis',
-    images: [
-      JohnnyTkach,
-      JohnnyTkach2x,
-      JohnnyTkach3x,
-    ],
-    name: 'Johnny Tkach',
-    title: 'Research Associate',
   },
   {
     email: 'jwang@lunenfeld.ca',

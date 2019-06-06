@@ -10,6 +10,9 @@ import KinChan3x from './assets/people/KinChan3x.png';
 import MonicaHasegan from './assets/people/MonicaHasegan.png';
 import MonicaHasegan2x from './assets/people/MonicaHasegan2x.png';
 import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
+import JohnnyTkach from './assets/people/JohnnyTkach2x.png';
+import JohnnyTkach2x from './assets/people/JohnnyTkach2x.png';
+import JohnnyTkach3x from './assets/people/JohnnyTkach3x.png';
 
 const divisionManagers = [
   {
@@ -49,9 +52,7 @@ const divisionManagers = [
     title: 'High-Throughput Screening Manager',
   },
   {
-    description: `Dr. Monica is in charge of the high-resolution
-    and super-resolution optical microscopes within the NBCC and is
-    the manager of the High-Content Screening facility. With a PhD
+    description: `Dr. Monica Hasegan is the manager of the High-Content Screening facility. With a PhD
     in Physics, she has a strong background in instrumentation, advanced
     imaging, data processing and analysis (including denoising algorithms
     and automation of high-throughput applications), high performance
@@ -65,10 +66,23 @@ const divisionManagers = [
       MonicaHasegan3x,
     ],
     name: 'Monica Hasegan',
-    phone: '416-586-4800 x 2258',
-    title: 'High-Content Screening and High-Resolution Imaging Manager',
+    phone: '416-586-4800 x 2862',
+    title: 'High-Content Screening Manager',
   },
   {
+    description: `Dr. Johnny Tkach is the manager of the High-Resolution Imaging facility. With a PhD
+    in Biochemistry, he has a strong background in CRISPR-mediated genome editing, chemical-genetic screening, high-throughput fluorescence microscopy and image analysis. He assists
+    users with microscopy training, experimental design, as well as image analyses.`,
+    email: 'tkach@lunenfeld.ca',
+    images: [
+      JohnnyTkach,
+      JohnnyTkach2x,
+      JohnnyTkach3x,
+    ],
+    name: 'Johnny Tkach',
+    phone: '416-586-4800 x 2258',
+    title: 'High-Resolution Imaging Manager',
+  },{
     description: `Kin Chan (MSc) has worked on high-throughput data screening
     platforms for more than fifteen years and has managed both microarray and
     sequencing facilities. He has in-depth technical and scientific knowledge

@@ -1,18 +1,18 @@
 const publicationDetails = ({
-  average: 12.8,
+  average: 13.1,
   list: [
     {
-      count: 48,
+      count: 50,
       fill: '#4472c4',
       range: '0 - 5',
     },
     {
-      count: 53,
+      count: 56,
       fill: '#ed7d31',
       range: '5 - 10',
     },
     {
-      count: 33,
+      count: 38,
       fill: '#a5a5a5',
       range: '10 - 15',
     },
@@ -32,12 +32,12 @@ const publicationDetails = ({
       range: '25 - 30',
     },
     {
-      count: 23,
+      count: 26,
       fill: '#264478',
       range: '> 30',
     },
     {
-      count: 24,
+      count: 26,
       fill: '#9e480e',
       range: 'No score',
     },
