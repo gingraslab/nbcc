@@ -70,9 +70,11 @@ const divisionManagers = [
     title: 'High-Content Screening Manager',
   },
   {
-    description: `Dr. Johnny Tkach is the manager of the High-Resolution Imaging facility. With a PhD
-    in Biochemistry, he has a strong background in CRISPR-mediated genome editing, chemical-genetic screening, high-throughput fluorescence microscopy and image analysis. He assists
-    users with microscopy training, experimental design, as well as image analyses.`,
+    description: `Dr. Johnny Tkach is in charge of the high-resolution and super-resolution optical 
+    microscopes within the NBCC. Johnny has a PhD in Biochemistry and has authored numerous articles 
+    involving both high-resolution and high-throughput fluorescence microscopy. He has a strong background 
+    in advanced imaging, automated image analyses and data management. He assists users with microscopy 
+    training and custom image analyses.`,
     email: 'tkach@lunenfeld.ca',
     images: [
       JohnnyTkach,
