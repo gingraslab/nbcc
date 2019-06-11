@@ -25,11 +25,12 @@ const Organization = () => (
     </p>
     <h3>Our beliefs:</h3>
     <p>
-    We believe that the best approach to understanding the complexities of biological networks is to 
-    integrate multiple ‘omics’.  At the Network Biology Collaborative Centre – we can sequence genomes,
-    measure the expression of the individual genes, associate specific gene expression to specific 
-    conditions, functionally define what any gene does, pinpoint the location of its resulting protein 
-    in the cell and identify small molecule drugs that bind to the protein and impact its function.
+      We believe that the best approach to understanding the complexities of biological
+      networks is to integrate multiple &apos;omics&apos;.  At the Network Biology Collaborative
+      Centre – we can sequence genomes, measure the expression of the individual genes,
+      associate specific gene expression to specific conditions, functionally define what
+      any gene does, pinpoint the location of its resulting protein in the cell and identify
+      small molecule drugs that bind to the protein and impact its function.
     </p>
     <p>
       We have devoted considerable resources into building the infrastructure,
