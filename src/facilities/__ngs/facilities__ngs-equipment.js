@@ -42,14 +42,14 @@ const Equipment = () => (
         <li>automated gel-based separation</li>
         <li>24 samples/run</li>
         <li>DNA sizing from 100 bp to 1.5 Kb</li>
-        <li>compatible with DNA sequencing and RNA-seq</li>
+        <li>ChIP-seq and miRNA-seq applications </li>
       </ul>
       <h4>5200 Fragment Analyzer System</h4>
       <ul>
         <li>parallel capillary electrophoresis of up to 12 samples </li>
-        <li>QC of library preparation: size, concentration and extent of degradation of library preparation</li>
+        <li>QC of library preparation: adapter dimer contamination, library size and concentration </li>
         <li>suitable for RNA and DNA</li>
-        <li>kits available to analyze DNA from 50 bp to 60 Kb </li>
+        <li>kits available to analyze RNA, genomic DNA and sequencing library </li>
       </ul>
       <h4>QX200 Droplet Digital PCR System</h4>
       <ul>
