@@ -13,10 +13,11 @@ const Pricing = () => (
         Pricing
       </h2>
       <p>
-        These prices are for external academic laboratories and are guidelines only. Interested users should contact Kin Chan
-        (kin@lunenfeld.ca) to discuss their project to determine which library preparation
-        and sequencing analysis methods are most appropriate. Once the project is defined,
-        users will receive a quotation including volume discounts where applicable.
+        These prices are for external academic laboratories and are guidelines only. Interested
+        users should contact Kin Chan (kin@lunenfeld.ca) to discuss their project to determine
+        which library preparation and sequencing analysis methods are most appropriate. Once
+        the project is defined, users will receive a quotation including volume discounts where
+        applicable.
       </p>
       <h3>
         <span>
