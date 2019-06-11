@@ -16,7 +16,7 @@ const Pricing = () => (
         These prices are for external academic laboratories and are guidelines only. Interested users should contact Kin Chan
         (kin@lunenfeld.ca) to discuss their project to determine which library preparation
         and sequencing analysis methods are most appropriate. Once the project is defined,
-        users will receive a quotation including volume discounts where applicable.
+        users will receive a quotation including volume discounts where applicable. For quantification by QX200 droplet digital PCR, please contact Kin Chan.
       </p>
       <h3>
         <span>
@@ -26,32 +26,63 @@ const Pricing = () => (
       <table className="facilities__table">
         <thead>
           <tr>
-            <th>Kit</th>
+            <th>Service</th>
             <th>Price</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>TruSeq Stranded mRNA Library Preparation Kit</td>
-            <td>$227</td>
+            <td>$209</td>
           </tr>
           <tr>
             <td>TruSeq Stranded Total Library Preparation kit</td>
-            <td>$326</td>
+            <td>$316</td>
           </tr>
           <tr>
-            <td>TruSeq small RNA Library Preparation Kit</td>
-            <td>$308</td>
+            <td>NEBnext small RNA Library Preparation Kit</td>
+            <td>$232</td>
           </tr>
           <tr>
-            <td>Ultra Low or Single Cell RNA-Seq Library Preparation kit</td>
-            <td>$472</td>
+            <td>Ultra Low or Single Cell RNA-Seq mRNA Library Preparation kit</td>
+            <td>$339</td>
+          </tr>
+          <tr>
+            <td>Ultra Low or Single Cell RNA-Seq Total Library Preparation kit</td>
+            <td>$262</td>
+          </tr>
+          <tr>
+            <td>Pippin HT Size Selection</td>
+            <td>$15</td>
           </tr>
         </tbody>
       </table>
       <h3>
         <span>
-          II. Next generation sequencing
+          II. Library Quality Control
+        </span>
+      </h3>
+      <table className="facilities__table">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fragment Analyzer</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td>Qubit Quantification</td>
+            <td>$4</td>
+          </tr>
+                  </tbody>
+      </table>
+      <h3>
+        <span>
+          III. Next generation sequencing
         </span>
       </h3>
       <table className="facilities__table">
