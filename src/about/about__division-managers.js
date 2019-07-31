@@ -1,6 +1,3 @@
-import AlessandroDatti from './assets/people/AlessandroDatti.png';
-import AlessandroDatti2x from './assets/people/AlessandroDatti2x.png';
-import AlessandroDatti3x from './assets/people/AlessandroDatti3x.png';
 import BrettLarsen from './assets/people/BrettLarsen.png';
 import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
 import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
@@ -10,7 +7,7 @@ import KinChan3x from './assets/people/KinChan3x.png';
 import MonicaHasegan from './assets/people/MonicaHasegan.png';
 import MonicaHasegan2x from './assets/people/MonicaHasegan2x.png';
 import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
-import JohnnyTkach from './assets/people/JohnnyTkach2x.png';
+import JohnnyTkach from './assets/people/JohnnyTkach.png';
 import JohnnyTkach2x from './assets/people/JohnnyTkach2x.png';
 import JohnnyTkach3x from './assets/people/JohnnyTkach3x.png';
 
@@ -31,25 +28,6 @@ const divisionManagers = [
     name: 'Brett Larsen',
     phone: '416-586-4800 x 2702',
     title: 'Proteomics Manager',
-  },
-  {
-    description: `Dr. Alessandro Datti supervises and coordinates the
-    scientific operations of the High-Throughput Screening facility, and
-    serves as a senior Lecturer of Biochemistry at the University of
-    Perugia (Italy). His main research expertise and competencies are
-    dedicated to the strategic design, development and validation of
-    biological/biochemical assays for applications in high-throughput,
-    robot-assisted formats aimed at identifying molecular entities with
-    biological or pharmacological properties.`,
-    email: 'datti@lunenfeld.ca',
-    images: [
-      AlessandroDatti,
-      AlessandroDatti2x,
-      AlessandroDatti3x,
-    ],
-    name: 'Alessandro Datti',
-    phone: '416-586-4800 X 4732',
-    title: 'High-Throughput Screening Manager',
   },
   {
     description: `Dr. Monica Hasegan is the manager of the High-Content Screening facility. With a PhD
@@ -84,7 +62,8 @@ const divisionManagers = [
     name: 'Johnny Tkach',
     phone: '416-586-4800 x 2258',
     title: 'High-Resolution Imaging Manager',
-  },{
+  },
+  {
     description: `Kin Chan (MSc) has worked on high-throughput data screening
     platforms for more than fifteen years and has managed both microarray and
     sequencing facilities. He has in-depth technical and scientific knowledge
