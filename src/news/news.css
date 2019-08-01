@@ -10,6 +10,7 @@
   text-transform: uppercase;
 }
 .news p {
+  line-height: 1.4;
   text-align: justify;
 }
 .news svg {
