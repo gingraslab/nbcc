@@ -1,6 +1,9 @@
 import BrettLarsen from './assets/people/BrettLarsen.png';
 import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
 import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
+import MiriamBarriosRodilles from './assets/people/MiriamBarrios-Rodiles.png';
+import MiriamBarriosRodilles2x from './assets/people/MiriamBarrios-Rodiles2x.png';
+import MiriamBarriosRodilles3x from './assets/people/MiriamBarrios-Rodiles3x.png';
 import KinChan from './assets/people/KinChan.png';
 import KinChan2x from './assets/people/KinChan2x.png';
 import KinChan3x from './assets/people/KinChan3x.png';
@@ -28,6 +31,22 @@ const divisionManagers = [
     name: 'Brett Larsen',
     phone: '416-586-4800 x 2702',
     title: 'Proteomics Manager',
+  },
+  {
+    description: `Dr. Miriam Barrios-Rodiles is the manager of the High-Throughput Screening laboratory 
+    and has a PhD from McGill University. Miriam developed LUMIER, the first assay automated at our HTS 
+    laboratory, for the discovery of novel protein-protein interactions. Miriam has more than fifteen years’ 
+    experience in projects involving LUMIER and functional genomics screens and has participated in numerous 
+    national and international collaborations.`,
+    email: 'miriam@lunenfeld.ca',
+    images: [
+      MiriamBarriosRodilles,
+      MiriamBarriosRodilles2x,
+      MiriamBarriosRodilles3x,
+    ],
+    name: 'Miriam Barrios-Rodiles',
+    phone: '416-586-4800 x 4732',
+    title: 'High-throughput Screening Manager',
   },
   {
     description: `Dr. Monica Hasegan is the manager of the High-Content Screening facility. With a PhD

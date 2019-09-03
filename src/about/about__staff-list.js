@@ -22,27 +22,27 @@ import JianPingZhang3x from './assets/people/JianPingZhang3x.png';
 import KathyFung from './assets/people/KathyFung.png';
 import KathyFung2x from './assets/people/KathyFung2x.png';
 import KathyFung3x from './assets/people/KathyFung3x.png';
+import LaurenCaldwell from './assets/people/LaurenCaldwell.png';
+import LaurenCaldwell2x from './assets/people/LaurenCaldwell2x.png';
+import LaurenCaldwell3x from './assets/people/LaurenCaldwell3x.png';
 import MarkJen from './assets/people/MarkJen.png';
 import MarkJen2x from './assets/people/MarkJen2x.png';
 import MarkJen3x from './assets/people/MarkJen3x.png';
-import MiriamBarriosRodilles from './assets/people/MiriamBarrios-Rodiles.png';
-import MiriamBarriosRodilles2x from './assets/people/MiriamBarrios-Rodiles2x.png';
-import MiriamBarriosRodilles3x from './assets/people/MiriamBarrios-Rodiles3x.png';
 import ZhenYuanLin from './assets/people/ZhenYuanLin.png';
 import ZhenYuanLin2x from './assets/people/ZhenYuanLin2x.png';
 import ZhenYuanLin3x from './assets/people/ZhenYuanLin3x.png';
 
 const staff = [
   {
-    email: 'miriam@lunenfeld.ca',
-    expertise: 'mammalian network proteomics by LUMIER, functional high-throughput (HT) screens, cell-based HT-assay development',
+    email: 'lcaldwell@lunenfeld.ca',
+    expertise: 'analysis of RNA-seq data (experimental and clinical) and high throughput screening data',
     images: [
-      MiriamBarriosRodilles,
-      MiriamBarriosRodilles2x,
-      MiriamBarriosRodilles3x,
+      LaurenCaldwell,
+      LaurenCaldwell2x,
+      LaurenCaldwell3x,
     ],
-    name: 'Miriam Barrios-Rodiles',
-    title: 'Scientific Associate, LUMIER Specialist',
+    name: 'Lauren Caldwell',
+    title: 'Bioinformatician',
   },
   {
     email: 'kfung@lunenfeld.ca',
