@@ -2,7 +2,7 @@ import React from 'react';
 
 const articles = {
   'Latest Publications': {
-    date: 'September 3, 2019',
+    date: 'September 10, 2019',
     summary: (
       <section>
         <p>

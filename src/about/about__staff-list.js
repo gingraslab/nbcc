@@ -1,6 +1,3 @@
-import AdrianPasculescu from './assets/people/AdrianPasculescu.png';
-import AdrianPasculescu2x from './assets/people/AdrianPasculescu2x.png';
-import AdrianPasculescu3x from './assets/people/AdrianPasculescu3x.png';
 import BibaswanGhoshal from './assets/people/BibaswanGhoshal.png';
 import BibaswanGhoshal2x from './assets/people/BibaswanGhoshal2x.png';
 import BibaswanGhoshal3x from './assets/people/BibaswanGhoshal3x.png';
@@ -109,17 +106,6 @@ const staff = [
     ],
     name: 'Guomin (Frank) Liu',
     title: 'Programmer',
-  },
-  {
-    email: 'pasculescu@lunenfeld.ca',
-    expertise: 'data analysis and integration',
-    images: [
-      AdrianPasculescu,
-      AdrianPasculescu2x,
-      AdrianPasculescu3x,
-    ],
-    name: 'Adrian Pasculescu',
-    title: 'Software Engineer',
   },
   {
     email: 'jwang@lunenfeld.ca',
