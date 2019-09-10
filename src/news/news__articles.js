@@ -16,15 +16,16 @@ const articles = {
           <strong>Highlighted Paper:</strong>
           {' '}
           <em>
-          Gene Information eXtension (GIX): effortless retrieval of gene product information on any website.
+          Gene Information eXtension (GIX): effortless retrieval of gene product information on any
+          website.
           </em>
           {' '}
           Knight et al., Nat Methods. 2019 Aug;16(8):665-666, PMID: 31217594
         </p>
         <p>
-          Correspondence in Nature Methods describing a handy tool developed by James Knight to retrieve 
-          gene and protein information directly from a web browser. Ideally suited for scientists analyzing 
-          long list of hits from proteomics and genomics data.    
+          Correspondence in Nature Methods describing a handy tool developed by James Knight to
+          retrieve gene and protein information directly from a web browser. Ideally suited for
+          scientists analyzing long list of hits from proteomics and genomics data.
           {' '}
           <a
             href="https://gene-info.org//"
@@ -35,7 +36,7 @@ const articles = {
       </section>
     ),
     title: 'Publication Update',
-  }, 
+  },
   'Positions Available': {
     date: 'July 31, 2019',
     summary: (
