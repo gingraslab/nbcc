@@ -1,98 +1,57 @@
-import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React from 'react';
 
-import NavbarContent from './navbar__content';
+import Link from '../components/router-link/router-link';
+import Menu from './menu-container';
+import { ReactComponent as Linkedin } from './assets/linkedin.svg';
+import { ReactComponent as Logo } from './assets/logo.svg';
+import { ReactComponent as Twitter } from './assets/twitter-square.svg';
 
-class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isSmallScreen: this.smallScreen(),
-    };
-  }
+import './navbar.css';
 
-  componentDidMount = () => {
-    window.addEventListener('resize', this.onResize);
-  }
+const links = [
+  { route: '/facilities/', text: 'Facilities' },
+  { route: '/resources/', text: 'Resources' },
+  { route: '/publications/', text: 'Publications' },
+  { route: '/news/', text: 'News' },
+  { route: '/about/', text: 'About' },
+];
 
-  componentWillUnmount = () => {
-    window.removeEventListener('resize', this.onResize);
-  }
-
-  onResize = () => {
-    this.setState({
-      isSmallScreen: this.smallScreen(),
-    });
-  }
-
-  smallScreen = () => {
-    const { smallScreen } = this.props;
-    return window.innerWidth <= smallScreen;
-  }
-
-  render() {
-    const {
-      background,
-      shadow,
-      fixed,
-      links,
-      logoLink,
-      smallScreen,
-      ...otherProps
-    } = this.props;
-    const { isSmallScreen } = this.state;
-    return (
-      <NavbarContent
-        background={background}
-        fixed={fixed}
-        links={links}
-        logoLink={logoLink}
-        shadow={shadow}
-        smallScreen={isSmallScreen}
-        {...otherProps}
-      />
-    );
-  }
-}
-
-Navbar.defaultProps = {
-  background: true,
-  contact: '',
-  fixed: true,
-  links: [],
-  logoLink: {
-    route: '/',
-  },
-  smallScreen: 680,
-  shadow: true,
-};
-
-Navbar.propTypes = {
-  /** Show the background. If false, a transparent background will be used */
-  background: PropTypes.bool,
-  /** Show contact icon. */
-  contact: PropTypes.string,
-  /** Fix the navbar to the top of the viewport */
-  fixed: PropTypes.bool,
-  /** Navigation links */
-  links: PropTypes.arrayOf(PropTypes.shape({
-    href: PropTypes.bool,
-    props: PropTypes.shape({}),
-    route: PropTypes.string,
-    text: PropTypes.oneOfType([
-      PropTypes.object,
-      PropTypes.string,
-    ]),
-  })),
-  /** Logo link */
-  logoLink: PropTypes.shape({
-    href: PropTypes.bool,
-    route: PropTypes.string,
-  }),
-  /** Add shadow */
-  shadow: PropTypes.bool,
-  /** The width in pixels to use for determining small screen */
-  smallScreen: PropTypes.number,
-};
+const Navbar = () => (
+  <nav className="navbar">
+    <span className="navbar__left">
+      <Link className="navbar__home" to="/" type="link">
+        <Logo />
+      </Link>
+      <span className="navbar__links">
+        {
+          links.map(link => (
+            <Link
+              className="navbar__link"
+              key={link.text}
+              to={link.route}
+              type="link"
+            >
+              {link.text}
+            </Link>
+          ))
+        }
+      </span>
+    </span>
+    <span className="navbar__right">
+      <span className="navbar__links">
+        <a href="https://twitter.com/nbcc_ltri">
+          <Twitter />
+        </a>
+        <a href="https://www.linkedin.com/company/network-biology-collaborative-centre/">
+          <Linkedin />
+        </a>
+        <Link className="navbar__link navbar__contact" hash to="/about#contact" type="link">
+          Contact
+        </Link>
+      </span>
+      <Menu links={links} />
+    </span>
+  </nav>
+);
 
 export default Navbar;

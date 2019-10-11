@@ -13,34 +13,7 @@ import RouteNotFound from './router/route-not-found';
 
 const App = () => (
   <div>
-    <Navbar
-      background={false}
-      contact="/about#contact"
-      fixed={false}
-      links={[
-        {
-          route: '/facilities',
-          text: 'Facilities',
-        },
-        {
-          route: '/resources',
-          text: 'Resources',
-        },
-        {
-          route: '/publications',
-          text: 'Publications',
-        },
-        {
-          route: '/news',
-          text: 'News',
-        },
-        {
-          route: '/about',
-          text: 'About',
-        },
-      ]}
-      shadow={false}
-    />
+    <Navbar />
     <Switch>
       <Route
         exact

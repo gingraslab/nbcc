@@ -3,54 +3,128 @@
   background-color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   display: flex;
+  font-size: 1.2em;
+  font-weight: bold;
   height: 50px;
   left: 0;
-  padding: 0px 10px;
-  position: fixed;
+  padding: 5px 10px;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 10;
 }
-.navbar_absolute {
-  position: absolute;
+.navbar svg {
+  fill: var(--text-dark);
+  transition: 0.3s fill ease;
+}
+.navbar__home {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.navbar__left {
+  align-items: center;
+  display: flex;
 }
 .navbar__link {
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.navbar__link:link,
-.navbar__link:visited {
-  color: var(--color-secondary-1-4);
-}
-.navbar__link:focus {
-  outline: none;
-}
-.navbar__link:focus,
-.navbar__link:hover,
-.navbar__link:active {
-  color: var(--color-primary-2);
-}
-.navbar__link-contact svg {
-  fill: var(--color-secondary-1-4);
-  height: 15px;
-  position: relative;
-  top: 1px;
+  margin: 0 5px;
 }
 .navbar__links {
+  align-items: center;
+  display: flex;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+.navbar__menu {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  padding: 5px 8px;
   position: absolute;
-  right: 20px;
+  right: 0;
+  top: 0;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: 0.2s all ease;
+  white-space: nowrap;
+  z-index: 5;
 }
-.navbar__links > :not(:last-child) {
-  margin-right: 20px;
+.navbar__menu li a {
+  display: inline-block;
+  padding: 5px 0;
+  width: 100%;
 }
-.navbar__logo {
-  display: block;
+.navbar__menu-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  position: relative;
+  right: 5px;
 }
-@media print {
-  .navbar {
+.navbar__menu-button svg {
+  fill: var(--text-dark);
+}
+.navbar__menu-button:focus svg,
+.navbar__menu-button:hover svg {
+  fill: #5C6BC0;
+}
+.navbar__menu-container {
+  display: none;
+}
+.navbar__menu.open {
+  opacity: 1;
+  transform: scale(1);
+}
+.navbar__link:link {
+  color: var(--text-dark);
+  text-decoration: none;
+}
+.navbar__link:visited {
+  color: var(--text-dark);
+}
+.navbar__link:focus,
+.navbar__link:hover {
+  color: #5C6BC0;
+}
+.navbar__right {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+}
+
+.navbar__right a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+.navbar__right a:focus svg,
+.navbar__right a:hover svg {
+  fill: #5C6BC0;
+}
+.navbar__right a:focus {
+  outline: 0;
+}
+.navbar__right a::-moz-focus-inner {
+  border: 0;
+}
+
+@media (max-width: 775px) {
+  .navbar__left > .navbar__links {
     display: none;
+  }
+  .navbar__menu-container {
+    display: inline;
+  }
+  .navbar__contact {
+    display: none;
+  }
+  .navbar__right a {
+    margin-right: 20px;
+  }
+  .navbar__right .navbar__links {
+    margin-right: 20px;
   }
 }

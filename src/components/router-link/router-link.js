@@ -23,9 +23,6 @@ const RouterLink = ({
   if (className) {
     classes.push(className);
   }
-  if (className) {
-    classes.push(className);
-  }
   return (
     hash
       ? (
@@ -59,7 +56,7 @@ RouterLink.defaultProps = {
 };
 
 RouterLink.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.node,
   className: PropTypes.string,
   hash: PropTypes.bool,
   to: PropTypes.oneOfType([
