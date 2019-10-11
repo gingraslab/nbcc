@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 75 75">
+  <style>
+    .st1{fill:#5ba488}.st2{fill:#929497}.st6{fill:#fbb34b}.st9{fill:#3c77ae}
+  </style>
+  <g id="Layer_1">
+    <circle cx="37.5" cy="37.5" r="37.5" fill="#ffffff"/>
+    <path transform="rotate(20.702 35.557 46.87)" class="st2" d="M34.558 44.608h2v4.532h-2z"/>
+    <path transform="rotate(12.926 28.416 36.349)" class="st2" d="M25.524 35.346h5.782v2h-5.782z"/>
+    <path transform="rotate(76.326 41.57 49.92)" class="st2" d="M36.915 48.923h9.314v2h-9.314z"/>
+    <path transform="rotate(46.641 46.018 29.71)" class="st2" d="M45.02 25.614h2v8.194h-2z"/>
+    <path transform="rotate(79.251 49.155 38.18)" class="st2" d="M48.153 34.422h2v7.514h-2z"/>
+    <path transform="rotate(65.165 33.958 26.677)" class="st2" d="M27.673 25.674h12.568v2H27.673z"/>
+    <path transform="rotate(57.243 35.619 59.21)" class="st2" d="M34.62 53.395h2v11.637h-2z"/>
+    <path transform="rotate(45.396 46.017 51.88)" class="st2" d="M45.019 48.97h2v5.823h-2z"/>
+    <path transform="rotate(56.88 46.825 19.435)" class="st2" d="M38.94 18.433h15.765v2H38.94z"/>
+    <path transform="rotate(76.332 48.89 11.28)" class="st2" d="M47.892 7.344h2v7.875h-2z"/>
+    <path transform="rotate(47.217 35.295 15.821)" class="st2" d="M34.294 9.179h2v13.285h-2z"/>
+    <path transform="rotate(43.83 19.698 30.89)" class="st2" d="M14.096 29.894H25.3v2H14.096z"/>
+    <path transform="rotate(22.873 16.849 20.002)" class="st2" d="M15.85 16.347h2v7.314h-2z"/>
+    <path transform="rotate(19.003 16.456 47.09)" class="st2" d="M12.956 46.089h6.997v2h-6.997z"/>
+    <path transform="rotate(70.092 23.423 53.86)" class="st2" d="M18.27 52.86h10.303v2.001H18.27z"/>
+    <path transform="rotate(10.504 27.07 48.65)" class="st2" d="M21.836 47.656H32.31v2H21.836z"/>
+    <path transform="rotate(27.828 30.814 56.498)" class="st2" d="M29.812 49.807h2v13.374h-2z"/>
+    <path transform="rotate(44.168 17.253 39.002)" class="st2" d="M16.255 34.162h2v9.681h-2z"/>
+    <path transform="rotate(27.834 59.702 39.07)" class="st2" d="M55.09 38.075h9.231v2H55.09z"/>
+    <path transform="rotate(48.008 59.254 33.148)" class="st2" d="M58.251 28.272h2v9.746h-2z"/>
+    <path transform="rotate(72.632 53.437 30.569)" class="st2" d="M51.21 29.568h4.453v1.999H51.21z"/>
+    <path transform="rotate(31.482 52.533 51.255)" class="st2" d="M48.992 50.261h7.082v2h-7.082z"/>
+    <circle class="st6" cx="14.148" cy="25.148" r="4.354"/>
+    <ellipse transform="rotate(-13.674 19.53 16.329)" class="st6" cx="19.529" cy="16.328" rx="3.032" ry="2.932"/>
+    <ellipse transform="rotate(-13.68 30.413 20.33)" class="st6" cx="30.42" cy="20.333" rx="2.561" ry="2.497"/>
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.853" y1="36.755" x2="22.853" y2="26.769" gradientTransform="rotate(10.929 6.968 31.612)">
+      <stop offset="0" stop-color="#5ba488"/>
+      <stop offset="1" stop-color="#ffb54a"/>
+    </linearGradient>
+    <circle cx="22.538" cy="34.772" r="4.993" fill="url(#SVGID_1_)"/>
+    <path class="st6" d="M56.224 10.135c.377 1.546-.631 3.118-2.256 3.514-1.623.395-3.243-.538-3.619-2.084-.377-1.546.635-3.119 2.257-3.514 1.625-.396 3.242.538 3.618 2.084z"/>
+    <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="51.02" y1="33.011" x2="57.422" y2="33.011" gradientTransform="matrix(.9989 1.0412 -1.0518 1.0092 33.185 -64.712)">
+      <stop offset="0" stop-color="#ffb54a"/>
+      <stop offset="1" stop-color="#3c76ae"/>
+    </linearGradient>
+    <path d="M55.823 28.392c-1.859 1.785-4.798 1.739-6.565-.102-1.767-1.841-1.69-4.779.17-6.563 1.859-1.784 4.797-1.739 6.565.101 1.764 1.84 1.689 4.779-.17 6.564z" fill="url(#SVGID_2_)"/>
+    <ellipse transform="rotate(-13.663 41.112 11.721)" class="st6" cx="41.109" cy="11.725" rx="5.315" ry="5.249"/>
+    <path d="M38.662 37.729l5.101-5.977a7.862 7.862 0 0 1 .879 11.079c-.94 1.099-1.989 1.82-3.353 2.305l-2.627-7.407z" fill="#3c76ae"/>
+    <path d="M38.662 37.729l-7.729-1.427a7.858 7.858 0 0 1 9.156-6.299c1.424.262 2.573.811 3.673 1.75l-5.1 5.976z" fill="#ffb54a"/>
+    <path class="st1" d="M38.662 37.729l2.627 7.407a7.86 7.86 0 0 1-10.035-4.778c-.482-1.362-.582-2.635-.32-4.056l7.728 1.427z"/>
+    <circle class="st1" cx="11.001" cy="45.256" r="5.506"/>
+    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="34.977" y1="56.051" x2="43.724" y2="56.051" gradientTransform="rotate(-16.137 41.243 43.047)">
+      <stop offset=".001" stop-color="#5ba488"/>
+      <stop offset="1" stop-color="#3c76ae"/>
+    </linearGradient>
+    <path d="M47.24 54.85c.688 2.376-.635 4.849-2.954 5.52-2.32.672-4.759-.713-5.448-3.09-.688-2.376.635-4.849 2.956-5.52 2.32-.672 4.759.713 5.446 3.09z" fill="url(#SVGID_3_)"/>
+    <ellipse transform="rotate(-13.663 26.09 63.506)" class="st1" cx="26.08" cy="63.499" rx="5.089" ry="5.026"/>
+    <circle class="st1" cx="21.38" cy="47.834" r="3.009"/>
+    <circle class="st1" cx="33.932" cy="50.579" r="2.625"/>
+    <ellipse transform="rotate(-13.674 65.527 40.805)" class="st9" cx="65.528" cy="40.806" rx="3.969" ry="4.098"/>
+    <circle class="st9" cx="54.578" cy="35.87" r="3.857"/>
+    <circle class="st9" cx="59.519" cy="53.4" r="5.506"/>
+    <circle class="st9" cx="48.5" cy="49.738" r="2.433"/>
+    <circle class="st9" cx="65.173" cy="29.324" r="3.009"/>
+  </g>
+</svg>
