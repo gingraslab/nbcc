@@ -6,7 +6,7 @@ import CaptureRouteNotFound from './capture-not-found';
 import Missing from '../404/404';
 
 const Routes = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <CaptureRouteNotFound>
       <Switch>
         <Route

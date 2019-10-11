@@ -2,7 +2,7 @@
   "name": "nbcc",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://nbcc.lunenfeld.ca",
+  "homepage": "https://knightjdr.github.io/nbcc/",
   "inlineLimit": 1000,
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -15,10 +15,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
