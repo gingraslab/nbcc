@@ -2,7 +2,7 @@
   "name": "nbcc",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://knightjdr.github.io/nbcc/",
+  "homepage": "https://nbcc.lunenfeld.ca",
   "inlineLimit": 1000,
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -18,8 +18,7 @@
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
