@@ -32,6 +32,15 @@
   position: absolute;
   right: 10px;
 }
+.home__landing a:link,
+.home__landing a:visited {
+  color: var(--color-secondary-1-3);
+}
+.home__landing a:focus,
+.home__landing a:hover,
+.home__landing a:active {
+  color: var(--color-secondary-1-2);
+}
 .home__landing p {
   background-color: rgba(245, 245, 245, 0.85);
   border-radius: 2px;

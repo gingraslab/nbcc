@@ -173,12 +173,16 @@ const Services = () => (
       </p>
       <h3>VIII. Kinase Inhibitor Profiling - Chaperone Thermosensor Assay using LUMIER</h3>
       <p>
-      The Chaperone Thermosensor LUMIER assay at the NBCC, adapted from Mikko Taipale, measures the 
-      specificity of kinase drugs by screening them against 320 human kinases in a <strong>cell-based</strong> assay.  
-      In this assay, FLAG-tagged kinases are transfected into HEK293 cells stably expressing Renilla-tagged 
-      HSP90 or its co-chaperone CDC37.  A LUMIER assay is performed plus or minus drug.  A drug successfully 
-      binding to a kinase will stabilize its conformation decreasing its need for the chaperone.  This loss of 
-      binding is scored as a positive hit for kinase-drug interaction.
+        The Chaperone Thermosensor LUMIER assay at the NBCC, adapted from Mikko Taipale,
+        measures the specificity of kinase drugs by screening them against 320 human kinases in a
+        {' '}
+        <strong>cell-based</strong>
+        {' '}
+        assay. In this assay, FLAG-tagged kinases are transfected into HEK293 cells stably
+        expressing Renilla-tagged  HSP90 or its co-chaperone CDC37. A LUMIER assay is performed plus
+        or minus drug. A drug successfully binding to a kinase will stabilize its conformation
+        decreasing its need for the chaperone. This loss of binding is scored as a positive hit for
+        kinase-drug interaction.
       </p>
     </div>
   </section>

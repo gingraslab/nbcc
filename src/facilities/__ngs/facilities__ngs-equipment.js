@@ -41,14 +41,14 @@ const Equipment = () => (
         <li>microfluidic platform for single cell isolation and barcoding</li>
         <li>partitions cells into GEMs (Gel beads in EMulsion)</li>
         <li>can process 8 samples in parallel in under 20 minutes</li>
-        <li>can generate >100,000 barcode-partitions in minutes</li>
+        <li>can generate &gt;100,000 barcode-partitions in minutes</li>
       </ul>
       <h4>C1 System</h4>
       <ul>
         <li>microfluidic platform for single cell isolation and template preparation</li>
         <li>isolates up to 800 individual cells in separate reaction chambers</li>
         <li>cells can be immunostained and imaged in chambers prior to lysing and barcoding </li>
-       </ul>
+      </ul>
       <h4>Pippin HT</h4>
       <ul>
         <li>targeted DNA size selection for library preparation</li>
@@ -60,15 +60,24 @@ const Equipment = () => (
       <h4>5200 Fragment Analyzer System</h4>
       <ul>
         <li>parallel capillary electrophoresis of up to 12 samples </li>
-        <li>QC of library preparation: adapter dimer contamination, library size and concentration </li>
+        <li>
+          QC of library preparation: adapter dimer contamination, library size and
+          concentration
+        </li>
         <li>suitable for RNA and DNA</li>
         <li>kits available to analyze RNA, genomic DNA and sequencing library </li>
       </ul>
       <h4>QX200 Droplet Digital PCR System</h4>
       <ul>
         <li>absolute quantitation of DNA in digital form</li>
-        <li>Droplet Generator separates samples into 20,000 nanoliter-sized droplets for PCR amplification</li>
-        <li>after amplication, droplets from each sample are individually analyzed on the Droplet Reader</li>
+        <li>
+          Droplet Generator separates samples into 20,000 nanoliter-sized droplets for
+          PCR amplification
+        </li>
+        <li>
+          after amplication, droplets from each sample are individually analyzed on the
+          Droplet Reader
+        </li>
       </ul>
       <h4>Qubit 2.0 Fluorometer</h4>
       <ul>

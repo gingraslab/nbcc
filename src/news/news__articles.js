@@ -6,18 +6,19 @@ const articles = {
     summary: (
       <section>
         <p>
-          In collaboration with the NBCC, the Gingras lab (co-first authors Christopher Go and James Knight)
-          has released a pre-print 
+          In collaboration with the NBCC, the Gingras lab (co-first authors
+          Christopher Go and James Knight) has released a pre-print
           {' '}
           <a href="https://www.biorxiv.org/content/10.1101/796391v1">(Go et al. 2019)</a>
           {' '}
-          of their proximity biotinylation map of a human cell.  This monumental effort screened 192 markers 
-          from 32 different locations to map the location of 4,145 proteins to specific compartments in the HEK293 
-          cell line. The accompanying website
+          of their proximity biotinylation map of a human cell. This monumental effort screened 192
+          markers from 32 different compartments to map the location of 4,145 proteins to specific
+          compartments in the HEK293 cell line. The accompanying
           {' '}
-          <a href="https://humancellmap.org">(humancellmap)</a>
+          <a href="https://humancellmap.org">website</a>
           {' '}
-          enables users to view the data and importantly, to upload and compare their own BioID data.
+          enables users to view the data and importantly, to upload and compare their
+          own BioID datasets.
         </p>
       </section>
     ),

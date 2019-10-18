@@ -12,13 +12,11 @@ const Landing = () => (
     <p>
       Accelerating research by providing integrated services in functional proteomics
       and genomics, drug discovery and high-throughput screening, next-generation
-      sequencing and high-content to super-resolution microscopy. 
-      <br />
-      <br />
-          {' '}
-          <a href="https://nbcc.lunenfeld.ca/about#contact">Contact us</a>
-          {' '}
-          to discuss how we can help with your project.
+      sequencing and high-content to super-resolution microscopy.
+      {' '}
+      <a href="https://nbcc.lunenfeld.ca/about#contact">Contact us</a>
+      {' '}
+      to discuss how we can help with your project.
     </p>
     <img
       alt="Lunenfeld-Tanenbaum Research Institute"
