@@ -36,6 +36,19 @@ const Equipment = () => (
         <li>1 human genome/run at 30x coverage</li>
         <li>8 transcriptomes/run at 50 million reads per sample</li>
       </ul>
+      <h4>Chromium Controller</h4>
+      <ul>
+        <li>microfluidic platform for single cell isolation and barcoding</li>
+        <li>partitions cells into GEMs (Gel beads in EMulsion)</li>
+        <li>can process 8 samples in parallel in under 20 minutes</li>
+        <li>can generate >100,000 barcode-partitions in minutes</li>
+      </ul>
+      <h4>C1 System</h4>
+      <ul>
+        <li>microfluidic platform for single cell isolation and template preparation</li>
+        <li>isolates up to 800 individual cells in separate reaction chambers</li>
+        <li>cells can be immunostained and imaged in chambers prior to lysing and barcoding </li>
+       </ul>
       <h4>Pippin HT</h4>
       <ul>
         <li>targeted DNA size selection for library preparation</li>

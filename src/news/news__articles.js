@@ -1,6 +1,28 @@
 import React from 'react';
 
 const articles = {
+  'A Physical Map of a Human Cell': {
+    date: 'October 18, 2019',
+    summary: (
+      <section>
+        <p>
+          In collaboration with the NBCC, the Gingras lab (co-first authors Christopher Go and James Knight)
+          has released a pre-print 
+          {' '}
+          <a href="https://www.biorxiv.org/content/10.1101/796391v1">(Go et al. 2019)</a>
+          {' '}
+          of their proximity biotinylation map of a human cell.  This monumental effort screened 192 markers 
+          from 32 different locations to map the location of 4,145 proteins to specific compartments in the HEK293 
+          cell line. The accompanying website
+          {' '}
+          <a href="https://humancellmap.org">(humancellmap)</a>
+          {' '}
+          enables users to view the data and importantly, to upload and compare their own BioID data.
+        </p>
+      </section>
+    ),
+    title: 'A Physical Map of a Human Cell',
+  },
   'Latest Publications': {
     date: 'September 10, 2019',
     summary: (
@@ -35,7 +57,7 @@ const articles = {
         </p>
       </section>
     ),
-    title: 'Publication Update',
+    title: 'Latest Publications',
   },
   'Positions Available': {
     date: 'July 31, 2019',
