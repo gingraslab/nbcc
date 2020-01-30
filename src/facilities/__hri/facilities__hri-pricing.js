@@ -85,6 +85,28 @@ const Pricing = () => (
               <td>-</td>
             </tr>
             <tr>
+              <td
+                className="facilities__hri-pricing-table_bottom-border"
+                rowSpan="2"
+              >
+                T12E/A1R
+              </td>
+              <td>Imaging</td>
+              <td>60</td>
+              <td>40</td>
+              <td>900</td>
+              <td>80</td>
+              <td>1080</td>
+            </tr>
+            <tr className="facilities__hri-pricing-table_bottom-border">
+              <td>Assay development & training</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>120</td>
+              <td>-</td>
+            </tr>
+            <tr>
               <td rowSpan="4">Image processing</td>
               <td>Locally with SoftWoRx</td>
               <td>15</td>
@@ -130,7 +152,7 @@ const Pricing = () => (
       <h4>Accessing the facility</h4>
       <p>
         Users interested in accessing the High Resolution Imaging facility should
-        contact Monica Hasegan (hasegan@lunenfeld.ca) to discuss the scope of their project.
+        contact Johnny Tkach (tkach@lunenfeld.ca) to discuss the scope of their project.
       </p>
       <h4>Bio-safety</h4>
       <p>

@@ -151,7 +151,18 @@ const Pricing = () => (
           <li>custom script for data post-analysis</li>
         </ul>
       </div>
-      <h3>
+      <h4 className="facilities_hcs_full-header">Incucyte S3</h4>
+      <div className="facilities__hcs-rates">
+        <div>
+          <strong>Fees</strong>
+          <ul>
+            <li>Initial training on instrument use and software: $170</li>
+            <li>Imaging: $100/plate/day </li>
+            <li>Data Analysis: performed by user with Incucyte software</li>
+          </ul>
+        </div>
+        </div>
+     <h3>
         <span>II. High-content analysis</span>
       </h3>
       <h4 className="facilities_hcs_full-header">Columbus</h4>
@@ -207,7 +218,7 @@ const Pricing = () => (
       <h4>Equipment</h4>
       <p>
         Only trained users may use equipment in the High-Content Screening
-        facility. New users should contact Monica Hasegan for training or to
+        facility. New users should contact Monica Hasegan (hasegan@lunenfeld.ca) for training or to
         process samples. After-hours use is permitted for experienced users.
       </p>
       <h4>Online booking</h4>

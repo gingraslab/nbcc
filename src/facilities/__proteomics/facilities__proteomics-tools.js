@@ -142,12 +142,21 @@ const Tools = () => (
           </a>
         </li>
       </ul>
-      <h4>AP-MS control data repository</h4>
+      <h4>AP-MS and BioID control data repository</h4>
       <ul>
         <li>
           <a href="http://www.crapome.org/">
             <LinkIcon />
             CRAPome
+          </a>
+        </li>
+      </ul>
+      <h4>BioID Proximity Map of a Human Cell</h4>
+      <ul>
+        <li>
+          <a href="https://humancellmap.org//">
+            <LinkIcon />
+            Human Cell Map
           </a>
         </li>
       </ul>

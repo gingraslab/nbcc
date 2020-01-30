@@ -1,29 +1,48 @@
 import React from 'react';
 
 const articles = {
-  'A Physical Map of a Human Cell': {
-    date: 'October 18, 2019',
+  'NBCC now on Google Scholar': {
+    date: 'January 30, 2020',
     summary: (
       <section>
         <p>
-          In collaboration with the NBCC, the Gingras lab (co-first authors
-          Christopher Go and James Knight) has released a pre-print
+          Follow our publications on 
           {' '}
-          <a href="https://www.biorxiv.org/content/10.1101/796391v1">(Go et al. 2019)</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar.</a>
           {' '}
-          of their proximity biotinylation map of a human cell. This monumental effort screened 192
-          markers from 32 different compartments to map the location of 4,145 proteins to specific
-          compartments in the HEK293 cell line. The accompanying
+        </p>
+        <p>
+          We have also updated our
           {' '}
-          <a href="https://humancellmap.org">website</a>
+          <a href="https://nbcc.lunenfeld.ca/publications">publication list</a>
           {' '}
-          enables users to view the data and importantly, to upload and compare their
-          own BioID datasets.
+          with new publications linked to the NBCC in the past 4 months.
+        </p>
+        <p>
+          <strong>Highlighted Paper:</strong>
+          {' '}
+          <em>
+          ROCK inhibitors upregulate the neuroprotective Parkin-mediated mitophagy pathway.
+          </em>
+          {' '}
+          Moskal et al., Nat Commun. 2020 Jan;11(1):88, PMID: 31900402
+        </p>
+        <p>
+          The NBCC worked with the McQuibban lab from the University of Toronto on an HTP screen that identified Rock inhibitors as potentiators of the 
+          Parkin-mediated mitophagy pathway that is required to remove damaged mitochondria from dopaminergic neurons.  This discovery may lead to new 
+          treatments for Parkinson's Disease or other diseases characterized by mitochondrial dysfunction.
+          {' '}
+          <a
+            href="https://www.nature.com/articles/s41467-019-13781-3.pdf"
+          >
+            Moskal et al. article.
+          </a>
         </p>
       </section>
     ),
-    title: 'A Physical Map of a Human Cell',
+    title: 'NBCC now on Google Scholar',
   },
+  
   'Latest Publications': {
     date: 'September 10, 2019',
     summary: (
@@ -132,7 +151,7 @@ const articles = {
           cell that is only active for 24 hours.
           {' '}
           <a
-            href="https://www.sinaihealthsystem.ca/news/the-wrana-group-follows-a-gut-feeling-and-discovers-a-new-type-of-stem-cell/"
+            href="https://www.sinaihealth.ca/news/dr-jeff-wrana-and-team-follow-a-gut-feeling-and-discover-a-new-type-of-stem-cell/"
           >
             See details.
           </a>

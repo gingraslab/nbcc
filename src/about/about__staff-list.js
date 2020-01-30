@@ -1,6 +1,3 @@
-import BibaswanGhoshal from './assets/people/BibaswanGhoshal.png';
-import BibaswanGhoshal2x from './assets/people/BibaswanGhoshal2x.png';
-import BibaswanGhoshal3x from './assets/people/BibaswanGhoshal3x.png';
 import CassandraWong from './assets/people/CassandraWong.png';
 import CassandraWong2x from './assets/people/CassandraWong2x.png';
 import CassandraWong3x from './assets/people/CassandraWong3x.png';
@@ -52,18 +49,7 @@ const staff = [
     name: 'Kathy Fung',
     title: 'Next-Generation Sequencing Research Technician',
   },
-  {
-    email: 'ghoshal@lunenfeld.ca',
-    expertise: 'bioinformatics analysis of genomics, transcriptomics, & microbiome data; single cell genomics data analysis; bioinformatics pipeline development',
-    images: [
-      BibaswanGhoshal,
-      BibaswanGhoshal2x,
-      BibaswanGhoshal3x,
-    ],
-    name: 'Bibaswan Ghoshal',
-    title: 'Senior Bioinformatician ',
-  },
-  {
+    {
     email: 'mjen@lunenfeld.ca',
     expertise: 'routine maintenance and QC of instrumentation, development and implementation of robot-assisted technologies',
     images: [

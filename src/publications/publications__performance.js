@@ -4,6 +4,7 @@ import details from './publication__details';
 import Pie from './publication__pie';
 import Pdf from '../assets/icons/pdf';
 import Table from './publication__table';
+import LinkIcon from '../assets/icons/link';
 
 const Performance = () => (
   <section>
@@ -24,16 +25,24 @@ const Performance = () => (
           </li>
           <li>
             <sup>2</sup>
-            January 1, 2011 to September 3, 2019
+            January 1, 2011 to January 30, 2020
           </li>
         </ul>
       </div>
       <Pie details={details.list} />
     </div>
     <p>
+        
+          <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">
+            <LinkIcon />
+            NBCC List of Publications on Google Scholar
+          </a>
+             
+                 </p>
+    <p>
       <a
         download
-        href="./pdf/NBCC Publication List_SE2019.pdf"
+        href="/pdf/NBCC Publication List_JA2020.pdf"
       >
         <Pdf />
         List of Publications since 2011

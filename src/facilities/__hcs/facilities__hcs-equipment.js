@@ -37,6 +37,13 @@ const Equipment = () => (
         analysis in a variety of biological applications (cell/colony counting, migrations
         assays, expression analysis and many others).
       </p>
+      <h4>Incucyte S3</h4>
+      <p>
+      The Incucyte S3 is equipped with high definition phase contrast optics and two fluorescent 
+      wavelengths (red: ex565-605nm, em625-705nm; green: ex440-480nm, em504-544nm), and with the 
+      following three objectives on an automated turret: 4x PLAN, 10x PLAN FLUOR, and 20x PLAN FLUOR. 
+      It can accommodate up to six microplates at a time. 
+      </p>
     </div>
   </section>
 );
