@@ -69,7 +69,7 @@ RouterLink.propTypes = {
     PropTypes.string,
   ]).isRequired,
   type: PropTypes.string,
-  underline: PropTypes.string,
+  underline: PropTypes.bool,
 };
 
 export default RouterLink;
