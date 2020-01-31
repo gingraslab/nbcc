@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.10a64495.chunk.css",
-    "main.js": "/static/js/main.c303d46e.chunk.js",
-    "main.js.map": "/static/js/main.c303d46e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.6fab9254.chunk.js": "/static/js/2.6fab9254.chunk.js",
-    "static/js/2.6fab9254.chunk.js.map": "/static/js/2.6fab9254.chunk.js.map",
+    "main.css": "/static/css/main.2731a3e7.chunk.css",
+    "main.js": "/static/js/main.42f1772d.chunk.js",
+    "main.js.map": "/static/js/main.42f1772d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37c1bd07.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37c1bd07.js.map",
+    "static/js/2.28ebb378.chunk.js": "/static/js/2.28ebb378.chunk.js",
+    "static/js/2.28ebb378.chunk.js.map": "/static/js/2.28ebb378.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.60ff49aa61ab0dc119be5e60c39f2cd3.js": "/precache-manifest.60ff49aa61ab0dc119be5e60c39f2cd3.js",
+    "precache-manifest.8a98b9c90a3d665aacabb59a10f2b915.js": "/precache-manifest.8a98b9c90a3d665aacabb59a10f2b915.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.10a64495.chunk.css.map": "/static/css/main.10a64495.chunk.css.map",
+    "static/css/main.2731a3e7.chunk.css.map": "/static/css/main.2731a3e7.chunk.css.map",
+    "static/js/2.28ebb378.chunk.js.LICENSE.txt": "/static/js/2.28ebb378.chunk.js.LICENSE.txt",
     "static/media/AnneClaudeGingras-home.png": "/static/media/AnneClaudeGingras-home.d4b5494e.png",
     "static/media/AnneClaudeGingras.png": "/static/media/AnneClaudeGingras.0c2d5902.png",
     "static/media/AnneClaudeGingras2x-home.png": "/static/media/AnneClaudeGingras2x-home.18bcbb35.png",
     "static/media/AnneClaudeGingras2x.png": "/static/media/AnneClaudeGingras2x.35d2c3ec.png",
     "static/media/AnneClaudeGingras3x-home.png": "/static/media/AnneClaudeGingras3x-home.ef1f52e7.png",
     "static/media/AnneClaudeGingras3x.png": "/static/media/AnneClaudeGingras3x.9a9eb9a7.png",
-    "static/media/BibaswanGhoshal.png": "/static/media/BibaswanGhoshal.e60e934e.png",
-    "static/media/BibaswanGhoshal2x.png": "/static/media/BibaswanGhoshal2x.f5e0e563.png",
-    "static/media/BibaswanGhoshal3x.png": "/static/media/BibaswanGhoshal3x.955134cc.png",
     "static/media/BrettLarsen.png": "/static/media/BrettLarsen.e6055d79.png",
     "static/media/BrettLarsen2x.png": "/static/media/BrettLarsen2x.80293928.png",
     "static/media/BrettLarsen3x.png": "/static/media/BrettLarsen3x.9a4dbefb.png",
@@ -165,5 +163,11 @@
     "static/media/facilities__ngs.css": "/static/media/sequencer-900x1600.cf5a891a.jpg",
     "static/media/twitter-square.4fc8fab3.svg": "/static/media/twitter-square.4fc8fab3.svg",
     "static/media/facilities__ida.css": "/static/media/whiteboard-900x1600.373562f9.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37c1bd07.js",
+    "static/js/2.28ebb378.chunk.js",
+    "static/css/main.2731a3e7.chunk.css",
+    "static/js/main.42f1772d.chunk.js"
+  ]
 }
