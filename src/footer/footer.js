@@ -55,7 +55,7 @@ const Footer = () => (
       </ul>
     </section>
     <small className="footer__copyright">
-      © 2019 Network Biology Collaborative Centre, Lunenfeld-Tanenbaum Research Institute,
+      © 2020 Network Biology Collaborative Centre, Lunenfeld-Tanenbaum Research Institute,
       Sinai Health System
     </small>
   </footer>
