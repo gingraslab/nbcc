@@ -14,11 +14,15 @@ const RouterLink = ({
   hash,
   to,
   type,
+  underline,
   ...otherProps
 }) => {
   const classes = ['router-link'];
   if (type !== 'link') {
     classes.push(...['link-button', `link-button_${type}`]);
+  }
+  if (underline) {
+    classes.push('link-underline');
   }
   if (className) {
     classes.push(className);
@@ -53,6 +57,7 @@ RouterLink.defaultProps = {
   className: null,
   hash: false,
   type: 'primary',
+  underline: false,
 };
 
 RouterLink.propTypes = {
@@ -64,6 +69,7 @@ RouterLink.propTypes = {
     PropTypes.string,
   ]).isRequired,
   type: PropTypes.string,
+  underline: PropTypes.string,
 };
 
 export default RouterLink;

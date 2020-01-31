@@ -73,6 +73,13 @@
 .publications__inner {
   max-width: 950px;
 }
+.publication__links {
+  list-style: none;
+  padding: 0;
+}
+.publication__links li {
+  margin: 10px 0;
+}
 .publications__pie {
   margin-top: 40px;
 }

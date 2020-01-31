@@ -1,20 +1,30 @@
 import React from 'react';
 
+import Link from '../components/router-link/router-link';
+
 const articles = {
   'NBCC now on Google Scholar': {
     date: 'January 30, 2020',
     summary: (
       <section>
         <p>
-          Follow our publications on 
+          Follow our publications on
           {' '}
-          <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar.</a>
-          {' '}
+          <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">
+            Google Scholar
+          </a>
+          .
         </p>
         <p>
           We have also updated our
           {' '}
-          <a href="https://nbcc.lunenfeld.ca/publications">publication list</a>
+          <Link
+            to="/publications"
+            type="link"
+            underline
+          >
+            publication list
+          </Link>
           {' '}
           with new publications linked to the NBCC in the past 4 months.
         </p>
@@ -25,12 +35,14 @@ const articles = {
           ROCK inhibitors upregulate the neuroprotective Parkin-mediated mitophagy pathway.
           </em>
           {' '}
-          Moskal et al., Nat Commun. 2020 Jan;11(1):88, PMID: 31900402
+          Moskal et al., Nat Commun. 2020 Jan;11(1):88, PMID: 31900402.
         </p>
         <p>
-          The NBCC worked with the McQuibban lab from the University of Toronto on an HTP screen that identified Rock inhibitors as potentiators of the 
-          Parkin-mediated mitophagy pathway that is required to remove damaged mitochondria from dopaminergic neurons.  This discovery may lead to new 
-          treatments for Parkinson's Disease or other diseases characterized by mitochondrial dysfunction.
+          The NBCC worked with the McQuibban lab from the University of Toronto on an HTP screen
+          that identified Rock inhibitors as potentiators of the Parkin-mediated mitophagy pathway
+          that is required to remove damaged mitochondria from dopaminergic neurons. This discovery
+          may lead to new treatments for Parkinson&apos;s Disease or other diseases characterized by
+          mitochondrial dysfunction.
           {' '}
           <a
             href="https://www.nature.com/articles/s41467-019-13781-3.pdf"
@@ -42,7 +54,6 @@ const articles = {
     ),
     title: 'NBCC now on Google Scholar',
   },
-  
   'Latest Publications': {
     date: 'September 10, 2019',
     summary: (
@@ -50,7 +61,13 @@ const articles = {
         <p>
           We have updated our
           {' '}
-          <a href="https://nbcc.lunenfeld.ca/publications">publication list</a>
+          <Link
+            to="/publications"
+            type="link"
+            underline
+          >
+            publication list
+          </Link>
           {' '}
           with new publications linked to the NBCC in the past 3 months.
         </p>
@@ -62,7 +79,7 @@ const articles = {
           website.
           </em>
           {' '}
-          Knight et al., Nat Methods. 2019 Aug;16(8):665-666, PMID: 31217594
+          Knight et al., Nat Methods. 2019 Aug;16(8):665-666, PMID: 31217594.
         </p>
         <p>
           Correspondence in Nature Methods describing a handy tool developed by James Knight to
@@ -70,7 +87,7 @@ const articles = {
           scientists analyzing long list of hits from proteomics and genomics data.
           {' '}
           <a
-            href="https://gene-info.org//"
+            href="https://gene-info.org"
           >
             For more information and to download.
           </a>

@@ -161,8 +161,8 @@ const Pricing = () => (
             <li>Data Analysis: performed by user with Incucyte software</li>
           </ul>
         </div>
-        </div>
-     <h3>
+      </div>
+      <h3>
         <span>II. High-content analysis</span>
       </h3>
       <h4 className="facilities_hcs_full-header">Columbus</h4>

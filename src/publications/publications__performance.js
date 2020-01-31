@@ -31,23 +31,23 @@ const Performance = () => (
       </div>
       <Pie details={details.list} />
     </div>
-    <p>
-        
-          <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">
-            <LinkIcon />
-            NBCC List of Publications on Google Scholar
-          </a>
-             
-                 </p>
-    <p>
-      <a
-        download
-        href="/pdf/NBCC Publication List_JA2020.pdf"
-      >
-        <Pdf />
-        List of Publications since 2011
-      </a>
-    </p>
+    <ul className="publication__links">
+      <li>
+        <a href="https://scholar.google.com/citations?hl=en&user=CDjBA1AAAAAJ&view_op=list_works&sortby=pubdate">
+          <LinkIcon />
+          NBCC List of Publications on Google Scholar
+        </a>
+      </li>
+      <li>
+        <a
+          download
+          href="/pdf/NBCC Publication List_JA2020.pdf"
+        >
+          <Pdf />
+          List of Publications since 2011
+        </a>
+      </li>
+    </ul>
   </section>
 );
 

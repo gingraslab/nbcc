@@ -115,7 +115,10 @@ const Equipment = () => (
           </tr>
           <tr>
             <td>LUN-V-6 Laser-line Unit</td>
-            <td>Solid state acousto-optic tunable filter (AOTF)-controlled laser lines - 405 to 604 nm</td>
+            <td>
+              Solid state acousto-optic tunable filter (AOTF)-controlled laser
+              lines - 405 to 604 nm
+            </td>
           </tr>
           <tr>
             <td>A1-DUG-2 GaAsP Multi Detector</td>
@@ -131,19 +134,22 @@ const Equipment = () => (
           </tr>
           <tr>
             <td>A1R Scanhead</td>
-            <td>Switchable Galvano and Resonant scanning up to 24 fps in Galvano mode and 420 fps 
+            <td>
+              Switchable Galvano and Resonant scanning up to 24 fps in Galvano mode and 420 fps
               in Resonant mode
             </td>
           </tr>
           <tr>
             <td>Tokai Hit Stage-Top Incubator</td>
-            <td>Complete temperature, CO2 and humidity control
+            <td>
+              Complete temperature, CO2 and humidity control
             </td>
           </tr>
         </tbody>
       </table>
       <p>
-        This inverted two-photon/laser-scanning microscope is ideal for imaging fixed or live tissue.
+        This inverted two-photon/laser-scanning microscope is ideal for imaging fixed or
+        live tissue.
       </p>
     </div>
   </section>

@@ -58,9 +58,10 @@ const Services = () => (
       </p>
       <h4>Incuctye S3 (Essen Bioscience)</h4>
       <p>
-      This instrument is ideal to acquire real-time, automated measurements of cell health, proliferation, 
-      movement and function directly inside a standard tissue culture incubator. Specific live-cell assays, 
-      including cell migration software application module and spheroid software module, are also available 
+      This instrument is ideal to acquire real-time, automated measurements of cell
+      health, proliferation, movement and function directly inside a standard tissue
+      culture incubator. Specific live-cell assays, including cell migration software
+      application module and spheroid software module, are also available
       on the IncuCyte S3 system.
       </p>
       <h3>

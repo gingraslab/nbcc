@@ -26,27 +26,31 @@ const Workshops = () => (
     </h2>
     <h3>Upcoming events</h3>
     <li>
-        <div className="resources__workshops-event">
-          <p>
-           Centre Manager Dr. Karen Colwill will be giving a plenary talk at the The Association of Biomolecular Resource 
-           Facilities (ABRF) annual meeting in Palm Springs on March 1st.  The talk titled "Protein Proximity Mapping: Getting to Know Your Neighbors" 
-           will focus on how to design and analyze BioID experiments in the context of core facilities.
-          </p>
-          <a href="https://conf.abrf.org/protein-proximity-mapping-getting-to-know-your-neighbors/">
+      <div className="resources__workshops-event">
+        <time>March 1, 2020</time>
+        <p>
+           Centre Manager Dr. Karen Colwill will be giving a plenary talk at the The Association
+           of Biomolecular Resource Facilities (ABRF) annual meeting in Palm Springs on March 1st.
+           The talk titled &quot;Protein Proximity Mapping: Getting to Know Your Neighbors&quot;
+           will focus on how to design and analyze BioID experiments in the context of core
+           facilities.
+        </p>
+        <a href="https://conf.abrf.org/protein-proximity-mapping-getting-to-know-your-neighbors/">
           <LinkIcon />
-            Abstract
-          </a>
-         </div>
-      </li>
+          Abstract
+        </a>
+      </div>
+    </li>
     <h3>Past events</h3>
     <ul>
-    <li>
+      <li>
         <div className="resources__workshops-event">
           <p>
-            Illumina and the NBCC co-hosted a Single Cell Symposium at the Lunenfeld-Tanenbaum Research Institute on November 
-            26th 2019.  Dr. Jeff Wrana, co-Director of the NBCC, gave the keynote talk titled "Profiling Rare Cells with Important Functions". 
+            Illumina and the NBCC co-hosted a Single Cell Symposium at the Lunenfeld-Tanenbaum
+            Research Institute on November 26th 2019. Dr. Jeff Wrana, co-Director of the NBCC,
+            gave the keynote talk titled &quot;Profiling Rare Cells with Important Functions&quot;.
           </p>
-         </div>
+        </div>
       </li>
       <li>
         <img

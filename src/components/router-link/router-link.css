@@ -1,4 +1,4 @@
-.router-link {
+.router-link:not(.link-underline) {
   text-decoration: none;
 }
 .router-link:focus {

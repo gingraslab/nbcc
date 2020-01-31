@@ -136,6 +136,9 @@
   display: flex;
   flex-direction: column;
 }
+.resources__workshops-event time {
+  font-weight: bold;
+}
 .resources__workshops-training {
   margin-top: 60px;
 }
