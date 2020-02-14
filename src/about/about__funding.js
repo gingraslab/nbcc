@@ -91,7 +91,7 @@ const Funding = () => (
           alt="Lunenfeld-Tanenbaum Research Institute"
           height={50}
           src={LTRI}
-          width={239}
+          width={318}
         />
       </a>
     </div>

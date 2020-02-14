@@ -20,7 +20,9 @@ const Landing = () => (
     </p>
     <img
       alt="Lunenfeld-Tanenbaum Research Institute"
+      height={50}
       src={LTRI}
+      width={318}
     />
   </section>
 );
