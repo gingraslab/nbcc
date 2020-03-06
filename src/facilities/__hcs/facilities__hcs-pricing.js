@@ -43,7 +43,7 @@ const Pricing = () => (
                 <td>$52.50</td>
                 <td>$15.75</td>
               </tr>
-              </tbody>
+            </tbody>
             <tfoot>
               <tr>
                 <td colSpan="3">
@@ -109,7 +109,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-          <li>Assisted use, training, assay development or data analysis: $90/hour</li>
+            <li>Assisted use, training, assay development or data analysis: $90/hour</li>
           </ul>
         </div>
       </div>
@@ -137,7 +137,7 @@ const Pricing = () => (
       </h3>
       <h4 className="facilities_hcs_full-header">Columbus</h4>
       <div className="facilities__hcs-rates">
-      <div>
+        <div>
           <strong>Fees</strong>
           <ul>
             <li>Self-use: $10.50/hour</li>

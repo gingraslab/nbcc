@@ -29,9 +29,9 @@ const Workshops = () => (
       <div className="resources__workshops-event">
         <time>CNPN 2020 May 11-13, 2020</time>
         <p>
-           The Canadian National Proteomics Network annual meeting takes place in Toronto May 11-13, 2020. 
-           Proteomics and Bioinformatics Workshop on day 1 will teach users to search, visualize and apply
-           statistics to proteomics data. 
+          The Canadian National Proteomics Network annual meeting takes place in Toronto May 11-13, 2020.
+          Proteomics and Bioinformatics Workshop on day 1 will teach users to search, visualize and apply
+          statistics to proteomics data.
         </p>
         <a href="https://www.cnpn.ca/events/2020/index.html">
           <LinkIcon />
@@ -41,22 +41,21 @@ const Workshops = () => (
     </li>
     <h3>Past events</h3>
     <ul>
-    <li>
-      <div className="resources__workshops-event">
-        <time>March 1, 2020</time>
-        <p>
-           Centre Manager Dr. Karen Colwill will be giving a plenary talk at the The Association
-           of Biomolecular Resource Facilities (ABRF) annual meeting in Palm Springs on March 1st.
-           The talk titled &quot;Protein Proximity Mapping: Getting to Know Your Neighbors&quot;
-           will focus on how to design and analyze BioID experiments in the context of core
-           facilities.
-        </p>
-        <a href="https://conf.abrf.org/protein-proximity-mapping-getting-to-know-your-neighbors/">
-          <LinkIcon />
-          Abstract
-        </a>
-      </div>
-    </li>
+      <li>
+        <div className="resources__workshops-event">
+          <p>
+            Centre Manager Dr. Karen Colwill gave a plenary talk at The Association
+            of Biomolecular Resource Facilities (ABRF) annual meeting in Palm Springs on March 1st, 2020.
+            The talk titled &quot;Protein Proximity Mapping: Getting to Know Your Neighbors&quot;
+            focused on how to design and analyze BioID experiments in the context of core
+            facilities.
+          </p>
+          <a href="https://conf.abrf.org/protein-proximity-mapping-getting-to-know-your-neighbors/">
+            <LinkIcon />
+            Abstract
+          </a>
+        </div>
+      </li>
       <li>
         <div className="resources__workshops-event">
           <p>
@@ -100,9 +99,9 @@ const Workshops = () => (
         />
         <div className="resources__workshops-event">
           <p>
-           The NBCC was one of the Genome Canada technology platforms highlighted in the
-           webinar &quot;Technology Platforms to Support Your Omics Research&quot; on
-           June 20th 2017.
+            The NBCC was one of the Genome Canada technology platforms highlighted in the
+            webinar &quot;Technology Platforms to Support Your Omics Research&quot; on
+            June 20th 2017.
           </p>
         </div>
       </li>

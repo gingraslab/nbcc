@@ -8,6 +8,12 @@ module.exports = {
   "rules": {
     "function-paren-newline": "off",
     "no-underscore-dangle": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    'max-len': [
+      "error",
+      {
+        "code": 120
+      }
+    ]
   }
 };
