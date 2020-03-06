@@ -20,7 +20,7 @@ const Pricing = () => (
       <h4 className="facilities_hcs_full-header">IN Cell 6000</h4>
       <div className="facilities__hcs-rates">
         <div>
-          <strong>Rates</strong>
+          <strong>Self-Use Rates</strong>
           <table className="facilities__table">
             <thead>
               <tr>
@@ -35,25 +35,20 @@ const Pricing = () => (
             <tbody>
               <tr>
                 <td>First hour</td>
-                <td>$75</td>
-                <td>$25</td>
+                <td>$78.75</td>
+                <td>$26.25</td>
               </tr>
               <tr>
                 <td>Subsequent hours</td>
-                <td>$50</td>
-                <td>$15</td>
+                <td>$52.50</td>
+                <td>$15.75</td>
               </tr>
-              <tr>
-                <td>Daily max </td>
-                <td>$300</td>
-                <td>$50</td>
-              </tr>
-            </tbody>
+              </tbody>
             <tfoot>
               <tr>
                 <td colSpan="3">
                   <sup>1</sup>
-                  Peak hours are workdays, 9am - 5pm.
+                  Peak hours are workdays, 9am - 6pm.
                 </td>
               </tr>
             </tfoot>
@@ -62,17 +57,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Training: $250</li>
-            <li>Assay development: $450</li>
-            <li>Assisted use plate surcharge: $10</li>
-          </ul>
-        </div>
-        <div>
-          <strong>Fee caps</strong>
-          <ul>
-            <li>Monthly: $900 (can include assay development)</li>
-            <li>Plate surcharge: $300/month</li>
-            <li>4 hr daily max during peak hours for monthly flate rate</li>
+            <li>Assisted use, training, assay development or data analysis: $90/hour</li>
           </ul>
         </div>
       </div>
@@ -87,7 +72,7 @@ const Pricing = () => (
       <h4 className="facilities_hcs_full-header">Celígo</h4>
       <div className="facilities__hcs-rates">
         <div>
-          <strong>Rates</strong>
+          <strong>Self-Use Rates</strong>
           <table className="facilities__table">
             <thead>
               <tr>
@@ -102,25 +87,20 @@ const Pricing = () => (
             <tbody>
               <tr>
                 <td>First hour</td>
-                <td>$25</td>
-                <td>$20</td>
+                <td>$26.25</td>
+                <td>$15.75</td>
               </tr>
               <tr>
                 <td>Subsequent hours</td>
-                <td>$15</td>
-                <td>$5</td>
-              </tr>
-              <tr>
-                <td>Daily max </td>
-                <td>$100</td>
-                <td>$45</td>
+                <td>$21.00</td>
+                <td>$5.25</td>
               </tr>
             </tbody>
             <tfoot>
               <tr>
                 <td colSpan="3">
                   <sup>1</sup>
-                  Peak hours are workdays, 9am - 5pm.
+                  Peak hours are workdays, 9am - 6pm.
                 </td>
               </tr>
             </tfoot>
@@ -129,17 +109,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Training: $200</li>
-            <li>Assay development: $150</li>
-            <li>Assisted use plate surcharge: $10</li>
-          </ul>
-        </div>
-        <div>
-          <strong>Fee caps</strong>
-          <ul>
-            <li>Monthly: $300 (can include assay development)</li>
-            <li>Plate surcharge: $100/month</li>
-            <li>4 hr daily max during peak hours for monthly flate rate</li>
+          <li>Assisted use, training, assay development or data analysis: $90/hour</li>
           </ul>
         </div>
       </div>
@@ -167,47 +137,14 @@ const Pricing = () => (
       </h3>
       <h4 className="facilities_hcs_full-header">Columbus</h4>
       <div className="facilities__hcs-rates">
-        <div>
-          <strong>Rates</strong>
-          <table className="facilities__table">
-            <thead>
-              <tr>
-                <th>Time</th>
-                <th>
-                  Hourly rate
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>First hour</td>
-                <td>$10</td>
-              </tr>
-              <tr>
-                <td>Daily max </td>
-                <td>$50</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
+      <div>
           <strong>Fees</strong>
           <ul>
-            <li>Training: $150</li>
-            <li>Assay development: $150</li>
-          </ul>
-        </div>
-        <div>
-          <strong>Fee caps</strong>
-          <ul>
-            <li>Monthly: $150</li>
-            <li>Assay development: $50 on reaching monthly cap</li>
+            <li>Self-use: $10.50/hour</li>
+            <li>Assisted use, training or data analysis service: $90/hour </li>
           </ul>
         </div>
       </div>
-      <strong>
-        Additional charges may apply for image or data analysis depending on complexity.
-      </strong>
       <p>
         Pricing is for external academic laboratories. Internal or industry users should
         contact Monica Hasegan for pricing.
