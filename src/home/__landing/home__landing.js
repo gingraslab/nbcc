@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Link from '../../components/router-link/router-link';
 import LTRI from '../../about/assets/funding/ltri.svg';
 
 import './home__landing.css';
@@ -17,7 +18,12 @@ const Landing = () => (
     <p>
       NBCC efforts are now directed at helping researchers with COVID19-related research.
       {' '}
-      <a href="https://nbcc.lunenfeld.ca/about#contact">Contact us</a>
+      <Link
+        to="/about#contact"
+        type="link"
+      >
+        Contact us
+      </Link>
       {' '}
       to discuss how we can help with your project.
     </p>
