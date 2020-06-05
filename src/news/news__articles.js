@@ -3,6 +3,65 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'Updated Publication List - June 2020': {
+    date: 'June 5, 2020',
+    summary: (
+      <section>
+        <p>
+          We have updated our
+          {' '}
+          <Link
+            to="/publications"
+            type="link"
+            underline
+          >
+            publication list
+          </Link>
+          {' '}
+          with new publications linked to the NBCC in the past 4 months.
+        </p>
+        <p>
+          <strong>Highlighted Paper:</strong>
+          {' '}
+          <em>
+          Rare driver mutations in head and neck squamous cell carcinomas converge on NOTCH signaling.
+          </em>
+          {' '}
+          Loganathan et al., Science. 2020 Mar;367(6483):1264-1269, PMID: 32165588.
+        </p>
+        <p>
+        The Next-Gen Sequencing and Proteomics nodes of the NBCC contributed to a Science paper in March by Daniel Schramek’s
+         lab in which his team used reverse CRISPR screens to functionally assess rare HNSCC gene mutations in 
+         mice.  They identified 15 tumour suppressor genes that converge on the NOTCH signalling pathway.
+          {' '}
+          <a
+            href="https://science.sciencemag.org/content/367/6483/1264/tab-article-info"
+          >
+            Loganathan et al. article.
+          </a>
+        </p>
+      </section>
+    ),
+    title: 'NBCC now on Google Scholar',
+  },
+  'NBCC in the News for our COVID-19 detection efforts': {
+    date: 'April 9, 2020',
+    summary: (
+      <section>
+        <p>
+          Our development of a high-throughput serology assay to detect SARS CoV-2 antibodies was featured in the 
+          {' '}
+          <a href="https://www.theglobeandmail.com/business/technology/science/article-robotic-system-to-survey-for-widespread-exposure-to-covid-19">
+            Globe and Mail
+          </a>
+          . This automated ELISA-based assay will be used in
+          serosurveillance studies at the NBCC under the direction of co-Directors Anne-Claude Gingras and Jeff Wrana.
+        </p>
+        
+      </section>
+    ),
+    title: 'NBCC in the News',
+  },
   'NBCC now on Google Scholar': {
     date: 'January 30, 2020',
     summary: (

@@ -54,7 +54,7 @@
 }
 .publication__grid {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 .publication__grid > div {
   margin: 20px 40px;
@@ -84,7 +84,7 @@
   margin-top: 40px;
 }
 .publication__table {
-  width: 226px;
+  width: 350px;
 }
 .publication__table svg {
   float: left;
@@ -104,7 +104,7 @@
 }
 .publication__table tr:last-of-type,
 .publication__table tr:nth-last-of-type(2) {
-  font-weight: bold;
+  font-weight: regular;
 }
 .publication__table tbody tr:nth-child(2n+1) {
   background-color: #EEEEEE;

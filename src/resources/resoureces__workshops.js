@@ -27,21 +27,21 @@ const Workshops = () => (
     <h3>Upcoming events</h3>
     <li>
       <div className="resources__workshops-event">
-        <time>CNPN 2020 May 11-13, 2020</time>
         <p>
-          The Canadian National Proteomics Network annual meeting takes place in Toronto May 11-13, 2020.
-          Proteomics and Bioinformatics Workshop on day 1 will teach users to search, visualize and apply
-          statistics to proteomics data.
+          There are currently no upcoming events scheduled.
         </p>
-        <a href="https://www.cnpn.ca/events/2020/index.html">
-          <LinkIcon />
-          Details and Registration
-        </a>
       </div>
     </li>
     <h3>Past events</h3>
     <ul>
       <li>
+      <div className="resources__workshops-event">
+        <time>CNPN 2020 May 11-13, 2020</time>
+        <p>
+          The Canadian National Proteomics Network annual meeting schedule for Toronto in May 2020 was cancelled
+          due to the COVID-19 pandemic.  CNPN 2021 will be held in Toronto in May 2021.
+        </p>
+      </div>
         <div className="resources__workshops-event">
           <p>
             Centre Manager Dr. Karen Colwill gave a plenary talk at The Association
