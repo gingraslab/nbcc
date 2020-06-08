@@ -54,21 +54,7 @@
 }
 .publication__grid {
   display: flex;
-  justify-content: left;
-}
-.publication__grid > div {
-  margin: 20px 40px;
-}
-.publication__grid > :last-child {
-  text-align: center;
-}
-.publication__grid img {
-  display: block;
-  margin-bottom: 10px;
-}
-.publication__grid ul {
-  list-style: none;
-  padding-left: 0;
+  justify-content: center;
 }
 .publications__inner {
   max-width: 950px;
