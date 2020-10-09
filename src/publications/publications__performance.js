@@ -13,7 +13,7 @@ const Performance = () => (
       Numbers:
     </h2>
     <h3>
-       <strong>January 1, 2011 to June 6, 2020</strong> 
+       <strong>January 1, 2011 to October 9, 2020</strong> 
     </h3>
     <div className="publication__grid">
       <div>
@@ -32,7 +32,7 @@ const Performance = () => (
       <li>
         <a
           download
-          href="/pdf/NBCC Publication List_JN2020.pdf"
+          href="/pdf/NBCC Publication List_OC2020.pdf"
         >
           <Pdf />
           List of Publications since 2011

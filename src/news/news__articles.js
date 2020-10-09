@@ -3,6 +3,68 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+   'New services available to detect and characterize SARS CoV-2 antibodies': {
+    date: 'October 9, 2020',
+    summary: (
+      <section>
+        <p>
+        The NBCC has contributed to two recent publications describing the development and application of 
+        COVID-19 serology assays under the direction of NBCC co-director Dr. Anne-Claude Gingras.  The assays 
+        described in these two papers are now available as services at the NBCC.
+        </p>
+        <p>
+          <strong>Paper #1:</strong>
+          {' '}
+          <em>
+          Persistence of serum and saliva antibody responses to SARS-CoV-2 spike antigens in COVID-19 patients.
+          </em>
+          {' '}
+          Isho et al., Sci Immunol. 2020 Oct 8;5(52):eabe5511, PMID: 33033173.
+        </p>
+        <p>
+        ELISA-based assays were developed on the automated screening platform at the NBCC for detection of 
+        IgG, IgM and IgA antibody responses to SARS CoV-2 infection using the spike trimer, spike receptor 
+        binding domain (RBD) and the nucleocapsid protein as antigens.  These results were compared to those 
+        obtained from an ELISA-based assay using saliva from co-Senior Investigator Jennifer Gommerman at the 
+        University of Toronto.  Longitudinal analysis showed that IgG antibodies remained relatively stable for 
+        at least 3 months post-symptom onset in both biofluids.  Results for IgG correlated well between saliva 
+        and blood suggesting that saliva may serve as an alternative to blood in assessing immune response to 
+        SARS CoV-2.
+          {' '}
+          <a
+            href="https://immunology.sciencemag.org/content/5/52/eabe5511"
+          >
+            Isho et al. article.
+          </a>
+        </p>
+        <p>
+          <strong>Paper #2:</strong>
+          {' '}
+          <em>
+          A simple protein-based surrogate neutralization assay for SARS-CoV-2.
+          </em>
+          {' '}
+          Abe et al., JCI Insight. 2020 Oct 2;5(19):142362, PMID: 32870820.
+        </p>
+        <p>
+        Graduate student Kento Abe developed a safe and efficient ELISA-based assay for identifying 
+        potential neutralizing antibodies that block the interaction of the SARS CoV-2 spike RBD with its 
+        receptor ACE2 on host cells.  The results obtained from this high-throughput assay correlated well 
+        with the gold standard plaque reduction neutralization test (PRNT), a low-throughput assay using 
+        live virus that requires biosafety level 3 containment.  This surrogate neutralization ELISA 
+        (snELISA) is an effective screening tool that can be applied as a first step in monitoring immune 
+        response to vaccination, selecting candidates for plasma therapy or as a broad serosurveillance tool.
+          {' '}
+          <a
+            href="https://insight.jci.org/articles/view/142362"
+          >
+            Abe et al. article.
+          </a>
+        </p>
+      </section>
+    ),
+    title: 'New services available to detect and characterize SARS CoV-2 antibodies',
+  },
   'Updated Publication List - June 2020': {
     date: 'June 5, 2020',
     summary: (
@@ -42,7 +104,7 @@ const articles = {
         </p>
       </section>
     ),
-    title: 'NBCC now on Google Scholar',
+    title: 'Updated Publication List - June 2020',
   },
   'NBCC in the News for our COVID-19 detection efforts': {
     date: 'April 9, 2020',

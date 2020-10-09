@@ -171,7 +171,7 @@ const Services = () => (
         isoform-dependent, as well as those that may occur only in the presence of
         post-translational modifications. The assay can be performed in 96 or 384-well format.
       </p>
-      <h3>VIII. Kinase Inhibitor Profiling - Chaperone Thermosensor Assay using LUMIER</h3>
+      <h3>VIII. Kinase inhibitor profiling - Chaperone thermosensor assay using LUMIER</h3>
       <p>
         The Chaperone Thermosensor LUMIER assay at the NBCC, adapted from Mikko Taipale,
         measures the specificity of kinase drugs by screening them against 320 human kinases in a
@@ -183,6 +183,14 @@ const Services = () => (
         or minus drug. A drug successfully binding to a kinase will stabilize its conformation
         decreasing its need for the chaperone. This loss of binding is scored as a positive hit for
         kinase-drug interaction.
+      </p>
+      <h3>IX. ELISA-based serology assays</h3>
+      <p>
+        Enzyme-linked immunosorbent assays (ELISA) are a plate-based method to detect binding of antibodies
+        to antigen.  This assay can be employed in high-throughput format on our automated platforms.  For 
+        detection of antibodies to SARS CoV-2, we have validated assays to detect IgG, IgM and IgA antibodies against the 
+        spike trimer, spike RBD, and nucleocapsid protein.  We also offer a surrogate neutralization ELISA (snELISA) to
+        identify antibodies with neutralizing potential.
       </p>
     </div>
   </section>

@@ -2,19 +2,19 @@ const publicationDetails = ({
   average: 13.0,
   list: [
     {
-      count: 236,
+      count: 251,
       range: 'Total Publications',
     },
     {
-      count: 13,
+      count: 30,
       range: 'Total in 2020',
     },
     {
-      count: 16909,
+      count: 18610,
       range: 'Total Citations',
     },
     {
-      count: 64,
+      count: 66,
       range: 'H-index',
     },
   ],

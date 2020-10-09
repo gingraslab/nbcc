@@ -16,7 +16,7 @@ const Landing = () => (
       sequencing and high-content to super-resolution microscopy.
     </p>
     <p>
-      NBCC is now open to helping researchers with both COVID-19 and non COVID-19 related research.
+      NBCC is helping researchers with both COVID-19 and non COVID-19 related research.
       {' '}
       <Link
         to="/about#contact"
