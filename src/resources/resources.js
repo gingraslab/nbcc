@@ -4,7 +4,7 @@ import Navigation from '../components/navigation/navigation-container';
 import Protocols from './resources__protocols';
 import Reagents from './resources__reagents';
 import TechNotes from './resources__technotes';
-import Workshops from './resoureces__workshops';
+import Workshops from './resources__workshops';
 
 import './resources.css';
 

@@ -1,10 +1,8 @@
 import React from 'react';
 
-import details from './publication__details';
-import Pie from './publication__pie';
+import LinkIcon from '../assets/icons/link';
 import Pdf from '../assets/icons/pdf';
 import Table from './publication__table';
-import LinkIcon from '../assets/icons/link';
 
 const Performance = () => (
   <section>
@@ -13,14 +11,10 @@ const Performance = () => (
       Numbers:
     </h2>
     <h3>
-       <strong>January 1, 2011 to October 9, 2020</strong> 
+      <strong>January 1, 2011 to October 9, 2020</strong>
     </h3>
     <div className="publication__grid">
-      <div>
-        <Table
-          details={details.list}
-        />
-     </div>
+      <Table />
     </div>
     <ul className="publication__links">
       <li>

@@ -86,15 +86,16 @@ const articles = {
           <strong>Highlighted Paper:</strong>
           {' '}
           <em>
-          Rare driver mutations in head and neck squamous cell carcinomas converge on NOTCH signaling.
+            Rare driver mutations in head and neck squamous cell carcinomas converge on NOTCH signaling.
           </em>
           {' '}
           Loganathan et al., Science. 2020 Mar;367(6483):1264-1269, PMID: 32165588.
         </p>
         <p>
-        The Next-Gen Sequencing and Proteomics nodes of the NBCC contributed to a Science paper in March by Daniel Schramek’s
-         lab in which his team used reverse CRISPR screens to functionally assess rare HNSCC gene mutations in 
-         mice.  They identified 15 tumour suppressor genes that converge on the NOTCH signalling pathway.
+          The Next-Gen Sequencing and Proteomics nodes of the NBCC contributed to a Science paper
+          in March by Daniel Schramek’s lab in which his team used reverse CRISPR screens to
+          functionally assess rare HNSCC gene mutations in mice. They identified 15 tumour
+          suppressor genes that converge on the NOTCH signalling pathway.
           {' '}
           <a
             href="https://science.sciencemag.org/content/367/6483/1264/tab-article-info"
@@ -111,7 +112,8 @@ const articles = {
     summary: (
       <section>
         <p>
-          Our development of a high-throughput serology assay to detect SARS CoV-2 antibodies was featured in the 
+          Our development of a high-throughput serology assay to detect SARS CoV-2 antibodies was
+          featured in the
           {' '}
           <a href="https://www.theglobeandmail.com/business/technology/science/article-robotic-system-to-survey-for-widespread-exposure-to-covid-19">
             Globe and Mail
@@ -119,10 +121,9 @@ const articles = {
           . This automated ELISA-based assay will be used in
           serosurveillance studies at the NBCC under the direction of co-Directors Anne-Claude Gingras and Jeff Wrana.
         </p>
-        
       </section>
     ),
-    title: 'NBCC in the News',
+    title: 'NBCC in the News for our COVID-19 detection efforts',
   },
   'NBCC now on Google Scholar': {
     date: 'January 30, 2020',
@@ -153,7 +154,7 @@ const articles = {
           <strong>Highlighted Paper:</strong>
           {' '}
           <em>
-          ROCK inhibitors upregulate the neuroprotective Parkin-mediated mitophagy pathway.
+            ROCK inhibitors upregulate the neuroprotective Parkin-mediated mitophagy pathway.
           </em>
           {' '}
           Moskal et al., Nat Commun. 2020 Jan;11(1):88, PMID: 31900402.
@@ -196,8 +197,8 @@ const articles = {
           <strong>Highlighted Paper:</strong>
           {' '}
           <em>
-          Gene Information eXtension (GIX): effortless retrieval of gene product information on any
-          website.
+            Gene Information eXtension (GIX): effortless retrieval of gene product information on any
+            website.
           </em>
           {' '}
           Knight et al., Nat Methods. 2019 Aug;16(8):665-666, PMID: 31217594.
