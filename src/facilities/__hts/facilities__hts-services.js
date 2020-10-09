@@ -48,12 +48,12 @@ const Services = () => (
       </p>
       <h3>II. Access to screening reagents</h3>
       <p>
-       Compound collections have been acquired from commercial sources and through collaborative
-       programs with other Institutes to tackle specific screening rationales, namely i) the
-       identification of chemical rings or pharmacophores with biochemical, biological or
-       pharmacological properties; ii) the elucidation of molecular mechanisms or signaling
-       pathways associated with a given cell phenotype; and iii) the discovery of innovative
-       or repositioned drugs. To these ends, we can provide access to the following collections:
+        Compound collections have been acquired from commercial sources and through collaborative
+        programs with other Institutes to tackle specific screening rationales, namely i) the
+        identification of chemical rings or pharmacophores with biochemical, biological or
+        pharmacological properties; ii) the elucidation of molecular mechanisms or signaling
+        pathways associated with a given cell phenotype; and iii) the discovery of innovative
+        or repositioned drugs. To these ends, we can provide access to the following collections:
       </p>
       <strong>Chemical libraries</strong>
       <ul>
@@ -187,8 +187,9 @@ const Services = () => (
       <h3>IX. ELISA-based serology assays</h3>
       <p>
         Enzyme-linked immunosorbent assays (ELISA) are a plate-based method to detect binding of antibodies
-        to antigen.  This assay can be employed in high-throughput format on our automated platforms.  For 
-        detection of antibodies to SARS CoV-2, we have validated assays to detect IgG, IgM and IgA antibodies against the 
+        to antigen.  This assay can be employed in high-throughput format on our automated platforms.  For
+        detection of antibodies to SARS CoV-2, we have validated assays to detect IgG, IgM and IgA antibodies
+        against the
         spike trimer, spike RBD, and nucleocapsid protein.  We also offer a surrogate neutralization ELISA (snELISA) to
         identify antibodies with neutralizing potential.
       </p>
