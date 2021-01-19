@@ -11,12 +11,12 @@
   "inlineLimit": 1000,
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-onclickoutside": "^6.9.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-onclickoutside": "^6.9.1",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,8 +28,8 @@
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
     "gh-pages": "^2.2.0"
   },
   "browserslist": {
