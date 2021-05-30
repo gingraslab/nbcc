@@ -54,7 +54,7 @@ const directors = [
     name: 'Anne-Claude Gingras',
     phone: '416-586-5027',
     title: 'Co-Director of the Network Biology Collaborative Centre',
-    website: 'https://gingraslab.lunenfeld.ca/',
+    website: 'https://gingraslab.org/',
   },
 ];
 
