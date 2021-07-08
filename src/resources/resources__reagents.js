@@ -179,7 +179,7 @@ const Reagents = () => (
       </table>
     </div>
     <p>
-      To request a vector, please contact Hala Abdouni (habdouni@lunenfeld.ca)
+      To request a vector, please contact Bhavisha Rathod (bkhatri@lunenfeld.ca)
     </p>
     <p>
       These vectors are being provided in collaboration with the Gingras lab to
