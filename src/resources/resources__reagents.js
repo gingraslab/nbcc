@@ -27,6 +27,28 @@ import NpSTV7seq from './assets/reagents/plasmids/pSTVH7 N-BirA pDest.gb';
 import CpSTV8seq from './assets/reagents/plasmids/pSTVH8 C-BirA pDest.gb';
 import NpSTV8seq from './assets/reagents/plasmids/pSTVH8 N-BirA pDest.gb';
 
+import HDMB117Spike from './assets/reagents/plasmids/HDM_B.1.1.7_Spike Map.pdf';
+import HDMB1351Spike from './assets/reagents/plasmids/HDM_B.1.351_Spike Map.pdf';
+import HDMB16172Spike from './assets/reagents/plasmids/HDM_B.1.617.2_Spike Map.pdf';
+import HDMP1Spike from './assets/reagents/plasmids/HDM_P.1_Spike Map.pdf';
+import HDMWuhan1Spike from './assets/reagents/plasmids/HDM_Wuhan-1_Spike Map.pdf';
+import pTwistAmpB117Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.1.7_Spike Map.pdf';
+import pTwistAmpB1351Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.351_Spike Map.pdf';
+import pTwistAmpB16172Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.617.2_Spike Map.pdf';
+import pTwistAmpP1Spike from './assets/reagents/plasmids/pTwist-Amp_P.1_Spike Map.pdf';
+import pTwistAmpWuhan1Spike from './assets/reagents/plasmids/pTwist-Amp_Wuhan-1_Spike Map.pdf';
+
+import HDMB117SpikeSeq from './assets/reagents/plasmids/HDM_B.1.1.7_Spike.gbk';
+import HDMB1351SpikeSeq from './assets/reagents/plasmids/HDM_B.1.351_Spike.gbk';
+import HDMB16172SpikeSeq from './assets/reagents/plasmids/HDM_B.1.617.2_Spike.gbk';
+import HDMP1SpikeSeq from './assets/reagents/plasmids/HDM_P.1_Spike.gbk';
+import HDMWuhan1SpikeSeq from './assets/reagents/plasmids/HDM_Wuhan-1_Spike.gbk';
+import pTwistAmpB117SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_B.1.1.7_Spike.gbk';
+import pTwistAmpB1351SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_B.1.351_Spike.gbk';
+import pTwistAmpB16172SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_B.1.617.2_Spike.gbk';
+import pTwistAmpP1SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_P.1_Spike.gbk';
+import pTwistAmpWuhan1SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_Wuhan-1_Spike.gbk';
+
 const Reagents = () => (
   <section
     className="resources__section"
@@ -38,8 +60,15 @@ const Reagents = () => (
     </h2>
     <h3>Plasmid vectors</h3>
     <p>
-      The NBCC is pleased to provide the following lentiviral vectors for use:
+      The NBCC is pleased to provide a number of vectors for use. To request a vector, please contact Bhavisha
+      Rathod (bkhatri@lunenfeld.ca).
     </p>
+    <p>
+      These vectors are being provided in collaboration with the Gingras lab to
+      assist scientists in their functional proteomics experiments. We ask that
+      you acknowledge their use in your publications by citing the appropriate reference.
+    </p>
+    <h4>BioID vectors</h4>
     <div className="resources__table-wrapper">
       <table className="resources__table">
         <thead>
@@ -178,15 +207,7 @@ const Reagents = () => (
         </tbody>
       </table>
     </div>
-    <p>
-      To request a vector, please contact Bhavisha Rathod (bkhatri@lunenfeld.ca)
-    </p>
-    <p>
-      These vectors are being provided in collaboration with the Gingras lab to
-      assist scientists in their functional proteomics experiments. We ask that
-      you acknowledge their use in your publications by citing:
-    </p>
-    <cite>
+    <cite className="resources__reagent-citation">
       <a href="http://www.mcponline.org/content/early/2018/08/07/mcp.TIR118.000902.long">
         <LinkIcon />
         Samavarchi-Tehrani, P., H. Abdouni, R. Samson, and A.C. Gingras, A versatile
@@ -194,9 +215,132 @@ const Reagents = () => (
         cell types. Mol Cell Proteomics, 2018. 17(11):2256-2269.
       </a>
     </cite>
+    <h4>CoVaRR-Net</h4>
+    <div className="resources__table-wrapper">
+      <table className="resources__table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Map</th>
+            <th>Sequence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>pTwist-Amp_Wuhan-1_Spike</td>
+            <td>Wuhan-1 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpWuhan1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpWuhan1SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>pTwist-Amp_B.1.1.7_Spike</td>
+            <td>B.1.1.7 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpB117Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpB117SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>pTwist-Amp_B.1.351_Spike</td>
+            <td>B.1.351 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpB1351Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpB1351SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>pTwist-Amp_P.1_Spike</td>
+            <td>P.1 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpP1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpP1SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>pTwist-Amp_B.1.617.2_Spike</td>
+            <td>B.1.617.2 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpB16172Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpB16172SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Wuhan-1_Spike</td>
+            <td>Wuhan-1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMWuhan1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMWuhan1SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_B.1.1.7_Spike</td>
+            <td>B.1.1.7 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB117Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB117SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_B.1.351_Spike</td>
+            <td>B.1.351 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB1351Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB1351SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_P.1_Spike</td>
+            <td>P.1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMP1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMP1SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_B.1.617.2_Spike</td>
+            <td>B.1.617.2 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB16172Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB16172SpikeSeq}><File /></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <cite className="resources__reagent-citation">
+      The HDM reagents were generated by Rod Hardy for
+      {' '}
+      <a href="https://covarrnet.ca">
+        CoVaRR-Net
+      </a>
+      . Please cite CoVaRR-Net and link to the website (covarrnet.ca) in your publications.
+    </cite>
     <p>
       <small>
-        Last updated: Aug 30, 2018
+        Last updated: July 20, 2021
       </small>
     </p>
   </section>

@@ -77,6 +77,13 @@
   margin: 5px 10px;
   text-decoration: none;
 }
+.resources__reagent-citation {
+  display: inline-block;
+  margin-top: 16px;
+}
+.resources__table {
+  width: 100%;
+}
 .resources__table td {
   text-align: center;
 }
