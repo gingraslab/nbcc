@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5378a30e7e365ffd0ccf371081ad66dc",
+    "revision": "9a132b5ee6987707b9759932650b70ad",
     "url": "/index.html"
   },
   {
-    "revision": "b2b185b6d435e522a192",
-    "url": "/static/css/main.b9219ca4.chunk.css"
+    "revision": "a5ee03db9fc635c27cab",
+    "url": "/static/css/main.efbed0df.chunk.css"
   },
   {
-    "revision": "088ef5c3a3a4ede96f8a",
-    "url": "/static/js/2.b4c3b9ca.chunk.js"
+    "revision": "eb13c74872b3d19fa674",
+    "url": "/static/js/2.7c0bdc75.chunk.js"
   },
   {
     "revision": "6deb9ada2d2a90964ebad279404033bd",
-    "url": "/static/js/2.b4c3b9ca.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7c0bdc75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2b185b6d435e522a192",
-    "url": "/static/js/main.fb2f087e.chunk.js"
+    "revision": "a5ee03db9fc635c27cab",
+    "url": "/static/js/main.60aac66b.chunk.js"
   },
   {
     "revision": "f0c2cb6aaaeb345f124a",
@@ -86,6 +86,46 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18ede678f4df613cd1e5065a32596f61",
     "url": "/static/media/FrankLiu3x.18ede678.png"
+  },
+  {
+    "revision": "28b82bba95c634965386a5102b8894c7",
+    "url": "/static/media/HDM_B.1.1.7_Spike Map.28b82bba.pdf"
+  },
+  {
+    "revision": "63405e5c106664390b8c000f2724295a",
+    "url": "/static/media/HDM_B.1.1.7_Spike.63405e5c.gbk"
+  },
+  {
+    "revision": "5165e459387fa1f20c260a47bb3ee9c5",
+    "url": "/static/media/HDM_B.1.351_Spike Map.5165e459.pdf"
+  },
+  {
+    "revision": "bdcbe3b956c31f629c5f834309985aa1",
+    "url": "/static/media/HDM_B.1.351_Spike.bdcbe3b9.gbk"
+  },
+  {
+    "revision": "5c81890f055e713b31f2a4299361c78c",
+    "url": "/static/media/HDM_B.1.617.2_Spike Map.5c81890f.pdf"
+  },
+  {
+    "revision": "63194e8adab86d67b6e9c1570526369a",
+    "url": "/static/media/HDM_B.1.617.2_Spike.63194e8a.gbk"
+  },
+  {
+    "revision": "e136f02a468efef9c60dcff79e0d5a1f",
+    "url": "/static/media/HDM_P.1_Spike Map.e136f02a.pdf"
+  },
+  {
+    "revision": "4490f9fd161ae424313156e6b46d42df",
+    "url": "/static/media/HDM_P.1_Spike.4490f9fd.gbk"
+  },
+  {
+    "revision": "cceddd23bdbb4a086e94e7067f4b2c50",
+    "url": "/static/media/HDM_Wuhan-1_Spike Map.cceddd23.pdf"
+  },
+  {
+    "revision": "b170ba4d5091ddbdfb028e763d458977",
+    "url": "/static/media/HDM_Wuhan-1_Spike.b170ba4d.gbk"
   },
   {
     "revision": "3283fa6a0f6ce225337951d391f397ed",
@@ -674,6 +714,46 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6e354859ca01bb7dbd9f0887809bdcc",
     "url": "/static/media/pSTVH8 N-BirA pDest.f6e35485.pdf"
+  },
+  {
+    "revision": "e781dbf371369208c297cb1b1e704048",
+    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike Map.e781dbf3.pdf"
+  },
+  {
+    "revision": "4e519fc739a64a707b56568ae28d59af",
+    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike.4e519fc7.gbk"
+  },
+  {
+    "revision": "5ef61eb47f8248911dd80497558a7129",
+    "url": "/static/media/pTwist-Amp_B.1.351_Spike Map.5ef61eb4.pdf"
+  },
+  {
+    "revision": "ff921f001888bfadfc8028ce53018763",
+    "url": "/static/media/pTwist-Amp_B.1.351_Spike.ff921f00.gbk"
+  },
+  {
+    "revision": "49fa8dba2f407f568cfc5421c3bbaf3e",
+    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike Map.49fa8dba.pdf"
+  },
+  {
+    "revision": "88027aedcceb860a70f2eac27cfaca5e",
+    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike.88027aed.gbk"
+  },
+  {
+    "revision": "e9bde1b6fef3fa23aec9c551553a2374",
+    "url": "/static/media/pTwist-Amp_P.1_Spike Map.e9bde1b6.pdf"
+  },
+  {
+    "revision": "8615be8add1e32258466e814ab4d4710",
+    "url": "/static/media/pTwist-Amp_P.1_Spike.8615be8a.gbk"
+  },
+  {
+    "revision": "622a975958fee471afc9003fe187569b",
+    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike Map.622a9759.pdf"
+  },
+  {
+    "revision": "e6f34125c6f49a2fd9048bc0b10d9a0c",
+    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike.e6f34125.gbk"
   },
   {
     "revision": "0072a0d43fd68533cbf791b5d418dea3",
