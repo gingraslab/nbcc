@@ -14,6 +14,33 @@ FEATURES             Location/Qualifiers
      source          1..6070
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
+                     /note="color: #ffffff"
+     CDS             22..3843
+                     /codon_start=1
+                     /label=Wuhan-1_Spike_cDNA
+                     /note="color: #993366"
+                     /translation="MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRS
+                     SVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGW
+                     IFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSA
+                     NNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSA
+                     LEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNE
+                     NGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGE
+                     VFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADS
+                     FVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRK
+                     SNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFEL
+                     LHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAV
+                     RDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRV
+                     YSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIA
+                     YTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLL
+                     LQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKP
+                     SKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIA
+                     QYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSA
+                     IGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEA
+                     EVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYH
+                     LMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQR
+                     NFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDL
+                     GDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLI
+                     AIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT"
      primer_bind     complement(3906..3922)
                      /label=M13 rev
                      /note="common sequencing primer, one of multiple similar 
@@ -59,15 +86,15 @@ FEATURES             Location/Qualifiers
                      /note="color: #a020f0; direction: RIGHT"
 ORIGIN
         1 gaattccagt gcggccgcac catgttcgtg ttcctggtac tccttccttt ggtgtcttcc
-       61 cagtgtgtaa attttaccaa tcggacccag cttccatccg cctacaccaa cagtttcaca
+       61 cagtgtgtaa atcttaccac tcggacccag cttccacccg cctacaccaa cagtttcaca
       121 cgcggcgtct actatcctga caaggtgttt aggagttcag tcttgcactc aactcaagac
       181 ttgttcctcc ctttctttag caatgtgacg tggtttcatg ccattcatgt ctccggcaca
       241 aacggaacga agcgctttga taatcctgtg ctcccgttca acgatggagt gtacttcgcg
       301 tccacagaga agagcaatat cattcgaggt tggatcttcg gaacgacact cgactcaaag
       361 acgcagtccc ttctcatcgt caataatgcc acgaacgtgg tcatcaaagt gtgcgagttt
-      421 caattctgta attatccctt cctgggcgtc tattatcaca agaacaacaa atcctggatg
+      421 caattctgta atgatccctt cctgggcgtc tattatcaca agaacaacaa atcctggatg
       481 gagtccgaat ttagagtcta ctccagcgcc aacaactgca ctttcgaata cgtatcacag
-      541 ccattcttga tggaccttga aggaaagcag ggtaatttca agaacttgag tgagttcgta
+      541 ccattcttga tggaccttga aggaaagcag ggtaatttca agaacttgag ggagttcgta
       601 ttcaagaata tcgacgggta ctttaagatt tatagcaaac acacacccat taatttggtg
       661 cgggatcttc ctcagggatt tagtgctctt gagcctctcg ttgacctccc tattggcatt
       721 aacatcaccc gctttcaaac cctgttggcc ctgcatcggt cctacctgac accgggcgac
@@ -79,19 +106,19 @@ ORIGIN
      1081 aaccgaaaga gaatttccaa ttgtgtggcg gactactcag tattgtataa tagtgccagc
      1141 tttagcacat tcaaatgtta cggcgtgtct ccaacgaagc tgaacgatct ctgtttcaca
      1201 aacgtttatg cggattcctt cgtgattcgc ggcgatgagg tccgacagat tgcgcctggg
-     1261 caaacgggta cgatcgctga ttacaactat aagttgccgg acgatttcac aggatgtgtc
+     1261 caaacgggta agatcgctga ttacaactat aagttgccgg acgatttcac aggatgtgtc
      1321 atagcttgga atagcaataa tttggacagt aaggttggcg gaaactacaa ttatttgtac
      1381 aggttgtttc gcaagtcaaa tttgaaacca tttgagagag atatatctac ggagatatat
-     1441 caagccggct ctacaccatg taatggtgtg aagggcttta actgctactt tccactccag
-     1501 tcatatggtt tccaacctac atatggagta gggtatcaac cgtacagagt tgtggtcttg
+     1441 caagccggct ctacaccatg taatggtgtg gagggcttta actgctactt tccactccag
+     1501 tcatatggtt tccaacctac aaatggagta gggtatcaac cgtacagagt tgtggtcttg
      1561 agtttcgaat tgctccacgc tccagcaacg gtatgcggtc ctaagaaatc cacaaatctt
      1621 gtgaagaaca agtgcgtaaa tttcaacttc aatgggctga ctggtaccgg cgtgctgact
      1681 gagagtaaca agaagttctt gcctttccaa caattcgggc gggacatagc tgataccact
      1741 gacgccgtcc gcgaccctca gaccctggag attctggaca taactccttg ttctttcggt
      1801 ggcgtcagtg ttatcactcc cgggaccaac acctccaacc aagtcgcggt cctctatcaa
-     1861 ggcgtcaact gtacggaagt accggtagcc atccatgcgg accaacttac accgacttgg
+     1861 gacgtcaact gtacggaagt accggtagcc atccatgcgg accaacttac accgacttgg
      1921 agggtttact ctacaggaag caatgtcttt caaacacgag ccgggtgtct gatcggagca
-     1981 gaatacgtta acaacagcta cgaatgtgac ataccaatag gcgcagggat ttgtgcttca
+     1981 gaacacgtta acaacagcta cgaatgtgac ataccaatag gcgcagggat ttgtgcttca
      2041 tatcagacac agaccaatag cccgcggaga gcgagaagcg tagcaagcca aagcatcatc
      2101 gcgtacacga tgagcctcgg agcagagaac agcgtcgcgt atagcaataa ttcaatagct
      2161 atcccaacaa atttcactat ttcggtcacc actgagattc tgccggtctc catgaccaag
@@ -109,7 +136,7 @@ ORIGIN
      2881 cagaatgcac aagcactgaa taccttggtt aagcaattga gtagcaattt cggcgccata
      2941 tcaagtgtac tgaatgatat cctgtcacgg ttggacaagg tagaagccga agttcagatt
      3001 gaccgcttga tcaccgggcg cctccaaagt ctgcagacct acgtcacaca acaattgatc
-     3061 agagcagcag agataagagc atctgctaac ctggctgcca ttaagatgtc tgaatgtgtg
+     3061 agagcagcag agataagagc atctgctaac ctggctgcca ctaagatgtc tgaatgtgtg
      3121 cttgggcagt caaagagggt agatttctgc ggaaagggct accaccttat gtctttccct
      3181 cagagcgctc cgcatggtgt ggtctttctc catgtgactt atgtgcctgc tcaagagaag
      3241 aactttacga cggcgcccgc tatatgccat gatggtaagg cgcactttcc aagggaggga
@@ -117,7 +144,7 @@ ORIGIN
      3361 attattacca ccgacaatac ctttgttagc ggtaactgtg acgtcgtaat tgggattgtt
      3421 aataatacag tctacgatcc tctgcagccg gaactggact cctttaaaga ggagctggac
      3481 aaatatttca agaaccacac atctcctgac gtagatcttg gagacataag cggtataaat
-     3541 gcaagttttg ttaacattca gaaagaaata gataggttga acgaagttgc gaagaacctt
+     3541 gcaagtgttg ttaacattca gaaagaaata gataggttga acgaagttgc gaagaacctt
      3601 aacgagtcac tgatagacct ccaagagctt gggaagtacg agcaatatat caagtggcct
      3661 tggtatattt ggctcgggtt catagcagga cttatcgcta tagtcatggt gactataatg
      3721 ctgtgctgca tgacaagctg ctgcagctgt ctcaaaggct gttgctcttg cggctcttgc

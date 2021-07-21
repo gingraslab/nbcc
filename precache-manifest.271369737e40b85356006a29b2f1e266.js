@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a132b5ee6987707b9759932650b70ad",
+    "revision": "3b9e14a423908e3f69ad42edf3489e62",
     "url": "/index.html"
   },
   {
-    "revision": "a5ee03db9fc635c27cab",
+    "revision": "dfb34cceac0c90debccb",
     "url": "/static/css/main.efbed0df.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7c0bdc75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5ee03db9fc635c27cab",
-    "url": "/static/js/main.60aac66b.chunk.js"
+    "revision": "dfb34cceac0c90debccb",
+    "url": "/static/js/main.fdd17aa8.chunk.js"
   },
   {
     "revision": "f0c2cb6aaaeb345f124a",
@@ -88,44 +88,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/FrankLiu3x.18ede678.png"
   },
   {
-    "revision": "28b82bba95c634965386a5102b8894c7",
-    "url": "/static/media/HDM_B.1.1.7_Spike Map.28b82bba.pdf"
+    "revision": "184350ba6f38a35402a8e934f89c302a",
+    "url": "/static/media/HDM_B.1.1.7_Spike Map.184350ba.pdf"
   },
   {
-    "revision": "63405e5c106664390b8c000f2724295a",
-    "url": "/static/media/HDM_B.1.1.7_Spike.63405e5c.gbk"
+    "revision": "c035a58c68d1e1b280af1a18f78f7304",
+    "url": "/static/media/HDM_B.1.1.7_Spike.c035a58c.gbk"
   },
   {
-    "revision": "5165e459387fa1f20c260a47bb3ee9c5",
-    "url": "/static/media/HDM_B.1.351_Spike Map.5165e459.pdf"
+    "revision": "de5743c2f515e502fe611cd47b587a72",
+    "url": "/static/media/HDM_B.1.351_Spike Map.de5743c2.pdf"
   },
   {
-    "revision": "bdcbe3b956c31f629c5f834309985aa1",
-    "url": "/static/media/HDM_B.1.351_Spike.bdcbe3b9.gbk"
+    "revision": "6186475516f9011bb7391f27c18555e6",
+    "url": "/static/media/HDM_B.1.351_Spike.61864755.gbk"
   },
   {
-    "revision": "5c81890f055e713b31f2a4299361c78c",
-    "url": "/static/media/HDM_B.1.617.2_Spike Map.5c81890f.pdf"
+    "revision": "6535c9901cdec135c5f19d97f095280e",
+    "url": "/static/media/HDM_B.1.617.2_Spike Map.6535c990.pdf"
   },
   {
-    "revision": "63194e8adab86d67b6e9c1570526369a",
-    "url": "/static/media/HDM_B.1.617.2_Spike.63194e8a.gbk"
+    "revision": "4f321817010b4900f1fa646a078d8401",
+    "url": "/static/media/HDM_B.1.617.2_Spike.4f321817.gbk"
   },
   {
-    "revision": "e136f02a468efef9c60dcff79e0d5a1f",
-    "url": "/static/media/HDM_P.1_Spike Map.e136f02a.pdf"
+    "revision": "a46b20aa3fe00e78b977b3b7ab2daf4b",
+    "url": "/static/media/HDM_P.1_Spike Map.a46b20aa.pdf"
   },
   {
-    "revision": "4490f9fd161ae424313156e6b46d42df",
-    "url": "/static/media/HDM_P.1_Spike.4490f9fd.gbk"
+    "revision": "1447d07e695d85798bf78675a77e16d1",
+    "url": "/static/media/HDM_P.1_Spike.1447d07e.gbk"
   },
   {
-    "revision": "cceddd23bdbb4a086e94e7067f4b2c50",
-    "url": "/static/media/HDM_Wuhan-1_Spike Map.cceddd23.pdf"
+    "revision": "aec044f9f96e9821db8c7e2c46cdcedb",
+    "url": "/static/media/HDM_Wuhan-1_Spike Map.aec044f9.pdf"
   },
   {
-    "revision": "b170ba4d5091ddbdfb028e763d458977",
-    "url": "/static/media/HDM_Wuhan-1_Spike.b170ba4d.gbk"
+    "revision": "1ed2f9a6e1e7c54991510cc683413470",
+    "url": "/static/media/HDM_Wuhan-1_Spike.1ed2f9a6.gbk"
   },
   {
     "revision": "3283fa6a0f6ce225337951d391f397ed",
@@ -716,44 +716,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pSTVH8 N-BirA pDest.f6e35485.pdf"
   },
   {
-    "revision": "e781dbf371369208c297cb1b1e704048",
-    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike Map.e781dbf3.pdf"
+    "revision": "6c031337231f3d11921d840e3e4bc79d",
+    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike Map.6c031337.pdf"
   },
   {
-    "revision": "4e519fc739a64a707b56568ae28d59af",
-    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike.4e519fc7.gbk"
+    "revision": "697073f30c912c547abf9b0cd4dea126",
+    "url": "/static/media/pTwist-Amp_B.1.1.7_Spike.697073f3.gbk"
   },
   {
-    "revision": "5ef61eb47f8248911dd80497558a7129",
-    "url": "/static/media/pTwist-Amp_B.1.351_Spike Map.5ef61eb4.pdf"
+    "revision": "a14bbd29fed0c7f845242dd373807190",
+    "url": "/static/media/pTwist-Amp_B.1.351_Spike Map.a14bbd29.pdf"
   },
   {
-    "revision": "ff921f001888bfadfc8028ce53018763",
-    "url": "/static/media/pTwist-Amp_B.1.351_Spike.ff921f00.gbk"
+    "revision": "353a5bd3ae51d1141b0a27ee8fd8a041",
+    "url": "/static/media/pTwist-Amp_B.1.351_Spike.353a5bd3.gbk"
   },
   {
-    "revision": "49fa8dba2f407f568cfc5421c3bbaf3e",
-    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike Map.49fa8dba.pdf"
+    "revision": "81be378a9949a59b321f21f3fe3122c6",
+    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike Map.81be378a.pdf"
   },
   {
-    "revision": "88027aedcceb860a70f2eac27cfaca5e",
-    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike.88027aed.gbk"
+    "revision": "94769f2edc03f7a41485707a87afe859",
+    "url": "/static/media/pTwist-Amp_B.1.617.2_Spike.94769f2e.gbk"
   },
   {
-    "revision": "e9bde1b6fef3fa23aec9c551553a2374",
-    "url": "/static/media/pTwist-Amp_P.1_Spike Map.e9bde1b6.pdf"
+    "revision": "9e127a65158be8225fc44980c6af226b",
+    "url": "/static/media/pTwist-Amp_P.1_Spike Map.9e127a65.pdf"
   },
   {
-    "revision": "8615be8add1e32258466e814ab4d4710",
-    "url": "/static/media/pTwist-Amp_P.1_Spike.8615be8a.gbk"
+    "revision": "e8bafd0cd20841a28a307ec7863230c9",
+    "url": "/static/media/pTwist-Amp_P.1_Spike.e8bafd0c.gbk"
   },
   {
-    "revision": "622a975958fee471afc9003fe187569b",
-    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike Map.622a9759.pdf"
+    "revision": "651d2a7bb2959464c375375082a3d1a2",
+    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike Map.651d2a7b.pdf"
   },
   {
-    "revision": "e6f34125c6f49a2fd9048bc0b10d9a0c",
-    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike.e6f34125.gbk"
+    "revision": "e1a14caa483de6264e8a825b265d6df4",
+    "url": "/static/media/pTwist-Amp_Wuhan-1_Spike.e1a14caa.gbk"
   },
   {
     "revision": "0072a0d43fd68533cbf791b5d418dea3",

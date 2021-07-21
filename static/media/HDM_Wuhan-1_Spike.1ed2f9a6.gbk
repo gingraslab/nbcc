@@ -14,19 +14,46 @@ FEATURES             Location/Qualifiers
      source          1..8361
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
+                     /note="color: #ffffff"
      enhancer        180..559
                      /label=CMV enhancer
                      /note="human cytomegalovirus immediate early enhancer"
                      /note="color: #ffffff"
      promoter        560..763
                      /label=CMV promoter
-                     /note="human cytomegalovirus (CMV) immediate early 
+                     /note="human cytomegalovirus (CMV) immediate early
                      promoter"
                      /note="color: #ffffff; direction: RIGHT"
      intron          877..1352
                      /label=beta-globin intron
                      /note="internally truncated intron from human beta-globin"
                      /note="color: #------"
+     CDS             1422..5243
+                     /codon_start=1
+                     /label=Wuhan-1_Spike_cDNA
+                     /note="color: #993366"
+                     /translation="MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRS
+                     SVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGW
+                     IFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSA
+                     NNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSA
+                     LEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNE
+                     NGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGE
+                     VFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADS
+                     FVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRK
+                     SNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFEL
+                     LHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAV
+                     RDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRV
+                     YSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIA
+                     YTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLL
+                     LQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKP
+                     SKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIA
+                     QYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSA
+                     IGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEA
+                     EVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYH
+                     LMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQR
+                     NFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDL
+                     GDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLI
+                     AIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT"
      polyA_signal    5341..5735
                      /label=beta-globin poly(A)
                      /note="human beta-globin polyadenylation signal"
@@ -83,16 +110,16 @@ ORIGIN
      1261 ttattttatg gttgggataa ggctggatta ttctgagtcc aagctaggcc cttttgctaa
      1321 tcatgttcat acctcttatc ttcctcccac agctcctggg caacgtgctg gtctgtgtgc
      1381 tggcccatca ctttggcaaa gaattccagt gcggccgcac catgttcgtg ttcctggtac
-     1441 tccttccttt ggtgtcttcc cagtgtgtaa attttaccaa tcggacccag cttccatccg
+     1441 tccttccttt ggtgtcttcc cagtgtgtaa atcttaccac tcggacccag cttccacccg
      1501 cctacaccaa cagtttcaca cgcggcgtct actatcctga caaggtgttt aggagttcag
      1561 tcttgcactc aactcaagac ttgttcctcc ctttctttag caatgtgacg tggtttcatg
      1621 ccattcatgt ctccggcaca aacggaacga agcgctttga taatcctgtg ctcccgttca
      1681 acgatggagt gtacttcgcg tccacagaga agagcaatat cattcgaggt tggatcttcg
      1741 gaacgacact cgactcaaag acgcagtccc ttctcatcgt caataatgcc acgaacgtgg
-     1801 tcatcaaagt gtgcgagttt caattctgta attatccctt cctgggcgtc tattatcaca
+     1801 tcatcaaagt gtgcgagttt caattctgta atgatccctt cctgggcgtc tattatcaca
      1861 agaacaacaa atcctggatg gagtccgaat ttagagtcta ctccagcgcc aacaactgca
      1921 ctttcgaata cgtatcacag ccattcttga tggaccttga aggaaagcag ggtaatttca
-     1981 agaacttgag tgagttcgta ttcaagaata tcgacgggta ctttaagatt tatagcaaac
+     1981 agaacttgag ggagttcgta ttcaagaata tcgacgggta ctttaagatt tatagcaaac
      2041 acacacccat taatttggtg cgggatcttc ctcagggatt tagtgctctt gagcctctcg
      2101 ttgacctccc tattggcatt aacatcaccc gctttcaaac cctgttggcc ctgcatcggt
      2161 cctacctgac accgggcgac tcaagttccg gatggaccgc aggtgccgcc gcatactatg
@@ -103,19 +130,19 @@ ORIGIN
      2461 tcgcctcagt ttatgcatgg aaccgaaaga gaatttccaa ttgtgtggcg gactactcag
      2521 tattgtataa tagtgccagc tttagcacat tcaaatgtta cggcgtgtct ccaacgaagc
      2581 tgaacgatct ctgtttcaca aacgtttatg cggattcctt cgtgattcgc ggcgatgagg
-     2641 tccgacagat tgcgcctggg caaacgggta cgatcgctga ttacaactat aagttgccgg
+     2641 tccgacagat tgcgcctggg caaacgggta agatcgctga ttacaactat aagttgccgg
      2701 acgatttcac aggatgtgtc atagcttgga atagcaataa tttggacagt aaggttggcg
      2761 gaaactacaa ttatttgtac aggttgtttc gcaagtcaaa tttgaaacca tttgagagag
-     2821 atatatctac ggagatatat caagccggct ctacaccatg taatggtgtg aagggcttta
-     2881 actgctactt tccactccag tcatatggtt tccaacctac atatggagta gggtatcaac
+     2821 atatatctac ggagatatat caagccggct ctacaccatg taatggtgtg gagggcttta
+     2881 actgctactt tccactccag tcatatggtt tccaacctac aaatggagta gggtatcaac
      2941 cgtacagagt tgtggtcttg agtttcgaat tgctccacgc tccagcaacg gtatgcggtc
      3001 ctaagaaatc cacaaatctt gtgaagaaca agtgcgtaaa tttcaacttc aatgggctga
      3061 ctggtaccgg cgtgctgact gagagtaaca agaagttctt gcctttccaa caattcgggc
      3121 gggacatagc tgataccact gacgccgtcc gcgaccctca gaccctggag attctggaca
      3181 taactccttg ttctttcggt ggcgtcagtg ttatcactcc cgggaccaac acctccaacc
-     3241 aagtcgcggt cctctatcaa ggcgtcaact gtacggaagt accggtagcc atccatgcgg
+     3241 aagtcgcggt cctctatcaa gacgtcaact gtacggaagt accggtagcc atccatgcgg
      3301 accaacttac accgacttgg agggtttact ctacaggaag caatgtcttt caaacacgag
-     3361 ccgggtgtct gatcggagca gaatacgtta acaacagcta cgaatgtgac ataccaatag
+     3361 ccgggtgtct gatcggagca gaacacgtta acaacagcta cgaatgtgac ataccaatag
      3421 gcgcagggat ttgtgcttca tatcagacac agaccaatag cccgcggaga gcgagaagcg
      3481 tagcaagcca aagcatcatc gcgtacacga tgagcctcgg agcagagaac agcgtcgcgt
      3541 atagcaataa ttcaatagct atcccaacaa atttcactat ttcggtcacc actgagattc
@@ -134,14 +161,14 @@ ORIGIN
      4321 gtagcaattt cggcgccata tcaagtgtac tgaatgatat cctgtcacgg ttggacaagg
      4381 tagaagccga agttcagatt gaccgcttga tcaccgggcg cctccaaagt ctgcagacct
      4441 acgtcacaca acaattgatc agagcagcag agataagagc atctgctaac ctggctgcca
-     4501 ttaagatgtc tgaatgtgtg cttgggcagt caaagagggt agatttctgc ggaaagggct
+     4501 ctaagatgtc tgaatgtgtg cttgggcagt caaagagggt agatttctgc ggaaagggct
      4561 accaccttat gtctttccct cagagcgctc cgcatggtgt ggtctttctc catgtgactt
      4621 atgtgcctgc tcaagagaag aactttacga cggcgcccgc tatatgccat gatggtaagg
      4681 cgcactttcc aagggaggga gtgttcgtgt ccaacggcac tcactggttt gtcacccaac
      4741 gaaatttcta cgagcctcaa attattacca ccgacaatac ctttgttagc ggtaactgtg
      4801 acgtcgtaat tgggattgtt aataatacag tctacgatcc tctgcagccg gaactggact
      4861 cctttaaaga ggagctggac aaatatttca agaaccacac atctcctgac gtagatcttg
-     4921 gagacataag cggtataaat gcaagttttg ttaacattca gaaagaaata gataggttga
+     4921 gagacataag cggtataaat gcaagtgttg ttaacattca gaaagaaata gataggttga
      4981 acgaagttgc gaagaacctt aacgagtcac tgatagacct ccaagagctt gggaagtacg
      5041 agcaatatat caagtggcct tggtatattt ggctcgggtt catagcagga cttatcgcta
      5101 tagtcatggt gactataatg ctgtgctgca tgacaagctg ctgcagctgt ctcaaaggct
