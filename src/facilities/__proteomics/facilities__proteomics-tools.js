@@ -136,7 +136,7 @@ const Tools = () => (
           </a>
         </li>
         <li>
-          <a href="https://prohits-viz.lunenfeld.ca/">
+          <a href="https://prohits-viz.org">
             <LinkIcon />
             ProHits-viz
           </a>
