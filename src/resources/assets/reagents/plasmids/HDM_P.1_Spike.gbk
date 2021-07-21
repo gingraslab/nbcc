@@ -14,19 +14,46 @@ FEATURES             Location/Qualifiers
      source          1..8361
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
+                     /note="color: #ffffff"
      enhancer        180..559
                      /label=CMV enhancer
                      /note="human cytomegalovirus immediate early enhancer"
                      /note="color: #ffffff"
      promoter        560..763
                      /label=CMV promoter
-                     /note="human cytomegalovirus (CMV) immediate early 
+                     /note="human cytomegalovirus (CMV) immediate early
                      promoter"
                      /note="color: #ffffff; direction: RIGHT"
      intron          877..1352
                      /label=beta-globin intron
                      /note="internally truncated intron from human beta-globin"
                      /note="color: #------"
+     CDS             1422..5243
+                     /codon_start=1
+                     /label=P.1_Spike_cDNA
+                     /note="color: #993366"
+                     /translation="MFVFLVLLPLVSSQCVNFTNRTQLPSAYTNSFTRGVYYPDKVFRS
+                     SVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGW
+                     IFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNYPFLGVYYHKNNKSWMESEFRVYSSA
+                     NNCTFEYVSQPFLMDLEGKQGNFKNLSEFVFKNIDGYFKIYSKHTPINLVRDLPQGFSA
+                     LEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNE
+                     NGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGE
+                     VFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADS
+                     FVIRGDEVRQIAPGQTGTIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRK
+                     SNLKPFERDISTEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTYGVGYQPYRVVVLSFEL
+                     LHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAV
+                     RDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRV
+                     YSTGSNVFQTRAGCLIGAEYVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIA
+                     YTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLL
+                     LQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKP
+                     SKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIA
+                     QYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSA
+                     IGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEA
+                     EVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAAIKMSECVLGQSKRVDFCGKGYH
+                     LMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQR
+                     NFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDL
+                     GDISGINASFVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLI
+                     AIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT"
      polyA_signal    5341..5735
                      /label=beta-globin poly(A)
                      /note="human beta-globin polyadenylation signal"
