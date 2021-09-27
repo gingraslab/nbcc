@@ -30,8 +30,12 @@ import NpSTV8seq from './assets/reagents/plasmids/pSTVH8 N-BirA pDest.gb';
 import HDMB117Spike from './assets/reagents/plasmids/HDM_B.1.1.7_Spike Map.pdf';
 import HDMB1351Spike from './assets/reagents/plasmids/HDM_B.1.351_Spike Map.pdf';
 import HDMB16172Spike from './assets/reagents/plasmids/HDM_B.1.617.2_Spike Map.pdf';
+import HDMB1621Spike from './assets/reagents/plasmids/HDM_B.1.621_Spike_Map.pdf';
+import HDMDeltaB16172K417NSpike from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.pdf';
+import HDMLambdaSpike from './assets/reagents/plasmids/HDM_Lambda_Spike_Map.pdf';
 import HDMP1Spike from './assets/reagents/plasmids/HDM_P.1_Spike Map.pdf';
 import HDMWuhan1Spike from './assets/reagents/plasmids/HDM_Wuhan-1_Spike Map.pdf';
+import HDMWuhan1D614G from './assets/reagents/plasmids/HDM_Wuhan-1_D614G_Map.pdf';
 import pTwistAmpB117Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.1.7_Spike Map.pdf';
 import pTwistAmpB1351Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.351_Spike Map.pdf';
 import pTwistAmpB16172Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.617.2_Spike Map.pdf';
@@ -41,7 +45,11 @@ import pTwistAmpWuhan1Spike from './assets/reagents/plasmids/pTwist-Amp_Wuhan-1_
 import HDMB117SpikeSeq from './assets/reagents/plasmids/HDM_B.1.1.7_Spike.gbk';
 import HDMB1351SpikeSeq from './assets/reagents/plasmids/HDM_B.1.351_Spike.gbk';
 import HDMB16172SpikeSeq from './assets/reagents/plasmids/HDM_B.1.617.2_Spike.gbk';
+import HDMB1621SpikeSeq from './assets/reagents/plasmids/HDM_B.1.621_Spike.gbk';
+import HDMDeltaB16172K417NSpikeSeq from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike.gbk';
+import HDMLambdaSpikeSeq from './assets/reagents/plasmids/HDM_Lambda_Spike.gbk';
 import HDMP1SpikeSeq from './assets/reagents/plasmids/HDM_P.1_Spike.gbk';
+import HDMWuhan1D614GSeq from './assets/reagents/plasmids/HDM_Wuhan-1_D614G.gbk';
 import HDMWuhan1SpikeSeq from './assets/reagents/plasmids/HDM_Wuhan-1_Spike.gbk';
 import pTwistAmpB117SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_B.1.1.7_Spike.gbk';
 import pTwistAmpB1351SpikeSeq from './assets/reagents/plasmids/pTwist-Amp_B.1.351_Spike.gbk';
@@ -228,16 +236,6 @@ const Reagents = () => (
         </thead>
         <tbody>
           <tr>
-            <td>pTwist-Amp_Wuhan-1_Spike</td>
-            <td>Wuhan-1 Spike cDNA, not an expression plasmid</td>
-            <td>
-              <a href={pTwistAmpWuhan1Spike}><Pdf /></a>
-            </td>
-            <td>
-              <a href={pTwistAmpWuhan1SpikeSeq}><File /></a>
-            </td>
-          </tr>
-          <tr>
             <td>pTwist-Amp_B.1.1.7_Spike</td>
             <td>B.1.1.7 Spike cDNA, not an expression plasmid</td>
             <td>
@@ -258,16 +256,6 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
-            <td>pTwist-Amp_P.1_Spike</td>
-            <td>P.1 Spike cDNA, not an expression plasmid</td>
-            <td>
-              <a href={pTwistAmpP1Spike}><Pdf /></a>
-            </td>
-            <td>
-              <a href={pTwistAmpP1SpikeSeq}><File /></a>
-            </td>
-          </tr>
-          <tr>
             <td>pTwist-Amp_B.1.617.2_Spike</td>
             <td>B.1.617.2 Spike cDNA, not an expression plasmid</td>
             <td>
@@ -278,13 +266,23 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
-            <td>HDM_Wuhan-1_Spike</td>
-            <td>Wuhan-1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>pTwist-Amp_P.1_Spike</td>
+            <td>P.1 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={HDMWuhan1Spike}><Pdf /></a>
+              <a href={pTwistAmpP1Spike}><Pdf /></a>
             </td>
             <td>
-              <a href={HDMWuhan1SpikeSeq}><File /></a>
+              <a href={pTwistAmpP1SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>pTwist-Amp_Wuhan-1_Spike</td>
+            <td>Wuhan-1 Spike cDNA, not an expression plasmid</td>
+            <td>
+              <a href={pTwistAmpWuhan1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={pTwistAmpWuhan1SpikeSeq}><File /></a>
             </td>
           </tr>
           <tr>
@@ -308,6 +306,49 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
+            <td>HDM_B.1.617.2_Spike</td>
+            <td>B.1.617.2 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB16172Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB16172SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_B.1.621_Spike</td>
+            <td>B.1.621 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB1621Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB1621SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Delta+_(B.1.617.2_K417N)_Spike</td>
+            <td>
+              Delta+ (B.1.617.2_K417N) Spike cDNA with CMV enhancer/promoter for cDNA expression
+              in mammalian cells
+            </td>
+            <td>
+              <a href={HDMDeltaB16172K417NSpike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMDeltaB16172K417NSpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Lambda_Spike</td>
+            <td>Lambda Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMLambdaSpike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMLambdaSpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
             <td>HDM_P.1_Spike</td>
             <td>P.1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
@@ -318,13 +359,23 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
-            <td>HDM_B.1.617.2_Spike</td>
-            <td>B.1.617.2 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>HDM_Wuhan-1_D614G</td>
+            <td>Wuhan-1 D614G cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB16172Spike}><Pdf /></a>
+              <a href={HDMWuhan1D614G}><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB16172SpikeSeq}><File /></a>
+              <a href={HDMWuhan1D614GSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Wuhan-1_Spike</td>
+            <td>Wuhan-1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMWuhan1Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMWuhan1SpikeSeq}><File /></a>
             </td>
           </tr>
         </tbody>
@@ -336,7 +387,11 @@ const Reagents = () => (
       <a href="https://covarrnet.ca">
         CoVaRR-Net
       </a>
-      . Please cite CoVaRR-Net and link to the website (covarrnet.ca) in your publications.
+      . Please cite CoVaRR-Net and link to the website (
+      <a href="https://covarrnet.ca">
+        covarrnet.ca
+      </a>
+      ) in your publications.
     </cite>
     <p>
       <small>
