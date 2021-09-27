@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.efbed0df.chunk.css",
-    "main.js": "/static/js/main.e38af50c.chunk.js",
-    "main.js.map": "/static/js/main.e38af50c.chunk.js.map",
+    "main.js": "/static/js/main.993446f0.chunk.js",
+    "main.js.map": "/static/js/main.993446f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be24dc12.js",
     "runtime-main.js.map": "/static/js/runtime-main.be24dc12.js.map",
-    "static/js/2.7c0bdc75.chunk.js": "/static/js/2.7c0bdc75.chunk.js",
-    "static/js/2.7c0bdc75.chunk.js.map": "/static/js/2.7c0bdc75.chunk.js.map",
+    "static/js/2.c26d83b5.chunk.js": "/static/js/2.c26d83b5.chunk.js",
+    "static/js/2.c26d83b5.chunk.js.map": "/static/js/2.c26d83b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0dcad954144b1093af3d21853f07cc4c.js": "/precache-manifest.0dcad954144b1093af3d21853f07cc4c.js",
+    "precache-manifest.649dc3dadd9e2c757ae3240e055d3400.js": "/precache-manifest.649dc3dadd9e2c757ae3240e055d3400.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.efbed0df.chunk.css.map": "/static/css/main.efbed0df.chunk.css.map",
-    "static/js/2.7c0bdc75.chunk.js.LICENSE.txt": "/static/js/2.7c0bdc75.chunk.js.LICENSE.txt",
+    "static/js/2.c26d83b5.chunk.js.LICENSE.txt": "/static/js/2.c26d83b5.chunk.js.LICENSE.txt",
     "static/media/AnneClaudeGingras-home.png": "/static/media/AnneClaudeGingras-home.d4b5494e.png",
     "static/media/AnneClaudeGingras.png": "/static/media/AnneClaudeGingras.0c2d5902.png",
     "static/media/AnneClaudeGingras2x-home.png": "/static/media/AnneClaudeGingras2x-home.18bcbb35.png",
@@ -34,8 +34,16 @@
     "static/media/HDM_B.1.351_Spike.gbk": "/static/media/HDM_B.1.351_Spike.61864755.gbk",
     "static/media/HDM_B.1.617.2_Spike Map.pdf": "/static/media/HDM_B.1.617.2_Spike Map.6535c990.pdf",
     "static/media/HDM_B.1.617.2_Spike.gbk": "/static/media/HDM_B.1.617.2_Spike.4f321817.gbk",
+    "static/media/HDM_B.1.621_Spike.gbk": "/static/media/HDM_B.1.621_Spike.b85b55f9.gbk",
+    "static/media/HDM_B.1.621_Spike_Map.pdf": "/static/media/HDM_B.1.621_Spike_Map.8fca114c.pdf",
+    "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.gbk": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.585e86eb.gbk",
+    "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.pdf": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.09647c0b.pdf",
+    "static/media/HDM_Lambda_Spike.gbk": "/static/media/HDM_Lambda_Spike.9bb544bb.gbk",
+    "static/media/HDM_Lambda_Spike_Map.pdf": "/static/media/HDM_Lambda_Spike_Map.10aa592f.pdf",
     "static/media/HDM_P.1_Spike Map.pdf": "/static/media/HDM_P.1_Spike Map.a46b20aa.pdf",
     "static/media/HDM_P.1_Spike.gbk": "/static/media/HDM_P.1_Spike.1447d07e.gbk",
+    "static/media/HDM_Wuhan-1_D614G.gbk": "/static/media/HDM_Wuhan-1_D614G.1f194fdc.gbk",
+    "static/media/HDM_Wuhan-1_D614G_Map.pdf": "/static/media/HDM_Wuhan-1_D614G_Map.8a16fc76.pdf",
     "static/media/HDM_Wuhan-1_Spike Map.pdf": "/static/media/HDM_Wuhan-1_Spike Map.aec044f9.pdf",
     "static/media/HDM_Wuhan-1_Spike.gbk": "/static/media/HDM_Wuhan-1_Spike.1ed2f9a6.gbk",
     "static/media/InCellDeveloper.svg": "/static/media/InCellDeveloper.3283fa6a.svg",
@@ -186,8 +194,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be24dc12.js",
-    "static/js/2.7c0bdc75.chunk.js",
+    "static/js/2.c26d83b5.chunk.js",
     "static/css/main.efbed0df.chunk.css",
-    "static/js/main.e38af50c.chunk.js"
+    "static/js/main.993446f0.chunk.js"
   ]
 }

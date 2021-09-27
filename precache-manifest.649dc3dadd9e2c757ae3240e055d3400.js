@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f253c8b028ba35ea14e83c26c95a40be",
+    "revision": "0792f2d7a217e38f8d68a8b3744e3c1b",
     "url": "/index.html"
   },
   {
-    "revision": "b7ec3c7306b88d857939",
+    "revision": "865a63caa147776a55f3",
     "url": "/static/css/main.efbed0df.chunk.css"
   },
   {
-    "revision": "eb13c74872b3d19fa674",
-    "url": "/static/js/2.7c0bdc75.chunk.js"
+    "revision": "a0a7c16db8ed0aa2813b",
+    "url": "/static/js/2.c26d83b5.chunk.js"
   },
   {
     "revision": "6deb9ada2d2a90964ebad279404033bd",
-    "url": "/static/js/2.7c0bdc75.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c26d83b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7ec3c7306b88d857939",
-    "url": "/static/js/main.e38af50c.chunk.js"
+    "revision": "865a63caa147776a55f3",
+    "url": "/static/js/main.993446f0.chunk.js"
   },
   {
     "revision": "f0c2cb6aaaeb345f124a",
@@ -112,12 +112,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/HDM_B.1.617.2_Spike.4f321817.gbk"
   },
   {
+    "revision": "b85b55f9d49a239245d0e4896d1c85e6",
+    "url": "/static/media/HDM_B.1.621_Spike.b85b55f9.gbk"
+  },
+  {
+    "revision": "8fca114c63e9679ed62aec15bbacaf7e",
+    "url": "/static/media/HDM_B.1.621_Spike_Map.8fca114c.pdf"
+  },
+  {
+    "revision": "585e86eb46db8e0fe96b542d2a43d0ef",
+    "url": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.585e86eb.gbk"
+  },
+  {
+    "revision": "09647c0b241824be73af7889f733ace1",
+    "url": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.09647c0b.pdf"
+  },
+  {
+    "revision": "9bb544bb865162af1b569cff90352f26",
+    "url": "/static/media/HDM_Lambda_Spike.9bb544bb.gbk"
+  },
+  {
+    "revision": "10aa592fc499dc18ac6f3d75ed7899fb",
+    "url": "/static/media/HDM_Lambda_Spike_Map.10aa592f.pdf"
+  },
+  {
     "revision": "a46b20aa3fe00e78b977b3b7ab2daf4b",
     "url": "/static/media/HDM_P.1_Spike Map.a46b20aa.pdf"
   },
   {
     "revision": "1447d07e695d85798bf78675a77e16d1",
     "url": "/static/media/HDM_P.1_Spike.1447d07e.gbk"
+  },
+  {
+    "revision": "1f194fdc1914a0a461432e286c072f74",
+    "url": "/static/media/HDM_Wuhan-1_D614G.1f194fdc.gbk"
+  },
+  {
+    "revision": "8a16fc76a97600d177e6cf3f3f7e65be",
+    "url": "/static/media/HDM_Wuhan-1_D614G_Map.8a16fc76.pdf"
   },
   {
     "revision": "aec044f9f96e9821db8c7e2c46cdcedb",
