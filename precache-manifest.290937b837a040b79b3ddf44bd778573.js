@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0792f2d7a217e38f8d68a8b3744e3c1b",
+    "revision": "00e1735a6fea89fbd28906e9ec5ead27",
     "url": "/index.html"
   },
   {
-    "revision": "865a63caa147776a55f3",
+    "revision": "bfeea980512b992585dc",
     "url": "/static/css/main.efbed0df.chunk.css"
   },
   {
-    "revision": "a0a7c16db8ed0aa2813b",
-    "url": "/static/js/2.c26d83b5.chunk.js"
+    "revision": "24746fdfe29aa2f16cb9",
+    "url": "/static/js/2.5051bdd5.chunk.js"
   },
   {
     "revision": "6deb9ada2d2a90964ebad279404033bd",
-    "url": "/static/js/2.c26d83b5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5051bdd5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "865a63caa147776a55f3",
-    "url": "/static/js/main.993446f0.chunk.js"
+    "revision": "bfeea980512b992585dc",
+    "url": "/static/js/main.a8a830fa.chunk.js"
   },
   {
     "revision": "f0c2cb6aaaeb345f124a",
@@ -88,6 +88,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/FrankLiu3x.18ede678.png"
   },
   {
+    "revision": "fb7c9f051678091990e1e33d4dff1f84",
+    "url": "/static/media/HDM_B.1.1.318_Spike Map.fb7c9f05.pdf"
+  },
+  {
+    "revision": "3c3f64176313a88493bca87c6ac9c398",
+    "url": "/static/media/HDM_B.1.1.318_Spike.3c3f6417.gb"
+  },
+  {
     "revision": "184350ba6f38a35402a8e934f89c302a",
     "url": "/static/media/HDM_B.1.1.7_Spike Map.184350ba.pdf"
   },
@@ -126,6 +134,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "09647c0b241824be73af7889f733ace1",
     "url": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.09647c0b.pdf"
+  },
+  {
+    "revision": "f0f64c1ba54958a31853d77fcd2cb10d",
+    "url": "/static/media/HDM_Delta_Q613H_Spike Map.f0f64c1b.pdf"
+  },
+  {
+    "revision": "9440070fa687fb609afc7f40bf105018",
+    "url": "/static/media/HDM_Delta_Q613H_Spike.9440070f.gbk"
+  },
+  {
+    "revision": "98e3d922db774793dba471f0aeedfdb7",
+    "url": "/static/media/HDM_Delta_Y145H_Spike Map.98e3d922.pdf"
+  },
+  {
+    "revision": "efb648f6f630e038b90fcc205f5e3bfd",
+    "url": "/static/media/HDM_Delta_Y145H_Spike.efb648f6.gbk"
   },
   {
     "revision": "9bb544bb865162af1b569cff90352f26",

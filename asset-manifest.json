@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.efbed0df.chunk.css",
-    "main.js": "/static/js/main.993446f0.chunk.js",
-    "main.js.map": "/static/js/main.993446f0.chunk.js.map",
+    "main.js": "/static/js/main.a8a830fa.chunk.js",
+    "main.js.map": "/static/js/main.a8a830fa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be24dc12.js",
     "runtime-main.js.map": "/static/js/runtime-main.be24dc12.js.map",
-    "static/js/2.c26d83b5.chunk.js": "/static/js/2.c26d83b5.chunk.js",
-    "static/js/2.c26d83b5.chunk.js.map": "/static/js/2.c26d83b5.chunk.js.map",
+    "static/js/2.5051bdd5.chunk.js": "/static/js/2.5051bdd5.chunk.js",
+    "static/js/2.5051bdd5.chunk.js.map": "/static/js/2.5051bdd5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.649dc3dadd9e2c757ae3240e055d3400.js": "/precache-manifest.649dc3dadd9e2c757ae3240e055d3400.js",
+    "precache-manifest.290937b837a040b79b3ddf44bd778573.js": "/precache-manifest.290937b837a040b79b3ddf44bd778573.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.efbed0df.chunk.css.map": "/static/css/main.efbed0df.chunk.css.map",
-    "static/js/2.c26d83b5.chunk.js.LICENSE.txt": "/static/js/2.c26d83b5.chunk.js.LICENSE.txt",
+    "static/js/2.5051bdd5.chunk.js.LICENSE.txt": "/static/js/2.5051bdd5.chunk.js.LICENSE.txt",
     "static/media/AnneClaudeGingras-home.png": "/static/media/AnneClaudeGingras-home.d4b5494e.png",
     "static/media/AnneClaudeGingras.png": "/static/media/AnneClaudeGingras.0c2d5902.png",
     "static/media/AnneClaudeGingras2x-home.png": "/static/media/AnneClaudeGingras2x-home.18bcbb35.png",
@@ -28,6 +28,8 @@
     "static/media/FrankLiu.png": "/static/media/FrankLiu.3d09d98e.png",
     "static/media/FrankLiu2x.png": "/static/media/FrankLiu2x.08c46056.png",
     "static/media/FrankLiu3x.png": "/static/media/FrankLiu3x.18ede678.png",
+    "static/media/HDM_B.1.1.318_Spike Map.pdf": "/static/media/HDM_B.1.1.318_Spike Map.fb7c9f05.pdf",
+    "static/media/HDM_B.1.1.318_Spike.gb": "/static/media/HDM_B.1.1.318_Spike.3c3f6417.gb",
     "static/media/HDM_B.1.1.7_Spike Map.pdf": "/static/media/HDM_B.1.1.7_Spike Map.184350ba.pdf",
     "static/media/HDM_B.1.1.7_Spike.gbk": "/static/media/HDM_B.1.1.7_Spike.c035a58c.gbk",
     "static/media/HDM_B.1.351_Spike Map.pdf": "/static/media/HDM_B.1.351_Spike Map.de5743c2.pdf",
@@ -38,6 +40,10 @@
     "static/media/HDM_B.1.621_Spike_Map.pdf": "/static/media/HDM_B.1.621_Spike_Map.8fca114c.pdf",
     "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.gbk": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.585e86eb.gbk",
     "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.pdf": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.09647c0b.pdf",
+    "static/media/HDM_Delta_Q613H_Spike Map.pdf": "/static/media/HDM_Delta_Q613H_Spike Map.f0f64c1b.pdf",
+    "static/media/HDM_Delta_Q613H_Spike.gbk": "/static/media/HDM_Delta_Q613H_Spike.9440070f.gbk",
+    "static/media/HDM_Delta_Y145H_Spike Map.pdf": "/static/media/HDM_Delta_Y145H_Spike Map.98e3d922.pdf",
+    "static/media/HDM_Delta_Y145H_Spike.gbk": "/static/media/HDM_Delta_Y145H_Spike.efb648f6.gbk",
     "static/media/HDM_Lambda_Spike.gbk": "/static/media/HDM_Lambda_Spike.9bb544bb.gbk",
     "static/media/HDM_Lambda_Spike_Map.pdf": "/static/media/HDM_Lambda_Spike_Map.10aa592f.pdf",
     "static/media/HDM_P.1_Spike Map.pdf": "/static/media/HDM_P.1_Spike Map.a46b20aa.pdf",
@@ -194,8 +200,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be24dc12.js",
-    "static/js/2.c26d83b5.chunk.js",
+    "static/js/2.5051bdd5.chunk.js",
     "static/css/main.efbed0df.chunk.css",
-    "static/js/main.993446f0.chunk.js"
+    "static/js/main.a8a830fa.chunk.js"
   ]
 }
