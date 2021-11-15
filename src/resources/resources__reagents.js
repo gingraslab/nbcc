@@ -27,11 +27,14 @@ import NpSTV7seq from './assets/reagents/plasmids/pSTVH7 N-BirA pDest.gb';
 import CpSTV8seq from './assets/reagents/plasmids/pSTVH8 C-BirA pDest.gb';
 import NpSTV8seq from './assets/reagents/plasmids/pSTVH8 N-BirA pDest.gb';
 
+import HDMB11318Spike from './assets/reagents/plasmids/HDM_B.1.1.318_Spike Map.pdf';
 import HDMB117Spike from './assets/reagents/plasmids/HDM_B.1.1.7_Spike Map.pdf';
 import HDMB1351Spike from './assets/reagents/plasmids/HDM_B.1.351_Spike Map.pdf';
 import HDMB16172Spike from './assets/reagents/plasmids/HDM_B.1.617.2_Spike Map.pdf';
 import HDMB1621Spike from './assets/reagents/plasmids/HDM_B.1.621_Spike_Map.pdf';
 import HDMDeltaB16172K417NSpike from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.pdf';
+import HDMDeltaQ613HSpike from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike Map.pdf';
+import HDMDeltaY145HSpike from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike Map.pdf';
 import HDMLambdaSpike from './assets/reagents/plasmids/HDM_Lambda_Spike_Map.pdf';
 import HDMP1Spike from './assets/reagents/plasmids/HDM_P.1_Spike Map.pdf';
 import HDMWuhan1Spike from './assets/reagents/plasmids/HDM_Wuhan-1_Spike Map.pdf';
@@ -42,11 +45,14 @@ import pTwistAmpB16172Spike from './assets/reagents/plasmids/pTwist-Amp_B.1.617.
 import pTwistAmpP1Spike from './assets/reagents/plasmids/pTwist-Amp_P.1_Spike Map.pdf';
 import pTwistAmpWuhan1Spike from './assets/reagents/plasmids/pTwist-Amp_Wuhan-1_Spike Map.pdf';
 
+import HDMB11318SpikeSeq from './assets/reagents/plasmids/HDM_B.1.1.318_Spike.gb';
 import HDMB117SpikeSeq from './assets/reagents/plasmids/HDM_B.1.1.7_Spike.gbk';
 import HDMB1351SpikeSeq from './assets/reagents/plasmids/HDM_B.1.351_Spike.gbk';
 import HDMB16172SpikeSeq from './assets/reagents/plasmids/HDM_B.1.617.2_Spike.gbk';
 import HDMB1621SpikeSeq from './assets/reagents/plasmids/HDM_B.1.621_Spike.gbk';
 import HDMDeltaB16172K417NSpikeSeq from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike.gbk';
+import HDMDeltaQ613HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike.gbk';
+import HDMDeltaY145HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike.gbk';
 import HDMLambdaSpikeSeq from './assets/reagents/plasmids/HDM_Lambda_Spike.gbk';
 import HDMP1SpikeSeq from './assets/reagents/plasmids/HDM_P.1_Spike.gbk';
 import HDMWuhan1D614GSeq from './assets/reagents/plasmids/HDM_Wuhan-1_D614G.gbk';
@@ -286,6 +292,16 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
+            <td>HDM_B.1.1.318_Spike</td>
+            <td>B.1.1.318 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMB11318Spike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMB11318SpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
             <td>HDM_B.1.1.7_Spike</td>
             <td>B.1.1.7 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
@@ -336,6 +352,32 @@ const Reagents = () => (
             </td>
             <td>
               <a href={HDMDeltaB16172K417NSpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Delta_Q613H_Spike</td>
+            <td>
+              Delta Q613H Spike cDNA with CMV enhancer/promoter for cDNA expression
+              in mammalian cells
+            </td>
+            <td>
+              <a href={HDMDeltaQ613HSpike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMDeltaQ613HSpikeSeq}><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Delta_Y145H_Spike</td>
+            <td>
+              Delta Y145H Spike cDNA with CMV enhancer/promoter for cDNA expression
+              in mammalian cells
+            </td>
+            <td>
+              <a href={HDMDeltaY145HSpike}><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMDeltaY145HSpikeSeq}><File /></a>
             </td>
           </tr>
           <tr>
