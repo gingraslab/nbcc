@@ -74,8 +74,8 @@ const Reagents = () => (
     </h2>
     <h3>Plasmid vectors</h3>
     <p>
-      The NBCC is pleased to provide a number of vectors for use. To request a vector, please contact Bhavisha
-      Rathod (bkhatri@lunenfeld.ca).
+      The NBCC is pleased to provide a number of vectors for use. To request a vector, please contact Cassandra
+      Wong (cwong@lunenfeld.ca).
     </p>
     <p>
       These vectors are being provided in collaboration with the Gingras lab to
