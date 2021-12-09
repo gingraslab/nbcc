@@ -16,24 +16,28 @@ class NavigationContainer extends Component {
     });
   }, this.props.scrollDelay);
 
-  constructor(props) {
+  constructor (props) {
     super(props);
     const navState = this.buttonState();
     this.state = {
       showArrowButton: navState.arrow,
       showLinks: navState.links,
     };
+    this.buttonState = this.buttonState.bind(this);
+    this.componentDidMount = this.componentDidMount.bind(this);
+    this.componentWillUnmount = this.componentWillUnmount.bind(this);
+    this.showNavButtons = this.showNavButtons.bind(this);
   }
 
-  componentDidMount = () => {
+  componentDidMount () {
     window.addEventListener('scroll', this.showNavButtons);
   }
 
-  componentWillUnmount = () => {
+  componentWillUnmount () {
     window.removeEventListener('scroll', this.showNavButtons);
   }
 
-  buttonState = () => {
+  buttonState () {
     const { alwaysShowLinks, linksScrolled, scrolled } = this.props;
     const scrollPos = getScrollPos();
     return {
@@ -42,7 +46,7 @@ class NavigationContainer extends Component {
     };
   }
 
-  render() {
+  render () {
     const { links, linkType } = this.props;
     const { showArrowButton, showLinks } = this.state;
     return (

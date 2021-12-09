@@ -1,8 +1,8 @@
-function debounce(func, wait, immediate) {
+function debounce (func, wait, immediate) {
   let timeout;
-  return function debounced(...args) {
+  return function debounced (...args) {
     const context = this;
-    const later = function delayedFunc() {
+    const later = function delayedFunc () {
       timeout = null;
       if (!immediate) {
         func.apply(context, args);

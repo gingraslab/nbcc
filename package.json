@@ -26,6 +26,7 @@
     "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^24.7.0",
@@ -35,6 +36,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "babel": {
+    "presets": ["@babel/preset-react"]
   },
   "browserslist": {
     "production": [

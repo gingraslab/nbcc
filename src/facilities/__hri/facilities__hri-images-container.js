@@ -4,20 +4,21 @@ import imageList from './facilities__hri-image-list';
 import Images from './facilities__hri-images';
 
 class ImagesContainer extends PureComponent {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       selected: Math.floor(Math.random() * imageList.length),
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = (index) => {
+  handleClick (index) {
     this.setState({
       selected: index,
     });
   }
 
-  render() {
+  render () {
     const { selected } = this.state;
     return (
       <Images

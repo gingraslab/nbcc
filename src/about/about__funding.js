@@ -14,7 +14,6 @@ import TFRI from './assets/funding/tfri.png';
 import TFRI2x from './assets/funding/tfri2x.png';
 import TFRI3x from './assets/funding/tfri3x.png';
 
-
 const Funding = () => (
   <section id="funding">
     <h2>

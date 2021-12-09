@@ -3,14 +3,19 @@ import PropTypes from 'prop-types';
 import { Component } from 'react';
 
 export class ClickOutsideWrapper extends Component {
-  handleClickOutside = () => {
+  constructor (props) {
+    super(props);
+    this.handleClickOutside = this.handleClickOutside.bind(this);
+  }
+
+  handleClickOutside () {
     const { callback } = this.props;
     if (callback) {
       callback();
     }
   };
 
-  render() {
+  render () {
     const { children } = this.props;
     return children;
   }

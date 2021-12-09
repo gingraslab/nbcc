@@ -38,7 +38,7 @@ const RouterLink = ({
         >
           { children }
         </HashLink>
-      )
+        )
       : (
         <Link
           className={classes.join(' ')}
@@ -48,7 +48,7 @@ const RouterLink = ({
         >
           { children }
         </Link>
-      )
+        )
   );
 };
 

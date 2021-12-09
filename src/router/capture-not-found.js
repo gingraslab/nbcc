@@ -18,7 +18,11 @@ CaptureRouteNotFoundComponent.defaultProps = {
 
 CaptureRouteNotFoundComponent.propTypes = {
   children: PropTypes.shape({}),
-  location: PropTypes.shape({}),
+  location: PropTypes.shape({
+    state: PropTypes.shape({
+      notFoundError: PropTypes.any,
+    }),
+  }),
 };
 
 export default withRouter(CaptureRouteNotFoundComponent);

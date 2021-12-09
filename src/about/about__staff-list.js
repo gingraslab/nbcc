@@ -49,7 +49,7 @@ const staff = [
     name: 'Kathy Fung',
     title: 'Next-Generation Sequencing Research Technician',
   },
-    {
+  {
     email: 'mjen@lunenfeld.ca',
     expertise: 'routine maintenance and QC of instrumentation, development and implementation of robot-assisted technologies',
     images: [
