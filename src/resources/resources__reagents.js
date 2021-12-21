@@ -36,6 +36,7 @@ import HDMDeltaB16172K417NSpike from './assets/reagents/plasmids/HDM_Delta+_(B.1
 import HDMDeltaQ613HSpike from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike Map.pdf';
 import HDMDeltaY145HSpike from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike Map.pdf';
 import HDMLambdaSpike from './assets/reagents/plasmids/HDM_Lambda_Spike_Map.pdf';
+import HDMOmicronB11529Spike from './assets/reagents/plasmids/HDM_Omicron_(B.1.1529)_Spike Map.pdf';
 import HDMP1Spike from './assets/reagents/plasmids/HDM_P.1_Spike Map.pdf';
 import HDMWuhan1Spike from './assets/reagents/plasmids/HDM_Wuhan-1_Spike Map.pdf';
 import HDMWuhan1D614G from './assets/reagents/plasmids/HDM_Wuhan-1_D614G_Map.pdf';
@@ -54,6 +55,7 @@ import HDMDeltaB16172K417NSpikeSeq from './assets/reagents/plasmids/HDM_Delta+_(
 import HDMDeltaQ613HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike.gbk';
 import HDMDeltaY145HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike.gbk';
 import HDMLambdaSpikeSeq from './assets/reagents/plasmids/HDM_Lambda_Spike.gbk';
+import HDMOmicronB11529SpikeSeq from './assets/reagents/plasmids/HDM_Omicron_(B.1.1529)_Spike.gbk';
 import HDMP1SpikeSeq from './assets/reagents/plasmids/HDM_P.1_Spike.gbk';
 import HDMWuhan1D614GSeq from './assets/reagents/plasmids/HDM_Wuhan-1_D614G.gbk';
 import HDMWuhan1SpikeSeq from './assets/reagents/plasmids/HDM_Wuhan-1_Spike.gbk';
@@ -98,20 +100,20 @@ const Reagents = () => (
             <td>N-pSTV2</td>
             <td>N-term BirA*-Flag with gateway cloning site; pTight promoter</td>
             <td>
-              <a href={NpSTV2}><Pdf /></a>
+              <a href={NpSTV2} download><Pdf /></a>
             </td>
             <td>
-              <a href={NpSTV2seq}><File /></a>
+              <a href={NpSTV2seq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>C-pSTV2</td>
             <td>C-term BirA*-Flag with gateway cloning site; pTight promoter</td>
             <td>
-              <a href={CpSTV2}><Pdf /></a>
+              <a href={CpSTV2} download><Pdf /></a>
             </td>
             <td>
-              <a href={CpSTV2seq}><File /></a>
+              <a href={CpSTV2seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -121,10 +123,10 @@ const Reagents = () => (
               YFP-2a-rtTA driven by sEF1a promoter
             </td>
             <td>
-              <a href={NpSTV5}><Pdf /></a>
+              <a href={NpSTV5} download><Pdf /></a>
             </td>
             <td>
-              <a href={NpSTV5seq}><File /></a>
+              <a href={NpSTV5seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -134,10 +136,10 @@ const Reagents = () => (
               YFP-2a-rtTA driven by sEF1a promoter
             </td>
             <td>
-              <a href={CpSTV5}><Pdf /></a>
+              <a href={CpSTV5} download><Pdf /></a>
             </td>
             <td>
-              <a href={CpSTV5seq}><File /></a>
+              <a href={CpSTV5seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -147,10 +149,10 @@ const Reagents = () => (
               Puro-2A-rtTA driven by PGK promoter
             </td>
             <td>
-              <a href={NpSTV6}><Pdf /></a>
+              <a href={NpSTV6} download><Pdf /></a>
             </td>
             <td>
-              <a href={NpSTV6seq}><File /></a>
+              <a href={NpSTV6seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -160,10 +162,10 @@ const Reagents = () => (
               Puro-2A-rtTA driven by PGK promoter
             </td>
             <td>
-              <a href={CpSTV6}><Pdf /></a>
+              <a href={CpSTV6} download><Pdf /></a>
             </td>
             <td>
-              <a href={CpSTV6seq}><File /></a>
+              <a href={CpSTV6seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -173,10 +175,10 @@ const Reagents = () => (
               Puromycin resistance gene driven by sEF1a promoter
             </td>
             <td>
-              <a href={NpSTV7}><Pdf /></a>
+              <a href={NpSTV7} download><Pdf /></a>
             </td>
             <td>
-              <a href={NpSTV7seq}><File /></a>
+              <a href={NpSTV7seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -186,10 +188,10 @@ const Reagents = () => (
               Puromycin resistance gene driven by sEF1a promoter
             </td>
             <td>
-              <a href={CpSTV7}><Pdf /></a>
+              <a href={CpSTV7} download><Pdf /></a>
             </td>
             <td>
-              <a href={CpSTV7seq}><File /></a>
+              <a href={CpSTV7seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -199,10 +201,10 @@ const Reagents = () => (
               rtTA driven by sEF1a promoter
             </td>
             <td>
-              <a href={NpSTV8}><Pdf /></a>
+              <a href={NpSTV8} download><Pdf /></a>
             </td>
             <td>
-              <a href={NpSTV8seq}><File /></a>
+              <a href={NpSTV8seq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -212,10 +214,10 @@ const Reagents = () => (
               rtTA driven by sEF1a promoter
             </td>
             <td>
-              <a href={CpSTV8}><Pdf /></a>
+              <a href={CpSTV8} download><Pdf /></a>
             </td>
             <td>
-              <a href={CpSTV8seq}><File /></a>
+              <a href={CpSTV8seq} download><File /></a>
             </td>
           </tr>
         </tbody>
@@ -245,100 +247,100 @@ const Reagents = () => (
             <td>pTwist-Amp_B.1.1.7_Spike</td>
             <td>B.1.1.7 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={pTwistAmpB117Spike}><Pdf /></a>
+              <a href={pTwistAmpB117Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={pTwistAmpB117SpikeSeq}><File /></a>
+              <a href={pTwistAmpB117SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>pTwist-Amp_B.1.351_Spike</td>
             <td>B.1.351 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={pTwistAmpB1351Spike}><Pdf /></a>
+              <a href={pTwistAmpB1351Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={pTwistAmpB1351SpikeSeq}><File /></a>
+              <a href={pTwistAmpB1351SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>pTwist-Amp_B.1.617.2_Spike</td>
             <td>B.1.617.2 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={pTwistAmpB16172Spike}><Pdf /></a>
+              <a href={pTwistAmpB16172Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={pTwistAmpB16172SpikeSeq}><File /></a>
+              <a href={pTwistAmpB16172SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>pTwist-Amp_P.1_Spike</td>
             <td>P.1 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={pTwistAmpP1Spike}><Pdf /></a>
+              <a href={pTwistAmpP1Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={pTwistAmpP1SpikeSeq}><File /></a>
+              <a href={pTwistAmpP1SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>pTwist-Amp_Wuhan-1_Spike</td>
             <td>Wuhan-1 Spike cDNA, not an expression plasmid</td>
             <td>
-              <a href={pTwistAmpWuhan1Spike}><Pdf /></a>
+              <a href={pTwistAmpWuhan1Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={pTwistAmpWuhan1SpikeSeq}><File /></a>
+              <a href={pTwistAmpWuhan1SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_B.1.1.318_Spike</td>
             <td>B.1.1.318 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB11318Spike}><Pdf /></a>
+              <a href={HDMB11318Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB11318SpikeSeq}><File /></a>
+              <a href={HDMB11318SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_B.1.1.7_Spike</td>
             <td>B.1.1.7 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB117Spike}><Pdf /></a>
+              <a href={HDMB117Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB117SpikeSeq}><File /></a>
+              <a href={HDMB117SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_B.1.351_Spike</td>
             <td>B.1.351 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB1351Spike}><Pdf /></a>
+              <a href={HDMB1351Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB1351SpikeSeq}><File /></a>
+              <a href={HDMB1351SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_B.1.617.2_Spike</td>
             <td>B.1.617.2 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB16172Spike}><Pdf /></a>
+              <a href={HDMB16172Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB16172SpikeSeq}><File /></a>
+              <a href={HDMB16172SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_B.1.621_Spike</td>
             <td>B.1.621 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMB1621Spike}><Pdf /></a>
+              <a href={HDMB1621Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMB1621SpikeSeq}><File /></a>
+              <a href={HDMB1621SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -348,10 +350,10 @@ const Reagents = () => (
               in mammalian cells
             </td>
             <td>
-              <a href={HDMDeltaB16172K417NSpike}><Pdf /></a>
+              <a href={HDMDeltaB16172K417NSpike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMDeltaB16172K417NSpikeSeq}><File /></a>
+              <a href={HDMDeltaB16172K417NSpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -361,10 +363,10 @@ const Reagents = () => (
               in mammalian cells
             </td>
             <td>
-              <a href={HDMDeltaQ613HSpike}><Pdf /></a>
+              <a href={HDMDeltaQ613HSpike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMDeltaQ613HSpikeSeq}><File /></a>
+              <a href={HDMDeltaQ613HSpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
@@ -374,50 +376,60 @@ const Reagents = () => (
               in mammalian cells
             </td>
             <td>
-              <a href={HDMDeltaY145HSpike}><Pdf /></a>
+              <a href={HDMDeltaY145HSpike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMDeltaY145HSpikeSeq}><File /></a>
+              <a href={HDMDeltaY145HSpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_Lambda_Spike</td>
             <td>Lambda Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMLambdaSpike}><Pdf /></a>
+              <a href={HDMLambdaSpike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMLambdaSpikeSeq}><File /></a>
+              <a href={HDMLambdaSpikeSeq} download><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_Omicron_(B.1.1529)_Spike</td>
+            <td>Omicron Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMOmicronB11529Spike} download><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMOmicronB11529SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_P.1_Spike</td>
             <td>P.1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMP1Spike}><Pdf /></a>
+              <a href={HDMP1Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMP1SpikeSeq}><File /></a>
+              <a href={HDMP1SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_Wuhan-1_D614G</td>
             <td>Wuhan-1 D614G cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMWuhan1D614G}><Pdf /></a>
+              <a href={HDMWuhan1D614G} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMWuhan1D614GSeq}><File /></a>
+              <a href={HDMWuhan1D614GSeq} download><File /></a>
             </td>
           </tr>
           <tr>
             <td>HDM_Wuhan-1_Spike</td>
             <td>Wuhan-1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
-              <a href={HDMWuhan1Spike}><Pdf /></a>
+              <a href={HDMWuhan1Spike} download><Pdf /></a>
             </td>
             <td>
-              <a href={HDMWuhan1SpikeSeq}><File /></a>
+              <a href={HDMWuhan1SpikeSeq} download><File /></a>
             </td>
           </tr>
         </tbody>
