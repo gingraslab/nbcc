@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.efa15ddb.chunk.css",
-    "main.js": "/static/js/main.9b654d58.chunk.js",
-    "main.js.map": "/static/js/main.9b654d58.chunk.js.map",
+    "main.js": "/static/js/main.5154ac40.chunk.js",
+    "main.js.map": "/static/js/main.5154ac40.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.737ef4b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.737ef4b5.js.map",
-    "static/js/2.08b81352.chunk.js": "/static/js/2.08b81352.chunk.js",
-    "static/js/2.08b81352.chunk.js.map": "/static/js/2.08b81352.chunk.js.map",
+    "static/js/2.f5bd5c56.chunk.js": "/static/js/2.f5bd5c56.chunk.js",
+    "static/js/2.f5bd5c56.chunk.js.map": "/static/js/2.f5bd5c56.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.efa15ddb.chunk.css.map": "/static/css/main.efa15ddb.chunk.css.map",
-    "static/js/2.08b81352.chunk.js.LICENSE.txt": "/static/js/2.08b81352.chunk.js.LICENSE.txt",
+    "static/js/2.f5bd5c56.chunk.js.LICENSE.txt": "/static/js/2.f5bd5c56.chunk.js.LICENSE.txt",
     "static/media/AnneClaudeGingras-home.0db650bc.png": "/static/media/AnneClaudeGingras-home.0db650bc.png",
     "static/media/AnneClaudeGingras.b37ba8a4.png": "/static/media/AnneClaudeGingras.b37ba8a4.png",
     "static/media/AnneClaudeGingras2x-home.47f00b81.png": "/static/media/AnneClaudeGingras2x-home.47f00b81.png",
@@ -44,6 +44,8 @@
     "static/media/HDM_Delta_Y145H_Spike.fcf96518.gbk": "/static/media/HDM_Delta_Y145H_Spike.fcf96518.gbk",
     "static/media/HDM_Lambda_Spike.15fce24e.gbk": "/static/media/HDM_Lambda_Spike.15fce24e.gbk",
     "static/media/HDM_Lambda_Spike_Map.6f76bd42.pdf": "/static/media/HDM_Lambda_Spike_Map.6f76bd42.pdf",
+    "static/media/HDM_Omicron_(B.1.1529)_Spike Map.76424daa.pdf": "/static/media/HDM_Omicron_(B.1.1529)_Spike Map.76424daa.pdf",
+    "static/media/HDM_Omicron_(B.1.1529)_Spike.05843a9f.gbk": "/static/media/HDM_Omicron_(B.1.1529)_Spike.05843a9f.gbk",
     "static/media/HDM_P.1_Spike Map.3e15031f.pdf": "/static/media/HDM_P.1_Spike Map.3e15031f.pdf",
     "static/media/HDM_P.1_Spike.4106c1d5.gbk": "/static/media/HDM_P.1_Spike.4106c1d5.gbk",
     "static/media/HDM_Wuhan-1_D614G.92d3eefe.gbk": "/static/media/HDM_Wuhan-1_D614G.92d3eefe.gbk",
@@ -198,8 +200,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.737ef4b5.js",
-    "static/js/2.08b81352.chunk.js",
+    "static/js/2.f5bd5c56.chunk.js",
     "static/css/main.efa15ddb.chunk.css",
-    "static/js/main.9b654d58.chunk.js"
+    "static/js/main.5154ac40.chunk.js"
   ]
 }
