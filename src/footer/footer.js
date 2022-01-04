@@ -5,6 +5,11 @@ import RouterLink from '../components/router-link/router-link';
 
 import './footer.css';
 
+const getYear = () => {
+  const date = new Date();
+  return date.getFullYear();
+};
+
 const Footer = () => (
   <footer className="footer">
     <section className="footer__site-map">
@@ -55,7 +60,11 @@ const Footer = () => (
       </ul>
     </section>
     <small className="footer__copyright">
-      © 2020 Network Biology Collaborative Centre, Lunenfeld-Tanenbaum Research Institute,
+      ©
+      {' '}
+      {getYear()}
+      {' '}
+      Network Biology Collaborative Centre, Lunenfeld-Tanenbaum Research Institute,
       Sinai Health System
     </small>
   </footer>
