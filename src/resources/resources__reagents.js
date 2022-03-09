@@ -346,7 +346,7 @@ const Reagents = () => (
             </td>
           </tr>
           <tr>
-            <td>HDM_BA2_Spike</td>
+            <td>HDM_BA.2_Spike</td>
             <td>BA.2 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
             <td>
               <a href={HDMBA2Spike} download><Pdf /></a>
@@ -461,7 +461,7 @@ const Reagents = () => (
     </cite>
     <p>
       <small>
-        Last updated: July 20, 2021
+        Last updated: Mar 9, 2022
       </small>
     </p>
   </section>
