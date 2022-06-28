@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.efa15ddb.chunk.css",
-    "main.js": "/static/js/main.d3c88efc.chunk.js",
-    "main.js.map": "/static/js/main.d3c88efc.chunk.js.map",
+    "main.js": "/static/js/main.283ac29b.chunk.js",
+    "main.js.map": "/static/js/main.283ac29b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c5a9bc4.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c5a9bc4.js.map",
     "static/js/2.7c7579c3.chunk.js": "/static/js/2.7c7579c3.chunk.js",
@@ -36,6 +36,10 @@
     "static/media/HDM_B.1.617.2_Spike.f72f75ef.gbk": "/static/media/HDM_B.1.617.2_Spike.f72f75ef.gbk",
     "static/media/HDM_B.1.621_Spike.45f415fa.gbk": "/static/media/HDM_B.1.621_Spike.45f415fa.gbk",
     "static/media/HDM_B.1.621_Spike_Map.f0f1eb74.pdf": "/static/media/HDM_B.1.621_Spike_Map.f0f1eb74.pdf",
+    "static/media/HDM_BA.2.12.1_Spike Map.8fecf36f.pdf": "/static/media/HDM_BA.2.12.1_Spike Map.8fecf36f.pdf",
+    "static/media/HDM_BA.2.12.1_Spike.55073ca7.gbk": "/static/media/HDM_BA.2.12.1_Spike.55073ca7.gbk",
+    "static/media/HDM_BA.5_Spike Map.6a2b6eed.pdf": "/static/media/HDM_BA.5_Spike Map.6a2b6eed.pdf",
+    "static/media/HDM_BA.5_Spike.17dd4933.gbk": "/static/media/HDM_BA.5_Spike.17dd4933.gbk",
     "static/media/HDM_BA2_Spike Map.2bdf56f7.pdf": "/static/media/HDM_BA2_Spike Map.2bdf56f7.pdf",
     "static/media/HDM_BA2_Spike.67f8e7b4.gbk": "/static/media/HDM_BA2_Spike.67f8e7b4.gbk",
     "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.abb91ce4.gbk": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.abb91ce4.gbk",
@@ -204,6 +208,6 @@
     "static/js/runtime-main.7c5a9bc4.js",
     "static/js/2.7c7579c3.chunk.js",
     "static/css/main.efa15ddb.chunk.css",
-    "static/js/main.d3c88efc.chunk.js"
+    "static/js/main.283ac29b.chunk.js"
   ]
 }
