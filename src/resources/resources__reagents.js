@@ -33,6 +33,8 @@ import HDMB1351Spike from './assets/reagents/plasmids/HDM_B.1.351_Spike Map.pdf'
 import HDMB16172Spike from './assets/reagents/plasmids/HDM_B.1.617.2_Spike Map.pdf';
 import HDMB1621Spike from './assets/reagents/plasmids/HDM_B.1.621_Spike_Map.pdf';
 import HDMBA2Spike from './assets/reagents/plasmids/HDM_BA2_Spike Map.pdf';
+import HDMBA5Spike from './assets/reagents/plasmids/HDM_BA.5_Spike Map.pdf';
+import HDMBA2121Spike from './assets/reagents/plasmids/HDM_BA.2.12.1_Spike Map.pdf';
 import HDMDeltaB16172K417NSpike from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.pdf';
 import HDMDeltaQ613HSpike from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike Map.pdf';
 import HDMDeltaY145HSpike from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike Map.pdf';
@@ -53,6 +55,8 @@ import HDMB1351SpikeSeq from './assets/reagents/plasmids/HDM_B.1.351_Spike.gbk';
 import HDMB16172SpikeSeq from './assets/reagents/plasmids/HDM_B.1.617.2_Spike.gbk';
 import HDMB1621SpikeSeq from './assets/reagents/plasmids/HDM_B.1.621_Spike.gbk';
 import HDMBA2SpikeSeq from './assets/reagents/plasmids/HDM_BA2_Spike.gbk';
+import HDMBA5SpikeSeq from './assets/reagents/plasmids/HDM_BA.5_Spike.gbk';
+import HDMBA2121SpikeSeq from './assets/reagents/plasmids/HDM_BA.2.12.1_Spike.gbk';
 import HDMDeltaB16172K417NSpikeSeq from './assets/reagents/plasmids/HDM_Delta+_(B.1.617.2_K417N)_Spike.gbk';
 import HDMDeltaQ613HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Q613H_Spike.gbk';
 import HDMDeltaY145HSpikeSeq from './assets/reagents/plasmids/HDM_Delta_Y145H_Spike.gbk';
@@ -245,7 +249,7 @@ const Reagents = () => (
           </tr>
         </thead>
         <tbody>
-          <tr>
+            <tr>
             <td>pTwist-Amp_B.1.1.7_Spike</td>
             <td>B.1.1.7 Spike cDNA, not an expression plasmid</td>
             <td>
@@ -353,6 +357,26 @@ const Reagents = () => (
             </td>
             <td>
               <a href={HDMBA2SpikeSeq} download><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_BA.2.12.1_Spike</td>
+            <td>BA.2.12.1 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMBA2121Spike} download><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMBA2121SpikeSeq} download><File /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>HDM_BA.5_Spike</td>
+            <td>BA.5 Spike cDNA with CMV enhancer/promoter for cDNA expression in mammalian cells</td>
+            <td>
+              <a href={HDMBA5Spike} download><Pdf /></a>
+            </td>
+            <td>
+              <a href={HDMBA5SpikeSeq} download><File /></a>
             </td>
           </tr>
           <tr>
