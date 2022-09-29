@@ -11,7 +11,7 @@ const Performance = () => (
       Numbers:
     </h2>
     <h3>
-      <strong>January 1, 2011 to October 9, 2020</strong>
+      <strong>January 1, 2011 to September 22, 2022</strong>
     </h3>
     <div className="publication__grid">
       <Table />
