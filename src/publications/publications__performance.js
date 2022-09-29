@@ -26,7 +26,7 @@ const Performance = () => (
       <li>
         <a
           download
-          href="/pdf/NBCC Publication List_OC2020.pdf"
+          href="/pdf/NBCC Publication List_SE2022.pdf"
         >
           <Pdf />
           List of Publications since 2011

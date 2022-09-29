@@ -7,10 +7,9 @@ import KarenColwillHome3x from './assets/people/KarenColwill3x-home.png';
 
 const centreManagers = [
   {
-    description: `Dr. Karen Colwill is a Staff Scientist at the Lunenfeld-Tanenbaum
-    Research Institute in addition to being the Manager of the Network Biology
-    Collaborative Centre. She has over 15 years experience in managing scientific
-    projects and facilities.`,
+    description: `Dr. Karen Colwill has a PhD in Molecular and Medical Genetics from the University of Toronto where she studied 
+    protein kinases.  She has over 25 years of research experience with a focus on signal transduction, proteomics and
+    more recently, COVID-19 serology.  She has been managing scientific projects, large-scale grants and facilities for over 15 years.`,
     email: 'colwill@lunenfeld.ca',
     homeImages: [
       KarenColwillHome,
@@ -24,7 +23,7 @@ const centreManagers = [
     ],
     name: 'Karen Colwill',
     phone: '416-586-4800 x 3018',
-    title: 'Network Biology Collaborative Centre Manager',
+    title: 'Network Biology Collaborative Centre Director of Operations',
   },
 ];
 
