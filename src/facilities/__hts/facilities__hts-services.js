@@ -58,7 +58,7 @@ const Services = () => (
       <strong>Chemical libraries</strong>
       <ul>
         <li>
-          Approximately 220,000 drug-like chemicals, obtained from several vendors
+          Over 250,000 drug-like chemicals, obtained from several vendors
           (Maybridge, Chembridge, Asinex, Enamine), designed through computational screens
           in order to provide lead-like motifs and minimize  promiscuous hitters while
           enhancing chemical diversity.

@@ -57,6 +57,23 @@ const Equipment = () => (
               </td>
             </tr>
             <tr>
+              <td>Echo 525</td>
+              <td>Labcyte</td>
+              <td>acoustic liquid transfer, touchless technology (no tips required)</td>
+              <td>
+                <ul>
+                  <li>DMSO or aqueous solvents</li>
+                  <li>can handle different liquid viscosity</li>
+                  <li>cherry-pick applications</li>
+                  <li>dose response titration</li>
+                  <li>accurate volume range: 25 nl - 5 ul</li>
+                </ul>
+              </td>
+              <td>
+                96, 384, 1536-well microplates
+              </td>
+            </tr>
+            <tr>
               <td>Echo 555</td>
               <td>Labcyte</td>
               <td>acoustic liquid transfer, touchless technology (no tips required)</td>
@@ -66,7 +83,7 @@ const Equipment = () => (
                   <li>can handle different liquid viscosity</li>
                   <li>cherry-pick applications</li>
                   <li>dose response titration</li>
-                  <li>accurate volume range: 2.5-1000nl</li>
+                  <li>accurate volume range: 2.5-500 nl</li>
                 </ul>
               </td>
               <td>

@@ -126,7 +126,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Initial training on instrument use and software: $170</li>
+            <li>Initial training on instrument use and software: $270</li>
             <li>Imaging: $100/plate/day </li>
             <li>Data Analysis: performed by user with Incucyte software</li>
           </ul>

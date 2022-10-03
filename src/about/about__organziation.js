@@ -15,7 +15,7 @@ const Organization = () => (
       facilities: The Proteomics Facility for mass spectrometry-based analysis of
       protein function and the SMART High-Throughput and High-Content Screening
       laboratory for functional genomics studies. The Centre is a Genome
-      Canada-funded genomics technology platform
+      Canada-funded genomics technology platform.
     </p>
     <p>
       The mandate of the Centre is to assist Canadian and International scientists in
