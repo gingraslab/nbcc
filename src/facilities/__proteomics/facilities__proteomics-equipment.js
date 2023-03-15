@@ -12,20 +12,25 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
+      <h3>Bruker</h3>
+      <h4>timsTOF</h4>
+      <p>
+        We have two timsTOF instruments which employ trapped ion mobility separation for enhanced precursor selection.
+        A timsTOF pro equipped with an Evosep One LC is used for rapid analysis of protein
+        complexes and lysate.  A timsTOF SCP coupled to a Thermo Vanquish Neo NanoLC is used for analysis of ultra-low input
+        proteomic samples.
+      </p>
       <h3>Sciex</h3>
       <h4>TripleTOF</h4>
       <p>
-        We have four TripleTOF instruments all running nano-LC-MS proteomic
-        applications. Three are 6600 TripleTOFs with Eksigent 425 nano-HPLCs,
-        and one is a 5600 TripleTOF with an Eksigent Ultra nano-HPLC. These
-        instruments are applied to complex samples for discovery and quantitation
-        workflows including targeted (MRM-HR) and non-targeted (DDA and SWATH or
-        DIA).
+        We have three TripleTOF 6600 instruments with Eksigent 425 nano-HPLCs all running nano-LC-MS proteomic applications.
+        These instruments are applied to complex samples for discovery and quantitation
+        workflows including targeted (MRM-HR) and non-targeted (DDA and SWATH or DIA).
       </p>
       <h3>Thermo</h3>
       <h4>Lumos</h4>
       <p>
-        We have one Fusion Lumos with an Eksigent 425 nano-HPLC for
+        We have one Fusion Lumos with a Thermo Vanquish Neo NanoLC for
         nano-LC-MS applications. The Fusion Lumos affords a variety of
         workflows for increasing sample coverage and maximizing recovery of
         post-translationally modified or low-abundant peptides, including
@@ -33,14 +38,7 @@ const Equipment = () => (
         compatible with quantitative approaches including DIA and PRM as well as tandem
         mass tag (TMT) multiplexing.
       </p>
-      <h4>Elite</h4>
-      <p>
-        We have one Orbitrap Elite with an Eksigent Ultra HPLC that generates
-        data for nano-LC-MS proteomic applications. This instrument is applied
-        to complex samples for discovery and quantitation workflows including
-        SILAC-labelled samples.
-      </p>
-    </div>
+     </div>
   </section>
 );
 

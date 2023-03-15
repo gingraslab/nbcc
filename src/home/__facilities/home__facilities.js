@@ -15,26 +15,23 @@ const Facilities = () => (
       <div className="home__section-details home__facilities-details">
         <p>
           From start to finish, we work with our users to rapidly advance their research
-          within and across our six complementary facilities.
+          within and across our five complementary facilities.
         </p>
         <div className="home__facilities-buttons">
+          <Link to="/facilities/proteomics">
+            Proteomics
+          </Link>
+          <Link to="/facilities/next-gen-sequencing">
+            Next-Generation Sequencing
+          </Link>
+          <Link to="/facilities/high-throughput-screening">
+            High-Throughput Screening
+          </Link>
           <Link to="/facilities/high-content-screening">
             High-Content Screening
           </Link>
           <Link to="/facilities/high-res-imaging">
             High-Resolution Imaging
-          </Link>
-          <Link to="/facilities/high-throughput-screening">
-            High-Throughput Screening
-          </Link>
-          <Link to="/facilities/data-analysis">
-            Integrated Data Analysis
-          </Link>
-          <Link to="/facilities/next-gen-sequencing">
-            Next-Generation Sequencing
-          </Link>
-          <Link to="/facilities/proteomics">
-            Proteomics
           </Link>
         </div>
       </div>

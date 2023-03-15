@@ -1,6 +1,6 @@
-import CassandraWong from './assets/people/CassandraWong.png';
-import CassandraWong2x from './assets/people/CassandraWong2x.png';
-import CassandraWong3x from './assets/people/CassandraWong3x.png';
+import MariamIskilova from './assets/people/MariamIskilova.png';
+import MariamIskilova2x from './assets/people/MariamIskilova2x.png';
+import MariamIskilova3x from './assets/people/MariamIskilova3x.png';
 import FrankLiu from './assets/people/FrankLiu.png';
 import FrankLiu2x from './assets/people/FrankLiu2x.png';
 import FrankLiu3x from './assets/people/FrankLiu3x.png';
@@ -31,6 +31,17 @@ const staff = [
     ],
     name: 'Lauren Caldwell',
     title: 'Bioinformatician',
+  },
+  {
+    email: 'miskilova@lunenfeld.ca',
+    expertise: 'quality control and assurance, development and implementation of robot-assisted technologies',
+    images: [
+      MariamIskilova,
+      MariamIskilova2x,
+      MariamIskilova3x,
+    ],
+    name: 'Mariam Iskilova',
+    title: 'Laboratory Automation Technician',
   },
   {
     email: 'mjen@lunenfeld.ca',
@@ -64,17 +75,6 @@ const staff = [
     ],
     name: 'Guomin (Frank) Liu',
     title: 'Programmer',
-  },
-  {
-    email: 'cwong@lunenfeld.ca',
-    expertise: 'mass spectrometry maintenance and operation, technology development, sample preparation',
-    images: [
-      CassandraWong,
-      CassandraWong2x,
-      CassandraWong3x,
-    ],
-    name: 'Cassandra Wong',
-    title: 'Mass Spectrometry Research Technician',
   },
   {
     email: 'angeline@lunenfeld.ca',

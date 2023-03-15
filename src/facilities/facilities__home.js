@@ -25,6 +25,24 @@ const Home = () => (
       </p>
     </section>
     <div className="facilities__buttons">
+    <Link
+        to="/facilities/proteomics"
+        type="secondary"
+      >
+        Proteomics
+      </Link>
+      <Link
+        to="/facilities/next-gen-sequencing"
+        type="secondary"
+      >
+        Next-Generation Sequencing
+      </Link>
+      <Link
+        to="/facilities/high-throughput-screening"
+        type="secondary"
+      >
+        High-Throughput Screening
+      </Link>
       <Link
         to="/facilities/high-content-screening"
         type="secondary"
@@ -36,30 +54,6 @@ const Home = () => (
         type="secondary"
       >
         High-Resolution Imaging
-      </Link>
-      <Link
-        to="/facilities/high-throughput-screening"
-        type="secondary"
-      >
-        High-Throughput Screening
-      </Link>
-      <Link
-        to="/facilities/data-analysis"
-        type="secondary"
-      >
-        Integrated Data Analysis
-      </Link>
-      <Link
-        to="/facilities/next-gen-sequencing"
-        type="secondary"
-      >
-        Next-Generation Sequencing
-      </Link>
-      <Link
-        to="/facilities/proteomics"
-        type="secondary"
-      >
-        Proteomics
       </Link>
     </div>
   </main>

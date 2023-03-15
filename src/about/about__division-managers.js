@@ -1,6 +1,9 @@
-import BrettLarsen from './assets/people/BrettLarsen.png';
-import BrettLarsen2x from './assets/people/BrettLarsen2x.png';
-import BrettLarsen3x from './assets/people/BrettLarsen3x.png';
+import BrendonSeale from './assets/people/BrendonSeale.png';
+import BrendonSeale2x from './assets/people/BrendonSeale2x.png';
+import BrendonSeale3x from './assets/people/BrendonSeale3x.png';
+import CassandraWong from './assets/people/CassandraWong.png';
+import CassandraWong2x from './assets/people/CassandraWong2x.png';
+import CassandraWong3x from './assets/people/CassandraWong3x.png';
 import JennyWang from './assets/people/JennyWang.png';
 import JennyWang2x from './assets/people/JennyWang2x.png';
 import JennyWang3x from './assets/people/JennyWang3x.png';
@@ -16,21 +19,50 @@ import JohnnyTkach3x from './assets/people/JohnnyTkach3x.png';
 
 const divisionManagers = [
   {
-    description: `Brett Larsen has over 15 years experience in mass
-    spectrometry and he has been managing the Proteomics facility since 2004.
-    He is an expert in quantitative proteomics, post-translational modifications
-    and data analysis. He is responsible for equipment oversight, technology
-    development, and user training. As the manager, Brett works with users
-    from project inception to project completion.`,
-    email: 'larsen@lunenfeld.ca',
+    description: `Dr. Brendon Seale has a PhD in Bioanalytical Chemistry from the University of Toronto 
+    focused on the analysis of micro-sized protein samples by mass spectrometry and ion mobility. With 10+ years 
+    of experience in mass spectrometry, including post-doctoral work at SCIEX, Dr. Seale leads the development 
+    and implementation of new proteomics technologies at the NBCC to better serve the Canadian proteomics community.`,
+    email: 'bseale@lunenfeld.ca',
     images: [
-      BrettLarsen,
-      BrettLarsen2x,
-      BrettLarsen3x,
+      BrendonSeale,
+      BrendonSeale2x,
+      BrendonSeale3x,
     ],
-    name: 'Brett Larsen',
+    name: 'Brendon Seale',
     phone: '416-586-4800 x 2702',
-    title: 'Proteomics Manager',
+    title: 'Proteomics Scientific Manager',
+  },
+  {
+    description: `Cassandra has a MSc in Molecular Genetics (Proteomics focus) and has a strong background in mass spectrometry 
+    and quantitative proteomics. As the operations manager, she works with facility users from project inception to completion.  She is
+    also responsible for equipment oversight and user training.`,
+    email: 'cwong@lunenfeld.ca',
+    images: [
+      CassandraWong,
+      CassandraWong2x,
+      CassandraWong3x,
+    ],
+    name: 'Cassandra Wong',
+    phone: '416-586-4800 x 2702',
+    title: 'Proteomics Operation Manager',
+  },
+  {
+    description: `Kin Chan (MSc) has worked on high-throughput data screening
+    platforms for more than fifteen years and has managed both microarray and
+    sequencing facilities. He has in-depth technical and scientific knowledge
+    of genomics with a focus on transcriptomics profiling. His current focus
+    is to translate scientific finding to clinical use by working with research
+    investigators, physicians and clinical labs.`,
+    email: 'kin@lunenfeld.ca',
+    images: [
+      KinChan,
+      KinChan2x,
+      KinChan3x,
+    ],
+    name: 'Kin Chan',
+    phone: '416-586-4800 x 6720',
+    title: 'Next-Generation Sequencing Manager',
   },
   {
     description: `Jenny Wang has a MSc in Pharmacology and Physiology and over 25 years experience in developing, optimizing, and 
@@ -79,23 +111,6 @@ const divisionManagers = [
     name: 'Johnny Tkach',
     phone: '416-586-4800 x 2258',
     title: 'High-Resolution Imaging Manager',
-  },
-  {
-    description: `Kin Chan (MSc) has worked on high-throughput data screening
-    platforms for more than fifteen years and has managed both microarray and
-    sequencing facilities. He has in-depth technical and scientific knowledge
-    of genomics with a focus on transcriptomics profiling. His current focus
-    is to translate scientific finding to clinical use by working with research
-    investigators, physicians and clinical labs.`,
-    email: 'kin@lunenfeld.ca',
-    images: [
-      KinChan,
-      KinChan2x,
-      KinChan3x,
-    ],
-    name: 'Kin Chan',
-    phone: '416-586-4800 x 6720',
-    title: 'Next-Generation Sequencing Manager',
   },
 ];
 

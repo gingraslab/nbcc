@@ -14,8 +14,7 @@ const Pricing = () => (
       </h2>
       <p>
         These prices are for external academic laboratories and are guidelines only.
-        Interested users should contact Brett Larsen (larsen@lunenfeld.ca) or Karen
-        Colwill (colwill@lunenfeld.ca) to discuss their project and receive a quotation
+        Interested users should contact Cassandra Wong (cwong@lunenfeld.ca) to discuss their project and receive a quotation
         (including volume discounts).
       </p>
       <h3>
@@ -117,8 +116,7 @@ const Pricing = () => (
       </h3>
       <h4>Sample submission</h4>
       <p>
-        Please contact Brett Larsen (larsen@lunenfeld.ca) or Karen Colwill
-        (colwill@lunenfeld.ca) to inquire about our services and to discuss
+        Please contact Cassandra Wong (cwong@lunenfeld.ca) to inquire about our services and to discuss
         your specific project. Sample information is sent through email and
         samples may be dropped off in person or couriered.
       </p>
