@@ -22,7 +22,6 @@ const centreManagers = [
       KarenColwill3x,
     ],
     name: 'Karen Colwill',
-    phone: '416-586-4800 x 3018',
     title: 'Network Biology Collaborative Centre Director of Operations',
   },
 ];
