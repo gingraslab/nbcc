@@ -17,6 +17,58 @@ const Pricing = () => (
           I. High-throughput imaging
         </span>
       </h3>
+      <h4 className="facilities_hcs_full-header">Nikon BioPipeline</h4>
+      <div className="facilities__hcs-rates">
+        <div>
+          <strong>Self-Use Rates</strong>
+          <table className="facilities__table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>
+                  Hourly rate (peak)
+                  <sup>1</sup>
+                </th>
+                <th>Hourly rate (off-peak)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>First hour</td>
+                <td>$75.00</td>
+                <td>$23.00</td>
+              </tr>
+              <tr>
+                <td>Subsequent hours</td>
+                <td>$53.00</td>
+                <td>$16.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colSpan="3">
+                  <sup>1</sup>
+                  Peak hours are workdays, 9am - 6pm.
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div>
+          <strong>Fees</strong>
+          <ul>
+            <li>Assisted use, training, assay development or data analysis: $99/hour</li>
+          </ul>
+        </div>
+      </div>
+      <div className="facilities__hcs-assay-note">
+        Assay development includes:
+        <ul>
+          <li>assisted imaging of the first plate(s)</li>
+          <li>custom image analysis script</li>
+          <li>custom script for data post-analysis</li>
+        </ul>
+      </div>
       <h4 className="facilities_hcs_full-header">IN Cell 6000</h4>
       <div className="facilities__hcs-rates">
         <div>
@@ -35,13 +87,13 @@ const Pricing = () => (
             <tbody>
               <tr>
                 <td>First hour</td>
-                <td>$78.75</td>
-                <td>$26.25</td>
+                <td>$75.00</td>
+                <td>$23.00</td>
               </tr>
               <tr>
                 <td>Subsequent hours</td>
-                <td>$52.50</td>
-                <td>$15.75</td>
+                <td>$53.00</td>
+                <td>$16.00</td>
               </tr>
             </tbody>
             <tfoot>
@@ -57,7 +109,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Assisted use, training, assay development or data analysis: $90/hour</li>
+            <li>Assisted use, training, assay development or data analysis: $99/hour</li>
           </ul>
         </div>
       </div>
@@ -87,13 +139,13 @@ const Pricing = () => (
             <tbody>
               <tr>
                 <td>First hour</td>
-                <td>$26.25</td>
-                <td>$15.75</td>
+                <td>$30.00</td>
+                <td>$9.00</td>
               </tr>
               <tr>
                 <td>Subsequent hours</td>
                 <td>$21.00</td>
-                <td>$5.25</td>
+                <td>$6.00</td>
               </tr>
             </tbody>
             <tfoot>
@@ -109,7 +161,7 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Assisted use, training, assay development or data analysis: $90/hour</li>
+            <li>Assisted use, training, assay development or data analysis: $99/hour</li>
           </ul>
         </div>
       </div>
@@ -126,8 +178,8 @@ const Pricing = () => (
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Initial training on instrument use and software: $270</li>
-            <li>Imaging: $100/plate/day </li>
+            <li>Assisted use, training, assay development or data analysis: $99/hour</li>
+            <li>Imaging: $110/plate/day </li>
             <li>Data Analysis: performed by user with Incucyte software</li>
           </ul>
         </div>
@@ -135,13 +187,13 @@ const Pricing = () => (
       <h3>
         <span>II. High-content analysis</span>
       </h3>
-      <h4 className="facilities_hcs_full-header">Columbus</h4>
+      <h4 className="facilities_hcs_full-header">Image Analysis Workstations</h4>
       <div className="facilities__hcs-rates">
         <div>
           <strong>Fees</strong>
           <ul>
-            <li>Self-use: $10.50/hour</li>
-            <li>Assisted use, training or data analysis service: $90/hour </li>
+            <li>Self-use: $12/hour</li>
+            <li>Assisted use, training or data analysis service: $99/hour </li>
           </ul>
         </div>
       </div>

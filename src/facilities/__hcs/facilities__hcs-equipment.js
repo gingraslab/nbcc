@@ -12,6 +12,42 @@ const Equipment = () => (
         <Server />
         Equipment
       </h2>
+      <h4>Nikon BioPipeline</h4>
+      <p>
+      The Biopipeline is a line scanning confocal platform based on Nikon’s Eclipse fully-motorized,
+      inverted Ti2 microscope and the A1R-HD25 hybrid confocal system with the world’s largest 25 mm
+      field of view.  It features two scanners: a low-noise galvano scanner, e.g. 10 frames per second
+      (fps) at 512*512 pixels and a fast resonant scanner, e.g. 30 fps at the same field-of-view.
+      </p>
+      <p>
+      It is equipped with a Perfect Focus System for long-term focus maintenance, a high speed,
+      high stability motorized XY stage and Z-drive, and a water immersion dispenser for long-term
+      automated imaging using high resolution water immersion objectives.
+      </p>
+      <p>
+      For confocal imaging, the Nikon BioPipeline is equipped with a 4-line laser of wavelengths 405, 488, 561, 640 nm,
+      and the following emission detection wavelengths:
+      </p>
+      <li>
+      447/57 495DCXR 1FW (405) – for DAPI-like emission detection
+      </li>
+      <li>
+      521/42 562DCXR 2FW (488) – for GFP-like emission detection
+      </li>
+      <li>
+      600/45 652DCXR + 650LP (561/640) – for red and far red emission detection
+      </li>
+      <p>
+      Two high-sensitivity PMT and two GaAsP PMT detectors enable simultaneous image acquisition in
+      five channels (four fluorescent and one transmitted light for brightfield imaging). An 8-line
+      epifluorescence light source enables observation by eye in the following channels: DAPI, CFP, GFP,
+      YFP, Red and Far-red.
+      </p>
+      <p>
+      It can image regular glass microscope slides, microscope chambers and multi-well glass or
+      plastic-bottom plates. Environmental stability of live imaging is maintained by a full imaging
+      enclosure combined with a 44 multi-well plate capacity incubator (with automated plate handling).
+      </p>
       <h4>IN Cell 6000</h4>
       <p>
         The IN Cell Analyzer 6000 is a high-end, laser-based, line-scanning confocal

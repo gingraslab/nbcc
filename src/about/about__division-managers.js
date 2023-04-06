@@ -30,7 +30,6 @@ const divisionManagers = [
       BrendonSeale3x,
     ],
     name: 'Brendon Seale',
-    phone: '416-586-4800 x 2702',
     title: 'Proteomics Scientific Manager',
   },
   {
@@ -44,7 +43,6 @@ const divisionManagers = [
       CassandraWong3x,
     ],
     name: 'Cassandra Wong',
-    phone: '416-586-4800 x 2702',
     title: 'Proteomics Operation Manager',
   },
   {
@@ -61,7 +59,6 @@ const divisionManagers = [
       KinChan3x,
     ],
     name: 'Kin Chan',
-    phone: '416-586-4800 x 6720',
     title: 'Next-Generation Sequencing Manager',
   },
   {
@@ -75,7 +72,6 @@ const divisionManagers = [
       JennyWang3x,
     ],
     name: 'Jenny Wang',
-    phone: '416-586-4800 x 4732',
     title: 'High-throughput Screening Manager',
   },
   {
@@ -93,7 +89,6 @@ const divisionManagers = [
       MonicaHasegan3x,
     ],
     name: 'Monica Hasegan',
-    phone: '416-586-4800 x 2862',
     title: 'High-Content Screening Manager',
   },
   {
@@ -109,7 +104,6 @@ const divisionManagers = [
       JohnnyTkach3x,
     ],
     name: 'Johnny Tkach',
-    phone: '416-586-4800 x 2258',
     title: 'High-Resolution Imaging Manager',
   },
 ];

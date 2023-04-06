@@ -31,17 +31,12 @@ const Services = () => (
       <h3>
         <span>I. High-throughput imaging</span>
       </h3>
+      <h4>BioPipeline (Nikon)</h4>
       <p>
-        Image acquisition can be performed on either a Celígo Cytometer
-        (Nexcelom Bioscience) or an IN Cell Analyzer 6000 (GE Healthcare).
-      </p>
-      <h4>Celígo Cytometer (Nexcelom Bioscience)</h4>
-      <p>
-        This instrument is ideal for up to 4-channel imaging of multi-well plates
-        at low-resolution. Proprietary F-theta lens installed on the cytometer
-        provides great image flatness and contrast. Bright LED light-sources enable
-        label-free brightfield imaging as well as acquisition of blue, green and
-        red fluorophores.
+      The Nikon BioPipeline is a high-end, flexible, live and fixed sample high content screening system.
+      It is ideally suited for high-resolution screening assays such as detection of DNA damage foci,
+      translocation assays, measuring of cilia lengths, co-localization studies, drug screenings or any
+      other assay that needs to combine high-resolution with automated imaging.
       </p>
       <h4>IN Cell Analyzer 6000 (GE Healthcare)</h4>
       <p>
@@ -63,6 +58,14 @@ const Services = () => (
       culture incubator. Specific live-cell assays, including cell migration software
       application module and spheroid software module, are also available
       on the IncuCyte S3 system.
+      </p>
+      <h4>Celígo Cytometer (Nexcelom Bioscience)</h4>
+      <p>
+        This instrument is ideal for up to 4-channel imaging of multi-well plates
+        at low-resolution. Proprietary F-theta lens installed on the cytometer
+        provides great image flatness and contrast. Bright LED light-sources enable
+        label-free brightfield imaging as well as acquisition of blue, green and
+        red fluorophores.
       </p>
       <h3>
         <span>I. High-content analysis</span>
