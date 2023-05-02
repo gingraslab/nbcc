@@ -3,6 +3,42 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'New instrumentation and services available for proteomics and screening': {
+    date: 'May 2, 2023',
+    summary: (
+      <section>
+         <p>
+          <strong>Bruker TimsTOF and Evosep instruments - 60 samples per day</strong>
+          {' '}
+        </p>
+        <p>
+          With the recent acquisition of a Bruker TimsTOF pro coupled to an Evosep One LC, Dr. Brendon Seale
+          of the Proteomics node in collaboration with the Gingras lab has increased the throughput of BioID
+          and AP-MS MS analysis while maintaining the same quality as our prior low throughput method.  Our users
+          will benefit from this <b>faster turnaround and reduced pricing for analysis</b>. For more details,
+          check out our <a
+            href="https://nbcc.lunenfeld.ca/facilities/proteomics"
+          >
+            proteomics page
+          </a>.
+          {' '}
+        </p>
+        <p>
+          <strong>Nikon Biopipeline for high-resolution high-content screening</strong>
+        </p>
+        <p>
+          In collaboration with the Nikon Centre of Excellence at the LTRI, we are pleased
+          to introduce our newest instrument - a Nikon Biopipeline for high-resolution high-throughput screens
+          in our High-Content Screening node. For more details, check out our <a
+            href="https://nbcc.lunenfeld.ca/facilities/high-content-screening"
+          >
+            high-content screening page
+          </a>.
+        </p>
+      </section>
+    ),
+    title: 'New services available to detect and characterize SARS CoV-2 antibodies',
+  },
   'New services available to detect and characterize SARS CoV-2 antibodies': {
     date: 'October 9, 2020',
     summary: (

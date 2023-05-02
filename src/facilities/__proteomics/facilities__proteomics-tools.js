@@ -27,6 +27,12 @@ const Tools = () => (
       </ul>
       <h4>Mass spectrometry search engines</h4>
       <ul>
+      <li>
+          <a href="https://msfragger.nesvilab.org/">
+            <LinkIcon />
+            MSFragger
+          </a>
+      </li>
         <li>
           <a href="http://comet-ms.sourceforge.net/">
             <LinkIcon />
@@ -73,7 +79,7 @@ const Tools = () => (
           </a>
         </li>
       </ul>
-      <h4>DIA-SWATH quantitation tools</h4>
+      <h4>DIA quantitation tools</h4>
       <ul>
         <li>
           <a href="https://sourceforge.net/projects/diaumpire/">
@@ -91,6 +97,12 @@ const Tools = () => (
           <a href="http://proteomics.ucsd.edu/software-tools/msplit-dia/">
             <LinkIcon />
             MSPLIT-DIA
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/vdemichev/DiaNN">
+            <LinkIcon />
+            DIA-NN
           </a>
         </li>
       </ul>

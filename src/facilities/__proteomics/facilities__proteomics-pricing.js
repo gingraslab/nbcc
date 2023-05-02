@@ -32,20 +32,24 @@ const Pricing = () => (
         <tbody>
           <tr>
             <td>AP-FLAG</td>
-            <td>$120</td>
+            <td>$130</td>
           </tr>
           <tr>
             <td>AP-BirA</td>
+            <td>$150</td>
+          </tr>
+          <tr>
+            <td>Lysate preparation and trypsin digest</td>
             <td>$140</td>
           </tr>
           <tr>
-            <td>Trypsin digest</td>
-            <td>$50</td>
+            <td>In-solution trypsin digest</td>
+            <td>$55</td>
           </tr>
         </tbody>
       </table>
       <p>
-        Customized affinity purifications are also available.
+        For other applications, please contact Cassandra Wong.
       </p>
       <h3>
         <span>II. Mass spectrometry costs per sample</span>
@@ -60,47 +64,35 @@ const Pricing = () => (
         <tbody>
           <tr>
             <td>
-              Identification - gel band or purified protein simple mixture
-              (30 min gradient)
+              Identification  - AP-MS or BioID
             </td>
-            <td>$150</td>
+            <td>$120</td>
           </tr>
           <tr>
             <td>
-              Identification - cell lysate or cell fractionation complex mixture
-              (90 min gradient)
+              Quantification - DDA & DIA for AP-MS or BioID
             </td>
-            <td>$250</td>
+            <td>$240</td>
           </tr>
           <tr>
             <td>
-              Identification - cell Lysate or cell fractionation complex mixture
-              (extended 180 min gradient)
+              Identification  - cell lysate or cell fractionation
             </td>
-            <td>$360</td>
+            <td>$260</td>
           </tr>
           <tr>
             <td>
-              Identification - AP-MS or BioID complex mixture (90 min gradient
-              with extensive QC to avoid sample carryover)
+              Quantification - DDA & DIA for cell lysate or cell fractionation
             </td>
-            <td>$360</td>
+            <td>$510</td>
           </tr>
           <tr>
             <td>
-              Quantification - DIA-SWATH MS on cell lysate or cell fractionation
-              complex mixture (90 min gradient)
+              Quantification - DDA with TMT
             </td>
-            <td>$390</td>
+            <td>$380</td>
           </tr>
-          <tr>
-            <td>
-              Quantification - DIA-SWATH MS on AP-MS or BioID complex mixture
-              (90 min gradient with extensive QC to avoid sample carryover)
-            </td>
-            <td>$500</td>
-          </tr>
-        </tbody>
+       </tbody>
       </table>
       <p>
         Customized mass spectrometry analyses are also available.
@@ -109,7 +101,7 @@ const Pricing = () => (
         All services include initial consultation and project planning with a
         proteomics manager, database searching including SAINT for protein
         interactions, full report and data consultation. For additional data
-        analysis, the fee is $90/hour.
+        analysis, the fee is $99/hour.
       </p>
       <h3>
         <span>III. Policies</span>

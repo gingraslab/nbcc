@@ -42,14 +42,12 @@ const Services = () => (
         digesting the protein into peptides in preparation for mass spectrometry
         analysis.
       </p>
-      <h4>Customized affinity purification for mass spectrometry</h4>
+      <h4>Quantitative global proteomics</h4>
       <p>
-        In addition to our two standardized services, we also offer custom
-        affinity purifications. These services include affinity purification
-        of an endogenous protein by its cognate antibody or purification of
-        proteins by immobilized DNA, peptide, protein or small molecule. In each
-        case, the cost will be determined on a per sample basis calculated after
-        discussion of project design and will include assay setup charges.
+      Quantitative global proteomics is used to determine the content of proteomes.
+      It is most often used to detect and report differences between cell populations treated
+      under various conditions. Proteins are isolated and digested with trypsin to generate
+      peptides for mass spectrometry identification.
       </p>
       <h3>
         <span>II. Mass spectrometry analysis</span>
@@ -94,15 +92,13 @@ const Services = () => (
       </p>
       <h4>Labelled quantitative analysis</h4>
       <p>
-        We also offer the ability to multiplex samples for quantification using
-        SILAC, iTRAQ, and di-methyl labelling. Please contact us to discuss your
-        project and the most appropriate methodology.
+      We also offer the ability to multiplex samples for quantification using TMT, up to 18-plex.
+      Please contact us to discuss your project and the most appropriate methodology.
       </p>
       <h4>Data analysis</h4>
       <p>
-        For customers who wish more detailed data analysis or our assistance in
-        integrating proteomics data with other data, we offer extended data analysis
-        from our mass spectrometry specialists or our in house statistician.
+      For customers who wish for more detailed data analysis, we offer extended data analysis
+      from our mass spectrometry specialists. Please contact us to discuss your project.
       </p>
     </div>
   </section>
