@@ -15,7 +15,7 @@ const articles = {
           With the recent acquisition of a Bruker TimsTOF pro coupled to an Evosep One LC, Dr. Brendon Seale
           of the Proteomics node in collaboration with the Gingras lab has increased the throughput of BioID
           and AP-MS MS analysis while maintaining the same quality as our prior low throughput method.  Our users
-          will benefit from this <b>faster turnaround and reduced pricing for analysis</b>. For more details,
+          will benefit from this <b>faster turnaround andreduced pricing for analysis</b>. For more details,
           check out our <a
             href="https://nbcc.lunenfeld.ca/facilities/proteomics"
           >
