@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.efa15ddb.chunk.css",
-    "main.js": "/static/js/main.39fbd4e0.chunk.js",
-    "main.js.map": "/static/js/main.39fbd4e0.chunk.js.map",
+    "main.js": "/static/js/main.e8c57abf.chunk.js",
+    "main.js.map": "/static/js/main.e8c57abf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3f2c52d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.3f2c52d1.js.map",
     "static/js/2.c3617ffb.chunk.js": "/static/js/2.c3617ffb.chunk.js",
@@ -41,10 +41,20 @@
     "static/media/HDM_B.1.621_Spike_Map.f0f1eb74.pdf": "/static/media/HDM_B.1.621_Spike_Map.f0f1eb74.pdf",
     "static/media/HDM_BA.2.12.1_Spike Map.8fecf36f.pdf": "/static/media/HDM_BA.2.12.1_Spike Map.8fecf36f.pdf",
     "static/media/HDM_BA.2.12.1_Spike.55073ca7.gbk": "/static/media/HDM_BA.2.12.1_Spike.55073ca7.gbk",
+    "static/media/HDM_BA.2.75.2_Spike Map.25e1405e.pdf": "/static/media/HDM_BA.2.75.2_Spike Map.25e1405e.pdf",
+    "static/media/HDM_BA.2.75.2_Spike.057b9f45.gbk": "/static/media/HDM_BA.2.75.2_Spike.057b9f45.gbk",
+    "static/media/HDM_BA.2.75_Spike Map.ffa5664c.pdf": "/static/media/HDM_BA.2.75_Spike Map.ffa5664c.pdf",
+    "static/media/HDM_BA.2.75_Spike.206ddff7.gbk": "/static/media/HDM_BA.2.75_Spike.206ddff7.gbk",
     "static/media/HDM_BA.5_Spike Map.6a2b6eed.pdf": "/static/media/HDM_BA.5_Spike Map.6a2b6eed.pdf",
     "static/media/HDM_BA.5_Spike.17dd4933.gbk": "/static/media/HDM_BA.5_Spike.17dd4933.gbk",
     "static/media/HDM_BA2_Spike Map.2bdf56f7.pdf": "/static/media/HDM_BA2_Spike Map.2bdf56f7.pdf",
     "static/media/HDM_BA2_Spike.67f8e7b4.gbk": "/static/media/HDM_BA2_Spike.67f8e7b4.gbk",
+    "static/media/HDM_BF.7_Spike Map.35b5bf7d.pdf": "/static/media/HDM_BF.7_Spike Map.35b5bf7d.pdf",
+    "static/media/HDM_BF.7_Spike.267980ba.gbk": "/static/media/HDM_BF.7_Spike.267980ba.gbk",
+    "static/media/HDM_BQ.1.1_Spike Map.2233efe7.pdf": "/static/media/HDM_BQ.1.1_Spike Map.2233efe7.pdf",
+    "static/media/HDM_BQ.1.1_Spike.976a7f06.gbk": "/static/media/HDM_BQ.1.1_Spike.976a7f06.gbk",
+    "static/media/HDM_BQ.1_Spike Map.672e4b9c.pdf": "/static/media/HDM_BQ.1_Spike Map.672e4b9c.pdf",
+    "static/media/HDM_BQ.1_Spike.68425e31.gbk": "/static/media/HDM_BQ.1_Spike.68425e31.gbk",
     "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.abb91ce4.gbk": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike.abb91ce4.gbk",
     "static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.9d86048f.pdf": "/static/media/HDM_Delta+_(B.1.617.2_K417N)_Spike_Map.9d86048f.pdf",
     "static/media/HDM_Delta_Q613H_Spike Map.f08e32b7.pdf": "/static/media/HDM_Delta_Q613H_Spike Map.f08e32b7.pdf",
@@ -61,6 +71,12 @@
     "static/media/HDM_Wuhan-1_D614G_Map.9996516a.pdf": "/static/media/HDM_Wuhan-1_D614G_Map.9996516a.pdf",
     "static/media/HDM_Wuhan-1_Spike Map.71ccb09e.pdf": "/static/media/HDM_Wuhan-1_Spike Map.71ccb09e.pdf",
     "static/media/HDM_Wuhan-1_Spike.ff8aec90.gbk": "/static/media/HDM_Wuhan-1_Spike.ff8aec90.gbk",
+    "static/media/HDM_XBB.1.16_Spike Map.f714683d.pdf": "/static/media/HDM_XBB.1.16_Spike Map.f714683d.pdf",
+    "static/media/HDM_XBB.1.16_Spike.5f28df05.gbk": "/static/media/HDM_XBB.1.16_Spike.5f28df05.gbk",
+    "static/media/HDM_XBB.1.5_Spike Map.857cbec4.pdf": "/static/media/HDM_XBB.1.5_Spike Map.857cbec4.pdf",
+    "static/media/HDM_XBB.1.5_Spike.f039ade2.gbk": "/static/media/HDM_XBB.1.5_Spike.f039ade2.gbk",
+    "static/media/HDM_XBB.1_Spike Map.79f53035.pdf": "/static/media/HDM_XBB.1_Spike Map.79f53035.pdf",
+    "static/media/HDM_XBB.1_Spike.30167f52.gbk": "/static/media/HDM_XBB.1_Spike.30167f52.gbk",
     "static/media/InCellDeveloper.858969ea.svg": "/static/media/InCellDeveloper.858969ea.svg",
     "static/media/JeffWrana-home.ec1ffcb7.png": "/static/media/JeffWrana-home.ec1ffcb7.png",
     "static/media/JeffWrana.93669e9e.png": "/static/media/JeffWrana.93669e9e.png",
@@ -205,6 +221,6 @@
     "static/js/runtime-main.3f2c52d1.js",
     "static/js/2.c3617ffb.chunk.js",
     "static/css/main.efa15ddb.chunk.css",
-    "static/js/main.39fbd4e0.chunk.js"
+    "static/js/main.e8c57abf.chunk.js"
   ]
 }
