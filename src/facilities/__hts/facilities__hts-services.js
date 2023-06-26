@@ -132,17 +132,15 @@ const Services = () => (
         in a pilot experiment prior to final acceptance of technical and mechanical conditions
         (e.g. harshness of washing conditions, flow rates of dispensed liquid, mixing steps etc.).
       </p>
-      <h3>IV. Data management</h3>
+      <h3>IV. Olink Proteomics</h3>
       <p>
-        We can assist users with data management, that is, the capture, storage and analysis of
-        results. For screens performed in a sequential manner, screening parameters (variability
-        of controls, variability of samples, dynamic range, hit rate) are monitored throughout
-        the entire process to determine consistency of data and whether any screening run should
-        be repeated. The approach for data normalization and hit selection may depend on several
-        factors associated with type, format, duration etc. of any given assay, and the nature of
-        the library used for the screen. Generally, a variety of methods (e.g. control-based, Z-
-        or B-score) is assessed each time to find the most reliable and informative approach for
-        subsequent data interpretation and hit finalization.
+       We offer protein biomarker analysis on the Olink platform that provides highly multiplexed rapid
+       throughput screening.  The Olink Signature Q100 system is designed for readout of Olink Target
+       (96 and 48-flex), Flex (15-21 chosen assays) and Olink Focus (custom design) protein biomarker
+       panels. These are focused on specific disease
+       areas or biological processes and offer Proximity Extension Assay (PEA) technology coupled
+       to a qPCR readout. A full list of available panels is available at
+       <a href = "https://olink.com/products-services/target/" >Olink</a>.
       </p>
       <h3>V. Cherry-picks, confirmatory tests, and dose-response curves</h3>
       <p>
@@ -192,6 +190,18 @@ const Services = () => (
         against the
         spike trimer, spike RBD, and nucleocapsid protein.  We also offer a surrogate neutralization ELISA (snELISA) to
         identify antibodies with neutralizing potential.
+      </p>
+      <h3>X. Data management</h3>
+      <p>
+        We can assist users with data management, that is, the capture, storage and analysis of
+        results. For screens performed in a sequential manner, screening parameters (variability
+        of controls, variability of samples, dynamic range, hit rate) are monitored throughout
+        the entire process to determine consistency of data and whether any screening run should
+        be repeated. The approach for data normalization and hit selection may depend on several
+        factors associated with type, format, duration etc. of any given assay, and the nature of
+        the library used for the screen. Generally, a variety of methods (e.g. control-based, Z-
+        or B-score) is assessed each time to find the most reliable and informative approach for
+        subsequent data interpretation and hit finalization.
       </p>
     </div>
   </section>

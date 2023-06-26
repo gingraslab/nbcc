@@ -3,6 +3,25 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'Protein Biomolecular Discovery using Olink technology': {
+    date: 'June 26, 2023',
+    summary: (
+      <section>
+        <p>
+        We are now offering protein biomarker screening in our <a href="https://nbcc.lunenfeld.ca/facilities/high-throughput-screening" >
+        HTP screening node </a>using
+          Olink protein extension analysis (PEA) technology with targeted and custom panels
+          available from  <a
+            href="https://olink.com/products-services/target/"
+          >
+          Olink
+          </a>.
+          {' '}
+        </p>
+      </section>
+    ),
+    title: 'Protein Biomolecular Discovery using Olink technology',
+  },
   'New instrumentation and services available for proteomics and screening': {
     date: 'May 2, 2023',
     summary: (
@@ -37,7 +56,7 @@ const articles = {
         </p>
       </section>
     ),
-    title: 'New services available to detect and characterize SARS CoV-2 antibodies',
+    title: 'New instrumentation and services available for proteomics and screening',
   },
   'New services available to detect and characterize SARS CoV-2 antibodies': {
     date: 'October 9, 2020',

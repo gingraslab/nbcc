@@ -26,7 +26,7 @@ const Equipment = () => (
           </thead>
           <tbody>
             <tr>
-              <td>Biomek FX (x2)</td>
+              <td>Biomek i7</td>
               <td>Beckman</td>
               <td>disposible tip</td>
               <td>
@@ -48,8 +48,8 @@ const Equipment = () => (
               <td>disposible tip</td>
               <td>
                 <ul>
-                  <li>same features as the Biomek FX but with a more compact footprint</li>
-                  <li>equipped with 96 and 384 heads</li>
+                  <li>same features as the Biomek i7 but with a more compact footprint</li>
+                  <li>equipped with 96-channel heads</li>
                 </ul>
               </td>
               <td>
@@ -166,7 +166,7 @@ const Equipment = () => (
           </thead>
           <tbody>
             <tr>
-              <td>Envision</td>
+              <td>Envision * 2</td>
               <td>Perkin Elmer</td>
               <td>
                 <ul>
@@ -182,7 +182,8 @@ const Equipment = () => (
                   <li>Fluorescence Intensity</li>
                   <li>Time-Resolved Fluorescence</li>
                   <li>TR-FRET</li>
-                  <li>Luminescence</li>
+                  <li>Ultra-sensitive Luminescence</li>
+                  <li>Monochromator</li>
                 </ul>
               </td>
               <td>
@@ -190,7 +191,7 @@ const Equipment = () => (
               </td>
             </tr>
             <tr>
-              <td>PHERAstar 1</td>
+              <td>PHERAstar</td>
               <td>BMG LABTECH</td>
               <td>
                 <ul>
@@ -208,14 +209,13 @@ const Equipment = () => (
                   <li>Luminescence</li>
                   <li>Alphascreen</li>
                 </ul>
-                injectors available
               </td>
               <td>
                 24-, 96-, 384-, 1536-well microplates
               </td>
             </tr>
             <tr>
-              <td>PHERAstar 2</td>
+              <td>PHERAstar FS</td>
               <td>BMG LABTECH</td>
               <td>
                 <ul>
@@ -286,7 +286,7 @@ const Equipment = () => (
               </td>
             </tr>
             <tr>
-              <td>Bluewasher</td>
+              <td>Bluewasher *2</td>
               <td>Blue Cat Bio</td>
               <td>
                 centrifugation instead of aspiration to remove liquid
@@ -311,6 +311,21 @@ const Equipment = () => (
             </tr>
           </thead>
           <tbody>
+          <tr>
+              <td>Signature Q100</td>
+              <td>Olink</td>
+              <td>Protein Biomarker Discovery</td>
+              <td>
+                <ul>
+                  <li>Target, Flex & Focus panels</li>
+                  <li>Proximity Extension Analysis</li>
+                  <li>qPCR readout</li>
+                </ul>
+              </td>
+              <td>
+                48- and 96-well panels
+              </td>
+            </tr>
             <tr>
               <td>Robotic sample storage system (x2)</td>
               <td>Hamilton Company</td>

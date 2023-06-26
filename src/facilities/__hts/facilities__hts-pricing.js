@@ -18,7 +18,7 @@ const Pricing = () => (
         and complexity of the workplan. Users are provided with a cost estimate prior to
         project inception. For small-scale procedures, a typical standard price is $200/hr
         for instrument time with additional fees for consumables (at cost) and extended
-        data analysis ($90/hour).
+        data analysis ($99/hour).
       </p>
     </div>
   </section>
