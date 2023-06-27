@@ -4,7 +4,7 @@ import Link from '../components/router-link/router-link';
 
 const articles = {
   'Protein Biomolecular Discovery using Olink technology': {
-    date: 'June 26, 2023',
+    date: 'June 27, 2023',
     summary: (
       <section>
         <p>
@@ -15,7 +15,10 @@ const articles = {
             href="https://olink.com/products-services/target/"
           >
           Olink
-          </a>.
+          </a>. Target 96 panels are focused on a specific disease area or biological process with a library
+          of over 1100 human proteins.  Flex panels enable selecting and screening of up to 21 human proteins from 200 inflammation-related
+          human proteins.  Focus panels are user-customized panels for absolute or relative quantification. For more
+          details and to discuss how Olink can work for your study, contact HTP screening manager Jenny Wang (jwang@lunenfeld.ca).
           {' '}
         </p>
       </section>

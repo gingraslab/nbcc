@@ -139,8 +139,8 @@ const Services = () => (
        (96 and 48-flex), Flex (15-21 chosen assays) and Olink Focus (custom design) protein biomarker
        panels. These are focused on specific disease
        areas or biological processes and offer Proximity Extension Assay (PEA) technology coupled
-       to a qPCR readout. A full list of available panels is available at
-       <a href = "https://olink.com/products-services/target/" >Olink</a>.
+       to a qPCR readout. A full list of available panels is available
+       at <a href = "https://olink.com/products-services/target/" > Olink</a>.
       </p>
       <h3>V. Cherry-picks, confirmatory tests, and dose-response curves</h3>
       <p>
