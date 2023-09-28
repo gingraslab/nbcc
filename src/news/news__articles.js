@@ -3,6 +3,30 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'Announcing the NBCC and OLINK Pilot Program for Biomarker Discovery!': {
+    date: 'September 28, 2023',
+    summary: (
+      <section>
+        <p>
+      As an official service provider of Olink Proteomics technology, the NBCC is pleased to announce
+      the launch of an Olink Proteomics Target 96 Pilot Program sponsored by Olink. Seven successful
+      candidates will test 12 human plasma or serum samples for FREE with the OLINK Proteomics
+           <a
+            href="https://olink.com/products-services/target/inflammation"
+          > Target 96 inflammation panel</a>.
+        </p>
+        <p>If you are interested in trying this technology to see how your project may benefit, <a
+            href ="https://forms.office.com/pages/responsepage.aspx?id=zxLAC-mzvUaVps7MNzFbsUdp0lyTz9pHkzi5Z0RIsOpUNDlCOUNLNTlZNlVHVElRT0c5NExDVUJBNi4u"
+            > submit your application here</a> by Monday, October 16th, 2023.  Winners will be contacted the
+            week of October 23rd, 2023.  Samples must be submitted to the high-throughput screening node of the
+            NBCC by November 1st, 2023 and results will be available by November 30th, 2023.  For more details, please
+            contact HTS Facility Director Jenny Wang (jwang@lunenfeld.ca).
+          {' '}
+        </p>
+      </section>
+    ),
+    title: 'Announcing the NBCC and OLINK Pilot Program for Biomarker Discovery!',
+  },
   'Protein Biomolecular Discovery using Olink technology': {
     date: 'June 27, 2023',
     summary: (

@@ -323,7 +323,7 @@ const Equipment = () => (
                 </ul>
               </td>
               <td>
-                48- and 96-well panels
+                21-, 48- and 96-target panels
               </td>
             </tr>
             <tr>
