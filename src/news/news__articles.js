@@ -3,6 +3,49 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'Our new Astral Mass Spectrometer - First in Canada': {
+    date: 'December 19, 2023',
+    summary: (
+      <section>
+        <p>
+          Celebrations started early this year with the arrival of our new Astral mass
+          spectrometer.  Check out our
+          <a
+            href="https://www.sinaihealth.ca/news/festivities-start-early-for-proteomics-researchers-at-sinai-health-with-canadas-first-astral-mass-spectrometer/"
+          > Sinai News Feature </a>.
+          To find out why we are so excited about this instrument, register for our
+          <a
+            href="https://www.eventbrite.ca/e/celebrating-first-in-canada-orbitrap-astral-mass-sprectrometer-tickets-773975550707"
+          > Astral Symposia </a>
+          on January 31, 2024.
+        </p>
+      </section>
+    ),
+    title: 'Our new Astral Mass Spectrometer - First in Canada',
+  },
+  '2023 - updated publication list': {
+    date: 'December 15, 2023',
+    summary: (
+      <section>
+        <p>
+          We have updated our
+          {' '}
+          <Link
+            to="/publications"
+            type="link"
+            underline
+          >
+            publication list
+          </Link>
+          {' '}
+          with new publications linked to the NBCC in the past 8 months.  We are reporting
+          over 50 publications for 2023!  Thank you to our collaborators for recognizing our efforts
+          and congratulations on all your achievements this year.
+        </p>
+      </section>
+    ),
+    title: '2023 - updated publication list',
+  },
   'Announcing the NBCC and OLINK Pilot Program for Biomarker Discovery!': {
     date: 'September 28, 2023',
     summary: (

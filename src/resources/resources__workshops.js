@@ -28,7 +28,16 @@ const Workshops = () => (
     <li>
       <div className="resources__workshops-event">
         <p>
-          There are currently no upcoming events scheduled.
+          The NBCC, with the Lunenfeld-Tanenbaum Research Institute at Sinai Health, is
+          hosting a symposia on <b>January 31st, 2024</b> to celebrate the arrival of the 1st Astral mass spectrometer
+          in Canada to our facility. Speakers include Dr. Alexander Makarov (ThermoFisher Scientific),
+          Dr. Michael MacCoss (U Washington), and Dr. Jesper Olsen (U Copenhagen).
+          <br></br>
+          <br></br>
+          <a
+            href="https://www.eventbrite.ca/e/celebrating-first-in-canada-orbitrap-astral-mass-sprectrometer-tickets-773975550707">
+          <LinkIcon />
+          Registration and Symposia Details</a>.
         </p>
       </div>
     </li>
