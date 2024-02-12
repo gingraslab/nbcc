@@ -13,7 +13,7 @@ const Landing = () => (
     <p>
       Accelerating research by providing integrated services in functional proteomics
       and genomics, drug discovery and high-throughput screening, next-generation
-      sequencing and high-content to super-resolution microscopy.
+      sequencing, flow cytometry and high-content to super-resolution microscopy.
     </p>
     <p>
       NBCC is helping researchers with both COVID-19 and non COVID-19 related research.

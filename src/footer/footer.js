@@ -22,7 +22,7 @@ const Footer = () => (
           <RouterLink to="/facilities/high-content-screening" type="link">High-Content Screening</RouterLink>
         </li>
         <li>
-          <RouterLink to="/facilities/high-res-imaging" type="link">High-Resolution Imaging</RouterLink>
+          <RouterLink to="/facilities/high-res-imaging" type="link">Advanced Imaging</RouterLink>
         </li>
         <li>
           <RouterLink to="/facilities/high-throughput-screening" type="link">High-Throughput Screening</RouterLink>
@@ -35,6 +35,9 @@ const Footer = () => (
         </li>
         <li>
           <RouterLink to="/facilities/proteomics" type="link">Proteomics</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/facilities/flow-cytometry" type="link">Flow Cytometry</RouterLink>
         </li>
       </ul>
       <ul>

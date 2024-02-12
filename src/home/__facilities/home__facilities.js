@@ -31,7 +31,10 @@ const Facilities = () => (
             High-Content Screening
           </Link>
           <Link to="/facilities/high-res-imaging">
-            High-Resolution Imaging
+            Advanced Imaging
+          </Link>
+          <Link to="/facilities/flow-cytometry">
+            Flow Cytometry
           </Link>
         </div>
       </div>

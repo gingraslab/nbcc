@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import HiContentScreening from './__hcs/facilities__hcs';
 import HiResolutionImaging from './__hri/facilities__hri';
+import FlowCytometry from './__fcyt/facilities__fcyt';
 import HiThroughputScreening from './__hts/facilities__hts';
 import Home from './facilities__home';
 import IntegratedDataAnalysis from './__ida/facilities__ida';
@@ -26,6 +27,11 @@ const Facilities = () => (
       exact
       path="/facilities/high-res-imaging"
       component={HiResolutionImaging}
+    />
+    <Route
+      exact
+      path="/facilities/flow-cytometry"
+      component={FlowCytometry}
     />
     <Route
       exact

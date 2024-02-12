@@ -53,8 +53,15 @@ const Home = () => (
         to="/facilities/high-res-imaging"
         type="secondary"
       >
-        High-Resolution Imaging
+        Advanced Imaging
       </Link>
+      <Link
+        to="/facilities/flow-cytometry"
+        type="secondary"
+      >
+        Flow Cytometry
+      </Link>
+
     </div>
   </main>
 );

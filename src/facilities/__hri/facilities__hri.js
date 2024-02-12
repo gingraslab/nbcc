@@ -21,10 +21,10 @@ const HiResolutionImaging = () => (
     <section className="facilities__landing facilities__hri-landing">
       <div className="facilities__about facilities__hri-about">
         <h1>
-          High-Resolution Imaging
+          Advanced Imaging
         </h1>
         <p>
-          The High-Resolution Imaging facility provides users with state-of-the-art
+          The Advanced Imaging facility provides users with state-of-the-art
           imaging abilities for detailed analysis of cellular structures, enabling
           both fixed and live-cell imaging at high- and super-resolution. Our low- to
           high-resolution pipeline allows for a facile transition from screening to more
