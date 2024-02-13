@@ -10,16 +10,14 @@ const advisors = [
     is an expert in functional genomics, high-resolution microscopy and image
     analysis applied to the study of mitotic processes, organelle biogenesis
     (in particular centrosomes and cilia) and chromosome segregation. Dr. Pelletier
-    holds a Canada Research Chair in Centrosome Biogenesis and Function and was
-    awarded the 2009 Early Researcher Award from the Ontario Ministry of Research
-    and Innovation.`,
+    directs the High-Content Screening and Advanced Imaging nodes of the NBCC.`,
     images: [
       LaurencePelletier,
       LaurencePelletier2x,
       LaurencePelletier3x,
     ],
     name: 'Laurence Pelletier',
-    title: 'Principal Investigator, High Spatio-temporal Resolution Imaging',
+    title: 'Co-Director of the Network Biology Collaborative Centre',
     website: 'https://pelletierlab.org',
   },
 ];

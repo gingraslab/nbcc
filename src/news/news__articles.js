@@ -3,6 +3,41 @@ import React from 'react';
 import Link from '../components/router-link/router-link';
 
 const articles = {
+  'The NBCC has expanded!': {
+    date: 'February 13, 2024',
+    summary: (
+      <section>
+        <p>
+          The NBCC has expanded its offerings as it now incorporates LTRI's Flow Cytometry Facility and
+          Optima Imgaging. We have added new content to our website for  
+          {' '}
+          <Link
+            to="/facilities/flow-cytometry"
+            type="link"
+            underline
+          >
+            Flow Cytometry
+          </Link>
+          .
+          {' '}
+          With the merging of LTRI's Optima with our High-Resolution Imaging, we now cover imaging
+          needs from standard self-use instruments to advanced super-resolution microscopes and we have
+          changed the facility name to 
+          {' '}
+          <Link
+            to="/facilities/high-res-imaging"
+            type="link"
+            underline
+          >
+            Advanced Imaging
+          </Link>
+          .
+          {' '}
+        </p>
+      </section>
+    ),
+    title: 'The NBCC has expanded!',
+  },
   'Our new Astral Mass Spectrometer - First in Canada': {
     date: 'December 19, 2023',
     summary: (

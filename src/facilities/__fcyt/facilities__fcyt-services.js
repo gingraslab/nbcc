@@ -28,7 +28,7 @@ const Services = () => (
       <h3>Cell Analysis</h3>
       <p>
         Our facility has 5 different cell analyzers to accommodate a variety of different 
-        workflows.  The Image Strem performs image-based analysis powered by machine learning.
+        workflows.  The Image Stream performs image-based analysis powered by machine learning.
       </p>
       
     </div>

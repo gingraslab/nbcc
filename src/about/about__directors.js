@@ -17,7 +17,8 @@ const directors = [
     Research Institute and Professor in the Department of Molecular Genetics, University
     of Toronto. Dr. Wrana founded the LTRI High-Throughput biology and High-Content
     Imaging Centres and has been instrumental in promoting the widespread application of
-    systematic screens using robotics to address biological problems.`,
+    systematic screens using robotics to address biological problems. Dr. Wrana directs
+    the High-throughput and Next-Generation Sequencing nodes of the NBCC.`,
     email: 'wrana@lunenfeld.ca',
     homeImages: [
       JeffWranaHome,
@@ -34,11 +35,11 @@ const directors = [
     website: 'http://attisanowranalabs.science/',
   },
   {
-    description: `Dr. Anne-Claude Gingras is a Senior Investigator at the
-    Lunenfeld-Tanenbaum and Professor in the Department of Molecular Genetics,
-    University of Toronto. As Director of Proteomics, she has focused on applying
+    description: `Dr. Anne-Claude Gingras is the Vice-President of Research at Sinai
+    Health, Director of the Lunenfeld-Tanenbaum Research Institute, and Professor in the Department
+     of Molecular Genetics, University of Toronto. She is internationally recognized for her work applying
     mass spectrometry-based proteomics to understanding the assembly of proteins
-    into complex signaling networks.`,
+    into complex signaling networks. Dr. Gingras directs the Proteomics and Flow Cytometry cores of the NBCC.`,
     email: 'gingras@lunenfeld.ca',
     homeImages: [
       AnneClaudeGingrasHome,

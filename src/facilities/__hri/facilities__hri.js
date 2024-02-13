@@ -24,11 +24,10 @@ const HiResolutionImaging = () => (
           Advanced Imaging
         </h1>
         <p>
-          The Advanced Imaging facility provides users with state-of-the-art
-          imaging abilities for detailed analysis of cellular structures, enabling
-          both fixed and live-cell imaging at high- and super-resolution. Our low- to
-          high-resolution pipeline allows for a facile transition from screening to more
-          detailed analysis.
+          The Advanced Imaging facility provides users with all their imaging needs from day-to-day workhorses
+          to super-resolution state-of-the-art imagers for detailed analysis of cellular structures, enabling
+          both fixed and live-cell imaging from low to super-resolution. Our pipeline allows for a facile transition
+          from screening to more detailed analysis.
         </p>
       </div>
       <Links

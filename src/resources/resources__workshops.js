@@ -14,6 +14,7 @@ import NBCC20183x from './assets/workshops/NBCC2018-3x.png';
 
 import Workshop2016 from './assets/workshops/Network Biology Collaborative Centre Workshop_revised.pdf';
 import Workshop2018 from './assets/workshops/NBCC_workshop_AP10_18_schedule.pdf';
+import Expo2024 from './assets/workshops/Core_expo_2024.pdf';
 
 const Workshops = () => (
   <section
@@ -28,9 +29,24 @@ const Workshops = () => (
     <li>
       <div className="resources__workshops-event">
         <p>
-          The NBCC, with the Lunenfeld-Tanenbaum Research Institute at Sinai Health, is
-          hosting a symposia on <b>January 31st, 2024</b> to celebrate the arrival of the 1st Astral mass spectrometer
-          in Canada to our facility. Speakers include Dr. Alexander Makarov (ThermoFisher Scientific),
+          The NBCC is participating in LTRI's Scientific Core Facilties Expo on <b>February 15, 2024</b>.
+          Managers of all 6 NBCC facilities will be presenting posters describing their technology and expertise.
+          This is an excellent opportunity to find out how the NBCC can help advance your research.
+        </p>
+        <a href={Expo2024}>
+            <Pdf />
+            Flyer
+          </a>
+      </div>
+    </li>
+    <h3>Past events</h3>
+    <ul>
+    <li>
+      <div className="resources__workshops-event">
+        <p>
+          The NBCC, with the Lunenfeld-Tanenbaum Research Institute at Sinai Health,
+          hosted a symposia on <b>January 31st, 2024</b> to celebrate the arrival of the 1st Astral mass spectrometer
+          in Canada to our facility. Speakers included Dr. Alexander Makarov (ThermoFisher Scientific),
           Dr. Michael MacCoss (U Washington), and Dr. Jesper Olsen (U Copenhagen).
           <br></br>
           <br></br>
@@ -41,8 +57,6 @@ const Workshops = () => (
         </p>
       </div>
     </li>
-    <h3>Past events</h3>
-    <ul>
       <li>
         <div className="resources__workshops-event">
           <time>CNPN 2020 May 11-13, 2020</time>

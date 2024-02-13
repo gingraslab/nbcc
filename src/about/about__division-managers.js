@@ -16,7 +16,12 @@ import MonicaHasegan3x from './assets/people/MonicaHasegan3x.png';
 import JohnnyTkach from './assets/people/JohnnyTkach.png';
 import JohnnyTkach2x from './assets/people/JohnnyTkach2x.png';
 import JohnnyTkach3x from './assets/people/JohnnyTkach3x.png';
-
+import LouiseBrown from './assets/people/LouiseBrown.png';
+import LouiseBrown2x from './assets/people/LouiseBrown2x.png';
+import LouiseBrown3x from './assets/people/LouiseBrown3x.png';
+import MikeParsons from './assets/people/MikeParsons.png';
+import MikeParsons2x from './assets/people/MikeParsons2x.png';
+import MikeParsons3x from './assets/people/MikeParsons3x.png';
 const divisionManagers = [
   {
     description: `Dr. Brendon Seale has a PhD in Bioanalytical Chemistry from the University of Toronto 
@@ -92,6 +97,20 @@ const divisionManagers = [
     title: 'High-Content Screening Manager',
   },
   {
+    description: `Louise Brown is the Imaging Manager within the Advanced Imaging facility.  She has over 20
+    years of experience at LTRI within the microscope core (previously known as OPTIMA).  With an extensive
+    background in day-to-day systems, she can help guide users on appropriate systems for their needs, help
+    troubleshoot and assist with image analysis.`,
+    email: 'louise@lunenfeld.ca',
+    images: [
+      LouiseBrown,
+      LouiseBrown2x,
+      LouiseBrown3x,
+    ],
+    name: 'Louise Brown',
+    title: 'Advanced Imaging Manager',
+  },
+  {
     description: `Dr. Johnny Tkach is in charge of the high-resolution and super-resolution optical 
     microscopes within the NBCC. Johnny has a PhD in Biochemistry and has authored numerous articles 
     involving both high-resolution and high-throughput fluorescence microscopy. He has a strong background 
@@ -104,7 +123,20 @@ const divisionManagers = [
       JohnnyTkach3x,
     ],
     name: 'Johnny Tkach',
-    title: 'High-Resolution Imaging Manager',
+    title: 'Advanced Imaging High-Resolution Manager',
+  },
+  {
+    description: `Michael Parsons has an MSc in Medical Biophysics and has managed LTRI's Flow Cytometry facility
+    since 2010 overseeing operations, scientific collaborations, and strategic planning.  He has a certificate in
+    leadership and management in core facilities from Northwestern/Kellogg.`,
+    email: 'parsons@lunenfeld.ca',
+    images: [
+      MikeParsons,
+      MikeParsons2x,
+      MikeParsons3x,
+    ],
+    name: 'Michael Parsons',
+    title: 'Flow Cytometry Manager',
   },
 ];
 

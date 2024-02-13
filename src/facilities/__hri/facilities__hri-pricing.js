@@ -151,8 +151,10 @@ const Pricing = () => (
       </h3>
       <h4>Accessing the facility</h4>
       <p>
-        Users interested in accessing the High Resolution Imaging facility should
-        contact Johnny Tkach (tkach@lunenfeld.ca) to discuss the scope of their project.
+        Users interested in accessing the Advanced Imaging facility should
+        contact Louise Brown (louise@lunenfeld.ca) to discuss the scope of their
+        project.  For super-resolution imaging, users
+        should contact Johnny Tkach (tkach@lunenfeld.ca) to discuss the scope of their project.
       </p>
       <h4>Bio-safety</h4>
       <p>
