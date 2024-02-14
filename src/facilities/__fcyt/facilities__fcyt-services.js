@@ -30,7 +30,7 @@ const Services = () => (
         Our facility has 5 different cell analyzers to accommodate a variety of different
         workflows.  The Image Stream performs image-based analysis powered by machine learning.
       </p>
-    
+
     </div>
   </section>
 );

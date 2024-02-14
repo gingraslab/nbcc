@@ -15,12 +15,12 @@ const Equipment = () => (
       <h3>Cell Sorters:</h3>
       <h4>BD FACS Discover S8 cell sorter (location L4-421)</h4>
       <ul>
-        <li>5 laser excitation (UV, V, B, Y, R) utilizing spectral detection (78 detectors) 
-          to enable enhanced fluorochrome sensitivity, 
+        <li>5 laser excitation (UV, V, B, Y, R) utilizing spectral detection (78 detectors)
+          to enable enhanced fluorochrome sensitivity,
           expanded fluorochrome selection/separation and autofluorescence subtraction
         </li>
         <li>
-          CellView Image technology enabling cell sorts based on six imaging 
+          CellView Image technology enabling cell sorts based on six imaging
           features including morphometric parameters and spatially distributed fluorescence.
         </li>
         <li>
@@ -88,7 +88,6 @@ const Equipment = () => (
 
       <hr/>
       <h5>Data analysis workstations are available at both locations.</h5>
-
 
     </div>
   </section>
