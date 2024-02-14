@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Equipment from './facilities__fcyt-equipment';
-import Gallery from './facilities__fcyt-gallery';
+// import Gallery from './facilities__fcyt-gallery';
 import Links from '../__links/facilities__links';
 import Navigation from '../../components/navigation/navigation-container';
 import Pricing from './facilities__fcyt-pricing';
@@ -17,7 +17,6 @@ const links = [
 // for a gallery link uncoment and move it above , blow pricing
 // { id: 'gallery', text: 'Gallery' },
 
-
 const FlowCytometry = () => (
   <main>
     <section className="facilities__landing facilities__fcyt-landing">
@@ -26,10 +25,10 @@ const FlowCytometry = () => (
           Flow Cytometry
         </h1>
         <p>
-          The Flow Cytometry facility offers a wide variety of state-of-the-art 
-          flow cytometry analyzers and cell sorters, specializing in imaging 
-          flow cytometry and cell sorting.  
-          We provide high level consultation and training starting from experiment 
+          The Flow Cytometry facility offers a wide variety of state-of-the-art
+          flow cytometry analyzers and cell sorters, specializing in imaging
+          flow cytometry and cell sorting.
+          We provide high level consultation and training starting from experiment
           design through to grant submission.
         </p>
       </div>

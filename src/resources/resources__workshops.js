@@ -29,7 +29,7 @@ const Workshops = () => (
     <li>
       <div className="resources__workshops-event">
         <p>
-          The NBCC is participating in LTRI's Scientific Core Facilties Expo on <b>February 15, 2024</b>.
+          The NBCC is participating in LTRI&apos;s Scientific Core Facilties Expo on <b>February 15, 2024</b>.
           Managers of all 6 NBCC facilities will be presenting posters describing their technology and expertise.
           This is an excellent opportunity to find out how the NBCC can help advance your research.
         </p>

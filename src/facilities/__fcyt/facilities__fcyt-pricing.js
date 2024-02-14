@@ -13,7 +13,7 @@ const Pricing = () => (
         Pricing
       </h2>
       <p>
-      Please contact Facility Manager Michael Parsons 
+      Please contact Facility Manager Michael Parsons
       (parsons@lunenfeld.ca) to discuss your project and pricing.
       </p>
 

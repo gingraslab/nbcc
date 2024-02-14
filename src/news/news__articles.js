@@ -8,8 +8,8 @@ const articles = {
     summary: (
       <section>
         <p>
-          The NBCC has expanded its offerings as it now incorporates LTRI's Flow Cytometry Facility and
-          Optima Imgaging. We have added new content to our website for  
+          The NBCC has expanded its offerings as it now incorporates LTRI&apos;s Flow Cytometry Facility and
+          Optima Imgaging. We have added new content to our website for
           {' '}
           <Link
             to="/facilities/flow-cytometry"
@@ -20,9 +20,9 @@ const articles = {
           </Link>
           .
           {' '}
-          With the merging of LTRI's Optima with our High-Resolution Imaging, we now cover imaging
+          With the merging of LTRI&apos;s Optima with our High-Resolution Imaging, we now cover imaging
           needs from standard self-use instruments to advanced super-resolution microscopes and we have
-          changed the facility name to 
+          changed the facility name to
           {' '}
           <Link
             to="/facilities/high-res-imaging"
