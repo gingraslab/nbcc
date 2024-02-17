@@ -16,10 +16,10 @@
     "react-onclickoutside": "^6.12.1",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start" ,
+    "start": "react-scripts start",
     "build": "react-scripts --openssl-legacy-provider build && node after-build.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -28,8 +28,8 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jest": "^24.7.0",
+    "eslint-plugin-import": "^2.26.3",
+    "eslint-plugin-jest": "^26.7.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
