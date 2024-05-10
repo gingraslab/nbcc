@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eea32de6.css",
-    "main.js": "/static/js/main.83c4c900.js",
+    "main.js": "/static/js/main.26885a66.js",
     "static/media/mountsinai-5000x3333.jpg": "/static/media/mountsinai-5000x3333.d33e4f1fed0c97f5d415.jpg",
     "static/media/Mitosis-RPE1GFP12_R3D_D3D_PRJ.mp4": "/static/media/Mitosis-RPE1GFP12_R3D_D3D_PRJ.b5bb7a51708f71ed689a.mp4",
     "static/media/plates-5000x3333.jpg": "/static/media/plates-5000x3333.898669fac935e39020a7.jpg",
@@ -89,6 +89,7 @@
     "static/media/HDM_Wuhan-1_D614G_Map.pdf": "/static/media/HDM_Wuhan-1_D614G_Map.9996516afccc688cc2b3.pdf",
     "static/media/HDM_Delta_Q613H_Spike Map.pdf": "/static/media/HDM_Delta_Q613H_Spike Map.f08e32b75496f0ea6d4a.pdf",
     "static/media/HDM_XBB.1.5_Spike Map.pdf": "/static/media/HDM_XBB.1.5_Spike Map.857cbec4930682a18494.pdf",
+    "static/media/HDM_EG.5.1_Spike Map.pdf": "/static/media/HDM_EG.5.1_Spike Map.d28da807b661ae37f6bf.pdf",
     "static/media/HDM_BA.2.75.2_Spike Map.pdf": "/static/media/HDM_BA.2.75.2_Spike Map.25e1405e634b3c45e44f.pdf",
     "static/media/HDM_Lambda_Spike_Map.pdf": "/static/media/HDM_Lambda_Spike_Map.6f76bd42b1d388b56c5a.pdf",
     "static/media/HDM_B.1.351_Spike Map.pdf": "/static/media/HDM_B.1.351_Spike Map.6a386945606843312244.pdf",
@@ -230,6 +231,7 @@
     "static/media/pSTV2 N-BirA pDest.gb": "/static/media/pSTV2 N-BirA pDest.2af5333f6dae646495e0.gb",
     "static/media/HDM_B.1.1.318_Spike.gb": "/static/media/HDM_B.1.1.318_Spike.8ee5834d2e637797c846.gb",
     "static/media/pSTV2 C-BirA pDest.gb": "/static/media/pSTV2 C-BirA pDest.8e9bee1d3e11d9abae63.gb",
+    "static/media/HDM_EG.5.1_Spike.gb": "/static/media/HDM_EG.5.1_Spike.27574acbee7223cf1692.gb",
     "static/media/innovation.svg": "/static/media/innovation.960811d4ce2a86a5e61299377e198c16.svg",
     "static/media/HDM_Omicron_(B.1.1529)_Spike.gbk": "/static/media/HDM_Omicron_(B.1.1529)_Spike.ab8e64e1b90244ff1d7c.gbk",
     "static/media/HDM_BA2_Spike.gbk": "/static/media/HDM_BA2_Spike.b9322f203ddcbcf13f92.gbk",
@@ -253,10 +255,10 @@
     "static/media/twitter-square.svg": "/static/media/twitter-square.4d7de49dc0ef1b7bf4e34a35d30aed90.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.d8aa1f512ee3e6dafd238999368426f4.svg",
     "main.eea32de6.css.map": "/static/css/main.eea32de6.css.map",
-    "main.83c4c900.js.map": "/static/js/main.83c4c900.js.map"
+    "main.26885a66.js.map": "/static/js/main.26885a66.js.map"
   },
   "entrypoints": [
     "static/css/main.eea32de6.css",
-    "static/js/main.83c4c900.js"
+    "static/js/main.26885a66.js"
   ]
 }
