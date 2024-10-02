@@ -1,9 +1,0 @@
-.router-link:not(.link-underline) {
-  text-decoration: none;
-}
-.router-link:focus {
-  outline: none;
-}
-.router-link::-moz-focus-inner {
-  border: 0;
-}

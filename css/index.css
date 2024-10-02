@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sen:wght@400..800&display=swap');
+
+
+button {
+  transition: 0.3s ease;
+}
+p {
+    font-size: 22px;
+}
+.container a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+.container button {
+    background-color: #27AAE1;
+    border: 2px solid #fff;
+    border-top-left-radius:50px ;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+}
+.container button:hover {
+  background-color: #1f34ac;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+.about h2{
+    text-decoration: underline;
+     text-decoration-thickness: 4px;
+     text-underline-offset: 4px;
+     color:black;
+     text-decoration-color: #FBB040;
+     text-align: left;
+}
+
+  .square button {
+    text-align: center;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+  }
+  #slide1{
+    background-image: url(img/Proteomics.jpg);
+  }
+  #slide2{
+    background-image: url(img/Next-Generation\ Sequencing.jpg);
+  }
+  #slide3{
+    background-image: url(img/High-ThroughputScreening.jpg);
+  }
+  #slide4{
+    background-image: url(img/High-Content\ Screening.jpg);
+  }
+  #slide5{
+    background-image: url(img/AdvancedImaging.jpg);
+  }
+  #slide6{
+    background-image: url(img/FlowCytometry.jpg);
+  }
+  h3 {
+    text-align: center;
+}
+.card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    margin-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    align-content: center;
+}
+.card-img-top{
+    align-self: center;
+    margin:5px;
+    border-radius: 50% !important;
+    width: 200px !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card-img-top:hover{
+    border: #FBB040;
+
+}
+.card span {
+    text-align: center;
+}
+.card a {
+    color:dimgray
+}
+.card a:hover{
+    color:#FBB040;
+}
+.resources button {
+    background-color: #FBB040;
+
+}
+.resources button:hover {
+  background-color: #e0762f;
+}
+.qnav {
+    text-align: center;
+    
+}
+img{
+  border-radius: 5%;
+}
+.jumbo img {
+  border-radius: 0%;
+}
+.jumbo{
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(16, 112, 153, 0.479) 100%), url(img/jumbo1.jpg);
+  margin-top: 52px;
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.2);
+}
+.jumbo h1 {
+  font-size: 5vw;
+  font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 0px 8px 8px  rgba(0,0,0,.2);
+}
+.jumbo h2 {
+  text-align: justify;
+  color: #FFF;
+  font-size: 3vw;
+  margin-left: 0.6vw;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFF;
+  padding-bottom: 1vw;
+  text-shadow: 0px 8px 8px  rgba(0,0,0,.2);
+}
+.jumbo hr {
+  width: 32vw;
+  border: 0.2vw solid white;
+  opacity: 100%;
+  margin-left: 0.6vw;
+  text-shadow: 0px 8px 8px  rgba(0,0,0,.2);
+
+  border-top-right-radius: 50px;
+
+  border-bottom-right-radius: 50px;
+}
+.small{
+  text-align: center;
+
+}
+.small h1 {
+  font-size: 40px !important;
+  color: #FFF !important;
+}
+
+.resources a:hover {
+  color: #FFF;
+}

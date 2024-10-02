@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sen:wght@400..800&display=swap');
+
+header {
+    height: 250px;
+    display: grid;
+    place-content: center;
+    background-image: linear-gradient(180deg, rgba(216,216,216,0) 0%, rgba(17,93,126,1) 100%), url(img/resources_hero.jpg);
+    background-position: center;
+    margin-bottom:20px;
+}
+header h1 {
+    font-size: 64px;
+    font-family:"Roboto", arial, sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.container h1, h2, h3{
+    font-family:"Roboto", arial, sans-serif;
+    color:dimgray;
+}
+.container h4, h5 {
+    color:darkgray;
+}
+
+.placeholder {
+    height:200px;
+}
+.container h5 {
+    font-family: "Rubik", sans-serif;
+    color: #292b2c;
+}
+
+.table i{
+    color: #424C55;
+    transition: 0.3s ease;
+}
+
+.table i:hover{
+    color:#FBB040;
+}
+
+.table-2, i{
+    color: #424C55;
+    transition: 0.3s ease;
+}
+
+.table-2 i:hover{
+    color:#FBB040;
+}
+span a {
+    text-decoration: none;
+    color:#424C55;
+    transition: 0.3s ease;
+}
+span a:hover {
+    color:#FBB040;
+}
