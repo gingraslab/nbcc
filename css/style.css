@@ -183,6 +183,6 @@ img {
     border-radius: 5%;
 }
 button p {
-    color: #fff;
+    color: #fff !important;
     text-align: center;
 }
