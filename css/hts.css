@@ -19,10 +19,6 @@ header h1 {
     font-weight: 300;
     margin-top: 40px;
 }
-.hero-section p {
-    font-size: 20px;
-    margin-top: 15px;
-}
 .hero-section button {
     background-color: #FBB040;
     border: 2px solid #fff;
@@ -33,14 +29,13 @@ header h1 {
     border-bottom-right-radius: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 175px;
+    width: 200px;
+    height: 40px;
     transition: 0.3s ease;
-    
 }
 .hero-section a {
     text-decoration: none;
     color: #fff !important;
-    font-size: 25px;
     width:175px;
     transition: 0.3s ease;
 }
@@ -72,33 +67,6 @@ header h1 {
     color: #fff;
     position: relative;
 }
-
-.wave-container {  
-    height:400px;
-    position: relative;
-    margin-bottom: -50px;
-  }
-  
-  .wave-container::before {   
-    content: "";
-    width: 100%;
-    height: 50%;
-    position:absolute;
-    bottom: -1%;
-    left: 0;
-    background-size: auto;
-    background-repeat: repeat no-repeat;
-    background-position: 40vw bottom;
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  95' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 69L50 65C100 61 200 52 300 35C400 18 500 -7 600 1C700 10 800 52 900 69C1000 86 1100 78 1150 74L1200 69V95H1150C1100 95 1000 95 900 95C800 95 700 95 600 95C500 95 400 95 300 95C200 95 100 95 50 95H0V69Z' fill='%230a3547'/></svg>");
-  }
-  @media(max-width:850px) {
-    .wave-container::before {    
-      height: 23.5px
-    }  
-    .wave-container {
-        height:110%
-    }
-  }
   h5{
     font-size: 26px 
     !important;

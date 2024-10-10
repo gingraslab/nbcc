@@ -182,3 +182,7 @@ p {
 img {
     border-radius: 5%;
 }
+button p {
+    color: #fff;
+    text-align: center;
+}
