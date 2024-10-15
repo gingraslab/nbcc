@@ -8,11 +8,11 @@ header {
     margin-bottom:20px;
 }
 header h1 {
-    font-size: 64px;
+    font-size: 58px;
     font-family:"Roboto", arial, sans-serif;
     color: white;
     font-weight: 300;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .quicknav button {
     background-color: #FBB040;

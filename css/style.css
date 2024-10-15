@@ -112,9 +112,12 @@ p {
     color: white;
 }
 .footer_copyright p{
-    text-align: center;
+    text-align: center !important;
     color: #9AB7C4;
     margin:0;
+}
+.footer p{
+    text-align: left;
 }
 .d-flex h1{
     color: #fff !important;
