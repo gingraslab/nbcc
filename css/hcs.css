@@ -8,6 +8,7 @@ header {
     place-content: center;
     background-image: linear-gradient(180deg, rgba(216,216,216,0) 0%, rgba(17,93,126,1) 100%), url(img/hcs.jpg);
     background-position: center;
+    width: 100%;
     
     margin-bottom:20px;
 }
