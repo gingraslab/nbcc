@@ -16,7 +16,7 @@ h2 {
     text-align: center;
 }
 .container button {
-    background-color: #27AAE1;
+    background-color: #0077C8;
     border: 2px solid #fff;
     border-top-left-radius:50px ;
     border-top-right-radius: 50px;
@@ -90,7 +90,7 @@ button a {
     margin-top: 10px;
 }
 .card-img-top:hover{
-    border: #FBB040;
+    border: #e0762f;
 
 }
 .card span {
@@ -100,14 +100,14 @@ button a {
     color:dimgray
 }
 .card a:hover{
-    color:#FBB040;
+    color:#e0762f;
 }
 .resources button {
-    background-color: #FBB040;
+    background-color: #e0762f;
 
 }
 .resources button:hover {
-  background-color: #e0762f;
+  background-color: #be4f23;
 }
 .qnav {
     text-align: center;
