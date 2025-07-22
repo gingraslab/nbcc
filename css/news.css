@@ -89,3 +89,6 @@ header h1 {
     flex-wrap: nowrap;
 
 }
+.slide-content:not(.swiper-initialized) {
+    visibility: hidden;
+}

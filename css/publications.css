@@ -145,3 +145,7 @@ header h1 {
     padding-top: 0px;
 
 }
+
+.slide-content:not(.swiper-initialized) {
+    visibility: hidden;
+}
